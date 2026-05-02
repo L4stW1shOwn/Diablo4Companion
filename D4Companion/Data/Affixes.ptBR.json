@@ -19112,8 +19112,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Banquete: a cada 40 abates, reinicia aleatoriamente # |4recarga:recargas;.",
-    "DescriptionClean": "Banquete: a cada 40 abates, reinicia aleatoriamente |4recarga:recargas;."
+    "Description": "Banquete: a cada 40 abates, reinicia aleatoriamente # recargas.",
+    "DescriptionClean": "Banquete: a cada 40 abates, reinicia aleatoriamente recargas."
   },
   {
     "IdSno": "2550085",

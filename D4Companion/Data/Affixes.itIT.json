@@ -8835,8 +8835,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Velocità di movimento per # |4s:s; dopo aver ucciso un élite: +#%",
-    "DescriptionClean": "Velocità di movimento per |4s:s; dopo aver ucciso un élite:"
+    "Description": "Velocità di movimento per # s dopo aver ucciso un élite: +#%",
+    "DescriptionClean": "Velocità di movimento per s dopo aver ucciso un élite:"
   },
   {
     "IdSno": "1014510;1484906;2067741;2111049;2540908",
@@ -18874,8 +18874,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Banchetto: ogni 20 uccisioni, morde selvaggiamente # |4volta:volte; infliggendo # danni e applica Vulnerabile",
-    "DescriptionClean": "Banchetto: ogni 20 uccisioni, morde selvaggiamente |4volta:volte; infliggendo danni e applica Vulnerabile"
+    "Description": "Banchetto: ogni 20 uccisioni, morde selvaggiamente # volte infliggendo # danni e applica Vulnerabile",
+    "DescriptionClean": "Banchetto: ogni 20 uccisioni, morde selvaggiamente volte infliggendo danni e applica Vulnerabile"
   },
   {
     "IdSno": "2550058",
@@ -18991,8 +18991,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Banchetto: ogni 40 uccisioni, ripristina # abilità con tempo di recupero |4casuale:casuali;",
-    "DescriptionClean": "Banchetto: ogni 40 uccisioni, ripristina abilità con tempo di recupero |4casuale:casuali;"
+    "Description": "Banchetto: ogni 40 uccisioni, ripristina # abilità con tempo di recupero casuali",
+    "DescriptionClean": "Banchetto: ogni 40 uccisioni, ripristina abilità con tempo di recupero casuali"
   },
   {
     "IdSno": "2550085",
@@ -39215,8 +39215,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Velocità di movimento per 2 |4s:s; dopo aver ucciso un nemico: +#%",
-    "DescriptionClean": "Velocità di movimento per 2 |4s:s; dopo aver ucciso un nemico:"
+    "Description": "Velocità di movimento per 2 s dopo aver ucciso un nemico: +#%",
+    "DescriptionClean": "Velocità di movimento per 2 s dopo aver ucciso un nemico:"
   },
   {
     "IdSno": "2062752",

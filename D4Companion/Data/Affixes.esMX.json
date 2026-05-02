@@ -19086,8 +19086,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Festín: Cada 40 muertes, ganas # |4recuperación aleatoria:recuperaciones aleatorias;.",
-    "DescriptionClean": "Festín: Cada 40 muertes, ganas |4recuperación aleatoria:recuperaciones aleatorias;."
+    "Description": "Festín: Cada 40 muertes, ganas # recuperaciones aleatorias.",
+    "DescriptionClean": "Festín: Cada 40 muertes, ganas recuperaciones aleatorias."
   },
   {
     "IdSno": "2550085",

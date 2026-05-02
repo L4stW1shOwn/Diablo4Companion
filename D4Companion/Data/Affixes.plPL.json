@@ -19020,8 +19020,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Uczta: co 20 zabójstw gryziesz pobliskiego wroga # |4raz:razy:razy;, przy czym zadajesz # pkt. obrażeń i wywołujesz odsłonięcie",
-    "DescriptionClean": "Uczta: co 20 zabójstw gryziesz pobliskiego wroga |4raz:razy:razy;, przy czym zadajesz pkt. obrażeń i wywołujesz odsłonięcie"
+    "Description": "Uczta: co 20 zabójstw gryziesz pobliskiego wroga # razy, przy czym zadajesz # pkt. obrażeń i wywołujesz odsłonięcie",
+    "DescriptionClean": "Uczta: co 20 zabójstw gryziesz pobliskiego wroga razy, przy czym zadajesz pkt. obrażeń i wywołujesz odsłonięcie"
   },
   {
     "IdSno": "2550058",
@@ -19098,8 +19098,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Uczta: co 30 zabójstw łańcuchy zahaczają # |4pobliskiego wroga:pobliskich wrogów:pobliskich wrogów;.",
-    "DescriptionClean": "Uczta: co 30 zabójstw łańcuchy zahaczają |4pobliskiego wroga:pobliskich wrogów:pobliskich wrogów;."
+    "Description": "Uczta: co 30 zabójstw łańcuchy zahaczają # pobliskich wrogów.",
+    "DescriptionClean": "Uczta: co 30 zabójstw łańcuchy zahaczają pobliskich wrogów."
   },
   {
     "IdSno": "2549340",
@@ -19137,8 +19137,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Uczta: co 40 zabójstw resetowanie # |4losowego czasu odnowienia:losowych czasów odnowienia:losowych czasów odnowienia;.",
-    "DescriptionClean": "Uczta: co 40 zabójstw resetowanie |4losowego czasu odnowienia:losowych czasów odnowienia:losowych czasów odnowienia;."
+    "Description": "Uczta: co 40 zabójstw resetowanie # losowych czasów odnowienia.",
+    "DescriptionClean": "Uczta: co 40 zabójstw resetowanie losowych czasów odnowienia."
   },
   {
     "IdSno": "2550085",

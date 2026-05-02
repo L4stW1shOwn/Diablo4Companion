@@ -19172,8 +19172,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Festin\u00A0: toutes les 20\u00A0victimes, vous mordez à #\u00A0|4reprise:reprises; pour infliger #\u00A0points de dégâts et rendre vulnérable.",
-    "DescriptionClean": "Festin\u00A0: toutes les 20\u00A0victimes, vous mordez à \u00A0|4reprise:reprises; pour infliger \u00A0points de dégâts et rendre vulnérable."
+    "Description": "Festin\u00A0: toutes les 20\u00A0victimes, vous mordez à #\u00A0reprises pour infliger #\u00A0points de dégâts et rendre vulnérable.",
+    "DescriptionClean": "Festin\u00A0: toutes les 20\u00A0victimes, vous mordez à \u00A0reprises pour infliger \u00A0points de dégâts et rendre vulnérable."
   },
   {
     "IdSno": "2550058",
@@ -19289,8 +19289,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Festin\u00A0: toutes les 40\u00A0victimes, #\u00A0|4temps de recharge aléatoire est réinitialisé:temps de recharge aléatoires sont réinitialisés;.",
-    "DescriptionClean": "Festin\u00A0: toutes les 40\u00A0victimes, \u00A0|4temps de recharge aléatoire est réinitialisé:temps de recharge aléatoires sont réinitialisés;."
+    "Description": "Festin\u00A0: toutes les 40\u00A0victimes, #\u00A0temps de recharge aléatoires sont réinitialisés.",
+    "DescriptionClean": "Festin\u00A0: toutes les 40\u00A0victimes, \u00A0temps de recharge aléatoires sont réinitialisés."
   },
   {
     "IdSno": "2550085",

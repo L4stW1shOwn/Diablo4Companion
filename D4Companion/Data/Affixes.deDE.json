@@ -19041,8 +19041,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Festmahl: Schließt alle 40 Tötungen # zufällige |4Abklingzeit:Abklingzeiten; ab.",
-    "DescriptionClean": "Festmahl: Schließt alle 40 Tötungen zufällige |4Abklingzeit:Abklingzeiten; ab."
+    "Description": "Festmahl: Schließt alle 40 Tötungen # zufällige Abklingzeiten ab.",
+    "DescriptionClean": "Festmahl: Schließt alle 40 Tötungen zufällige Abklingzeiten ab."
   },
   {
     "IdSno": "2550085",

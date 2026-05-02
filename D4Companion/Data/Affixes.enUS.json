@@ -19083,8 +19083,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Feast: Every 40 Kills, reset # random |4Cooldown:Cooldowns;",
-    "DescriptionClean": "Feast: Every 40 Kills, reset random |4Cooldown:Cooldowns;"
+    "Description": "Feast: Every 40 Kills, reset # random Cooldowns",
+    "DescriptionClean": "Feast: Every 40 Kills, reset random Cooldowns"
   },
   {
     "IdSno": "2550085",

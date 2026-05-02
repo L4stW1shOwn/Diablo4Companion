@@ -19031,8 +19031,8 @@
       }
     ],
     "ClassRestriction": "",
-    "Description": "Festín: Cada 40 asesinatos, reinicia # |4tiempo de reutilización:tiempos de reutilización; al azar.",
-    "DescriptionClean": "Festín: Cada 40 asesinatos, reinicia |4tiempo de reutilización:tiempos de reutilización; al azar."
+    "Description": "Festín: Cada 40 asesinatos, reinicia # tiempos de reutilización al azar.",
+    "DescriptionClean": "Festín: Cada 40 asesinatos, reinicia tiempos de reutilización al azar."
   },
   {
     "IdSno": "2550085",

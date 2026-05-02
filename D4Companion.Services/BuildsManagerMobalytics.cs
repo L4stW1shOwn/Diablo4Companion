@@ -1168,6 +1168,7 @@ namespace D4Companion.Services
                 paragonBoard.Name = paragonBoard.Name.Replace("rogue-starter-board", "rogue-starting-board");
                 paragonBoard.Name = paragonBoard.Name.Replace("sorcerer-starter-board", "sorcerer-starting-board");
                 paragonBoard.Name = paragonBoard.Name.Replace("spiritborn-starter-board", "spiritborn-starting-board");
+                paragonBoard.Name = paragonBoard.Name.Replace("warlock-starter-board", "warlock-starting-board");
                 paragonBoard.Glyph = board.Glyph?.Slug ?? string.Empty;
                 paragonBoard.Rotation = board.Rotation == 0 ? "0°" :
                                         board.Rotation == 90 ? "90°" :

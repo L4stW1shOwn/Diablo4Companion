@@ -1187,8 +1187,8 @@
       "Legendary_Druid_117"
     ],
     "Name": "de cavalcade",
-    "Description": "Vous gagnez #\u00A0|4compagnon supplémentaire:compagnons supplémentaires;. De plus, les dégâts infligés par les compétences de compagnon sont augmentés de #%.",
-    "DescriptionClean": "Vous gagnez \u00A0|4compagnon supplémentaire:compagnons supplémentaires;. De plus, les dégâts infligés par les compétences de compagnon sont augmentés de.",
+    "Description": "Vous gagnez #\u00A0compagnons supplémentaires. De plus, les dégâts infligés par les compétences de compagnon sont augmentés de #%.",
+    "DescriptionClean": "Vous gagnez \u00A0compagnons supplémentaires. De plus, les dégâts infligés par les compétences de compagnon sont augmentés de.",
     "Localisation": "Vous gagnez {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0|4compagnon supplémentaire:compagnons supplémentaires;. De plus, les dégâts infligés par les compétences de {c_important}compagnon{/c} sont augmentés de {c_random}[Affix_Value_1|%x|]{/c}.",
     "IsSeasonal": false,
     "IsCodex": true,
