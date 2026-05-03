@@ -8776,9 +8776,9 @@
       "legendary_rogue_141_x2"
     ],
     "Name": "dell'Assalto Preparato",
-    "Description": "Interrompere Furtività fornisce il # di Risolutezza. Ottieni il #% di armatura aggiuntiva mentre hai Risolutezza. ",
-    "DescriptionClean": "Interrompere Furtività fornisce il di Risolutezza. Ottieni il di armatura aggiuntiva mentre hai Risolutezza.",
-    "Localisation": "Interrompere {c_important}{u}Furtività{/u}{/c} fornisce il {c_number}[Affix.\"Static Value 0\"]{/c} di {c_important}{u}Risolutezza{/u}{/c}. Ottieni il {c_random}[Affix_Value_1|+%|]{/c} di armatura aggiuntiva mentre hai {c_important}{u}Risolutezza{/u}{/c}. ",
+    "Description": "Interrompere Furtività fornisce # accumuli di Risolutezza. Ottieni il #% di armatura aggiuntiva mentre hai Risolutezza. ",
+    "DescriptionClean": "Interrompere Furtività fornisce accumuli di Risolutezza. Ottieni il di armatura aggiuntiva mentre hai Risolutezza.",
+    "Localisation": "Interrompere {c_important}{u}Furtività{/u}{/c} fornisce {c_number}[Affix.\"Static Value 0\"]{/c} accumuli di {c_important}{u}Risolutezza{/u}{/c}. Ottieni il {c_random}[Affix_Value_1|+%|]{/c} di armatura aggiuntiva mentre hai {c_important}{u}Risolutezza{/u}{/c}. ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",

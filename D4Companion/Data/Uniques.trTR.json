@@ -8189,9 +8189,9 @@
     ],
     "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Yeşil Gezginin Damgası",
-    "Description": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, %# ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri x%|# bonus hasar verir.",
-    "DescriptionClean": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri x| bonus hasar verir.",
-    "Localisation": "Bir {c_important}İnsan{/c} Yeteneği Kullanmak veya Yönlendirmek, {c_number}%[Affix_Value_1*100]{/c} ihtimalle {c_important}Ulti{/c} olmayan ilave bir donanılmış {c_important}İnsan{/c} Yeteneği tetikler. {c_important}İnsan{/c} Yetenekleri {c_random}x%|[Affix_Value_2*100|]{/c} bonus hasar verir.",
+    "Description": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, %# ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri #% bonus hasar verir.",
+    "DescriptionClean": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri bonus hasar verir.",
+    "Localisation": "Bir {c_important}İnsan{/c} Yeteneği Kullanmak veya Yönlendirmek, {c_number}%[Affix_Value_1*100]{/c} ihtimalle {c_important}Ulti{/c} olmayan ilave bir donanılmış {c_important}İnsan{/c} Yeteneği tetikler. {c_important}İnsan{/c} Yetenekleri {c_random}[Affix_Value_2*100|x%|]{/c} bonus hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,

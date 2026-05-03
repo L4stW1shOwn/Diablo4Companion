@@ -10916,7 +10916,7 @@
     "IdNameList": [
       "legendary_barb_015_x2"
     ],
-    "Name": "des progéniteurs",
+    "Name": "des progénitrices",
     "Description": "Vos compétences qui invoquent des Anciens infligent #% de dégâts supplémentaires.",
     "DescriptionClean": "Vos compétences qui invoquent des Anciens infligent de dégâts supplémentaires.",
     "Localisation": "Vos compétences qui invoquent des Anciens infligent {c_random}[Affix_Value_1|1%x|]{/c} de dégâts supplémentaires.",

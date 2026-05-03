@@ -6841,9 +6841,9 @@
       "legendary_warlock_025_x2"
     ],
     "Name": "da Malevolência",
-    "Description": "Você ganha Golpe Brutal para cada # Ira que receber enquanto estiver em Ira máxima. ",
-    "DescriptionClean": "Você ganha Golpe Brutal para cada Ira que receber enquanto estiver em Ira máxima.",
-    "Localisation": "Você ganha {c_important}{u}Golpe Brutal{/u}{/c} para cada {c_random}[Affix_Value_1]{/c} Ira que receber enquanto estiver em Ira máxima. ",
+    "Description": "Você ganha Golpe Brutal para cada # de Ira que receber enquanto estiver em Ira máxima. ",
+    "DescriptionClean": "Você ganha Golpe Brutal para cada de Ira que receber enquanto estiver em Ira máxima.",
+    "Localisation": "Você ganha {c_important}{u}Golpe Brutal{/u}{/c} para cada {c_random}[Affix_Value_1]{/c} de Ira que receber enquanto estiver em Ira máxima. ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
