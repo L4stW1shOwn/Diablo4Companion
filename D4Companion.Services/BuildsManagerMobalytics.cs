@@ -700,7 +700,7 @@ namespace D4Companion.Services
                         }
                     }
                 }                
-                else if (!buildUrl.Contains("/profile/") && buildUrl.Contains("/builds/"))
+                else if (HasBuildUrlSlugFormat(buildUrl))
                 {
                     // For build page with slug name instead of id use javascript to extract data.
 
@@ -1225,6 +1225,29 @@ namespace D4Companion.Services
             return paragonBoards;
         }
 
+        private bool HasBuildUrlSlugFormat(string buildUrl)
+        {
+            bool result = false;
+
+            // Format: https://mobalytics.gg/diablo-4/builds/warlock-dread-claws
+            if (!buildUrl.Contains("/profile/") && buildUrl.Contains("/builds/"))
+            {                
+                result = true;
+            }
+
+            // Format: https://mobalytics.gg/diablo-4/profile/p4wnyhof/builds/tyrants-grasp-spam-warlock
+            if (buildUrl.Contains("/profile/") && buildUrl.Contains("/builds/"))
+            {
+                // Should not contain a build and profile id.
+                List<string> parts = buildUrl.Split("/").ToList();
+                parts.RemoveAll(p => !(p.Length == 36 && p.Count(c => c == '-') == 4));
+
+                result = parts.Count == 0;
+            }
+
+            return result;
+        }
+
         private void LoadAvailableMobalyticsBuilds()
         {
             try
@@ -1341,6 +1364,10 @@ namespace D4Companion.Services
             deserializeOptions.Converters.Add(new IntConverter());
             MobalyticsBuildWrapperJson? mobalyticsBuildWrapperJson = JsonSerializer.Deserialize<MobalyticsBuildWrapperJson>(json, deserializeOptions);
             MobalyticsBuildUserGeneratedDocumentByIdJson? mobalyticsBuildUserGeneratedDocumentByIdJson = mobalyticsBuildWrapperJson?.Apollo.GraphqlV2.Queries.FirstOrDefault(q => !string.IsNullOrWhiteSpace(q.State.Data[0].Game.Documents.UserGeneratedDocumentBySlug.Data.Id))?.State.Data[0].Game.Documents.UserGeneratedDocumentBySlug;
+            if (mobalyticsBuildUserGeneratedDocumentByIdJson == null)
+            {
+                mobalyticsBuildUserGeneratedDocumentByIdJson = mobalyticsBuildWrapperJson?.Apollo.GraphqlV2.Queries.FirstOrDefault(q => !string.IsNullOrWhiteSpace(q.State.Data[0].Game.Documents.UserGeneratedDocumentBySlugifiedName.Data.Id))?.State.Data[0].Game.Documents.UserGeneratedDocumentBySlugifiedName;
+            }
 
             if (mobalyticsBuildUserGeneratedDocumentByIdJson != null)
             {

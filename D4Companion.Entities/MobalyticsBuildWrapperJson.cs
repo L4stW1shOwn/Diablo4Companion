@@ -54,5 +54,8 @@ namespace D4Companion.Entities
     {
         [JsonPropertyName("userGeneratedDocumentBySlug")]
         public MobalyticsBuildUserGeneratedDocumentByIdJson UserGeneratedDocumentBySlug { get; set; } = new();
+        
+        [JsonPropertyName("userGeneratedDocumentBySlugifiedName")]
+        public MobalyticsBuildUserGeneratedDocumentByIdJson UserGeneratedDocumentBySlugifiedName { get; set; } = new();
     }
 }
