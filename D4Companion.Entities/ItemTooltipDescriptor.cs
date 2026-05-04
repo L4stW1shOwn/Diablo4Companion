@@ -58,7 +58,7 @@ namespace D4Companion.Entities
         public OcrResult OcrResultPower { get; set; } = new();
         public Dictionary<string, int> PerformanceResults { get; set; } = new Dictionary<string, int>
         {
-            { "total", 0 },
+            { "Total", 0 },
             { "Tooltip", 0},
             { "ItemTypePower", 0},
             { "AffixLocations", 0},

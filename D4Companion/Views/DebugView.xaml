@@ -250,7 +250,7 @@
                                   BannerText="{loc:LocExtension rsCapOcrResults}"
                                   BorderBrush="Black"
                                   BorderThickness="0">
-                    <ScrollViewer Margin="0 30 0 30">
+                    <ScrollViewer Margin="0 30 0 30" HorizontalAlignment="Center">
                         <ItemsControl ItemsSource="{Binding OcrResultAffixes}" >
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>

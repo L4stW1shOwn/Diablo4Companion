@@ -134,7 +134,7 @@ namespace D4Companion.Services
                     // Process runes
                     foreach (var socket in maxrollBuild.Data.Items[item.Value].Sockets)
                     {
-                        string runeId = socket;
+                        string runeId = socket ?? string.Empty;
                         if (!runeId.StartsWith("Rune_", StringComparison.OrdinalIgnoreCase)) continue;
 
                         if (!affixPreset.ItemRunes.Any(r => r.Id.Equals($"Item_{runeId}")))
