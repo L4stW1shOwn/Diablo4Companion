@@ -60,66 +60,6 @@
     "Type": "amulet"
   },
   {
-    "Name": "染血 普通 護身符",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 魔法 護身符",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 稀有 護身符",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 傳奇 護身符",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 獨特 護身符",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 秘傳獨特 護身符",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 普通 護身符",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 魔法 護身符",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 稀有 護身符",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 傳奇 護身符",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 獨特 護身符",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 護身符",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
     "Name": "普通 斧",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -176,66 +116,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 斧",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -300,66 +180,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 斧（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 斧（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 斧（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 斧（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 斧（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 斧（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 斧（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 斧（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 斧（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 斧（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 斧（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 斧（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 雙手斧",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -416,66 +236,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 雙手斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 雙手斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手斧",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -540,66 +300,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 雙手斧（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手斧（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手斧（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手斧（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手斧（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手斧（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手斧（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手斧（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手斧（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手斧（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手斧（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手斧（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 靴子",
     "Rarerity": "Normal",
     "Type": "boots"
@@ -656,66 +356,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 靴子",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 普通 靴子",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 魔法 靴子",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 稀有 靴子",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 傳奇 靴子",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 獨特 靴子",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 秘傳獨特 靴子",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 普通 靴子",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 魔法 靴子",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 稀有 靴子",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 傳奇 靴子",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 獨特 靴子",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 靴子",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -780,66 +420,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "染血 普通 弓",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 魔法 弓",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 稀有 弓",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 傳奇 弓",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 獨特 弓",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 秘傳獨特 弓",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 普通 弓",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 魔法 弓",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 稀有 弓",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 傳奇 弓",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 獨特 弓",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 弓",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "普通 胸甲",
     "Rarerity": "Normal",
     "Type": "chest"
@@ -896,66 +476,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 胸甲",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 普通 胸甲",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 魔法 胸甲",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 稀有 胸甲",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 傳奇 胸甲",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 獨特 胸甲",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 秘傳獨特 胸甲",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 普通 胸甲",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 魔法 胸甲",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 稀有 胸甲",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 傳奇 胸甲",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 獨特 胸甲",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 胸甲",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -1020,66 +540,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "染血 普通 弩",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 魔法 弩",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 稀有 弩",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 傳奇 弩",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 獨特 弩",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 秘傳獨特 弩",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 普通 弩",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 魔法 弩",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 稀有 弩",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 傳奇 弩",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 獨特 弩",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 弩",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "普通 匕首",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1140,62 +600,62 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 匕首",
+    "Name": "普通 連枷",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "染血 魔法 匕首",
+    "Name": "魔法 連枷",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "染血 稀有 匕首",
+    "Name": "稀有 連枷",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "染血 傳奇 匕首",
+    "Name": "傳奇 連枷",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "染血 獨特 匕首",
+    "Name": "獨特 連枷",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "染血 秘傳獨特 匕首",
+    "Name": "秘傳獨特 連枷",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 普通 匕首",
+    "Name": "遠古 普通 連枷",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 魔法 匕首",
+    "Name": "遠古 魔法 連枷",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 稀有 匕首",
+    "Name": "遠古 稀有 連枷",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 傳奇 匕首",
+    "Name": "遠古 傳奇 連枷",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 獨特 匕首",
+    "Name": "遠古 獨特 連枷",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "染血 遠古 秘傳獨特 匕首",
+    "Name": "遠古 秘傳獨特 連枷",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1260,66 +720,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "染血 普通 法器",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 魔法 法器",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 稀有 法器",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 傳奇 法器",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 獨特 法器",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 秘傳獨特 法器",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 普通 法器",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 魔法 法器",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 稀有 法器",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 傳奇 法器",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 獨特 法器",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 法器",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "普通 長砍刀",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1376,66 +776,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 長砍刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 長砍刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 長砍刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 長砍刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 長砍刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 長砍刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 長砍刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 長砍刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 長砍刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 長砍刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 長砍刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 長砍刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 長砍刀",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1500,66 +840,6 @@
     "Type": "gloves"
   },
   {
-    "Name": "染血 普通 手套",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 魔法 手套",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 稀有 手套",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 傳奇 手套",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 獨特 手套",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 秘傳獨特 手套",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 普通 手套",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 魔法 手套",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 稀有 手套",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 傳奇 手套",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 獨特 手套",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 手套",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
     "Name": "普通 頭盔",
     "Rarerity": "Normal",
     "Type": "helm"
@@ -1616,66 +896,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 頭盔",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 普通 頭盔",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 魔法 頭盔",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 稀有 頭盔",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 傳奇 頭盔",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 獨特 頭盔",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 秘傳獨特 頭盔",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 普通 頭盔",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 魔法 頭盔",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 稀有 頭盔",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 傳奇 頭盔",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 獨特 頭盔",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 頭盔",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -1740,66 +960,6 @@
     "Type": "pants"
   },
   {
-    "Name": "染血 普通 褲子",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 魔法 褲子",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 稀有 褲子",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 傳奇 褲子",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 獨特 褲子",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 秘傳獨特 褲子",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 普通 褲子",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 魔法 褲子",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 稀有 褲子",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 傳奇 褲子",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 獨特 褲子",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 褲子",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
     "Name": "普通 釘鎚",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1856,66 +1016,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 釘鎚",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 釘鎚",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 釘鎚",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 釘鎚",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 釘鎚",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 釘鎚",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 釘鎚",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 釘鎚",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 釘鎚",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 釘鎚",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 釘鎚",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 釘鎚",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 釘鎚",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1980,66 +1080,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 釘鎚（鈍擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 釘鎚（鈍擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 釘鎚（鈍擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 釘鎚（鈍擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 釘鎚（鈍擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 釘鎚（鈍擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 釘鎚（鈍擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 釘鎚（鈍擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 釘鎚（鈍擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 釘鎚（鈍擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 釘鎚（鈍擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 釘鎚（鈍擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 雙手釘鎚",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2096,66 +1136,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 雙手釘鎚",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 雙手釘鎚",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手釘鎚",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手釘鎚",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手釘鎚",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手釘鎚",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手釘鎚",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手釘鎚",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手釘鎚",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手釘鎚",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手釘鎚",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手釘鎚",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手釘鎚",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2220,66 +1200,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 雙手釘鎚（鈍擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手釘鎚（鈍擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手釘鎚（鈍擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手釘鎚（鈍擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手釘鎚（鈍擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手釘鎚（鈍擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手釘鎚（鈍擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手釘鎚（鈍擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手釘鎚（鈍擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手釘鎚（鈍擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手釘鎚（鈍擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手釘鎚（鈍擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 圖騰",
     "Rarerity": "Normal",
     "Type": "offhand"
@@ -2336,66 +1256,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 圖騰",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 普通 圖騰",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 魔法 圖騰",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 稀有 圖騰",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 傳奇 圖騰",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 獨特 圖騰",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 秘傳獨特 圖騰",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 普通 圖騰",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 魔法 圖騰",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 稀有 圖騰",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 傳奇 圖騰",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 獨特 圖騰",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 圖騰",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -2460,66 +1320,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 長柄武器",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 長柄武器",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 長柄武器",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 長柄武器",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 長柄武器",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 長柄武器",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 長柄武器",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 長柄武器",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 長柄武器",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 長柄武器",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 長柄武器",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 長柄武器",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 長柄武器（斬擊）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2576,66 +1376,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 長柄武器（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 長柄武器（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 長柄武器（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 長柄武器（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 長柄武器（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 長柄武器（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 長柄武器（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 長柄武器（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 長柄武器（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 長柄武器（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 長柄武器（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 長柄武器（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 長柄武器（斬擊）",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2700,66 +1440,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 長杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 長杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 長杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 長杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 長杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 長杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 長杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 長杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 長杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 長杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 長杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 長杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 戒指",
     "Rarerity": "Normal",
     "Type": "ring"
@@ -2816,66 +1496,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 戒指",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 普通 戒指",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 魔法 戒指",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 稀有 戒指",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 傳奇 戒指",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 獨特 戒指",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 秘傳獨特 戒指",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 普通 戒指",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 魔法 戒指",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 稀有 戒指",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 傳奇 戒指",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 獨特 戒指",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 戒指",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -2940,66 +1560,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 鐮刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 鐮刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 鐮刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 鐮刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 鐮刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 鐮刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 鐮刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 鐮刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 鐮刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 鐮刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 鐮刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 鐮刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 雙手鐮刀",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3056,66 +1616,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 雙手鐮刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 雙手鐮刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手鐮刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手鐮刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手鐮刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手鐮刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手鐮刀",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手鐮刀",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手鐮刀",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手鐮刀",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手鐮刀",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手鐮刀",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手鐮刀",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3180,66 +1680,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "染血 普通 盾牌",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 魔法 盾牌",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 稀有 盾牌",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 傳奇 盾牌",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 獨特 盾牌",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 秘傳獨特 盾牌",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 普通 盾牌",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 魔法 盾牌",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 稀有 盾牌",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 傳奇 盾牌",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 獨特 盾牌",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 盾牌",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "普通 法杖",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3296,66 +1736,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 法杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 法杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 法杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 法杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 法杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 法杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 法杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 法杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 法杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 法杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 法杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 法杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 法杖",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3420,66 +1800,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 劍",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 劍",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 劍",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 劍",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 劍",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 劍",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 劍",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 劍",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 劍",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 劍",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 劍",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 劍",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 劍（斬擊）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3536,66 +1856,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 劍（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 劍（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 劍（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 劍（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 劍（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 劍（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 劍（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 劍（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 劍（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 劍（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 劍（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 劍（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 劍（斬擊）",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3660,66 +1920,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 雙手劍",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手劍",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手劍",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手劍",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手劍",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手劍",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手劍",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手劍",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手劍",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手劍",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手劍",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手劍",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 雙手劍（斬擊）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3780,66 +1980,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "染血 普通 雙手劍（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 雙手劍（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 雙手劍（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 雙手劍（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 雙手劍（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 雙手劍（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 雙手劍（斬擊）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 雙手劍（斬擊）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 雙手劍（斬擊）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 雙手劍（斬擊）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 雙手劍（斬擊）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 雙手劍（斬擊）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "普通 魔杖",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3896,66 +2036,6 @@
   },
   {
     "Name": "遠古 秘傳獨特 魔杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 普通 魔杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 魔法 魔杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 稀有 魔杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 傳奇 魔杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 獨特 魔杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 秘傳獨特 魔杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 普通 魔杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 魔法 魔杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 稀有 魔杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 傳奇 魔杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 獨特 魔杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "染血 遠古 秘傳獨特 魔杖",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },

@@ -60,66 +60,6 @@
     "Type": "amulet"
   },
   {
-    "Name": "Amuleto común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amuleto único mítico ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
     "Name": "Hacha común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -176,66 +116,6 @@
   },
   {
     "Name": "Hacha única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -300,66 +180,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Hacha (cortante) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha (cortante) única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Hacha de dos manos común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -416,66 +236,6 @@
   },
   {
     "Name": "Hacha de dos manos única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -540,66 +300,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Hacha de dos manos (cortante) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hacha de dos manos (cortante) única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Botas comunes",
     "Rarerity": "Normal",
     "Type": "boots"
@@ -656,66 +356,6 @@
   },
   {
     "Name": "Botas únicas míticas ancestrales",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas comunes Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas mágicas Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas raras Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas legendarias Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas únicas Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas únicas míticas Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas comunes ancestrales Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas mágicas ancestrales Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas raras ancestrales Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas legendarias ancestrales Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas únicas ancestrales Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "Botas únicas míticas ancestrales Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -780,66 +420,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "Arco común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arco único mítico ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "Peto común",
     "Rarerity": "Normal",
     "Type": "chest"
@@ -896,66 +476,6 @@
   },
   {
     "Name": "Peto único mítico ancestral",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "Peto único mítico ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -1020,66 +540,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "Ballesta común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Ballesta única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "Daga común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1140,62 +600,62 @@
     "Type": "weapon"
   },
   {
-    "Name": "Daga común Ensangrentado",
+    "Name": "Mangual común",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "Daga mágica Ensangrentado",
+    "Name": "Mangual mágico",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "Daga rara Ensangrentado",
+    "Name": "Mangual raro",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "Daga legendaria Ensangrentado",
+    "Name": "Mangual legendario",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "Daga única Ensangrentado",
+    "Name": "Mangual único",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "Daga única mítica Ensangrentado",
+    "Name": "Mangual único mítico",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
   {
-    "Name": "Daga común ancestral Ensangrentado",
+    "Name": "Mangual común ancestral",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "Daga mágica ancestral Ensangrentado",
+    "Name": "Mangual mágico ancestral",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "Daga rara ancestral Ensangrentado",
+    "Name": "Mangual raro ancestral",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "Daga legendaria ancestral Ensangrentado",
+    "Name": "Mangual legendario ancestral",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "Daga única ancestral Ensangrentado",
+    "Name": "Mangual único ancestral",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "Daga única mítica ancestral Ensangrentado",
+    "Name": "Mangual único mítico ancestral",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1260,66 +720,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "Foco común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Foco único mítico ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "Guja común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1376,66 +776,6 @@
   },
   {
     "Name": "Guja única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guja única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1500,66 +840,6 @@
     "Type": "gloves"
   },
   {
-    "Name": "Guantes comunes Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes mágicos Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes raros Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes legendarios Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes únicos Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes únicos míticos Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes comunes ancestrales Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes mágicos ancestrales Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes raros ancestrales Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes legendarios ancestrales Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes únicos ancestrales Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Guantes únicos míticos ancestrales Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
     "Name": "Yelmo común",
     "Rarerity": "Normal",
     "Type": "helm"
@@ -1616,66 +896,6 @@
   },
   {
     "Name": "Yelmo único mítico ancestral",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "Yelmo único mítico ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -1740,66 +960,6 @@
     "Type": "pants"
   },
   {
-    "Name": "Pantalones comunes Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones mágicos Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones raros Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones legendarios Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones únicos Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones únicos míticos Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones comunes ancestrales Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones mágicos ancestrales Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones raros ancestrales Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones legendarios ancestrales Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones únicos ancestrales Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "Pantalones únicos míticos ancestrales Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
     "Name": "Maza común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1856,66 +1016,6 @@
   },
   {
     "Name": "Maza única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1980,66 +1080,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Maza (contundente) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza (contundente) única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Maza de dos manos común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2096,66 +1136,6 @@
   },
   {
     "Name": "Maza de dos manos única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2220,66 +1200,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Maza de dos manos (contundente) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Maza de dos manos (contundente) única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Tótem común",
     "Rarerity": "Normal",
     "Type": "offhand"
@@ -2336,66 +1256,6 @@
   },
   {
     "Name": "Tótem único mítico ancestral",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Tótem único mítico ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -2460,66 +1320,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Arma de asta común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Arma de asta (cortante) común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2576,66 +1376,6 @@
   },
   {
     "Name": "Arma de asta (cortante) única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arma de asta (cortante) única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2700,66 +1440,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Bastón recortado común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón recortado único mítico ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Anillo común",
     "Rarerity": "Normal",
     "Type": "ring"
@@ -2816,66 +1496,6 @@
   },
   {
     "Name": "Anillo único mítico ancestral",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "Anillo único mítico ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -2940,66 +1560,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Guadaña común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Guadaña de dos manos común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3056,66 +1616,6 @@
   },
   {
     "Name": "Guadaña de dos manos única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Guadaña de dos manos única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3180,66 +1680,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "Escudo común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Escudo único mítico ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "Bastón común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3296,66 +1736,6 @@
   },
   {
     "Name": "Bastón único mítico ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón mágico Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón raro Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón legendario Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón único Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón único mítico Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón mágico ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón raro ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón legendario ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón único ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bastón único mítico ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3420,66 +1800,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Espada común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Espada (cortante) común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3536,66 +1856,6 @@
   },
   {
     "Name": "Espada (cortante) única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada (cortante) única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3660,66 +1920,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Espada de dos manos común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Espada de dos manos (cortante) común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3780,66 +1980,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Espada de dos manos (cortante) común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Espada de dos manos (cortante) única mítica ancestral Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Vara común",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3896,66 +2036,6 @@
   },
   {
     "Name": "Vara única mítica ancestral",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara común Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara mágica Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara rara Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara legendaria Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara única Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara única mítica Ensangrentado",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara común ancestral Ensangrentado",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara mágica ancestral Ensangrentado",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara rara ancestral Ensangrentado",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara legendaria ancestral Ensangrentado",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara única ancestral Ensangrentado",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Vara única mítica ancestral Ensangrentado",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },

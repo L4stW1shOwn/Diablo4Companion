@@ -60,66 +60,6 @@
     "Type": "amulet"
   },
   {
-    "Name": "Amulette ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "Amulette ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
     "Name": "Hache ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -176,66 +116,6 @@
   },
   {
     "Name": "Hache ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -300,66 +180,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Hache (tranchante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache (tranchante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Hache à deux mains ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -416,66 +236,6 @@
   },
   {
     "Name": "Hache à deux mains ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -540,66 +300,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Hache à deux mains (tranchante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Hache à deux mains (tranchante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Bottes ordinaires",
     "Rarerity": "Normal",
     "Type": "boots"
@@ -656,66 +356,6 @@
   },
   {
     "Name": "Bottes ancestrales hique unique",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "Bottes ancestrales hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -780,66 +420,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "Arc ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arc ancestral hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "Cuirasse ordinaire",
     "Rarerity": "Normal",
     "Type": "chest"
@@ -896,66 +476,6 @@
   },
   {
     "Name": "Cuirasse ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "Cuirasse ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -1020,66 +540,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "Arbalète ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "Arbalète ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "Dague ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1140,62 +600,62 @@
     "Type": "weapon"
   },
   {
-    "Name": "Dague ordinaire ensanglanté",
+    "Name": "Fléau ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "Dague magique ensanglanté",
+    "Name": "Fléau magique",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "Dague rare ensanglanté",
+    "Name": "Fléau rare",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "Dague légendaire ensanglanté",
+    "Name": "Fléau légendaire",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "Dague unique ensanglanté",
+    "Name": "Fléau unique",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "Dague hique unique ensanglanté",
+    "Name": "Fléau hique unique",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale ordinaire ensanglanté",
+    "Name": "Fléau ancestral ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale magique ensanglanté",
+    "Name": "Fléau ancestral magique",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale rare ensanglanté",
+    "Name": "Fléau ancestral rare",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale légendaire ensanglanté",
+    "Name": "Fléau ancestral légendaire",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale unique ensanglanté",
+    "Name": "Fléau ancestral unique",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "Dague ancestrale hique unique ensanglanté",
+    "Name": "Fléau ancestral hique unique",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1260,66 +720,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "Catalyseur ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Catalyseur ancestral hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "Couteau de brèche ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1376,66 +776,6 @@
   },
   {
     "Name": "Couteau de brèche ancestral hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Couteau de brèche ancestral hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1500,66 +840,6 @@
     "Type": "gloves"
   },
   {
-    "Name": "Gants ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "Gants ancestraux hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
     "Name": "Heaume ordinaire",
     "Rarerity": "Normal",
     "Type": "helm"
@@ -1616,66 +896,6 @@
   },
   {
     "Name": "Heaume ancestral hique unique",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "Heaume ancestral hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -1740,66 +960,6 @@
     "Type": "pants"
   },
   {
-    "Name": "Jambières ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales ordinaires ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales magiques ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales rares ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales légendaires ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales uniques ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "Jambières ancestrales hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
     "Name": "Masse ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1856,66 +1016,6 @@
   },
   {
     "Name": "Masse ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1980,66 +1080,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Masse (contondante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse (contondante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Masse à deux mains ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2096,66 +1136,6 @@
   },
   {
     "Name": "Masse à deux mains ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2220,66 +1200,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Masse à deux mains (contondante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Masse à deux mains (contondante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Totem ordinaire",
     "Rarerity": "Normal",
     "Type": "offhand"
@@ -2336,66 +1256,6 @@
   },
   {
     "Name": "Totem ancestral hique unique",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Totem ancestral hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -2460,66 +1320,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Arme d’hast ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Arme d’hast (tranchante) ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2576,66 +1376,6 @@
   },
   {
     "Name": "Arme d’hast (tranchante) ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Arme d’hast (tranchante) ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2700,66 +1440,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Bâton ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Bâton ancestral hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Bague ordinaire",
     "Rarerity": "Normal",
     "Type": "ring"
@@ -2816,66 +1496,6 @@
   },
   {
     "Name": "Bague ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "Bague ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -2940,66 +1560,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Faux ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Faux à deux mains ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3056,66 +1616,6 @@
   },
   {
     "Name": "Faux à deux mains ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Faux à deux mains ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3180,66 +1680,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "Bouclier ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "Bouclier ancestral hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "Épée ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3296,66 +1736,6 @@
   },
   {
     "Name": "Épée ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3420,66 +1800,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Épée (tranchante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée (tranchante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Épée à deux mains ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3536,66 +1856,6 @@
   },
   {
     "Name": "Épée à deux mains ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3660,66 +1920,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "Épée à deux mains (tranchante) ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Épée à deux mains (tranchante) ancestrale hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "Baguette ordinaire",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3776,66 +1976,6 @@
   },
   {
     "Name": "Baguette ancestrale hique unique",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette hique unique ensanglanté",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale ordinaire ensanglanté",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale magique ensanglanté",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale rare ensanglanté",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale légendaire ensanglanté",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale unique ensanglanté",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "Baguette ancestrale hique unique ensanglanté",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },

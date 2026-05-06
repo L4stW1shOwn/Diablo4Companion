@@ -60,66 +60,6 @@
     "Type": "amulet"
   },
   {
-    "Name": "血に濡れた コモン アミュレット",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた マジック アミュレット",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた レア アミュレット",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー アミュレット",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた ユニーク アミュレット",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク アミュレット",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン アミュレット",
-    "Rarerity": "Normal",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック アミュレット",
-    "Rarerity": "Magic",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア アミュレット",
-    "Rarerity": "Rare",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー アミュレット",
-    "Rarerity": "Legendary",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク アミュレット",
-    "Rarerity": "Unique",
-    "Type": "amulet"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク アミュレット",
-    "Rarerity": "Mythic",
-    "Type": "amulet"
-  },
-  {
     "Name": "コモン 斧",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -176,66 +116,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 斧",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -300,66 +180,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 斧（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 斧（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 斧（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 斧（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 斧（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 斧（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 斧（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 斧（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 斧（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 斧（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 斧（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 斧（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 両手用斧",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -416,66 +236,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 両手用斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 両手用斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手用斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手用斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手用斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手用斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手用斧",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手用斧",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手用斧",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手用斧",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手用斧",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手用斧",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手用斧",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -540,66 +300,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 両手用斧（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手用斧（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手用斧（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手用斧（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手用斧（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手用斧（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手用斧（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手用斧（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手用斧（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手用斧（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手用斧（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手用斧（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン ブーツ",
     "Rarerity": "Normal",
     "Type": "boots"
@@ -656,66 +356,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク ブーツ",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた コモン ブーツ",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた マジック ブーツ",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた レア ブーツ",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー ブーツ",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた ユニーク ブーツ",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク ブーツ",
-    "Rarerity": "Mythic",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン ブーツ",
-    "Rarerity": "Normal",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック ブーツ",
-    "Rarerity": "Magic",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア ブーツ",
-    "Rarerity": "Rare",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー ブーツ",
-    "Rarerity": "Legendary",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク ブーツ",
-    "Rarerity": "Unique",
-    "Type": "boots"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク ブーツ",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -780,66 +420,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "血に濡れた コモン 弓",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた マジック 弓",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた レア 弓",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 弓",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた ユニーク 弓",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 弓",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 弓",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 弓",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 弓",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 弓",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 弓",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 弓",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "コモン 胸当て",
     "Rarerity": "Normal",
     "Type": "chest"
@@ -896,66 +476,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 胸当て",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた コモン 胸当て",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた マジック 胸当て",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた レア 胸当て",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 胸当て",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた ユニーク 胸当て",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 胸当て",
-    "Rarerity": "Mythic",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 胸当て",
-    "Rarerity": "Normal",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 胸当て",
-    "Rarerity": "Magic",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 胸当て",
-    "Rarerity": "Rare",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 胸当て",
-    "Rarerity": "Legendary",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 胸当て",
-    "Rarerity": "Unique",
-    "Type": "chest"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 胸当て",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -1020,66 +540,6 @@
     "Type": "ranged"
   },
   {
-    "Name": "血に濡れた コモン クロスボウ",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた マジック クロスボウ",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた レア クロスボウ",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー クロスボウ",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた ユニーク クロスボウ",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク クロスボウ",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン クロスボウ",
-    "Rarerity": "Normal",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック クロスボウ",
-    "Rarerity": "Magic",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア クロスボウ",
-    "Rarerity": "Rare",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー クロスボウ",
-    "Rarerity": "Legendary",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク クロスボウ",
-    "Rarerity": "Unique",
-    "Type": "ranged"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク クロスボウ",
-    "Rarerity": "Mythic",
-    "Type": "ranged"
-  },
-  {
     "Name": "コモン ダガー",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1140,62 +600,62 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン ダガー",
+    "Name": "コモン フレイル",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた マジック ダガー",
+    "Name": "マジック フレイル",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた レア ダガー",
+    "Name": "レア フレイル",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた レジェンダリー ダガー",
+    "Name": "レジェンダリー フレイル",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた ユニーク ダガー",
+    "Name": "ユニーク フレイル",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 神秘のユニーク ダガー",
+    "Name": "神秘のユニーク フレイル",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 コモン ダガー",
+    "Name": "祖霊 コモン フレイル",
     "Rarerity": "Normal",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 マジック ダガー",
+    "Name": "祖霊 マジック フレイル",
     "Rarerity": "Magic",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 レア ダガー",
+    "Name": "祖霊 レア フレイル",
     "Rarerity": "Rare",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 レジェンダリー ダガー",
+    "Name": "祖霊 レジェンダリー フレイル",
     "Rarerity": "Legendary",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 ユニーク ダガー",
+    "Name": "祖霊 ユニーク フレイル",
     "Rarerity": "Unique",
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた 祖霊 神秘のユニーク ダガー",
+    "Name": "祖霊 神秘のユニーク フレイル",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1260,66 +720,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "血に濡れた コモン 焦点具",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた マジック 焦点具",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レア 焦点具",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 焦点具",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた ユニーク 焦点具",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 焦点具",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 焦点具",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 焦点具",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 焦点具",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 焦点具",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 焦点具",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 焦点具",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "コモン グレイヴ",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1376,66 +776,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク グレイヴ",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン グレイヴ",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック グレイヴ",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア グレイヴ",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー グレイヴ",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク グレイヴ",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク グレイヴ",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン グレイヴ",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック グレイヴ",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア グレイヴ",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー グレイヴ",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク グレイヴ",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク グレイヴ",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1500,66 +840,6 @@
     "Type": "gloves"
   },
   {
-    "Name": "血に濡れた コモン 手袋",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた マジック 手袋",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた レア 手袋",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 手袋",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた ユニーク 手袋",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 手袋",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 手袋",
-    "Rarerity": "Normal",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 手袋",
-    "Rarerity": "Magic",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 手袋",
-    "Rarerity": "Rare",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 手袋",
-    "Rarerity": "Legendary",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 手袋",
-    "Rarerity": "Unique",
-    "Type": "gloves"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 手袋",
-    "Rarerity": "Mythic",
-    "Type": "gloves"
-  },
-  {
     "Name": "コモン 兜",
     "Rarerity": "Normal",
     "Type": "helm"
@@ -1616,66 +896,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 兜",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた コモン 兜",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた マジック 兜",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた レア 兜",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 兜",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた ユニーク 兜",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 兜",
-    "Rarerity": "Mythic",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 兜",
-    "Rarerity": "Normal",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 兜",
-    "Rarerity": "Magic",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 兜",
-    "Rarerity": "Rare",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 兜",
-    "Rarerity": "Legendary",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 兜",
-    "Rarerity": "Unique",
-    "Type": "helm"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 兜",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -1740,66 +960,6 @@
     "Type": "pants"
   },
   {
-    "Name": "血に濡れた コモン ズボン",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた マジック ズボン",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた レア ズボン",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー ズボン",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた ユニーク ズボン",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク ズボン",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン ズボン",
-    "Rarerity": "Normal",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック ズボン",
-    "Rarerity": "Magic",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア ズボン",
-    "Rarerity": "Rare",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー ズボン",
-    "Rarerity": "Legendary",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク ズボン",
-    "Rarerity": "Unique",
-    "Type": "pants"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク ズボン",
-    "Rarerity": "Mythic",
-    "Type": "pants"
-  },
-  {
     "Name": "コモン メイス",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -1856,66 +1016,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク メイス",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン メイス",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック メイス",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア メイス",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー メイス",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク メイス",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク メイス",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン メイス",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック メイス",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア メイス",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー メイス",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク メイス",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク メイス",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1980,66 +1080,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン メイス（殴打）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック メイス（殴打）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア メイス（殴打）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー メイス（殴打）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク メイス（殴打）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク メイス（殴打）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン メイス（殴打）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック メイス（殴打）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア メイス（殴打）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー メイス（殴打）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク メイス（殴打）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク メイス（殴打）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 両手用メイス",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2096,66 +1136,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 両手用メイス",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 両手用メイス",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手用メイス",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手用メイス",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手用メイス",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手用メイス",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手用メイス",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手用メイス",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手用メイス",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手用メイス",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手用メイス",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手用メイス",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手用メイス",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2220,66 +1200,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 両手用メイス（殴打）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手用メイス（殴打）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手用メイス（殴打）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手用メイス（殴打）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手用メイス（殴打）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手用メイス（殴打）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手用メイス（殴打）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手用メイス（殴打）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手用メイス（殴打）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手用メイス（殴打）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手用メイス（殴打）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手用メイス（殴打）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン トーテム",
     "Rarerity": "Normal",
     "Type": "offhand"
@@ -2336,66 +1256,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク トーテム",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた コモン トーテム",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた マジック トーテム",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レア トーテム",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー トーテム",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた ユニーク トーテム",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク トーテム",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン トーテム",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック トーテム",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア トーテム",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー トーテム",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク トーテム",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク トーテム",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -2460,66 +1320,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 長柄武器",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 長柄武器",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 長柄武器",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 長柄武器",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 長柄武器",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 長柄武器",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 長柄武器",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 長柄武器",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 長柄武器",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 長柄武器",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 長柄武器",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 長柄武器",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 長柄武器（斬撃）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -2576,66 +1376,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 長柄武器（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 長柄武器（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 長柄武器（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 長柄武器（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 長柄武器（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 長柄武器（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 長柄武器（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 長柄武器（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 長柄武器（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 長柄武器（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 長柄武器（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 長柄武器（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 長柄武器（斬撃）",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2700,66 +1440,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 長棍棒",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 長棍棒",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 長棍棒",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 長棍棒",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 長棍棒",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 長棍棒",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 長棍棒",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 長棍棒",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 長棍棒",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 長棍棒",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 長棍棒",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 長棍棒",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 指輪",
     "Rarerity": "Normal",
     "Type": "ring"
@@ -2816,66 +1496,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 指輪",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた コモン 指輪",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた マジック 指輪",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた レア 指輪",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 指輪",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた ユニーク 指輪",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 指輪",
-    "Rarerity": "Mythic",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 指輪",
-    "Rarerity": "Normal",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 指輪",
-    "Rarerity": "Magic",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 指輪",
-    "Rarerity": "Rare",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 指輪",
-    "Rarerity": "Legendary",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 指輪",
-    "Rarerity": "Unique",
-    "Type": "ring"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 指輪",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -2940,66 +1560,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 大鎌",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 大鎌",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 大鎌",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 大鎌",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 大鎌",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 大鎌",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 大鎌",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 大鎌",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 大鎌",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 大鎌",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 大鎌",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 大鎌",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 両手持ちの大鎌",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3056,66 +1616,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 両手持ちの大鎌",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 両手持ちの大鎌",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手持ちの大鎌",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手持ちの大鎌",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手持ちの大鎌",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手持ちの大鎌",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手持ちの大鎌",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手持ちの大鎌",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手持ちの大鎌",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手持ちの大鎌",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手持ちの大鎌",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手持ちの大鎌",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手持ちの大鎌",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3180,66 +1680,6 @@
     "Type": "offhand"
   },
   {
-    "Name": "血に濡れた コモン 盾",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた マジック 盾",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レア 盾",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 盾",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた ユニーク 盾",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 盾",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 盾",
-    "Rarerity": "Normal",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 盾",
-    "Rarerity": "Magic",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 盾",
-    "Rarerity": "Rare",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 盾",
-    "Rarerity": "Legendary",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 盾",
-    "Rarerity": "Unique",
-    "Type": "offhand"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 盾",
-    "Rarerity": "Mythic",
-    "Type": "offhand"
-  },
-  {
     "Name": "コモン 杖",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3296,66 +1736,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 杖",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 杖",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 杖",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 杖",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 杖",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 杖",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 杖",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3420,66 +1800,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 剣",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 剣",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 剣",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 剣",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 剣",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 剣",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 剣",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 剣",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 剣",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 剣",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 剣",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 剣",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 剣（斬撃）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3536,66 +1856,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク 剣（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン 剣（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 剣（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 剣（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 剣（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 剣（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 剣（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 剣（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 剣（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 剣（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 剣（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 剣（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 剣（斬撃）",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -3660,66 +1920,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 両手剣",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手剣",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手剣",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手剣",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手剣",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手剣",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手剣",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手剣",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手剣",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手剣",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手剣",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手剣",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン 両手剣（斬撃）",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3780,66 +1980,6 @@
     "Type": "weapon"
   },
   {
-    "Name": "血に濡れた コモン 両手剣（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック 両手剣（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア 両手剣（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー 両手剣（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク 両手剣（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク 両手剣（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン 両手剣（斬撃）",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック 両手剣（斬撃）",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア 両手剣（斬撃）",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー 両手剣（斬撃）",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク 両手剣（斬撃）",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク 両手剣（斬撃）",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
     "Name": "コモン ワンド",
     "Rarerity": "Normal",
     "Type": "weapon"
@@ -3896,66 +2036,6 @@
   },
   {
     "Name": "祖霊 神秘のユニーク ワンド",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた コモン ワンド",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた マジック ワンド",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レア ワンド",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた レジェンダリー ワンド",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた ユニーク ワンド",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 神秘のユニーク ワンド",
-    "Rarerity": "Mythic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 コモン ワンド",
-    "Rarerity": "Normal",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 マジック ワンド",
-    "Rarerity": "Magic",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レア ワンド",
-    "Rarerity": "Rare",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 レジェンダリー ワンド",
-    "Rarerity": "Legendary",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 ユニーク ワンド",
-    "Rarerity": "Unique",
-    "Type": "weapon"
-  },
-  {
-    "Name": "血に濡れた 祖霊 神秘のユニーク ワンド",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
