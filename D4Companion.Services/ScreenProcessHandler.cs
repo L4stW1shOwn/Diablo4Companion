@@ -863,9 +863,13 @@ namespace D4Companion.Services
         private void RemoveInvalidSocketLocations()
         {
             // An offset for the socket location is used because the ROI to look for sockets does not start at the top of the tooltip but after the aspect location.
-            int offsetY = _currentTooltip.ItemAspectLocation.IsEmpty ? 0 : _currentTooltip.ItemAspectLocation.Y;
+            // When no aspect is found last affix location is used.
+            int offsetY = _currentTooltip.ItemAspectLocation.IsEmpty ? 0 : _currentTooltip.ItemAspectLocation.Y;            
 
             if (_currentTooltip.ItemAffixLocations.Count == 0) return;
+
+            int itemAffixLocationY = _currentTooltip.ItemAffixLocations[^1].Location.Y;
+            offsetY = offsetY == 0 ? itemAffixLocationY : 0;
 
             _currentTooltip.ItemSocketLocations.RemoveAll(loc => loc.Y + offsetY <= _currentTooltip.ItemAffixLocations[0].Location.Y);
         }
@@ -895,13 +899,18 @@ namespace D4Companion.Services
             if (_currentTooltip.ItemSocketLocations.Count > 0)
             {
                 // An offset for the socket location is used because the ROI to look for sockets does not start at the top of the tooltip but after the aspect location.
+                // When no aspect is found last affix location is used.
                 int offsetY = _currentTooltip.ItemAspectLocation.IsEmpty ? 0 : _currentTooltip.ItemAspectLocation.Y;
+                int itemAffixLocationY = _currentTooltip.ItemAffixLocations[^1].Location.Y;
+                offsetY = offsetY == 0 ? itemAffixLocationY : 0;
+                int socketOffsetY = 2; // A small offset is used to make sure the socket area does not overlap with the affix area when they are close to each other.
+                offsetY += socketOffsetY;
 
                 areaSplitPoints.Add(new Rectangle(
                     _currentTooltip.ItemSocketLocations[0].X,
-                    _currentTooltip.ItemSocketLocations[0].Y + offsetY,
+                    _currentTooltip.ItemSocketLocations[0].Y + offsetY + socketOffsetY,
                     _currentTooltip.ItemSocketLocations[0].Width,
-                    _currentTooltip.ItemSocketLocations[0].Height));
+                    _currentTooltip.ItemSocketLocations[0].Height - socketOffsetY));
             }
             // Splitter locations
             areaSplitPoints.AddRange(_currentTooltip.ItemSplitterLocations.Select(s => s.Location));
@@ -1143,8 +1152,9 @@ namespace D4Companion.Services
 
             OcrResultAffix ocrResult = 
                 itemType.Equals(ItemTypeConstants.Sigil) ? _ocrHandler.ConvertToSigil(rawText) :
-                itemType.Equals(ItemTypeConstants.Rune) ? _ocrHandler.ConvertToRune(rawText) : 
-                _ocrHandler.ConvertToAffix(rawText);
+                itemType.Equals(ItemTypeConstants.Rune) ? _ocrHandler.ConvertToRune(rawText) :
+                _settingsManager.Settings.IsSocketDetectionEnabled ? _ocrHandler.ConvertToAffix(rawText) :
+                _ocrHandler.ConvertToAffixMultiline(rawText);
             ocrResultDescriptor.OcrResult = ocrResult;
 
             ItemAffix itemAffix = 

@@ -113,6 +113,7 @@ namespace D4Companion.Services
 
         /// <summary>
         /// Converts affix text to a matching AffixId
+        /// Using ConvertToAffix instead of ConvertToAffixMultiline when socket detection is on.
         /// </summary>
         public OcrResultAffix ConvertToAffix(string rawText)
         {
@@ -144,7 +145,7 @@ namespace D4Companion.Services
         /// <summary>
         /// Converts affix text to a matching AffixId
         /// This implementation compares multiple lines to find the best match.
-        /// Currently using ConvertToAffix instead of ConvertToAffixMultiline because it's faster.
+        /// Using ConvertToAffixMultiline instead of ConvertToAffix when socket detection is off.
         /// </summary>
         public OcrResultAffix ConvertToAffixMultiline(string rawText)
         {
