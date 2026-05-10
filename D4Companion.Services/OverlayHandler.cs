@@ -19,6 +19,7 @@ namespace D4Companion.Services
     public class OverlayHandler : IOverlayHandler
     {
         private readonly IAffixManager _affixManager;
+        private readonly IEventTrackerService _eventTrackerService;
         private readonly ILogger _logger;
         private readonly ISettingsManager _settingsManager;
 
@@ -55,15 +56,17 @@ namespace D4Companion.Services
 
         #region Constructors
 
-        public OverlayHandler(ILogger<ScreenProcessHandler> logger, IAffixManager affixManager, ISettingsManager settingsManager)
+        public OverlayHandler(ILogger<ScreenProcessHandler> logger, IAffixManager affixManager, IEventTrackerService eventTrackerService, ISettingsManager settingsManager)
         {
             // Init services
             _affixManager = affixManager;
+            _eventTrackerService = eventTrackerService;
             _logger = logger;
             _settingsManager = settingsManager;
 
             // Init messages
             WeakReferenceMessenger.Default.Register<AffixPresetChangedMessage>(this, HandleAffixPresetChangedMessage);
+            WeakReferenceMessenger.Default.Register<EventTrackerAlertMessage>(this, HandleEventTrackerAlertMessage);
             WeakReferenceMessenger.Default.Register<MenuLockedMessage>(this, HandleMenuLockedMessage);
             WeakReferenceMessenger.Default.Register<MenuUnlockedMessage>(this, HandleMenuUnlockedMessage);
             WeakReferenceMessenger.Default.Register<MouseUpdatedMessage>(this, HandleMouseUpdatedMessage);
@@ -200,6 +203,12 @@ namespace D4Companion.Services
                         float lockProgressAsWidth = (float)Math.Min(menuItem.LockWatch.ElapsedMilliseconds / OverlayConstants.LockTimer, 1.0) * menuItem.Width;
                         gfx.FillRectangle(_brushes[Colors.Goldenrod.ToString()], menuItem.Left, menuItem.Top + menuItem.Height - activationBarSize, menuItem.Left + lockProgressAsWidth, menuItem.Top + menuItem.Height);
                     }
+                }
+
+                // Event tracker
+                if (_settingsManager.Settings.IsEventTrackerEnabled)
+                {
+                    DrawGraphicsEventTracker(e);
                 }
 
                 void DrawNotification(string notificationText)
@@ -961,6 +970,15 @@ namespace D4Companion.Services
             }
         }
 
+        private void HandleEventTrackerAlertMessage(object recipient, EventTrackerAlertMessage message)
+        {
+            var p = message.Value;
+            SetNotificationText($"EventTracker: {p.EventName} in {p.TimeRemaining.Minutes} minutes!");
+            _notificationVisible = true;
+            _notificationTimer.Stop();
+            _notificationTimer.Start();
+        }
+
         private void HandleWindowHandleUpdatedMessage(object recipient, WindowHandleUpdatedMessage message)
         {
             var windowHandleUpdatedMessageParams = message.Value;
@@ -1172,6 +1190,56 @@ namespace D4Companion.Services
         {
             _notificationText = text;
             ResetTopMostState();
+        }
+
+        private void DrawGraphicsEventTracker(DrawGraphicsEventArgs e)
+        {
+            if (_window == null) return;
+
+            var gfx = e.Graphics;
+            var data = _eventTrackerService.CurrentData;
+            var settings = _settingsManager.Settings;
+            var fontSize = settings.OverlayFontSize;
+            var textOffset = 20;
+            var lineHeight = fontSize + 8;
+            var panelHeight = lineHeight;
+            var panelLeft = settings.EventTrackerPosX;
+            var panelTop = settings.EventTrackerPosY;
+
+            var lines = new List<string>();
+            if (settings.IsEventTrackerHelltideEnabled) lines.Add(_eventTrackerService.GetDisplayText(EventType.Helltide));
+            if (settings.IsEventTrackerWorldBossEnabled) lines.Add(_eventTrackerService.GetDisplayText(EventType.WorldBoss));
+            if (settings.IsEventTrackerZoneEventEnabled) lines.Add(_eventTrackerService.GetDisplayText(EventType.ZoneEvent));
+            if (settings.IsEventTrackerChestRespawnEnabled) lines.Add(_eventTrackerService.GetDisplayText(EventType.ChestRespawn));
+
+            if (lines.Count == 0) return;
+
+            float maxTextWidth = 0;
+            foreach (var line in lines)
+            {
+                var size = gfx.MeasureString(_fonts["consolasBold"], fontSize, line);
+                if (size.X > maxTextWidth) maxTextWidth = size.X;
+            }
+
+            float panelWidth = maxTextWidth + 2 * textOffset;
+            panelHeight = lines.Count * lineHeight + textOffset;
+
+            gfx.FillRectangle(_brushes["backgroundTransparent"], panelLeft, panelTop, panelLeft + panelWidth, panelTop + panelHeight);
+            gfx.DrawRectangle(_brushes["border"], panelLeft, panelTop, panelLeft + panelWidth, panelTop + panelHeight, 1);
+
+            float textTop = panelTop + textOffset / 2;
+            foreach (var line in lines)
+            {
+                if (data.IsStale)
+                {
+                    gfx.DrawText(_fonts["consolasBold"], fontSize, _brushes["text"], panelLeft + textOffset, textTop, "[!] " + line);
+                }
+                else
+                {
+                    gfx.DrawText(_fonts["consolasBold"], fontSize, _brushes["text"], panelLeft + textOffset, textTop, line);
+                }
+                textTop += lineHeight;
+            }
         }
 
         #endregion
