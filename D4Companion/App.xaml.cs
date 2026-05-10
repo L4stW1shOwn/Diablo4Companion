@@ -100,6 +100,7 @@ namespace D4Companion
             services.AddSingleton<IScreenProcessHandler, ScreenProcessHandler>();
             services.AddSingleton<ISystemPresetManager, SystemPresetManager>();
             services.AddSingleton<ITradeItemManager, TradeItemManager>();
+            services.AddSingleton<IEventTrackerService, EventTrackerService>();
 
             // ViewModels
             services.AddTransient<AffixViewModel>();

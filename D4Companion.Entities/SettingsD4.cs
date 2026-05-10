@@ -94,6 +94,17 @@ namespace D4Companion.Entities
         public string SelectedOverlayMarkerMode { get; set; } = "Show All";
         public string SelectedSigilDisplayMode { get; set; } = "Whitelisting";
 
+        // Event Tracker Overlay settings
+        public bool IsEventTrackerEnabled { get; set; } = false;
+        public bool IsEventTrackerHelltideEnabled { get; set; } = true;
+        public bool IsEventTrackerWorldBossEnabled { get; set; } = true;
+        public bool IsEventTrackerZoneEventEnabled { get; set; } = true;
+        public bool IsEventTrackerChestRespawnEnabled { get; set; } = true;
+        public int EventTrackerPosX { get; set; } = 900;
+        public int EventTrackerPosY { get; set; } = 10;
+        public int EventTrackerAlertMinutes { get; set; } = 5;
+        public bool IsEventTrackerAlertsEnabled { get; set; } = true;
+
         public KeyBindingConfig KeyBindingConfigSwitchPreset { get; set; } = new KeyBindingConfig
         {
             IsEnabled = false,
