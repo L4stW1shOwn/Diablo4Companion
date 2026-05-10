@@ -7,7 +7,7 @@ using FuzzierSharp;
 using FuzzierSharp.SimilarityRatio;
 using FuzzierSharp.SimilarityRatio.Scorer.StrategySensitive;
 using Microsoft.Extensions.Logging;
-using System.Collections.Concurrent;
+
 using System.Drawing;
 using System.Globalization;
 using System.IO;
@@ -52,6 +52,12 @@ namespace D4Companion.Services
         private ObjectPool<Engine> _engines;
         private Language _language = Language.English;
 
+        private static readonly Regex _itemPowerRegex = new Regex(@"^\d+", RegexOptions.Compiled);
+        private static readonly Regex _affixValueRegex = new Regex(@"\d+\.\d+|\d+\,\d+|\d+", RegexOptions.Compiled);
+        private static readonly JsonSerializerOptions _jsonSerializerOptions = new JsonSerializerOptions
+        {
+            Converters = { new BoolConverter(), new IntConverter() }
+        };
         [GeneratedRegex(@"<span[^>]*class=['""]ocr_line['""][^>]*id=['""](?<id>[^'""]+)['""][^>]*title=['""]bbox (?<x1>\d+) (?<y1>\d+) (?<x2>\d+) (?<y2>\d+)[^'""]*['""][^>]*>(?<content>.*?)</span>", RegexOptions.Singleline)]
         private static partial Regex LineRegex();
 
@@ -184,15 +190,15 @@ namespace D4Companion.Services
             if (lines.Count >= 2) possibleAffixes.Add($"{lines[0].Trim()} {lines[1].Trim()}");
             if (lines.Count >= 3) possibleAffixes.Add($"{lines[0].Trim()} {lines[1].Trim()} {lines[2].Trim()}");
 
-            ConcurrentBag<(int, string, string, string)> affixBag = new ConcurrentBag<(int, string, string, string)>();
-            Parallel.ForEach(possibleAffixes, affix =>
+            List<(int, string, string, string)> affixBag = new List<(int, string, string, string)>();
+            foreach (var affix in possibleAffixes)
             {
                 var affixResult = TextToAffixCached(affix);
                 affixBag.Add(affixResult);
-            });
+            }
 
             // Sort results by similarity
-            var affixes = affixBag.ToList();
+            var affixes = affixBag;
             affixes.Sort((x, y) =>
             {
                 return x.Item1 > y.Item1 ? -1 : x.Item1 < y.Item1 ? 1 : 0;
@@ -280,15 +286,15 @@ namespace D4Companion.Services
 
             if (possibleRunes.Count == 0) return result;
 
-            ConcurrentBag<(int, string, string, string)> runeBag = new ConcurrentBag<(int, string, string, string)>();
-            Parallel.ForEach(possibleRunes, runeText =>
+            List<(int, string, string, string)> runeBag = new List<(int, string, string, string)>();
+            foreach (var runeText in possibleRunes)
             {
                 var runeResult = TextToRune(runeText);
                 runeBag.Add(runeResult);
-            });
+            }
 
             // Sort results by similarity
-            var runes = runeBag.ToList();
+            var runes = runeBag;
             runes.Sort((x, y) =>
             {
                 return x.Item1 > y.Item1 ? -1 : x.Item1 < y.Item1 ? 1 :
@@ -346,7 +352,7 @@ namespace D4Companion.Services
             int powerIndex = -1;
             for (int i = lines.Count - 1; i >= 0; i--)
             {
-                string resultString = Regex.Match(lines[i], @"^\d+").Value;
+                string resultString = _itemPowerRegex.Match(lines[i]).Value;
                 // Item power 150 is the minimum value for Tier 1 items.
                 if (resultString.Length >= 3 && int.Parse(resultString) >= 150)
                 {
@@ -363,15 +369,15 @@ namespace D4Companion.Services
                 if (powerIndex - 2 >= 0) possibleItemTypes.Add($"{lines[powerIndex - 2]} {lines[powerIndex - 1]}");
                 if (possibleItemTypes.Count == 0) return result;
 
-                ConcurrentBag<(int, string, string, string, string)> itemTypeBag = new ConcurrentBag<(int, string, string, string, string)>();
-                Parallel.ForEach(possibleItemTypes, itemType =>
+                List<(int, string, string, string, string)> itemTypeBag = new List<(int, string, string, string, string)>();
+                foreach (var itemType in possibleItemTypes)
                 {
                     var itemTypeResult = TextToItemTypeCached(itemType);
                     itemTypeBag.Add(itemTypeResult);
-                });
+                }
 
                 // Sort results by similarity
-                var itemTypes = itemTypeBag.ToList();
+                var itemTypes = itemTypeBag;
                 itemTypes.Sort((x, y) =>
                 {
                     return x.Item1 > y.Item1 ? -1 : x.Item1 < y.Item1 ? 1 : 0;
@@ -399,15 +405,15 @@ namespace D4Companion.Services
 
                 if (possibleItemTypes.Count == 0) return result;
 
-                ConcurrentBag<(int, string, string, string, string)> itemTypeBag = new ConcurrentBag<(int, string, string, string, string)>();
-                Parallel.ForEach(possibleItemTypes, itemType =>
+                List<(int, string, string, string, string)> itemTypeBag = new List<(int, string, string, string, string)>();
+                foreach (var itemType in possibleItemTypes)
                 {
                     var itemTypeResult = TextToItemTypeCached(itemType);
                     itemTypeBag.Add(itemTypeResult);
-                });
+                }
 
                 // Sort results by similarity
-                var itemTypes = itemTypeBag.ToList();
+                var itemTypes = itemTypeBag;
                 itemTypes.Sort((x, y) =>
                 {
                     return x.Item1 > y.Item1 ? -1 : x.Item1 < y.Item1 ? 1 : 0;
@@ -437,7 +443,7 @@ namespace D4Companion.Services
 
             for (int i = lines.Count - 1; i >= 0; i--)
             {
-                string resultString = Regex.Match(lines[i], @"^\d+").Value;
+                string resultString = _itemPowerRegex.Match(lines[i]).Value;
                 // Item power 150 is the minimum value for Tier 1 items.
                 if (resultString.Length >= 3 && int.Parse(resultString) >= 150)
                 {
@@ -455,6 +461,8 @@ namespace D4Companion.Services
         /// </summary>
         public string ConvertToText(Image image)
         {
+            using MemoryStream memoryStream = new MemoryStream();
+            image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
             MemoryStream memoryStream = new MemoryStream();
             image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Bmp);
 
@@ -506,6 +514,8 @@ namespace D4Companion.Services
         /// </summary>
         public string ConvertToTextUpperTooltipSection(Image image)
         {
+            using MemoryStream memoryStream = new MemoryStream();
+            image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
             MemoryStream memoryStream = new MemoryStream();
             image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Bmp);
             memoryStream.Position = 0;
@@ -585,16 +595,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _affixes = JsonSerializer.Deserialize<List<AffixInfo>>(stream, options) ?? new List<AffixInfo>();
+                    _affixes = JsonSerializer.Deserialize<List<AffixInfo>>(stream, _jsonSerializerOptions) ?? new List<AffixInfo>();
                 }
             }
 
@@ -617,16 +618,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _aspects = JsonSerializer.Deserialize<List<AspectInfo>>(stream, options) ?? new List<AspectInfo>();
+                    _aspects = JsonSerializer.Deserialize<List<AspectInfo>>(stream, _jsonSerializerOptions) ?? new List<AspectInfo>();
                 }
             }
 
@@ -649,16 +641,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _uniques = JsonSerializer.Deserialize<List<UniqueInfo>>(stream, options) ?? new List<UniqueInfo>();
+                    _uniques = JsonSerializer.Deserialize<List<UniqueInfo>>(stream, _jsonSerializerOptions) ?? new List<UniqueInfo>();
                 }
             }
 
@@ -688,16 +671,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _runes = JsonSerializer.Deserialize<List<RuneInfo>>(stream, options) ?? new List<RuneInfo>();
+                    _runes = JsonSerializer.Deserialize<List<RuneInfo>>(stream, _jsonSerializerOptions) ?? new List<RuneInfo>();
                 }
             }
 
@@ -720,16 +694,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _itemTypes = JsonSerializer.Deserialize<List<ItemTypeInfo>>(stream, options) ?? new List<ItemTypeInfo>();
+                    _itemTypes = JsonSerializer.Deserialize<List<ItemTypeInfo>>(stream, _jsonSerializerOptions) ?? new List<ItemTypeInfo>();
                 }
             }
 
@@ -756,16 +721,7 @@ namespace D4Companion.Services
             {
                 if (stream != null)
                 {
-                    // create the options
-                    var options = new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    };
-                    // register the converter
-                    options.Converters.Add(new BoolConverter());
-                    options.Converters.Add(new IntConverter());
-
-                    _sigils = JsonSerializer.Deserialize<List<SigilInfo>>(stream, options) ?? new List<SigilInfo>();
+                    _sigils = JsonSerializer.Deserialize<List<SigilInfo>>(stream, _jsonSerializerOptions) ?? new List<SigilInfo>();
                 }
             }
 
@@ -964,7 +920,7 @@ namespace D4Companion.Services
                         (c != '-') &&
                         (c != '%'))).Trim();
 
-            string textValue = Regex.Match(textClean, @"\d+\.\d+|\d+\,\d+|\d+").Value;
+            string textValue = _affixValueRegex.Match(textClean).Value;
             if (string.IsNullOrEmpty(textValue))
             {
                 return 0.0;
