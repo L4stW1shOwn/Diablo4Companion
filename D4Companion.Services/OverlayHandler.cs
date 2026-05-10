@@ -47,6 +47,10 @@ namespace D4Companion.Services
         private int _currentParagonBoardPanelWidth = 0;
         private int _currentParagonBuildPanelWidth = 0;
 
+        // Cache for the current affix preset to avoid linear search in render loop
+        private AffixPreset? _cachedAffixPreset = null;
+        private string _cachedAffixPresetName = string.Empty;
+
         // Start of Constructors region
 
         #region Constructors
@@ -519,7 +523,7 @@ namespace D4Companion.Services
         {
             if (_window == null) return;
 
-            var preset = _affixManager.AffixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
+            var preset = GetCurrentAffixPreset();
             if (preset == null) return;
             if (preset.ParagonBoardsList.Count == 0)
             {
@@ -655,7 +659,7 @@ namespace D4Companion.Services
         {
             if (_window == null) return;
 
-            var preset = _affixManager.AffixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
+            var preset = GetCurrentAffixPreset();
             if (preset == null) return;
             if (preset.ParagonBoardsList.Count == 0)
             {
@@ -1001,7 +1005,7 @@ namespace D4Companion.Services
         {
             (sender as DispatcherTimer)?.Stop();
 
-            var preset = _affixManager.AffixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
+            var preset = GetCurrentAffixPreset();
             if (preset == null) return;
 
             _currentParagonBoardsListIndex = (_currentParagonBoardsListIndex + 1) % preset.ParagonBoardsList.Count;
@@ -1012,6 +1016,27 @@ namespace D4Companion.Services
         // Start of Methods region
 
         #region Methods
+
+        /// <summary>
+        /// Gets the current affix preset with caching to avoid linear search in hot paths.
+        /// This method is safe to call from the render loop (60fps).
+        /// </summary>
+        private AffixPreset? GetCurrentAffixPreset()
+        {
+            var selectedName = _settingsManager.Settings.SelectedAffixPreset;
+
+            // Return cached preset if still valid
+            if (_cachedAffixPreset != null && _cachedAffixPresetName.Equals(selectedName))
+            {
+                return _cachedAffixPreset;
+            }
+
+            // Cache miss: find and cache the preset
+            _cachedAffixPreset = _affixManager.AffixPresets.FirstOrDefault(p => p.Name.Equals(selectedName));
+            _cachedAffixPresetName = selectedName;
+
+            return _cachedAffixPreset;
+        }
 
         private void InitOverlayObjects()
         {
