@@ -29,9 +29,7 @@ namespace D4Companion.Tests
         [TearDown]
         public void TearDown()
         {
-            // Note: EventTrackerService uses a System.Threading.Timer internally
-            // but does not implement IDisposable. The timer will be GC'd when
-            // the service instance goes out of scope.
+            _service?.Dispose();
         }
 
         /// <summary>
@@ -177,6 +175,57 @@ namespace D4Companion.Tests
 
             // Assert
             Assert.That(isStale, Is.True);
+        }
+
+        [Test]
+        public void CurrentData_OversizedResponse_MarksDataStale()
+        {
+            // Arrange — response larger than 1 MB
+            var largeJson = new string('x', 1024 * 1024 + 1);
+            _httpClientHandler.GetRequest(Arg.Any<string>()).Returns(largeJson);
+            _service = new EventTrackerService(_httpClientHandler, _settingsManager, _logger);
+            Thread.Sleep(200);
+
+            // Act
+            var isStale = _service.IsDataStale;
+
+            // Assert
+            Assert.That(isStale, Is.True);
+        }
+
+        [Test]
+        public void CurrentData_InvalidTimestamp_SkipsInvalidFields()
+        {
+            // Arrange — timestamp for year 1800 is outside the 2020-2100 valid range
+            var invalidTs = new DateTimeOffset(1800, 1, 1, 0, 0, 0, TimeSpan.Zero).ToUnixTimeMilliseconds();
+            var validTs = DateTimeOffset.UtcNow.AddHours(1);
+            var json = $@"{{""helltide"":{{""time"":{invalidTs}}},""zoneEvent"":{{""time"":{validTs.ToUnixTimeMilliseconds()}}}}}";
+
+            // Act
+            var service = CreateServiceAndWait(json);
+            var data = service.CurrentData;
+
+            // Assert — invalid timestamp is skipped (defaults to MinValue), valid one is parsed
+            Assert.Multiple(() =>
+            {
+                Assert.That(data.Helltide, Is.EqualTo(DateTimeOffset.MinValue), "Invalid timestamp should be skipped");
+                Assert.That(data.ZoneEvent, Is.EqualTo(validTs).Within(TimeSpan.FromSeconds(1)), "Valid timestamp should be parsed");
+            });
+        }
+
+        [Test]
+        public void Dispose_DoesNotThrow()
+        {
+            // Arrange
+            var json = @"{""helltide"":{""time"":1778410500000}}";
+            var service = CreateServiceAndWait(json);
+
+            // Act & Assert — Dispose should not throw, even when called twice
+            Assert.DoesNotThrow(() =>
+            {
+                service.Dispose();
+                service.Dispose(); // Second call should also be safe
+            });
         }
 
         // ── GetTimeRemaining ─────────────────────────────────────────────
