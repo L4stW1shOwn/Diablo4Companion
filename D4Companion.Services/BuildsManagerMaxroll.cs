@@ -467,7 +467,7 @@ namespace D4Companion.Services
             }
         }
 
-        public async void DownloadMaxrollBuild(string build)
+        public async Task DownloadMaxrollBuild(string build)
         {
             try
             {

@@ -120,11 +120,11 @@ namespace D4Companion.ViewModels.Dialogs
             VisitD4BuildsCommand = new RelayCommand(VisitD4BuildsExecute);
             WebD4BuildsBuildCommand = new RelayCommand<D4BuildsBuild>(WebD4BuildsBuildExecute);
             // Init view commands - Maxroll
-            AddMaxrollBuildCommand = new RelayCommand(AddMaxrollBuildExecute, CanAddMaxrollBuildExecute);
+            AddMaxrollBuildCommand = new AsyncRelayCommand(AddMaxrollBuildExecute, CanAddMaxrollBuildExecute);
             AddMaxrollBuildAsPresetCommand = new RelayCommand<MaxrollBuildDataProfileJson>(AddMaxrollBuildAsPresetExecute);
             RemoveMaxrollBuildCommand = new RelayCommand<MaxrollBuild>(RemoveMaxrollBuildExecute);
             SelectMaxrollBuildCommand = new RelayCommand<MaxrollBuild>(SelectMaxrollBuildExecute);
-            UpdateMaxrollBuildCommand = new RelayCommand<MaxrollBuild>(UpdateMaxrollBuildExecute);
+            UpdateMaxrollBuildCommand = new AsyncRelayCommand<MaxrollBuild>(UpdateMaxrollBuildExecute);
             VisitMaxrollCommand = new RelayCommand(VisitMaxrollExecute);
             WebMaxrollBuildCommand = new RelayCommand<MaxrollBuild>(WebMaxrollBuildExecute);
             // Init view commands - Mobalytics
@@ -241,7 +241,7 @@ namespace D4Companion.ViewModels.Dialogs
             {
                 _buildIdorUrlMaxroll = value;
                 OnPropertyChanged(nameof(BuildIdorUrlMaxroll));
-                ((RelayCommand)AddMaxrollBuildCommand).NotifyCanExecuteChanged();
+                ((IRelayCommand)AddMaxrollBuildCommand).NotifyCanExecuteChanged();
             }
         }
 
@@ -660,9 +660,9 @@ namespace D4Companion.ViewModels.Dialogs
             return isValid;
         }
 
-        private void AddMaxrollBuildExecute()
+        private async Task AddMaxrollBuildExecute()
         {
-            _buildsManagerMaxroll.DownloadMaxrollBuild(BuildIdMaxroll);
+            await _buildsManagerMaxroll.DownloadMaxrollBuild(BuildIdMaxroll);
         }
 
         private bool CanAddMobalyticsBuildExecute()
@@ -1264,11 +1264,11 @@ namespace D4Companion.ViewModels.Dialogs
             (dataContext as IDisposable)?.Dispose();
         }
 
-        private void UpdateMaxrollBuildExecute(MaxrollBuild? build)
+        private async Task UpdateMaxrollBuildExecute(MaxrollBuild? build)
         {
             if (build == null) return;
 
-            _buildsManagerMaxroll.DownloadMaxrollBuild(build.Id);
+            await _buildsManagerMaxroll.DownloadMaxrollBuild(build.Id);
         }
 
         private async void UpdateMobalyticsBuildExecute(MobalyticsBuild? build)
