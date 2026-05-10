@@ -16,13 +16,27 @@ namespace D4Companion.Services
         private readonly ISettingsManager _settingsManager;
 
         private List<AffixInfo> _affixes = new List<AffixInfo>();
+        private Dictionary<string, AffixInfo> _affixesByIdName = new Dictionary<string, AffixInfo>();
+        private Dictionary<string, AffixInfo> _affixesByIdSno = new Dictionary<string, AffixInfo>();
+        private Dictionary<string, AffixInfo> _affixesByIdSnoList = new Dictionary<string, AffixInfo>(); // Flattened lookup for IdSnoList
+        private Dictionary<string, AffixInfo> _affixesByIdNameList = new Dictionary<string, AffixInfo>(); // Flattened lookup for IdNameList
         private List<AffixPreset> _affixPresets = new List<AffixPreset>();
+        private Dictionary<string, AffixPreset> _affixPresetsByName = new Dictionary<string, AffixPreset>();
         private List<AspectInfo> _aspects = new List<AspectInfo>();
+        private Dictionary<string, AspectInfo> _aspectsByIdName = new Dictionary<string, AspectInfo>();
+        private Dictionary<string, AspectInfo> _aspectsByIdSnoList = new Dictionary<string, AspectInfo>(); // Flattened lookup for IdSnoList
+        private Dictionary<string, AspectInfo> _aspectsByIdNameList = new Dictionary<string, AspectInfo>(); // Flattened lookup for IdNameList
         private List<SigilInfo> _sigils = new List<SigilInfo>();
+        private Dictionary<string, SigilInfo> _sigilsByIdName = new Dictionary<string, SigilInfo>();
         private List<UniqueInfo> _uniques = new List<UniqueInfo>();
+        private Dictionary<string, UniqueInfo> _uniquesByIdName = new Dictionary<string, UniqueInfo>();
+        private Dictionary<string, UniqueInfo> _uniquesByIdSno = new Dictionary<string, UniqueInfo>(); // Flattened lookup for IdSno
         private List<RuneInfo> _runes = new List<RuneInfo>();
+        private Dictionary<string, RuneInfo> _runesByIdName = new Dictionary<string, RuneInfo>();
         private List<ParagonBoardInfo> _paragonBoards = new List<ParagonBoardInfo>();
+        private Dictionary<string, ParagonBoardInfo> _paragonBoardsByIdName = new Dictionary<string, ParagonBoardInfo>();
         private List<ParagonGlyphInfo> _paragonGlyphs = new List<ParagonGlyphInfo>();
+        private Dictionary<string, ParagonGlyphInfo> _paragonGlyphsByIdName = new Dictionary<string, ParagonGlyphInfo>();
         private Dictionary<string, double> _minimalAffixValues = new Dictionary<string, double>(); // <affixId, minimalAffixValue>
         private Dictionary<string, string> _sigilDungeonTiers = new Dictionary<string, string>(); // <sigilId, tier>
 
@@ -111,6 +125,12 @@ namespace D4Companion.Services
         {
             _affixPresets.Add(affixPreset);
 
+            // Update dictionary
+            if (!string.IsNullOrEmpty(affixPreset.Name))
+            {
+                _affixPresetsByName[affixPreset.Name] = affixPreset;
+            }
+
             // Sort list
             _affixPresets.Sort((x, y) =>
             {
@@ -128,6 +148,12 @@ namespace D4Companion.Services
 
             _affixPresets.Remove(affixPreset);
 
+            // Update dictionary
+            if (!string.IsNullOrEmpty(affixPreset.Name))
+            {
+                _affixPresetsByName.Remove(affixPreset.Name);
+            }
+
             // Sort list
             _affixPresets.Sort((x, y) =>
             {
@@ -142,8 +168,8 @@ namespace D4Companion.Services
 
         public void AddAffix(AffixInfo affixInfo, string itemType)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             preset.ItemAffixes.Add(new ItemAffix
             {
@@ -158,8 +184,8 @@ namespace D4Companion.Services
 
         public void RemoveAffix(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             var affix = preset.ItemAffixes.FirstOrDefault(a => a.Id.Equals(itemAffix.Id) && a.Type.Equals(itemAffix.Type) &&
                 a.IsImplicit == itemAffix.IsImplicit && a.IsGreater == itemAffix.IsGreater && a.IsTempered == itemAffix.IsTempered);
@@ -173,8 +199,8 @@ namespace D4Companion.Services
 
         public void AddAspect(AspectInfo aspectInfo, string itemType)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (!preset.ItemAspects.Any(a => a.Id.Equals(aspectInfo.IdName) && a.Type.Equals(itemType)))
             {
@@ -192,8 +218,8 @@ namespace D4Companion.Services
 
         public void RemoveAspect(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (preset.ItemAspects.RemoveAll(a => a.Id.Equals(itemAffix.Id)) > 0)
             {
@@ -205,8 +231,8 @@ namespace D4Companion.Services
 
         public void AddSigil(SigilInfo sigilInfo, string itemType)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (!preset.ItemSigils.Any(a => a.Id.Equals(sigilInfo.IdName) && a.Type.Equals(itemType)))
             {
@@ -224,8 +250,8 @@ namespace D4Companion.Services
 
         public void RemoveSigil(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (preset.ItemSigils.RemoveAll(a => a.Id.Equals(itemAffix.Id)) > 0)
             {
@@ -237,8 +263,8 @@ namespace D4Companion.Services
 
         public void AddUnique(UniqueInfo uniqueInfo)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (!preset.ItemUniques.Any(a => a.Id.Equals(uniqueInfo.IdName)))
             {
@@ -255,8 +281,8 @@ namespace D4Companion.Services
 
         public void RemoveUnique(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (preset.ItemUniques.RemoveAll(a => a.Id.Equals(itemAffix.Id)) > 0)
             {
@@ -268,8 +294,8 @@ namespace D4Companion.Services
 
         public void AddRune(RuneInfo runeInfo)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (!preset.ItemRunes.Any(a => a.Id.Equals(runeInfo.IdName)))
             {
@@ -286,8 +312,8 @@ namespace D4Companion.Services
 
         public void RemoveRune(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             if (preset.ItemRunes.RemoveAll(a => a.Id.Equals(itemAffix.Id)) > 0)
             {
@@ -302,7 +328,12 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _affixes.Clear();
-            string resourcePath = @$".\Data\Affixes.{language}.json";
+            _affixesByIdName.Clear();
+            _affixesByIdSno.Clear();
+            _affixesByIdSnoList.Clear();
+            _affixesByIdNameList.Clear();
+
+            string resourcePath = @".\Data\Affixes.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
                 if (stream != null)
@@ -317,6 +348,33 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _affixes = JsonSerializer.Deserialize<List<AffixInfo>>(stream, options) ?? new List<AffixInfo>();
+
+                    // Build lookup dictionaries for O(1) access
+                    foreach (var affix in _affixes)
+                    {
+                        if (!string.IsNullOrEmpty(affix.IdName))
+                        {
+                            _affixesByIdName[affix.IdName] = affix;
+                        }
+                        if (!string.IsNullOrEmpty(affix.IdSno))
+                        {
+                            _affixesByIdSno[affix.IdSno] = affix;
+                        }
+                        foreach (var idSno in affix.IdSnoList)
+                        {
+                            if (!string.IsNullOrEmpty(idSno))
+                            {
+                                _affixesByIdSnoList[idSno] = affix;
+                            }
+                        }
+                        foreach (var idName in affix.IdNameList)
+                        {
+                            if (!string.IsNullOrEmpty(idName))
+                            {
+                                _affixesByIdNameList[idName] = affix;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -352,7 +410,11 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _aspects.Clear();
-            string resourcePath = @$".\Data\Aspects.{language}.json";
+            _aspectsByIdName.Clear();
+            _aspectsByIdSnoList.Clear();
+            _aspectsByIdNameList.Clear();
+
+            string resourcePath = @".\Data\Aspects.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
                 if (stream != null)
@@ -367,6 +429,29 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _aspects = JsonSerializer.Deserialize<List<AspectInfo>>(stream, options) ?? new List<AspectInfo>();
+
+                    // Build lookup dictionaries for O(1) access
+                    foreach (var aspect in _aspects)
+                    {
+                        if (!string.IsNullOrEmpty(aspect.IdName))
+                        {
+                            _aspectsByIdName[aspect.IdName] = aspect;
+                        }
+                        foreach (var idSno in aspect.IdSnoList)
+                        {
+                            if (!string.IsNullOrEmpty(idSno))
+                            {
+                                _aspectsByIdSnoList[idSno] = aspect;
+                            }
+                        }
+                        foreach (var idName in aspect.IdNameList)
+                        {
+                            if (!string.IsNullOrEmpty(idName))
+                            {
+                                _aspectsByIdNameList[idName] = aspect;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -376,7 +461,9 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _sigils.Clear();
-            string resourcePath = @$".\Data\Sigils.{language}.json";
+            _sigilsByIdName.Clear();
+
+            string resourcePath = @".\Data\Sigils.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
                 if (stream != null)
@@ -391,6 +478,15 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _sigils = JsonSerializer.Deserialize<List<SigilInfo>>(stream, options) ?? new List<SigilInfo>();
+
+                    // Build lookup dictionary for O(1) access
+                    foreach (var sigil in _sigils)
+                    {
+                        if (!string.IsNullOrEmpty(sigil.IdName))
+                        {
+                            _sigilsByIdName[sigil.IdName] = sigil;
+                        }
+                    }
                 }
             }
         }
@@ -426,6 +522,9 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _uniques.Clear();
+            _uniquesByIdName.Clear();
+            _uniquesByIdSno.Clear();
+
             string resourcePath = @$".\Data\Uniques.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
@@ -441,6 +540,22 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _uniques = JsonSerializer.Deserialize<List<UniqueInfo>>(stream, options) ?? new List<UniqueInfo>();
+
+                    // Build lookup dictionaries for O(1) access
+                    foreach (var unique in _uniques)
+                    {
+                        if (!string.IsNullOrEmpty(unique.IdName))
+                        {
+                            _uniquesByIdName[unique.IdName] = unique;
+                        }
+                        foreach (var idSno in unique.IdSnoList)
+                        {
+                            if (!string.IsNullOrEmpty(idSno))
+                            {
+                                _uniquesByIdSno[idSno] = unique;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -450,6 +565,8 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _runes.Clear();
+            _runesByIdName.Clear();
+
             string resourcePath = @$".\Data\Runes.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
@@ -465,6 +582,15 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _runes = JsonSerializer.Deserialize<List<RuneInfo>>(stream, options) ?? new List<RuneInfo>();
+
+                    // Build lookup dictionary for O(1) access
+                    foreach (var rune in _runes)
+                    {
+                        if (!string.IsNullOrEmpty(rune.IdName))
+                        {
+                            _runesByIdName[rune.IdName] = rune;
+                        }
+                    }
                 }
             }
         }
@@ -474,6 +600,8 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _paragonBoards.Clear();
+            _paragonBoardsByIdName.Clear();
+
             string resourcePath = @$".\Data\ParagonBoards.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
@@ -489,6 +617,15 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _paragonBoards = JsonSerializer.Deserialize<List<ParagonBoardInfo>>(stream, options) ?? new List<ParagonBoardInfo>();
+
+                    // Build lookup dictionary for O(1) access
+                    foreach (var board in _paragonBoards)
+                    {
+                        if (!string.IsNullOrEmpty(board.IdName))
+                        {
+                            _paragonBoardsByIdName[board.IdName] = board;
+                        }
+                    }
                 }
             }
         }
@@ -498,6 +635,8 @@ namespace D4Companion.Services
             string language = _settingsManager.Settings.SelectedAffixLanguage;
 
             _paragonGlyphs.Clear();
+            _paragonGlyphsByIdName.Clear();
+
             string resourcePath = @$".\Data\ParagonGlyphs.{language}.json";
             using (FileStream? stream = File.OpenRead(resourcePath))
             {
@@ -513,6 +652,15 @@ namespace D4Companion.Services
                     options.Converters.Add(new IntConverter());
 
                     _paragonGlyphs = JsonSerializer.Deserialize<List<ParagonGlyphInfo>>(stream, options) ?? new List<ParagonGlyphInfo>();
+
+                    // Build lookup dictionary for O(1) access
+                    foreach (var glyph in _paragonGlyphs)
+                    {
+                        if (!string.IsNullOrEmpty(glyph.IdName))
+                        {
+                            _paragonGlyphsByIdName[glyph.IdName] = glyph;
+                        }
+                    }
                 }
             }
         }
@@ -526,8 +674,8 @@ namespace D4Companion.Services
                 Color = Colors.Red
             };
 
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return affixDefault;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return affixDefault;
 
             bool isGreater = affixType.Equals(Constants.AffixTypeConstants.Greater);
             bool isImplicit = affixType.Equals(Constants.AffixTypeConstants.Implicit);
@@ -550,28 +698,20 @@ namespace D4Companion.Services
 
         public string GetAffixDescription(string affixId)
         {
-            var affixInfo = _affixes.FirstOrDefault(a => a.IdName.Equals(affixId));
-            if (affixInfo != null)
+            if (_affixesByIdName.TryGetValue(affixId, out var affixInfo))
             {
                 return affixInfo.Description;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public string GetAffixId(string affixSno)
         {
-            var affixInfo = _affixes.FirstOrDefault(a => a.IdSno.Equals(affixSno));
-            if (affixInfo != null)
+            if (_affixesByIdSno.TryGetValue(affixSno, out var affixInfo))
             {
                 return affixInfo.IdName;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         /// <summary>
@@ -582,7 +722,8 @@ namespace D4Companion.Services
         /// <returns></returns>
         public AffixInfo? GetAffixInfoMaxrollByIdSno(string affixIdSno)
         {
-            return _affixes.FirstOrDefault(a => a.IdSnoList.Contains(affixIdSno));
+            _affixesByIdSnoList.TryGetValue(affixIdSno, out var affixInfo);
+            return affixInfo;
         }
 
         /// <summary>
@@ -593,7 +734,8 @@ namespace D4Companion.Services
         /// <returns></returns>
         public AffixInfo? GetAffixInfoByIdName(string affixIdName)
         {
-            return _affixes.FirstOrDefault(a => a.IdNameList.Contains(affixIdName));
+            _affixesByIdNameList.TryGetValue(affixIdName, out var affixInfo);
+            return affixInfo;
         }
 
         public double GetAffixMinimalValue(string idName)
@@ -610,8 +752,8 @@ namespace D4Companion.Services
                 Color = Colors.Red
             };
 
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return affixDefault;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return affixDefault;
 
             var aspect = preset.ItemAspects.FirstOrDefault(a => a.Id.Equals(aspectId) && a.Type.Equals(itemType));
             if (aspect == null) return affixDefault;
@@ -620,15 +762,11 @@ namespace D4Companion.Services
 
         public string GetAspectDescription(string aspectId)
         {
-            var aspectInfo = _aspects.FirstOrDefault(a => a.IdName.Equals(aspectId));
-            if (aspectInfo != null)
+            if (_aspectsByIdName.TryGetValue(aspectId, out var aspectInfo))
             {
                 return aspectInfo.Description;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         //public string GetAspectId(int aspectSno)
@@ -646,15 +784,11 @@ namespace D4Companion.Services
 
         public string GetAspectName(string aspectId)
         {
-            var aspectInfo = _aspects.FirstOrDefault(a => a.IdName.Equals(aspectId));
-            if (aspectInfo != null)
+            if (_aspectsByIdName.TryGetValue(aspectId, out var aspectInfo))
             {
                 return aspectInfo.Name;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         /// <summary>
@@ -665,7 +799,8 @@ namespace D4Companion.Services
         /// <returns></returns>
         public AspectInfo? GetAspectInfoMaxrollByIdSno(string aspectIdSno)
         {
-            return _aspects.FirstOrDefault(a => a.IdSnoList.Contains(aspectIdSno));
+            _aspectsByIdSnoList.TryGetValue(aspectIdSno, out var aspectInfo);
+            return aspectInfo;
         }
 
         /// <summary>
@@ -676,23 +811,45 @@ namespace D4Companion.Services
         /// <returns></returns>
         public AspectInfo? GetAspectInfoMaxrollByIdName(string aspectIdName)
         {
-            return _aspects.FirstOrDefault(a => a.IdNameList.Contains(aspectIdName));
+            _aspectsByIdNameList.TryGetValue(aspectIdName, out var aspectInfo);
+            return aspectInfo;
         }
 
         public string GetParagonBoardLocalisation(string id)
         {
-            return _paragonBoards.FirstOrDefault(board => board.IdName.Equals(id,StringComparison.OrdinalIgnoreCase))?.Name ?? id;
+            // Try case-sensitive lookup first, then case-insensitive fallback
+            if (_paragonBoardsByIdName.TryGetValue(id, out var board))
+            {
+                return board.Name;
+            }
+            // Fallback to case-insensitive search for edge cases
+            board = _paragonBoards.FirstOrDefault(b => b.IdName.Equals(id, StringComparison.OrdinalIgnoreCase));
+            return board?.Name ?? id;
         }
 
         public string GetParagonGlyphLocalisation(string id)
         {
-            return _paragonGlyphs.FirstOrDefault(board => board.IdName.Equals(id, StringComparison.OrdinalIgnoreCase))?.Name ?? id;
+            // Try case-sensitive lookup first, then case-insensitive fallback
+            if (_paragonGlyphsByIdName.TryGetValue(id, out var glyph))
+            {
+                return glyph.Name;
+            }
+            // Fallback to case-insensitive search for edge cases
+            glyph = _paragonGlyphs.FirstOrDefault(g => g.IdName.Equals(id, StringComparison.OrdinalIgnoreCase));
+            return glyph?.Name ?? id;
         }
 
         public string GetParagonGlyphLocalisationByNumber(string id)
         {
             string number = id.Split('_').Last();
-            return _paragonGlyphs.FirstOrDefault(glyph => glyph.IdName.Contains(number, StringComparison.OrdinalIgnoreCase))?.Name ?? id;
+            // Try exact match first (fast path)
+            if (_paragonGlyphsByIdName.TryGetValue(id, out var exactMatch))
+            {
+                return exactMatch.Name;
+            }
+            // Fallback to contains search for partial matches
+            var glyph = _paragonGlyphs.FirstOrDefault(g => g.IdName.Contains(number, StringComparison.OrdinalIgnoreCase));
+            return glyph?.Name ?? id;
         }
 
         public ItemAffix GetSigil(string affixId, string itemType)
@@ -704,8 +861,8 @@ namespace D4Companion.Services
                 Color = _settingsManager.Settings.SelectedSigilDisplayMode.Equals("Whitelisting") ? Colors.Red : _settingsManager.Settings.DefaultColorNormal
             };
 
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return affixDefault;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return affixDefault;
 
             var affix = preset.ItemSigils.FirstOrDefault(a => a.Id.Equals(affixId) && a.Type.Equals(itemType));
             if (affix == null) return affixDefault;
@@ -714,15 +871,11 @@ namespace D4Companion.Services
 
         public string GetSigilDescription(string sigilId)
         {
-            var sigilInfo = _sigils.FirstOrDefault(a => a.IdName.Equals(sigilId));
-            if (sigilInfo != null)
+            if (_sigilsByIdName.TryGetValue(sigilId, out var sigilInfo))
             {
                 return sigilInfo.Description;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public string GetSigilDungeonTier(string sigilId)
@@ -732,28 +885,20 @@ namespace D4Companion.Services
 
         public string GetSigilType(string sigilId)
         {
-            var sigilInfo = _sigils.FirstOrDefault(a => a.IdName.Equals(sigilId));
-            if (sigilInfo != null)
+            if (_sigilsByIdName.TryGetValue(sigilId, out var sigilInfo))
             {
                 return sigilInfo.Type;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public string GetSigilName(string sigilId)
         {
-            var sigilInfo = _sigils.FirstOrDefault(a => a.IdName.Equals(sigilId));
-            if (sigilInfo != null)
+            if (_sigilsByIdName.TryGetValue(sigilId, out var sigilInfo))
             {
                 return sigilInfo.Name;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public ItemAffix GetUnique(string uniqueId, string itemType)
@@ -765,8 +910,8 @@ namespace D4Companion.Services
                 Color = Colors.Red
             };
 
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return affixDefault;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return affixDefault;
 
             var unique = preset.ItemUniques.FirstOrDefault(a => a.Id.Equals(uniqueId));
             if (unique == null) return affixDefault;
@@ -775,34 +920,26 @@ namespace D4Companion.Services
 
         public string GetUniqueDescription(string uniqueId)
         {
-            var uniqueInfo = _uniques.FirstOrDefault(a => a.IdName.Equals(uniqueId));
-            if (uniqueInfo != null)
+            if (_uniquesByIdName.TryGetValue(uniqueId, out var uniqueInfo))
             {
                 return uniqueInfo.Description;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public UniqueInfo? GetUniqueInfoMaxrollByIdSno(string idSno)
         {
-            return _uniques.FirstOrDefault(a => a.IdSno.Contains(idSno));
+            _uniquesByIdSno.TryGetValue(idSno, out var uniqueInfo);
+            return uniqueInfo;
         }
 
         public string GetUniqueName(string uniqueId)
         {
-            //var uniqueInfo = _uniques.FirstOrDefault(a => a.IdName.Contains(uniqueId));
-            var uniqueInfo = _uniques.FirstOrDefault(a => a.IdName.Equals(uniqueId));
-            if (uniqueInfo != null)
+            if (_uniquesByIdName.TryGetValue(uniqueId, out var uniqueInfo))
             {
                 return uniqueInfo.Name;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public ItemAffix GetRune(string runeId, string itemType)
@@ -814,8 +951,8 @@ namespace D4Companion.Services
                 Color = Colors.Red
             };
 
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return affixDefault;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return affixDefault;
 
             var rune = preset.ItemRunes.FirstOrDefault(a => a.Id.Equals(runeId));
             if (rune == null) return affixDefault;
@@ -824,46 +961,38 @@ namespace D4Companion.Services
 
         public string GetRuneDescription(string runeId)
         {
-            var runeInfo = _runes.FirstOrDefault(a => a.IdName.Equals(runeId));
-            if (runeInfo != null)
+            if (_runesByIdName.TryGetValue(runeId, out var runeInfo))
             {
                 return runeInfo.Description;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public string GetRuneName(string runeId)
         {
-            var runeInfo = _runes.FirstOrDefault(a => a.IdName.Equals(runeId));
-            if (runeInfo != null)
+            if (_runesByIdName.TryGetValue(runeId, out var runeInfo))
             {
                 return runeInfo.Name;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public string GetGearOrSigilAffixDescription(string affixId)
         {
-            var affixInfo = _affixes.FirstOrDefault(a => a.IdName.Equals(affixId));
-            var sigilInfo = _sigils.FirstOrDefault(a => a.IdName.Equals(affixId));
-            var runeInfo = _runes.FirstOrDefault(a => a.IdName.Equals(affixId));
-            if (affixInfo != null) return affixInfo.Description;
-            if (sigilInfo != null) return sigilInfo.Name;
-            if (runeInfo != null) return runeInfo.Description;
+            if (_affixesByIdName.TryGetValue(affixId, out var affixInfo))
+                return affixInfo.Description;
+            if (_sigilsByIdName.TryGetValue(affixId, out var sigilInfo))
+                return sigilInfo.Name;
+            if (_runesByIdName.TryGetValue(affixId, out var runeInfo))
+                return runeInfo.Description;
 
             return string.Empty;
         }
 
         public bool IsDuplicate(ItemAffix itemAffix)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return false;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return false;
 
             return preset.ItemAffixes.Count(affix =>
                 affix.Type.Equals(itemAffix.Type) &&
@@ -893,6 +1022,7 @@ namespace D4Companion.Services
         private void LoadAffixPresets()
         {
             _affixPresets.Clear();
+            _affixPresetsByName.Clear();
 
             string fileName = "Config/AffixPresets-v2.json";
             if (File.Exists(fileName))
@@ -907,6 +1037,15 @@ namespace D4Companion.Services
                 return string.Compare(x.Name, y.Name, StringComparison.Ordinal);
             });
 
+            // Build lookup dictionary for O(1) access
+            foreach (var preset in _affixPresets)
+            {
+                if (!string.IsNullOrEmpty(preset.Name))
+                {
+                    _affixPresetsByName[preset.Name] = preset;
+                }
+            }
+
             SaveAffixPresets();
         }
 
@@ -917,8 +1056,7 @@ namespace D4Companion.Services
                 // Affixes
                 foreach (var affix in preset.ItemAffixes)
                 {
-                    var affixInfo = _affixes.FirstOrDefault(a => a.IdName.Equals(affix.Id));
-                    if (affixInfo == null)
+                    if (!_affixesByIdName.TryGetValue(affix.Id, out var affixInfo))
                     {
                         List<string> affixIds = affix.Id.Split(';').ToList();
                         int bestMatch = 0;
@@ -956,8 +1094,7 @@ namespace D4Companion.Services
                 // Uniques
                 foreach (var unique in preset.ItemUniques)
                 {
-                    var uniqueInfo = _uniques.FirstOrDefault(a => a.IdName.Equals(unique.Id));
-                    if (uniqueInfo == null)
+                    if (!_uniquesByIdName.TryGetValue(unique.Id, out var uniqueInfo))
                     {
                         List<string> uniqueIds = unique.Id.Split(';').ToList();
                         int bestMatch = 0;
@@ -998,10 +1135,14 @@ namespace D4Companion.Services
 
         public void RenamePreset(string oldName, string newName)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(oldName));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(oldName, out var preset))
+                return;
 
+            // Update dictionary key
+            _affixPresetsByName.Remove(oldName);
             preset.Name = newName;
+            _affixPresetsByName[newName] = preset;
+
             SaveAffixPresets();
             _settingsManager.Settings.SelectedAffixPreset = newName;
             _settingsManager.SaveSettings();
@@ -1077,8 +1218,8 @@ namespace D4Companion.Services
 
         public void SetIsAnyType(ItemAffix itemAffix, bool isAnyType)
         {
-            var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(_settingsManager.Settings.SelectedAffixPreset));
-            if (preset == null) return;
+            if (!_affixPresetsByName.TryGetValue(_settingsManager.Settings.SelectedAffixPreset, out var preset))
+                return;
 
             var affixes = preset.ItemAffixes.FindAll(a => a.Id.Equals(itemAffix.Id));
             foreach ( var affix in affixes )
@@ -1091,8 +1232,7 @@ namespace D4Companion.Services
         {
             foreach (MultiBuild multiBuild in _settingsManager.Settings.MultiBuildList)
             {
-                var preset = _affixPresets.FirstOrDefault(preset => preset.Name.Equals(multiBuild.Name));
-                if (preset == null)
+                if (!_affixPresetsByName.TryGetValue(multiBuild.Name, out _))
                 {
                     WeakReferenceMessenger.Default.Send(new ErrorOccurredMessage(new ErrorOccurredMessageParams
                     {
