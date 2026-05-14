@@ -206,6 +206,41 @@
     ]
   },
   {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "アースクエイクの",
+    "Description": "〈グラウンド・ストンプ〉使用時にアースクエイクを起こし、#秒間にわたり#の物理ダメージを与える。アースクエイクの範囲内にいる間およびその後#秒間、与ダメージが#%増加する。\r\n\r\nアースクエイクの与えるダメージが#%増加する。 ",
+    "DescriptionClean": "〈グラウンド・ストンプ〉使用時にアースクエイクを起こし、秒間にわたりの物理ダメージを与える。アースクエイクの範囲内にいる間およびその後秒間、与ダメージが増加する。 アースクエイクの与えるダメージが増加する。",
+    "Localisation": "{c_important}〈グラウンド・ストンプ〉{/c}使用時に{c_important}アースクエイク{/c}を起こし、{c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c}秒間にわたり{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}の物理ダメージを与える。{c_important}アースクエイク{/c}の範囲内にいる間およびその後{c_number}[Affix.\"Static Value 0\"]{/c}秒間、与ダメージが{c_random}[Affix_Value_1|%x|]{/c}増加する。\r\n\r\n{c_important}アースクエイク{/c}の与えるダメージが{c_random}[Affix_Value_1|%|]{/c}増加する。 ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1186374",
     "IdName": "legendary_rogue_111",
     "IdSnoList": [
@@ -488,6 +523,41 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "サーペンタインの",
+    "Description": "〈ヒュドラ〉を使用すると召喚時に持っていたマナ1あたりダメージが#%増加する。ヒュドラの使用によりマナをすべて消費する。",
+    "DescriptionClean": "〈ヒュドラ〉を使用すると召喚時に持っていたマナ1あたりダメージが増加する。ヒュドラの使用によりマナをすべて消費する。",
+    "Localisation": "{c_important}〈ヒュドラ〉{/c}を使用すると召喚時に持っていたマナ1あたりダメージが{c_random}[Affix_Value_1|%2x|]{/c}増加する。{c_important}ヒュドラ{/c}の使用によりマナをすべて消費する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -806,6 +876,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "フレイムスロワーの",
+    "Description": "〈インシネレート〉が3本のビームに分かれ、それぞれが通常の#%のダメージを与える。",
+    "DescriptionClean": "〈インシネレート〉が3本のビームに分かれ、それぞれが通常ののダメージを与える。",
+    "Localisation": "{c_important}〈インシネレート〉{/c}が{c_number}3{/c}本のビームに分かれ、それぞれが通常の{c_random}[Affix_Value_1|%x|]{/c}のダメージを与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -1234,6 +1339,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "不動なる者の",
+    "Description": "直接ダメージを受けると、防御スキルのクールダウンが#%の確率でリセットされる。",
+    "DescriptionClean": "直接ダメージを受けると、防御スキルのクールダウンがの確率でリセットされる。",
+    "Localisation": "直接ダメージを受けると、{c_important}防御{/c}スキルのクールダウンが{c_random}[Affix_Value_1|1%|]{/c}の確率でリセットされる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "腐敗した水",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -2442,6 +2582,41 @@
     ]
   },
   {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "冬の手触りの",
+    "Description": "敵1体を凍結するとその敵に#の冷気ダメージを与える。\r\n\r\nこの効果は凍結スキルとみなされる。",
+    "DescriptionClean": "敵1体を凍結するとその敵にの冷気ダメージを与える。 この効果は凍結スキルとみなされる。",
+    "Localisation": "敵1体を{c_important}{u}凍結{/u}{/c}するとその敵に{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}の冷気ダメージを与える。\r\n\r\nこの効果は{c_important}凍結{/c}スキルとみなされる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574563",
     "IdName": "S05_BSK_Sorcerer_001_x2",
     "IdSnoList": [
@@ -2515,6 +2690,79 @@
     ]
   },
   {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "冷気をもたらす者の",
+    "Description": "#秒ごとにスケルトンメイジが吹雪を起こして敵に#ダメージを与え、さらに継続的に冷気状態にして、#秒間にわたり#%のダメージを与える。",
+    "DescriptionClean": "秒ごとにスケルトンメイジが吹雪を起こして敵にダメージを与え、さらに継続的に冷気状態にして、秒間にわたりのダメージを与える。",
+    "Localisation": "{c_number}[Affix.\"Static Value 1\"]{/c}秒ごとにスケルトンメイジが吹雪を起こして敵に{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c}ダメージを与え、さらに継続的に{c_important}{u}冷気{/u}{/c}状態にして、{c_number}[Affix.\"Static Value 0\"]{/c}秒間にわたり{c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c}のダメージを与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
+    ]
+  },
+  {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "凍てついたツンドラの",
+    "Description": "〈ディープフリーズ〉の発動中、範囲内に氷筍が形成されて爆発し、#の冷気ダメージを与える。氷筍の爆破範囲は#%増加する。",
+    "DescriptionClean": "〈ディープフリーズ〉の発動中、範囲内に氷筍が形成されて爆発し、の冷気ダメージを与える。氷筍の爆破範囲は増加する。",
+    "Localisation": "{c_important}〈ディープフリーズ〉{/c}の発動中、範囲内に{c_important}氷筍{/c}が形成されて爆発し、{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}の冷気ダメージを与える。{c_important}氷筍{/c}の爆破範囲は{c_number}[Affix_Value_1 * 100|%|]{/c}増加する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2575379",
     "IdName": "legendary_coldUser_001_x2",
     "IdSnoList": [
@@ -2570,6 +2818,41 @@
     "MagicType": 1,
     "AllowedForPlayerClass": [
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "凍てつく軌道の",
+    "Description": "〈フローズンオーブ〉のダメージが#%増加し、追加の爆発が1回発生する。",
+    "DescriptionClean": "〈フローズンオーブ〉のダメージが増加し、追加の爆発が1回発生する。",
+    "Localisation": "{c_important}〈フローズンオーブ〉{/c}のダメージが{c_random}[Affix_Value_1|%|]{/c}増加し、追加の爆発が1回発生する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
       0,
       0,
       0,
@@ -5107,6 +5390,39 @@
     ]
   },
   {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "声挙ぐ鼓吹の",
+    "Description": "シャウトスキル発動中、#のプライマリリソース回復量を獲得する。",
+    "DescriptionClean": "シャウトスキル発動中、のプライマリリソース回復量を獲得する。",
+    "Localisation": "{c_important}シャウト{/c}スキル発動中、{c_random}[Affix_Value_1|1|]{/c}のプライマリリソース回復量を獲得する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "シロッコの洞窟",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1865132",
     "IdName": "legendary_generic_121",
     "IdSnoList": [
@@ -5431,6 +5747,41 @@
       28,
       29,
       15
+    ]
+  },
+  {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "大嵐の",
+    "Description": "〈アイスアーマー〉の発動中、与えるダメージが#%増加する。凍結状態の敵に対しては、増加量がさらに#%上昇する。",
+    "DescriptionClean": "〈アイスアーマー〉の発動中、与えるダメージが増加する。凍結状態の敵に対しては、増加量がさらに上昇する。",
+    "Localisation": "{c_important}〈アイスアーマー〉{/c}の発動中、与えるダメージが{c_random}[Affix_Value_1|%x|]{/c}増加する。{c_important}{u}凍結{/u}{/c}状態の敵に対しては、増加量がさらに{c_number}[Affix.\"Static Value 0|%x|\"]{/c}上昇する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "オニキス砦",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -5935,6 +6286,41 @@
     ]
   },
   {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "安定的な",
+    "Description": "〈アンステイブルカレント〉が有効でないとき、感電スキルが#%の確率でコスト無しで発動する。",
+    "DescriptionClean": "〈アンステイブルカレント〉が有効でないとき、感電スキルがの確率でコスト無しで発動する。",
+    "Localisation": "{c_important}〈アンステイブルカレント〉{/c}が有効でないとき、{c_important}感電{/c}スキルが{c_random}[Affix_Value_1|1%|]{/c}の確率でコスト無しで発動する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2547968",
     "IdName": "legendary_warlock_025_x2",
     "IdSnoList": [
@@ -6008,14 +6394,12 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
     "IdSnoList": [
-      "1987429",
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "封じ込めの",
@@ -6295,6 +6679,39 @@
     ]
   },
   {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "巨人の歩みの",
+    "Description": "〈リープ〉のクールダウンが、命中した敵1体ごとに#秒短縮する。短縮量は最大で#秒。〈リープ〉がボスに命中すると短縮量が最大になる。",
+    "DescriptionClean": "〈リープ〉のクールダウンが、命中した敵1体ごとに秒短縮する。短縮量は最大で秒。〈リープ〉がボスに命中すると短縮量が最大になる。",
+    "Localisation": "{c_important}〈リープ〉{/c}のクールダウンが、命中した敵1体ごとに{c_random}[Affix_Value_1|1|]{/c}秒短縮する。短縮量は最大で{c_number}[Affix_Value_2]{/c}秒。{c_important}〈リープ〉{/c}がボスに命中すると短縮量が最大になる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1222123",
     "IdName": "legendary_necro_114",
     "IdSnoList": [
@@ -6366,6 +6783,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "帯電せし閃光の",
+    "Description": "帯び出す電気のダメージが#%増加する。帯び出す電気を保有している間は〈チャージボルト〉がチャージ数を消費して追加のウェーブを放ち、帯び出す電気のダメージを範囲に与える。",
+    "DescriptionClean": "帯び出す電気のダメージが増加する。帯び出す電気を保有している間は〈チャージボルト〉がチャージ数を消費して追加のウェーブを放ち、帯び出す電気のダメージを範囲に与える。",
+    "Localisation": "{c_important}帯び出す電気{/c}のダメージが{c_random}[Affix_Value_1 * 100|%x|]{/c}増加する。{c_important}帯び出す電気{/c}を保有している間は{c_important}〈チャージボルト〉{/c}がチャージ数を消費して追加のウェーブを放ち、{c_important}帯び出す電気{/c}のダメージを範囲に与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -7208,6 +7660,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "急火たる",
+    "Description": "火術スキルのクリティカルヒットダメージが#%増加する。健全状態の標的に対してはこのボーナスが2倍になる。",
+    "DescriptionClean": "火術スキルのクリティカルヒットダメージが増加する。健全状態の標的に対してはこのボーナスが2倍になる。",
+    "Localisation": "{c_important}火術{/c_important}スキルのクリティカルヒットダメージが{c_random}[Affix_Value_1|%x|]{/c}増加する。{c_important}{u}健全{/u}{/c}状態の標的に対してはこのボーナスが2倍になる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "蛇の巣",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -9600,6 +10087,44 @@
     ]
   },
   {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "武器の達人の",
+    "Description": "武器の達人スキルが敵を#秒間スタンさせる。この効果で同じ敵をスタンさせられるのは#秒ごとに1回のみ。武器の達人スキルが追加チャージを1獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "武器の達人スキルが敵を秒間スタンさせる。この効果で同じ敵をスタンさせられるのは秒ごとに1回のみ。武器の達人スキルが追加チャージを1獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}武器の達人{/c}スキルが敵を{c_random}[Affix_Value_1|1|]{/c}秒間スタンさせる。この効果で同じ敵をスタンさせられるのは{c_number}[Affix.\"Static Value 0\"]{/c}秒ごとに1回のみ。{c_important}武器の達人{/c}スキルが追加チャージを1獲得し、ダメージが{c_random}[Affix_Value_2|%x|]{/c}増加する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2591172",
     "IdName": "legendary_necro_067_x2",
     "IdSnoList": [
@@ -10104,6 +10629,41 @@
     ]
   },
   {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "氷原生む",
+    "Description": "〈ブリザード〉が一定間隔ごとに、爆発する〈氷筍〉を出現させて#のダメージを与える。〈氷筍〉は敵に#%の冷気効果を与える。",
+    "DescriptionClean": "〈ブリザード〉が一定間隔ごとに、爆発する〈氷筍〉を出現させてのダメージを与える。〈氷筍〉は敵にの冷気効果を与える。",
+    "Localisation": "{c_important}〈ブリザード〉{/c}が一定間隔ごとに、爆発する{c_important}〈氷筍〉{/c}を出現させて{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}のダメージを与える。{c_important}〈氷筍〉{/c}は敵に{c_number}[Affix_Value_1|%|]{/c}の{c_important}{u}冷気{/u}{/c}効果を与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1302634",
     "IdName": "legendary_rogue_123",
     "IdSnoList": [
@@ -10562,6 +11122,79 @@
     ]
   },
   {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "激しき凍気の",
+    "Description": "〈フロストノヴァ〉が1回分追加チャージされるが、チャージ1回あたりのクールダウンが#%増加する。",
+    "DescriptionClean": "〈フロストノヴァ〉が1回分追加チャージされるが、チャージ1回あたりのクールダウンが増加する。",
+    "Localisation": "{c_important}〈フロストノヴァ〉{/c_important}が1回分追加チャージされるが、チャージ1回あたりのクールダウンが{c_random}[Affix_Value_1*100|%|]{/c}増加する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "激しき狂戦士の",
+    "Description": "幸運の一撃: コアスキルで敵にダメージを与えると、最大#%の確率でバーサークの持続時間が#秒間延長される。クリティカルヒットだった場合は延長時間が倍になる。",
+    "DescriptionClean": "幸運の一撃: コアスキルで敵にダメージを与えると、最大の確率でバーサークの持続時間が秒間延長される。クリティカルヒットだった場合は延長時間が倍になる。",
+    "Localisation": "{c_label}幸運の一撃:{/c} {c_important}コア{/c}スキルで敵にダメージを与えると、最大{c_random}[Affix_Value_1|%|]{/c}の確率で{c_important}{u}バーサーク{/u}{/c}の持続時間が{c_number}[Affix_Value_2]{/c}秒間延長される。クリティカルヒットだった場合は延長時間が倍になる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "ハカンの避難所",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2620543",
     "IdName": "legendary_druid_106_x2",
     "IdSnoList": [
@@ -10663,6 +11296,43 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "火の鳥の",
+    "Description": "〈フレイムシールド〉の有効中、自身の周囲に隕石が滝のように降り注ぎ、#の火炎ダメージを与える。隕石が#%の幸運の一撃発生率を獲得する。",
+    "DescriptionClean": "〈フレイムシールド〉の有効中、自身の周囲に隕石が滝のように降り注ぎ、の火炎ダメージを与える。隕石がの幸運の一撃発生率を獲得する。",
+    "Localisation": "{c_important}〈フレイムシールド〉{/c}の有効中、自身の周囲に{c_important}隕石{/c}が滝のように降り注ぎ、{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}の火炎ダメージを与える。{c_important}隕石{/c}が{c_number}[Affix.\"Static Value 2\"]%{/c}の幸運の一撃発生率を獲得する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "2547989",
     "IdName": "legendary_warlock_030_x2",
     "IdSnoList": [
@@ -10727,6 +11397,41 @@
       1,
       0,
       1
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "火起こし人が携えし",
+    "Description": "火炎ダメージが#%増加する。新たに1体の敵を炎上させると、その敵に追加で#の火術の火炎ダメージを与える。",
+    "DescriptionClean": "火炎ダメージが増加する。新たに1体の敵を炎上させると、その敵に追加での火術の火炎ダメージを与える。",
+    "Localisation": "火炎ダメージが{c_random}[Affix_Value_2*100|%x|]{/c}増加する。新たに1体の敵を炎上させると、その敵に追加で{c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}の{c_important}火術{/c}の火炎ダメージを与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "AllowedItemLabels": [
       0,
@@ -11023,6 +11728,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "焼き尽くす護りの",
+    "Description": "〈ファイアウォール〉が内部の敵に#%のスロウ効果を与える。マナを#消費した後、次の〈ファイアウォール〉をコストなしで使用できるようになり、小投射体を破壊して、最初の詠唱で命中した全員を#秒間、移動不能にする。",
+    "DescriptionClean": "〈ファイアウォール〉が内部の敵にのスロウ効果を与える。マナを消費した後、次の〈ファイアウォール〉をコストなしで使用できるようになり、小投射体を破壊して、最初の詠唱で命中した全員を秒間、移動不能にする。",
+    "Localisation": "{c_important}〈ファイアウォール〉{/c}が内部の敵に{c_number}[Affix.\"Static Value 0\"*100|%|]{/c}のスロウ効果を与える。マナを{c_random}[Affix_Value_1]{/c}消費した後、次の{c_important}〈ファイアウォール〉{/c}をコストなしで使用できるようになり、小投射体を破壊して、最初の詠唱で命中した全員を{c_number}[Affix.\"Static Value 1\"]{/c}秒間、移動不能にする。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -11691,6 +12431,41 @@
     ]
   },
   {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "猛る狂戦士の",
+    "Description": "バーサーク中、直接ダメージが#%のボーナス流血ダメージを#秒間にわたり与える。",
+    "DescriptionClean": "バーサーク中、直接ダメージがのボーナス流血ダメージを秒間にわたり与える。",
+    "Localisation": "{c_important}{u}バーサーク{/u}{/c}中、直接ダメージが{c_random}[Affix_Value_1*100|%|]{/c}のボーナス流血ダメージを{c_number}[Affix.\"Static Value 0\"]{/c}秒間にわたり与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "嘆きの地",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1222402",
     "IdName": "Legendary_Druid_117",
     "IdSnoList": [
@@ -12039,6 +12814,41 @@
     ]
   },
   {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "目にも留まらぬ",
+    "Description": "〈一斉射撃〉の矢が#体の敵を射貫くようになる。\r\n〈一斉射撃〉の攻撃速度が#%上昇する。",
+    "DescriptionClean": "〈一斉射撃〉の矢が体の敵を射貫くようになる。 〈一斉射撃〉の攻撃速度が上昇する。",
+    "Localisation": "{c_important}〈一斉射撃〉{/c}の矢が{c_number}[Affix.\"Static Value 0\"]{/c}体の敵を射貫くようになる。\r\n{c_important}〈一斉射撃〉{/c}の攻撃速度が{c_random}[Affix_Value_1|1%+|]{/c}上昇する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
+    ]
+  },
+  {
     "IdSno": "2620651",
     "IdName": "legendary_rogue_119_x2",
     "IdSnoList": [
@@ -12323,6 +13133,41 @@
     ]
   },
   {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "砕け散った星の",
+    "Description": "〈メテオ〉の周囲に隕石が降り注ぎ、#の火炎ダメージを与える。\r\n\r\n隕石によるダメージは〈メテオ〉のダメージの#%増加し、敵を炎上させ、#秒間にわたり#のダメージを与える。",
+    "DescriptionClean": "〈メテオ〉の周囲に隕石が降り注ぎ、の火炎ダメージを与える。 隕石によるダメージは〈メテオ〉のダメージの増加し、敵を炎上させ、秒間にわたりのダメージを与える。",
+    "Localisation": "{c_important}〈メテオ〉{/c}の周囲に{c_important}隕石{/c}が降り注ぎ、{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}の火炎ダメージを与える。\r\n\r\n{c_important}隕石{/c}によるダメージは{c_important}〈メテオ〉{/c}のダメージの{c_random}[Affix_Value_1|%|]{/c}増加し、敵を炎上させ、{c_number}[Affix.\"Static Value 1\"]{/c}秒間にわたり{c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c}のダメージを与える。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574644",
     "IdName": "legendary_sorc_138_x2",
     "IdSnoList": [
@@ -12518,6 +13363,41 @@
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "祖霊の木霊の",
+    "Description": "幸運の一撃: 〈リープ〉、〈打ち払い〉、または〈ワールウィンド〉が最大#%の確率で古の民を召喚し、同じスキルを発動させる。効果が発動するのは#秒に1回のみ。\r\n\r\n召喚クリーチャーのダメージが#%増加する。",
+    "DescriptionClean": "幸運の一撃: 〈リープ〉、〈打ち払い〉、または〈ワールウィンド〉が最大の確率で古の民を召喚し、同じスキルを発動させる。効果が発動するのは秒に1回のみ。 召喚クリーチャーのダメージが増加する。",
+    "Localisation": "{c_label}幸運の一撃:{/c} {c_important}〈リープ〉{/c}、{c_important}〈打ち払い〉{/c}、または{c_important}〈ワールウィンド〉{/c}が最大{c_random}[Affix_Value_1|%|]{/c}の確率で古の民を召喚し、同じスキルを発動させる。効果が発動するのは{c_number}[Affix.\"Static Value 0\"]{/c}秒に1回のみ。\r\n\r\n{c_important}召喚クリーチャー{/c}のダメージが{c_random}[Affix_Value_2|%|]{/c}増加する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "古代の貯蔵庫",
     "Category": "FILTER_Legendary_Offensive",
     "MagicType": 1,
     "AllowedForPlayerClass": [
@@ -14352,6 +15232,44 @@
     ]
   },
   {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "血を集めし者の",
+    "Description": "スケルトン・プリーストがその#%の効力を使用者にも付与する。",
+    "DescriptionClean": "スケルトン・プリーストがそのの効力を使用者にも付与する。",
+    "Localisation": "スケルトン・プリーストがその{c_random}[Affix_Value_1|%|]{/c}の効力を使用者にも付与する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "2571947",
     "IdName": "legendary_generic_123_x2",
     "IdSnoList": [
@@ -14933,6 +15851,39 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "貪り食らう怒りの",
+    "Description": "コアスキルで敵を倒すと基本コストの#%が還元される。1回のスキル使用で一度しか発動しない。",
+    "DescriptionClean": "コアスキルで敵を倒すと基本コストのが還元される。1回のスキル使用で一度しか発動しない。",
+    "Localisation": "{c_important}コア{/c}スキルで敵を倒すと基本コストの{c_random}[Affix_Value_1|1%|]{/c}が還元される。1回のスキル使用で一度しか発動しない。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "神聖なる納骨堂",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -15901,6 +16852,77 @@
     ]
   },
   {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "鉄の戦士の",
+    "Description": "〈アイアンスキン〉に抑圧不可状態と#%のダメージ減少効果が加わる。",
+    "DescriptionClean": "〈アイアンスキン〉に抑圧不可状態とのダメージ減少効果が加わる。",
+    "Localisation": "{c_important}〈アイアンスキン〉{/c}に{c_important}{u}抑圧不可{/u}{/c}状態と{c_random}[Affix_Value_1|%|]{/c}のダメージ減少効果が加わる。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "腐肉の地",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "鉄の血の",
+    "Description": "周囲の流血状態の敵1体毎に#%のダメージ減少効果を得る。減少率は最大で#%。",
+    "DescriptionClean": "周囲の流血状態の敵1体毎にのダメージ減少効果を得る。減少率は最大で。",
+    "Localisation": "周囲の流血状態の敵1体毎に{c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c}のダメージ減少効果を得る。減少率は最大で{c_random}[Affix_Value_1|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "忘られの遺跡",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
+    ]
+  },
+  {
     "IdSno": "2576823",
     "IdName": "legendary_rogue_149_x2",
     "IdSnoList": [
@@ -16540,6 +17562,41 @@
     ]
   },
   {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "雪守が携えし",
+    "Description": "自身が発生させた〈ブリザード〉の中にいる間とそこから出た後#秒間、被ダメージが#%減少する。",
+    "DescriptionClean": "自身が発生させた〈ブリザード〉の中にいる間とそこから出た後秒間、被ダメージが減少する。",
+    "Localisation": "自身が発生させた{c_important}〈ブリザード〉{/c}の中にいる間とそこから出た後{c_number}[Affix.\"Static Value 0\"]{/c}秒間、被ダメージが{c_random}[Affix_Value_1|%|]{/c}減少する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "悪臭漂う霊廟",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2575214",
     "IdName": "legendary_sorc_108_x2",
     "IdSnoList": [
@@ -16621,6 +17678,41 @@
     "Description": "脆弱状態の敵に対する凍結ダメージが#%増加する。",
     "DescriptionClean": "脆弱状態の敵に対する凍結ダメージが増加する。",
     "Localisation": "{u}{c_important}脆弱{/c}{/u}状態の敵に対する{c_important}凍結{/c}ダメージが{c_random}[Affix_Value_1|%|]{/c}増加する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "雷電放つ",
+    "Description": "#秒ごとに付近の敵に電撃を飛ばして#の電撃ダメージを与える。\r\n\r\nこの効果は感電スキルとみなされる。",
+    "DescriptionClean": "秒ごとに付近の敵に電撃を飛ばしての電撃ダメージを与える。 この効果は感電スキルとみなされる。",
+    "Localisation": "{c_random}[Affix_Value_1|1|]{/c}秒ごとに付近の敵に電撃を飛ばして{c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}の電撃ダメージを与える。\r\n\r\nこの効果は{c_important}感電{/c}スキルとみなされる。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -16928,6 +18020,41 @@
     ]
   },
   {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "頭蓋砕きの",
+    "Description": "流血中の敵を戦闘不能状態にすると、その敵は合計流血ダメージの#%を物理ダメージとして受ける。",
+    "DescriptionClean": "流血中の敵を戦闘不能状態にすると、その敵は合計流血ダメージのを物理ダメージとして受ける。",
+    "Localisation": "流血中の敵を{c_important}{u}戦闘不能{/u}{/c}状態にすると、その敵は合計流血ダメージの{c_random}[Affix_Value_1|%|]{/c}を物理ダメージとして受ける。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "621929",
     "IdName": "legendary_necro_066",
     "IdSnoList": [
@@ -17137,6 +18264,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "飽くなき探究心の",
+    "Description": "敵に〈切り裂き〉でクリティカルヒットを与えた後、#の精神力を得る。精神力が#のとき、人狼スキルのダメージが#%増加する。この効果は精神力が#未満になるまで続く。",
+    "DescriptionClean": "敵に〈切り裂き〉でクリティカルヒットを与えた後、の精神力を得る。精神力がのとき、人狼スキルのダメージが増加する。この効果は精神力が未満になるまで続く。",
+    "Localisation": "敵に{c_important}〈切り裂き〉{/c}でクリティカルヒットを与えた後、{c_number}[Affix.\"Static Value 0\"]{/c}の精神力を得る。精神力が{c_number}[Affix.\"Static Value 2\"]{/c}のとき、{c_important}人狼{/c}スキルのダメージが{c_random}[Affix_Value_1|1%x|]{/c}増加する。この効果は精神力が{c_number}[Affix.\"Static Value 1\"]{/c}未満になるまで続く。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "苛まれた廃墟",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "578745",
     "IdName": "legendary_barb_021",
     "IdSnoList": [
@@ -17167,6 +18327,42 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "骨の疾風の",
+    "Description": "〈ボーンストーム〉が最大#体の死体を消費して、持続時間を最長#秒延長する。",
+    "DescriptionClean": "〈ボーンストーム〉が最大体の死体を消費して、持続時間を最長秒延長する。",
+    "Localisation": "{c_important}〈ボーンストーム〉{/c}が最大{c_number}[Affix_Value_2]{/c}体の死体を消費して、持続時間を最長{c_random}[Affix_Value_1*Affix_Value_2|1|]{/c}秒延長する。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
     ]
   },
   {

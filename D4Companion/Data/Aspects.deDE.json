@@ -746,6 +746,44 @@
     ]
   },
   {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "Blutberserkers",
+    "Description": "Glückstreffer: Wenn Ihr einem Gegner mit einer Kernfertigkeit Schaden zufügt, besteht eine Chance von bis zu #%, die Dauer des Berserkermodus um #\u00A0Sek. zu verlängern. Diese Dauer wird bei einem kritischen Treffer verdoppelt.",
+    "DescriptionClean": "Glückstreffer: Wenn Ihr einem Gegner mit einer Kernfertigkeit Schaden zufügt, besteht eine Chance von bis zu , die Dauer des Berserkermodus um \u00A0Sek. zu verlängern. Diese Dauer wird bei einem kritischen Treffer verdoppelt.",
+    "Localisation": "{c_label}Glückstreffer:{/c} Wenn Ihr einem Gegner mit einer {c_important}Kernfertigkeit{/c} Schaden zufügt, besteht eine Chance von bis zu {c_random}[Affix_Value_1|%|]{/c}, die Dauer des {c_important}{u}Berserkermodus{/u}{/c} um {c_number}[Affix_Value_2]{/c}\u00A0Sek. zu verlängern. Diese Dauer wird bei einem kritischen Treffer verdoppelt.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Hakans Zuflucht",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "1221659",
     "IdName": "legendary_necro_108",
     "IdSnoList": [
@@ -817,6 +855,44 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "Blutholender",
+    "Description": "Eure Skelettpriester verstärken Euch jetzt mit #% Effektivität.",
+    "DescriptionClean": "Eure Skelettpriester verstärken Euch jetzt mit Effektivität.",
+    "Localisation": "Eure Skelettpriester verstärken Euch jetzt mit {c_random}[Affix_Value_1|%|]{/c} Effektivität.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
     ]
   },
   {
@@ -966,6 +1042,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "Brandstiftender",
+    "Description": "Erhaltet um #% erhöhten Feuerschaden. Wenn Ihr einen Gegner zum ersten Mal verbrennt, fügt Ihr ihm zusätzlich # Pyromanie-Feuerschaden zu.",
+    "DescriptionClean": "Erhaltet um erhöhten Feuerschaden. Wenn Ihr einen Gegner zum ersten Mal verbrennt, fügt Ihr ihm zusätzlich Pyromanie-Feuerschaden zu.",
+    "Localisation": "Erhaltet um {c_random}[Affix_Value_2*100|%x|]{/c} erhöhten Feuerschaden. Wenn Ihr einen Gegner zum ersten Mal verbrennt, fügt Ihr ihm zusätzlich {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} {c_important}Pyromanie{/c}-Feuerschaden zu.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -1364,6 +1475,42 @@
     ]
   },
   {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "Eisenblütiger",
+    "Description": "Ihr erhaltet #% Schadensreduktion für jeden blutenden Gegner in der Nähe, bis maximal #%.",
+    "DescriptionClean": "Ihr erhaltet Schadensreduktion für jeden blutenden Gegner in der Nähe, bis maximal.",
+    "Localisation": "Ihr erhaltet {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} Schadensreduktion für jeden blutenden Gegner in der Nähe, bis maximal {c_random}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Vergessene Ruinen",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
+    ]
+  },
+  {
     "IdSno": "1943568",
     "IdName": "S05_BSK_Rogue_003",
     "IdSnoList": [
@@ -1719,6 +1866,41 @@
     ]
   },
   {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "Erschütternder",
+    "Description": "Ihr fügt einem Gegner in der Nähe alle # Sek. # Blitzschaden zu.\r\n\r\nDieser Effekt wird als Schockfertigkeit betrachtet.",
+    "DescriptionClean": "Ihr fügt einem Gegner in der Nähe alle Sek. Blitzschaden zu. Dieser Effekt wird als Schockfertigkeit betrachtet.",
+    "Localisation": "Ihr fügt einem Gegner in der Nähe alle {c_random}[Affix_Value_1|1|]{/c} Sek. {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} Blitzschaden zu.\r\n\r\nDieser Effekt wird als {c_important}Schockfertigkeit{/c} betrachtet.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2543915",
     "IdName": "legendary_druid_104_x2",
     "IdSnoList": [
@@ -1893,6 +2075,41 @@
     ]
   },
   {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "Flammenwerfers",
+    "Description": "Flammentod teilt sich in 3 Strahlen auf, von denen jeder #% normalen Schaden verursacht.",
+    "DescriptionClean": "Flammentod teilt sich in 3 Strahlen auf, von denen jeder normalen Schaden verursacht.",
+    "Localisation": "{c_important}Flammentod{/c} teilt sich in {c_number}3{/c} Strahlen auf, von denen jeder {c_random}[Affix_Value_1|%x|]{/c} normalen Schaden verursacht.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2547980",
     "IdName": "legendary_warlock_028_x2",
     "IdSnoList": [
@@ -1963,6 +2180,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "Frostblitzender",
+    "Description": "Frostnova erhält eine zusätzliche Aufladung, aber die Abklingzeit pro Aufladung erhöht sich um #%.",
+    "DescriptionClean": "Frostnova erhält eine zusätzliche Aufladung, aber die Abklingzeit pro Aufladung erhöht sich um.",
+    "Localisation": "{c_important}Frostnova{/c_important} erhält eine zusätzliche Aufladung, aber die Abklingzeit pro Aufladung erhöht sich um {c_random}[Affix_Value_1*100|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -2527,6 +2779,41 @@
     ]
   },
   {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "Heißlodernder",
+    "Description": "Erhöht den kritischen Trefferschaden von Pyromaniefertigkeiten um #%. Dieser Bonus wird bei gesunden Zielen verdoppelt.",
+    "DescriptionClean": "Erhöht den kritischen Trefferschaden von Pyromaniefertigkeiten um. Dieser Bonus wird bei gesunden Zielen verdoppelt.",
+    "Localisation": "Erhöht den kritischen Trefferschaden von {c_important}Pyromaniefertigkeiten{/c_important} um {c_random}[Affix_Value_1|%x|]{/c}. Dieser Bonus wird bei {c_important}{u}gesunden{/u}{/c} Zielen verdoppelt.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Schlangennest",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1859769",
     "IdName": "legendary_generic_118",
     "IdSnoList": [
@@ -2670,6 +2957,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "Hochgeschwindigkeit",
+    "Description": "Die Pfeile von Sperrfeuer durchbohren jetzt # Gegner.\r\nSperrfeuer hat um #% erhöhte Angriffsgeschwindigkeit.",
+    "DescriptionClean": "Die Pfeile von Sperrfeuer durchbohren jetzt Gegner. Sperrfeuer hat um erhöhte Angriffsgeschwindigkeit.",
+    "Localisation": "Die Pfeile von {c_important}Sperrfeuer{/c} durchbohren jetzt {c_number}[Affix.\"Static Value 0\"]{/c} Gegner.\r\n{c_important}Sperrfeuer{/c} hat um {c_random}[Affix_Value_1|1%+|]{/c} erhöhte Angriffsgeschwindigkeit.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
     ]
   },
   {
@@ -3145,6 +3467,42 @@
     ]
   },
   {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "Knochenstürmender",
+    "Description": "Knochensturm verbraucht bis zu #\u00A0Leichen, um die Dauer um bis zu #\u00A0Sek. zu erhöhen.",
+    "DescriptionClean": "Knochensturm verbraucht bis zu \u00A0Leichen, um die Dauer um bis zu \u00A0Sek. zu erhöhen.",
+    "Localisation": "{c_important}Knochensturm{/c} verbraucht bis zu {c_number}[Affix_Value_2]{/c}\u00A0Leichen, um die Dauer um bis zu {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c}\u00A0Sek. zu erhöhen.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
+    ]
+  },
+  {
     "IdSno": "2557986",
     "IdName": "legendary_barb_006_x2",
     "IdSnoList": [
@@ -3323,6 +3681,44 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "Kältebringender",
+    "Description": "Alle # Sek. wirken Eure Skelettmagier einen Blizzard, der # Kälteschaden verursacht und Gegner im Verlauf von # Sek. für #% unterkühlt.",
+    "DescriptionClean": "Alle Sek. wirken Eure Skelettmagier einen Blizzard, der Kälteschaden verursacht und Gegner im Verlauf von Sek. für unterkühlt.",
+    "Localisation": "Alle {c_number}[Affix.\"Static Value 1\"]{/c} Sek. wirken Eure Skelettmagier einen Blizzard, der {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c} Kälteschaden verursacht und Gegner im Verlauf von {c_number}[Affix.\"Static Value 0\"]{/c} Sek. für {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} {c_important}{u}unterkühlt{/u}{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
     ]
   },
   {
@@ -4683,6 +5079,41 @@
     ]
   },
   {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "Schneewachender",
+    "Description": "Solange Ihr innerhalb Eures Blizzards steht und für # Sek., nachdem Ihr ihn verlasst, erleidet Ihr #% weniger Schaden.",
+    "DescriptionClean": "Solange Ihr innerhalb Eures Blizzards steht und für Sek., nachdem Ihr ihn verlasst, erleidet Ihr weniger Schaden.",
+    "Localisation": "Solange Ihr innerhalb Eures {c_important}Blizzards{/c} steht und für {c_number}[Affix.\"Static Value 0\"]{/c} Sek., nachdem Ihr ihn verlasst, erleidet Ihr {c_random}[Affix_Value_1|%|]{/c} weniger Schaden.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Stinkendes Mausoleum",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "1221651",
     "IdName": "legendary_necro_110",
     "IdSnoList": [
@@ -4809,6 +5240,41 @@
       1,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "Schädelbrechender",
+    "Description": "Wenn Ihr einen blutenden Gegner handlungsunfähig macht, erleidet er #% seiner gesamten Blutung als physischen Schaden.",
+    "DescriptionClean": "Wenn Ihr einen blutenden Gegner handlungsunfähig macht, erleidet er seiner gesamten Blutung als physischen Schaden.",
+    "Localisation": "Wenn Ihr einen blutenden Gegner {c_important}{u}handlungsunfähig{/u}{/c} macht, erleidet er {c_random}[Affix_Value_1|%|]{/c} seiner gesamten Blutung als physischen Schaden.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
       0,
       0,
       0,
@@ -5106,6 +5572,41 @@
     ]
   },
   {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "Stabiler",
+    "Description": "Während Instabile Strömung nicht aktiv ist, haben Eure Schockfertigkeiten eine Chance von #%, eine kostenlose Wirkung durch Instabile Strömung auszulösen.",
+    "DescriptionClean": "Während Instabile Strömung nicht aktiv ist, haben Eure Schockfertigkeiten eine Chance von , eine kostenlose Wirkung durch Instabile Strömung auszulösen.",
+    "Localisation": "Während {c_important}Instabile Strömung{/c} nicht aktiv ist, haben Eure {c_important}Schockfertigkeiten{/c} eine Chance von {c_random}[Affix_Value_1|1%|]{/c}, eine kostenlose Wirkung durch Instabile Strömung auszulösen.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2614304",
     "IdName": "legendary_barb_055_x2",
     "IdSnoList": [
@@ -5372,6 +5873,41 @@
     "AllowedForPlayerClass": [
       0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "Sturmschwel{d}lender",
+    "Description": "Ihr verursacht um #% erhöhten Schaden, während Eisrüstung aktiv ist. Diese Zahl wird gegen eingefrorene Gegner um weitere #% erhöht.",
+    "DescriptionClean": "Ihr verursacht um erhöhten Schaden, während Eisrüstung aktiv ist. Diese Zahl wird gegen eingefrorene Gegner um weitere erhöht.",
+    "Localisation": "Ihr verursacht um {c_random}[Affix_Value_1|%x|]{/c} erhöhten Schaden, während {c_important}Eisrüstung{/c} aktiv ist. Diese Zahl wird gegen {c_important}{u}eingefrorene{/u}{/c} Gegner um weitere {c_number}[Affix.\"Static Value 0|%x|\"]{/c} erhöht.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Onyxfeste",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
       0,
       0,
       0,
@@ -5955,6 +6491,41 @@
     ]
   },
   {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "Vergletscherter",
+    "Description": "Blizzard erzeugt regelmäßig explodierende Eisstacheln, die #\u00A0Schaden verursachen. Eure Eisstacheln unterkühlen Gegner um #%.",
+    "DescriptionClean": "Blizzard erzeugt regelmäßig explodierende Eisstacheln, die \u00A0Schaden verursachen. Eure Eisstacheln unterkühlen Gegner um.",
+    "Localisation": "{c_important}Blizzard{/c} erzeugt regelmäßig explodierende {c_important}Eisstacheln{/c}, die {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}\u00A0Schaden verursachen. Eure {c_important}Eisstacheln{/c} {c_important}{u}unterkühlen{/u}{/c} Gegner um {c_number}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "578860",
     "IdName": "legendary_rogue_004",
     "IdSnoList": [
@@ -6202,6 +6773,44 @@
     ]
   },
   {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "Waffenmeisters",
+    "Description": "Waffenbeherrschungsfertigkeiten betäuben Gegner für #\u00A0Sek. Gegner können auf diese Weise einmal alle #\u00A0Sek. betäubt werden. Eure Waffenbeherrschungsfertigkeiten verfügen über eine zusätzliche Aufladung und verursachen um #% erhöhten Schaden.",
+    "DescriptionClean": "Waffenbeherrschungsfertigkeiten betäuben Gegner für \u00A0Sek. Gegner können auf diese Weise einmal alle \u00A0Sek. betäubt werden. Eure Waffenbeherrschungsfertigkeiten verfügen über eine zusätzliche Aufladung und verursachen um erhöhten Schaden.",
+    "Localisation": "{c_important}Waffenbeherrschungs{d}fertigkeiten{/c} betäuben Gegner für {c_random}[Affix_Value_1|1|]{/c}\u00A0Sek. Gegner können auf diese Weise einmal alle {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. betäubt werden. Eure {c_important}Waffenbeherrschungs{d}fertigkeiten{/c} verfügen über eine zusätzliche Aufladung und verursachen um {c_random}[Affix_Value_2|%x|]{/c} erhöhten Schaden.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2547966",
     "IdName": "legendary_warlock_024_x2",
     "IdSnoList": [
@@ -6412,6 +7021,41 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "Winterhands",
+    "Description": "Wenn Ihr einen Gegner einfriert, fügt Ihr ihm # Kälteschaden zu.\r\n\r\nDieser Effekt wird als Frostfertigkeit betrachtet.",
+    "DescriptionClean": "Wenn Ihr einen Gegner einfriert, fügt Ihr ihm Kälteschaden zu. Dieser Effekt wird als Frostfertigkeit betrachtet.",
+    "Localisation": "Wenn Ihr einen Gegner {c_important}{u}einfriert{/u}{/c}, fügt Ihr ihm {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} Kälteschaden zu.\r\n\r\nDieser Effekt wird als {c_important}Frostfertigkeit{/c} betrachtet.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -6628,6 +7272,41 @@
     ]
   },
   {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "Züngelnder",
+    "Description": "Hydra verursacht um #% erhöhten Schaden pro Mana, das Ihr beim Wirken hattet. Das Wirken von Hydra verbraucht Euer gesamtes Mana.",
+    "DescriptionClean": "Hydra verursacht um erhöhten Schaden pro Mana, das Ihr beim Wirken hattet. Das Wirken von Hydra verbraucht Euer gesamtes Mana.",
+    "Localisation": "{c_important}Hydra{/c} verursacht um {c_random}[Affix_Value_1|%2x|]{/c} erhöhten Schaden pro Mana, das Ihr beim Wirken hattet. Das Wirken von {c_important}Hydra{/c} verbraucht Euer gesamtes Mana.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1981714",
     "IdName": "legendary_spiritborn_031_x1",
     "IdSnoList": [
@@ -6660,6 +7339,41 @@
       26,
       17,
       30
+    ]
+  },
+  {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "der Ahnenechos",
+    "Description": "Glückstreffer: Sprung, Aufwühlen und Wirbelwind verfügen über eine Chance von bis zu #%, einen Urahnen zu herbeizurufen, der die gleiche Fertigkeit wirkt. Kann nur einmal alle # Sek. eintreten.\r\n\r\n Eure Herbeirufungen verursachen um #% erhöhten Schaden.",
+    "DescriptionClean": "Glückstreffer: Sprung, Aufwühlen und Wirbelwind verfügen über eine Chance von bis zu , einen Urahnen zu herbeizurufen, der die gleiche Fertigkeit wirkt. Kann nur einmal alle Sek. eintreten.  Eure Herbeirufungen verursachen um erhöhten Schaden.",
+    "Localisation": "{c_label}Glückstreffer:{/c} {c_important}Sprung{/c}, {c_important}Aufwühlen{/c} und {c_important}Wirbelwind{/c} verfügen über eine Chance von bis zu {c_random}[Affix_Value_1|%|]{/c}, einen Urahnen zu herbeizurufen, der die gleiche Fertigkeit wirkt. Kann nur einmal alle {c_number}[Affix.\"Static Value 0\"]{/c} Sek. eintreten.\r\n\r\n Eure {c_important}Herbeirufungen{/c} verursachen um {c_random}[Affix_Value_2|%|]{/c} erhöhten Schaden.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Altes Reservoir",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -7531,6 +8245,41 @@
       1,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "der Erdbeben",
+    "Description": "Aufstampfen verursacht ein Erdbeben, das Gegnern im Verlauf von #\u00A0Sek. # physischen Schaden zufügt. Solange Ihr in Erdbeben steht sowie für #\u00A0Sek. danach, verursacht Ihr um #% erhöhten Schaden.\r\n\r\nEure Erdbeben verursachen um #% erhöhten Schaden. ",
+    "DescriptionClean": "Aufstampfen verursacht ein Erdbeben, das Gegnern im Verlauf von \u00A0Sek. physischen Schaden zufügt. Solange Ihr in Erdbeben steht sowie für \u00A0Sek. danach, verursacht Ihr um erhöhten Schaden. Eure Erdbeben verursachen um erhöhten Schaden.",
+    "Localisation": "{c_important}Aufstampfen{/c} verursacht ein {c_important}Erdbeben{/c}, das Gegnern im Verlauf von {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c}\u00A0Sek. {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} physischen Schaden zufügt. Solange Ihr in {c_important}Erdbeben{/c} steht sowie für {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. danach, verursacht Ihr um {c_random}[Affix_Value_1|%|]{/c} erhöhten Schaden.\r\n\r\nEure {c_important}Erdbeben{/c} verursachen um {c_random}[Affix_Value_1|%x|]{/c} erhöhten Schaden. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
       0,
       0,
       0,
@@ -8863,6 +9612,39 @@
     ]
   },
   {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "der Riesenschritte",
+    "Description": "Reduziert die Abklingzeit von Sprung um #\u00A0Sek. pro getroffenem Gegner, bis maximal #\u00A0Sek. Trefft Ihr einen Boss mit Sprung, erhaltet Ihr die maximale Reduktion.",
+    "DescriptionClean": "Reduziert die Abklingzeit von Sprung um \u00A0Sek. pro getroffenem Gegner, bis maximal \u00A0Sek. Trefft Ihr einen Boss mit Sprung, erhaltet Ihr die maximale Reduktion.",
+    "Localisation": "Reduziert die Abklingzeit von {c_important}Sprung{/c} um {c_random}[Affix_Value_1|1|]{/c}\u00A0Sek. pro getroffenem Gegner, bis maximal {c_number}[Affix_Value_2]{/c}\u00A0Sek. Trefft Ihr einen Boss mit {c_important}Sprung{/c}, erhaltet Ihr die maximale Reduktion.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2548008",
     "IdName": "legendary_warlock_036_x2",
     "IdSnoList": [
@@ -9250,14 +10032,45 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
     "IdSnoList": [
-      "1987429",
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "der Unersättlichen",
+    "Description": "Nachdem Ihr einen Gegner mit Zerfetzen kritisch trefft, erhaltet Ihr # Geisteskraft. Bei einer Geisteskraft von # verursachen Eure Werwolffertigkeiten um #% erhöhten Schaden, bis Ihr unter # Geisteskraft fallt.",
+    "DescriptionClean": "Nachdem Ihr einen Gegner mit Zerfetzen kritisch trefft, erhaltet Ihr Geisteskraft. Bei einer Geisteskraft von verursachen Eure Werwolffertigkeiten um erhöhten Schaden, bis Ihr unter Geisteskraft fallt.",
+    "Localisation": "Nachdem Ihr einen Gegner mit {c_important}Zerfetzen{/c} kritisch trefft, erhaltet Ihr {c_number}[Affix.\"Static Value 0\"]{/c} Geisteskraft. Bei einer Geisteskraft von {c_number}[Affix.\"Static Value 2\"]{/c} verursachen Eure {c_important}Werwolffertigkeiten{/c} um {c_random}[Affix_Value_1|1%x|]{/c} erhöhten Schaden, bis Ihr unter {c_number}[Affix.\"Static Value 1\"]{/c} Geisteskraft fallt.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Gepeinigte Ruinen",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
+    "IdSnoList": [
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "der Untersagung",
@@ -10000,6 +10813,39 @@
       0,
       19,
       28,
+      26
+    ]
+  },
+  {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "der ausgesprochenen Ermächtigung",
+    "Description": "Während Eure Ruffertigkeiten aktiv sind, gewähren sie Euch # Primärressourcenregeneration.",
+    "DescriptionClean": "Während Eure Ruffertigkeiten aktiv sind, gewähren sie Euch Primärressourcenregeneration.",
+    "Localisation": "Während Eure {c_important}Ruffertigkeiten{/c} aktiv sind, gewähren sie Euch {c_random}[Affix_Value_1|1|]{/c} Primärressourcenregeneration.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Schirokkohöhle",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
       26
     ]
   },
@@ -11051,6 +11897,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "der gefrorenen Tundra",
+    "Description": "Solange Tieffrieren aktiv ist, bilden sich im Wirkungsbereich Eisstacheln, die #\u00A0Kälteschaden verursachen. Eure Eisstacheln haben einen #% größeren Explosionsradius.",
+    "DescriptionClean": "Solange Tieffrieren aktiv ist, bilden sich im Wirkungsbereich Eisstacheln, die \u00A0Kälteschaden verursachen. Eure Eisstacheln haben einen größeren Explosionsradius.",
+    "Localisation": "Solange {c_important}Tieffrieren{/c} aktiv ist, bilden sich im Wirkungsbereich {c_important}Eisstacheln{/c}, die {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}\u00A0Kälteschaden verursachen. Eure {c_important}Eisstacheln{/c} haben einen {c_number}[Affix_Value_1 * 100|%|]{/c} größeren Explosionsradius.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -12697,6 +13578,39 @@
     ]
   },
   {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "der unersättlichen Rage",
+    "Description": "Wenn Ihr einen Gegner mit einer Kernfertigkeit tötet, erhaltet Ihr #% der Grundkosten zurück. Dieser Effekt kann nur einmal pro Einsatz auftreten.",
+    "DescriptionClean": "Wenn Ihr einen Gegner mit einer Kernfertigkeit tötet, erhaltet Ihr der Grundkosten zurück. Dieser Effekt kann nur einmal pro Einsatz auftreten.",
+    "Localisation": "Wenn Ihr einen Gegner mit einer {c_important}Kernfertigkeit{/c} tötet, erhaltet Ihr {c_random}[Affix_Value_1|1%|]{/c} der Grundkosten zurück. Dieser Effekt kann nur einmal pro Einsatz auftreten.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Geheiligtes Beinhaus",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1225298",
     "IdName": "legendary_sorc_122",
     "IdSnoList": [
@@ -13145,6 +14059,41 @@
       0,
       0,
       1,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "der zerborstenen Sterne",
+    "Description": "Um Euren Meteor herum fallen Meteoriten, die #\u00A0Feuerschaden verursachen.\r\n\r\nEure Meteoriten erhalten #% des von Meteor verursachten Schadens und verbrennen Gegner, wobei sie ihnen im Verlauf von #\u00A0Sek. # Schaden zufügen.",
+    "DescriptionClean": "Um Euren Meteor herum fallen Meteoriten, die \u00A0Feuerschaden verursachen. Eure Meteoriten erhalten des von Meteor verursachten Schadens und verbrennen Gegner, wobei sie ihnen im Verlauf von \u00A0Sek. Schaden zufügen.",
+    "Localisation": "Um Euren {c_important}Meteor{/c} herum fallen {c_important}Meteoriten{/c}, die {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}\u00A0Feuerschaden verursachen.\r\n\r\nEure {c_important}Meteoriten{/c} erhalten {c_random}[Affix_Value_1|%|]{/c} des von {c_important}Meteor{/c} verursachten Schadens und verbrennen Gegner, wobei sie ihnen im Verlauf von {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0Sek. {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c} Schaden zufügen.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
@@ -13859,6 +14808,43 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "des Feuervogels",
+    "Description": "Während Flammenschild aktiv ist, fallen Meteoriten um Euch herum und verursachen # Feuerschaden. Eure Meteoriten erhalten #\u00A0% Glückstrefferchance.",
+    "DescriptionClean": "Während Flammenschild aktiv ist, fallen Meteoriten um Euch herum und verursachen Feuerschaden. Eure Meteoriten erhalten \u00A0 Glückstrefferchance.",
+    "Localisation": "Während {c_important}Flammenschild{/c} aktiv ist, fallen {c_important}Meteoriten{/c} um Euch herum und verursachen {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} Feuerschaden. Eure {c_important}Meteoriten{/c} erhalten {c_number}[Affix.\"Static Value 2\"]\u00A0%{/c} Glückstrefferchance.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
     ]
   },
   {
@@ -14676,6 +15662,41 @@
     ]
   },
   {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "des Unerschütterlichen",
+    "Description": "Wenn Ihr direkten Schaden erleidet, besteht eine Chance von #%, die Abklingzeit einer Eurer Defensiven Fertigkeiten abzuschließen.",
+    "DescriptionClean": "Wenn Ihr direkten Schaden erleidet, besteht eine Chance von , die Abklingzeit einer Eurer Defensiven Fertigkeiten abzuschließen.",
+    "Localisation": "Wenn Ihr direkten Schaden erleidet, besteht eine Chance von {c_random}[Affix_Value_1|1%|]{/c}, die Abklingzeit einer Eurer {c_important}Defensiven{/c} Fertigkeiten abzuschließen.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Fauliger Grundwasserleiter",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "578792",
     "IdName": "legendary_generic_036",
     "IdSnoList": [
@@ -15105,6 +16126,41 @@
     ]
   },
   {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "des aufgeladenen Blitzes",
+    "Description": "Kinsternde Energie verursacht #% erhöhten Schaden. Während Ihr Knisternde Energie besitzt, verbraucht Comboblitze eine Aufladung, um zusätzlich eine Welle abzufeuern, die den Schaden von Knisternde Energie in dem Gebiet verursacht.",
+    "DescriptionClean": "Kinsternde Energie verursacht erhöhten Schaden. Während Ihr Knisternde Energie besitzt, verbraucht Comboblitze eine Aufladung, um zusätzlich eine Welle abzufeuern, die den Schaden von Knisternde Energie in dem Gebiet verursacht.",
+    "Localisation": "{c_important}Kinsternde Energie{/c} verursacht {c_random}[Affix_Value_1 * 100|%x|]{/c} erhöhten Schaden. Während Ihr {c_important}Knisternde Energie{/c} besitzt, verbraucht {c_important}Comboblitze{/c} eine Aufladung, um zusätzlich eine Welle abzufeuern, die den Schaden von {c_important}Knisternde Energie{/c} in dem Gebiet verursacht.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2192357",
     "IdName": "legendary_barb_118",
     "IdSnoList": [
@@ -15161,6 +16217,41 @@
       0,
       1,
       0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "des berserkerhaften Zerreißens",
+    "Description": "Im Berserkermodus verursacht Euer direkter Schaden im Verlauf von #\u00A0Sek. #% zusätzlichen Blutungsschaden.",
+    "DescriptionClean": "Im Berserkermodus verursacht Euer direkter Schaden im Verlauf von \u00A0Sek. zusätzlichen Blutungsschaden.",
+    "Localisation": "Im {c_important}{u}Berserkermodus{/u}{/c} verursacht Euer direkter Schaden im Verlauf von {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. {c_random}[Affix_Value_1*100|%|]{/c} zusätzlichen Blutungsschaden.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Trauerfeld",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
       0,
       0,
       0,
@@ -15486,6 +16577,41 @@
     "AllowedItemLabels": [
       26,
       29
+    ]
+  },
+  {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "des eisernen Kriegers",
+    "Description": "Eisenhaut verleiht Unaufhaltsamkeit und #%\u00A0Schadensreduktion.",
+    "DescriptionClean": "Eisenhaut verleiht Unaufhaltsamkeit und \u00A0Schadensreduktion.",
+    "Localisation": "{c_important}Eisenhaut{/c} verleiht {c_important}{u}Unaufhaltsamkeit{/u}{/c} und {c_random}[Affix_Value_1|%|]{/c}\u00A0Schadensreduktion.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Aasfelder",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -15825,6 +16951,41 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "des gefrorenen Orbits",
+    "Description": "Gefrorene Kugel verursacht um #% erhöhten Schaden und explodiert ein weiteres Mal.",
+    "DescriptionClean": "Gefrorene Kugel verursacht um erhöhten Schaden und explodiert ein weiteres Mal.",
+    "Localisation": "{c_important}Gefrorene Kugel{/c} verursacht um {c_random}[Affix_Value_1|%|]{/c} erhöhten Schaden und explodiert ein weiteres Mal.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -16872,6 +18033,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "des sengenden Schutzes",
+    "Description": "Feuerwand verlangsamt Gegner in Reichweite um #%. Wenn Ihr #\u00A0Mana verbraucht habt, ist Euer nächster Einsatz von Feuerwand kostenlos, zerstört kleine Geschosse im Anflug und macht alle vom ersten Einsatz betroffenen Ziele #\u00A0Sek. lang bewegungsunfähig.",
+    "DescriptionClean": "Feuerwand verlangsamt Gegner in Reichweite um. Wenn Ihr \u00A0Mana verbraucht habt, ist Euer nächster Einsatz von Feuerwand kostenlos, zerstört kleine Geschosse im Anflug und macht alle vom ersten Einsatz betroffenen Ziele \u00A0Sek. lang bewegungsunfähig.",
+    "Localisation": "{c_important}Feuerwand{/c} verlangsamt Gegner in Reichweite um {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}. Wenn Ihr {c_random}[Affix_Value_1]{/c}\u00A0Mana verbraucht habt, ist Euer nächster Einsatz von {c_important}Feuerwand{/c} kostenlos, zerstört kleine Geschosse im Anflug und macht alle vom ersten Einsatz betroffenen Ziele {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0Sek. lang bewegungsunfähig.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {

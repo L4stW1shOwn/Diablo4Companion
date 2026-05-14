@@ -182,6 +182,41 @@
     ]
   },
   {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "Alta Velocidade",
+    "Description": "As flechas de Salva agora perfuram # inimigo.\r\nSalva tem #% a mais de velocidade de ataque.",
+    "DescriptionClean": "As flechas de Salva agora perfuram inimigo. Salva tem a mais de velocidade de ataque.",
+    "Localisation": "As flechas de {c_important}Salva{/c} agora perfuram {c_number}[Affix.\"Static Value 0\"]{/c} inimigo.\r\n{c_important}Salva{/c} tem {c_random}[Affix_Value_1|1%+|]{/c} a mais de velocidade de ataque.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
+    ]
+  },
+  {
     "IdSno": "1981977",
     "IdName": "legendary_spiritborn_041_x1",
     "IdSnoList": [
@@ -894,6 +929,41 @@
     ]
   },
   {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "Eletrizante",
+    "Description": "A cada # s, você fulmina um inimigo próximo e causa # de dano elétrico.\r\n\r\nEste efeito é considerado uma habilidade de Choque.",
+    "DescriptionClean": "A cada s, você fulmina um inimigo próximo e causa de dano elétrico. Este efeito é considerado uma habilidade de Choque.",
+    "Localisation": "A cada {c_random}[Affix_Value_1|1|]{/c} s, você fulmina um inimigo próximo e causa {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} de dano elétrico.\r\n\r\nEste efeito é considerado uma habilidade de {c_important}Choque{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1223890",
     "IdName": "legendary_generic_103",
     "IdSnoList": [
@@ -1424,6 +1494,41 @@
     ]
   },
   {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "Glaciária",
+    "Description": "Nevasca gera periodicamente Espetos de Gelo explosivos que causam # de dano. Seus Espetos de Gelo causam #% de gelidez nos inimigos.",
+    "DescriptionClean": "Nevasca gera periodicamente Espetos de Gelo explosivos que causam de dano. Seus Espetos de Gelo causam de gelidez nos inimigos.",
+    "Localisation": "{c_important}Nevasca{/c} gera periodicamente {c_important}Espetos de Gelo{/c} explosivos que causam {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} de dano. Seus {c_important}Espetos de Gelo{/c} causam {c_number}[Affix_Value_1|%|]{/c} de {c_important}{u}gelidez{/u}{/c} nos inimigos.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2542976",
     "IdName": "legendary_druid_114_x2",
     "IdSnoList": [
@@ -1604,6 +1709,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "Incendiária",
+    "Description": "Ganha #% a mais de dano ígneo. Ao queimar um inimigo, você causa # a mais de dano ígneo de Piromancia a ele.",
+    "DescriptionClean": "Ganha a mais de dano ígneo. Ao queimar um inimigo, você causa a mais de dano ígneo de Piromancia a ele.",
+    "Localisation": "Ganha {c_random}[Affix_Value_2*100|%x|]{/c} a mais de dano ígneo. Ao queimar um inimigo, você causa {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} a mais de dano ígneo de {c_important}Piromancia{/c} a ele.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -1821,6 +1961,41 @@
     ]
   },
   {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "Lança-chamas",
+    "Description": "Incinerar se divide em 3 feixes, cada um causando #% do dano normal.",
+    "DescriptionClean": "Incinerar se divide em 3 feixes, cada um causando do dano normal.",
+    "Localisation": "{c_important}Incinerar{/c} se divide em {c_number}3{/c} feixes, cada um causando {c_random}[Affix_Value_1|%x|]{/c} do dano normal.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2547904",
     "IdName": "legendary_warlock_002_x2",
     "IdSnoList": [
@@ -1853,6 +2028,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "Mestre em Armas",
+    "Description": "Habilidades de Maestria em Armas atordoam inimigos por # s. Inimigos podem ser atordoados dessa forma uma vez a cada # s. Suas habilidades de Maestria em Armas têm uma carga adicional e causam #% a mais de dano.",
+    "DescriptionClean": "Habilidades de Maestria em Armas atordoam inimigos por s. Inimigos podem ser atordoados dessa forma uma vez a cada s. Suas habilidades de Maestria em Armas têm uma carga adicional e causam a mais de dano.",
+    "Localisation": "Habilidades de {c_important}Maestria em Armas{/c} atordoam inimigos por {c_random}[Affix_Value_1|1|]{/c} s. Inimigos podem ser atordoados dessa forma uma vez a cada {c_number}[Affix.\"Static Value 0\"]{/c} s. Suas habilidades de {c_important}Maestria em Armas{/c} têm uma carga adicional e causam {c_random}[Affix_Value_2|%x|]{/c} a mais de dano.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
     ]
   },
   {
@@ -2389,6 +2602,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "Serpentina",
+    "Description": "A Hidra causa #% a mais de dano por ponto de mana que você tinha ao evocá-la. Lançar Hidra consome todo o seu mana.",
+    "DescriptionClean": "A Hidra causa a mais de dano por ponto de mana que você tinha ao evocá-la. Lançar Hidra consome todo o seu mana.",
+    "Localisation": "A {c_important}Hidra{/c} causa {c_random}[Affix_Value_1|%2x|]{/c} a mais de dano por ponto de mana que você tinha ao evocá-la. Lançar {c_important}Hidra{/c} consome todo o seu mana.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -3687,6 +3935,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "da Blitz de Gelo",
+    "Description": "Nova Gélida recebe uma carga adicional, mas a recarga por carga é aumentada em #%.",
+    "DescriptionClean": "Nova Gélida recebe uma carga adicional, mas a recarga por carga é aumentada em.",
+    "Localisation": "{c_important}Nova Gélida{/c_important} recebe uma carga adicional, mas a recarga por carga é aumentada em {c_random}[Affix_Value_1*100|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -5838,6 +6121,39 @@
     ]
   },
   {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "da Fúria Voraz",
+    "Description": "Matar um inimigo ou atingir um chefe com uma habilidade principal devolve #% do custo-base. Só pode ocorrer uma vez por habilidade lançada.",
+    "DescriptionClean": "Matar um inimigo ou atingir um chefe com uma habilidade principal devolve do custo-base. Só pode ocorrer uma vez por habilidade lançada.",
+    "Localisation": "Matar um inimigo ou atingir um chefe com uma habilidade {c_important}principal{/c} devolve {c_random}[Affix_Value_1|1%|]{/c} do custo-base. Só pode ocorrer uma vez por habilidade lançada.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Ossuário Sagrado",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2467629",
     "IdName": "legendary_paladin_081",
     "IdSnoList": [
@@ -6436,42 +6752,6 @@
       28,
       26,
       30,
-      15
-    ]
-  },
-  {
-    "IdSno": "1987429",
-    "IdName": "legendary_spiritborn_034_x1",
-    "IdSnoList": [
-      "1987429"
-    ],
-    "IdNameList": [
-      "legendary_spiritborn_034_x1"
-    ],
-    "Name": "da Interdição",
-    "Description": "Receba #% de chance de bloqueio por acúmulo de determinação.",
-    "DescriptionClean": "Receba de chance de bloqueio por acúmulo de determinação.",
-    "Localisation": "Receba {c_random}[Affix_Value_1*100|%+|]{/c} de chance de bloqueio por acúmulo de {c_important}{u}determinação{/u}{/c}.",
-    "IsSeasonal": false,
-    "IsCodex": true,
-    "Dungeon": "",
-    "Category": "FILTER_Legendary_Defensive",
-    "MagicType": 1,
-    "AllowedForPlayerClass": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      16,
-      17,
-      30,
-      26,
       15
     ]
   },
@@ -7508,6 +7788,39 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "da Potencialização Vocalizada",
+    "Description": "Suas habilidades de Grito concedem a você # de regeneração de recurso primário enquanto estiverem ativas.",
+    "DescriptionClean": "Suas habilidades de Grito concedem a você de regeneração de recurso primário enquanto estiverem ativas.",
+    "Localisation": "Suas habilidades de {c_important}Grito{/c} concedem a você {c_random}[Affix_Value_1|1|]{/c} de regeneração de recurso primário enquanto estiverem ativas.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Caverna Sirocco",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -8648,6 +8961,41 @@
     ]
   },
   {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "da Tempestade Crescente",
+    "Description": "Você causa #% a mais de dano quando a Armadura Gélida está ativa. A quantidade aumenta em mais #% contra inimigos congelados.",
+    "DescriptionClean": "Você causa a mais de dano quando a Armadura Gélida está ativa. A quantidade aumenta em mais contra inimigos congelados.",
+    "Localisation": "Você causa {c_random}[Affix_Value_1|%x|]{/c} a mais de dano quando a {c_important}Armadura Gélida{/c} está ativa. A quantidade aumenta em mais {c_number}[Affix.\"Static Value 0|%x|\"]{/c} contra inimigos {c_important}{u}congelados{/u}{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Forte Ônix",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "579682",
     "IdName": "legendary_druid_112",
     "IdSnoList": [
@@ -8797,6 +9145,41 @@
     ]
   },
   {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "da Tundra Congelada",
+    "Description": "Enquanto Congelamento Profundo está ativo, Espetos de Gelo explosivos se formam na área, causando # de dano gélido. Seus Espetos de Gelo têm #% de raio de explosão aumentado.",
+    "DescriptionClean": "Enquanto Congelamento Profundo está ativo, Espetos de Gelo explosivos se formam na área, causando de dano gélido. Seus Espetos de Gelo têm de raio de explosão aumentado.",
+    "Localisation": "Enquanto {c_important}Congelamento Profundo{/c} está ativo, {c_important}Espetos de Gelo{/c} explosivos se formam na área, causando {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} de dano gélido. Seus {c_important}Espetos de Gelo{/c} têm {c_number}[Affix_Value_1 * 100|%|]{/c} de raio de explosão aumentado.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1983349",
     "IdName": "legendary_spiritborn_039_x1",
     "IdSnoList": [
@@ -8940,6 +9323,42 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "da Ventania Óssea",
+    "Description": "Tempestade de Ossos consome até # cadáveres para aumentar a duração em até # s.",
+    "DescriptionClean": "Tempestade de Ossos consome até cadáveres para aumentar a duração em até s.",
+    "Localisation": "{c_important}Tempestade de Ossos{/c} consome até {c_number}[Affix_Value_2]{/c} cadáveres para aumentar a duração em até {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c} s.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
     ]
   },
   {
@@ -9122,6 +9541,41 @@
     ]
   },
   {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "da Órbita Congelada",
+    "Description": "Orbe Congelado causa #% a mais de dano e explode uma vez a mais.",
+    "DescriptionClean": "Orbe Congelado causa a mais de dano e explode uma vez a mais.",
+    "Localisation": "{c_important}Orbe Congelado{/c} causa {c_random}[Affix_Value_1|%|]{/c} a mais de dano e explode uma vez a mais.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1972587",
     "IdName": "legendary_spiritborn_024_x1",
     "IdSnoList": [
@@ -9297,6 +9751,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "das Estrelas Estilhaçadas",
+    "Description": "Meteoritos caem ao redor do Meteoro, causando # de dano ígneo.\r\n\r\nSeus Meteoritos ganham #% do dano do Meteoro e queimam os inimigos, causando # de dano ao longo de # s.",
+    "DescriptionClean": "Meteoritos caem ao redor do Meteoro, causando de dano ígneo. Seus Meteoritos ganham do dano do Meteoro e queimam os inimigos, causando de dano ao longo de s.",
+    "Localisation": "{c_important}Meteoritos{/c} caem ao redor do {c_important}Meteoro{/c}, causando {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} de dano ígneo.\r\n\r\nSeus {c_important}Meteoritos{/c} ganham {c_random}[Affix_Value_1|%|]{/c} do dano do {c_important}Meteoro{/c} e queimam os inimigos, causando {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c} de dano ao longo de {c_number}[Affix.\"Static Value 1\"]{/c} s.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -9871,6 +10360,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "das Proteções Calcinantes",
+    "Description": "Parede de Chamas retarda inimigos na área em #%. Depois de gastar # de mana, sua próxima Parede de Chamas não tem custo, destrói projéteis pequenos e imobiliza qualquer coisa atingida pelo lançamento inicial por # s.",
+    "DescriptionClean": "Parede de Chamas retarda inimigos na área em. Depois de gastar de mana, sua próxima Parede de Chamas não tem custo, destrói projéteis pequenos e imobiliza qualquer coisa atingida pelo lançamento inicial por s.",
+    "Localisation": "{c_important}Parede de Chamas{/c} retarda inimigos na área em {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}. Depois de gastar {c_random}[Affix_Value_1]{/c} de mana, sua próxima {c_important}Parede de Chamas{/c} não tem custo, destrói projéteis pequenos e imobiliza qualquer coisa atingida pelo lançamento inicial por {c_number}[Affix.\"Static Value 1\"]{/c} s.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -11606,6 +12130,44 @@
     ]
   },
   {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "do Arauto do Frio",
+    "Description": "A cada # s, seus Magos Esqueletos lançam uma nevasca que causa # de dano gélido e gela continuamente inimigos por #% ao longo de # s.",
+    "DescriptionClean": "A cada s, seus Magos Esqueletos lançam uma nevasca que causa de dano gélido e gela continuamente inimigos por ao longo de s.",
+    "Localisation": "A cada {c_number}[Affix.\"Static Value 1\"]{/c} s, seus Magos Esqueletos lançam uma nevasca que causa {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c} de dano gélido e {c_important}{u}gela{/u}{/c} continuamente inimigos por {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} ao longo de {c_number}[Affix.\"Static Value 0\"]{/c} s.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
+    ]
+  },
+  {
     "IdSno": "1040973",
     "IdName": "legendary_sorc_043_x2",
     "IdSnoList": [
@@ -12094,6 +12656,44 @@
       0,
       1,
       1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "do Berserker Incansável",
+    "Description": "Golpe de Sorte: Causar dano a um inimigo com uma habilidade principal tem até #% de chance de aumentar a duração de Berserk em # s. Se for um acerto crítico, essa duração é dobrada.",
+    "DescriptionClean": "Golpe de Sorte: Causar dano a um inimigo com uma habilidade principal tem até de chance de aumentar a duração de Berserk em s. Se for um acerto crítico, essa duração é dobrada.",
+    "Localisation": "{c_label}Golpe de Sorte:{/c} Causar dano a um inimigo com uma habilidade {c_important}principal{/c} tem até {c_random}[Affix_Value_1|%|]{/c} de chance de aumentar a duração de {c_important}{u}Berserk{/u}{/c} em {c_number}[Affix_Value_2]{/c} s. Se for um acerto crítico, essa duração é dobrada.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Refúgio de Hakan",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -12778,6 +13378,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "do Conquistassangue",
+    "Description": "Seus Sacerdotes Esqueletos agora potencializam você com #% de eficiência.",
+    "DescriptionClean": "Seus Sacerdotes Esqueletos agora potencializam você com de eficiência.",
+    "Localisation": "Seus Sacerdotes Esqueletos agora potencializam você com {c_random}[Affix_Value_1|%|]{/c} de eficiência.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
     ]
   },
   {
@@ -13814,6 +14452,76 @@
     ]
   },
   {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "do Estripador Berserker",
+    "Description": "Durante Berserk, seu dano direto causa #% de bônus de dano de sangramento ao longo de # s.",
+    "DescriptionClean": "Durante Berserk, seu dano direto causa de bônus de dano de sangramento ao longo de s.",
+    "Localisation": "Durante {c_important}{u}Berserk{/u}{/c}, seu dano direto causa {c_random}[Affix_Value_1*100|%|]{/c} de bônus de dano de sangramento ao longo de {c_number}[Affix.\"Static Value 0\"]{/c} s.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Campo de Luto",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "do Estábulo",
+    "Description": "Enquanto Correntes Instáveis não estiver ativa, suas habilidades de Choque têm #% de chance de ativar um lançamento sem custo a partir dela.",
+    "DescriptionClean": "Enquanto Correntes Instáveis não estiver ativa, suas habilidades de Choque têm de chance de ativar um lançamento sem custo a partir dela.",
+    "Localisation": "Enquanto {c_important}Correntes Instáveis{/c} não estiver ativa, suas habilidades de {c_important}Choque{/c} têm {c_random}[Affix_Value_1|1%|]{/c} de chance de ativar um lançamento sem custo a partir dela.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1929337",
     "IdName": "S05_BSK_Barbarian_003",
     "IdSnoList": [
@@ -13920,6 +14628,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "do Fogo Célere",
+    "Description": "Aumenta o dano de acerto crítico de habilidades de Piromancia em #%. O bônus dobra contra alvos saudáveis.",
+    "DescriptionClean": "Aumenta o dano de acerto crítico de habilidades de Piromancia em. O bônus dobra contra alvos saudáveis.",
+    "Localisation": "Aumenta o dano de acerto crítico de habilidades de {c_important}Piromancia{/c_important} em {c_random}[Affix_Value_1|%x|]{/c}. O bônus dobra contra alvos {c_important}{u}saudáveis{/u}{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Covil da Serpente",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -14318,6 +15061,41 @@
     ]
   },
   {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "do Guarda-neve",
+    "Description": "Dentro da sua Nevasca e por # s após sair dela, você recebe #% menos dano.",
+    "DescriptionClean": "Dentro da sua Nevasca e por s após sair dela, você recebe menos dano.",
+    "Localisation": "Dentro da sua {c_important}Nevasca{/c} e por {c_number}[Affix.\"Static Value 0\"]{/c} s após sair dela, você recebe {c_random}[Affix_Value_1|%|]{/c} menos dano.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Mausoléu Fétido",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2585058",
     "IdName": "x1_legendary_sorc_140_x2",
     "IdSnoList": [
@@ -14350,6 +15128,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "do Guerreiro de Ferro",
+    "Description": "Pele de Ferro concede implacável, e #% de redução de dano.",
+    "DescriptionClean": "Pele de Ferro concede implacável, e de redução de dano.",
+    "Localisation": "{c_important}Pele de Ferro{/c} concede {c_important}{u}implacável{/u}{/c}, e {c_random}[Affix_Value_1|%|]{/c} de redução de dano.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Campos de Carniça",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -14711,6 +15524,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "do Lampejo Carregado",
+    "Description": "Energia Crepitante causa #% a mais de dano. Enquanto tiver Energia Crepitante, Setas Carregadas gasta uma carga para disparar, adicionalmente, uma onda que causa o dano de Energia Crepitante na área.",
+    "DescriptionClean": "Energia Crepitante causa a mais de dano. Enquanto tiver Energia Crepitante, Setas Carregadas gasta uma carga para disparar, adicionalmente, uma onda que causa o dano de Energia Crepitante na área.",
+    "Localisation": "{c_important}Energia Crepitante{/c} causa {c_random}[Affix_Value_1 * 100|%x|]{/c} a mais de dano. Enquanto tiver {c_important}Energia Crepitante{/c}, {c_important}Setas Carregadas{/c} gasta uma carga para disparar, adicionalmente, uma onda que causa o dano de {c_important}Energia Crepitante{/c} na área.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -15811,6 +16659,43 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "do Pássaro de Fogo",
+    "Description": "Enquanto Escudo Flamejante estiver ativo, Meteoritos caem em cascata ao seu redor e causam # de dano ígneo. Seus Meteoritos ganham #% de chance de Golpe de Sorte.",
+    "DescriptionClean": "Enquanto Escudo Flamejante estiver ativo, Meteoritos caem em cascata ao seu redor e causam de dano ígneo. Seus Meteoritos ganham de chance de Golpe de Sorte.",
+    "Localisation": "Enquanto {c_important}Escudo Flamejante{/c} estiver ativo, {c_important}Meteoritos{/c} caem em cascata ao seu redor e causam {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} de dano ígneo. Seus {c_important}Meteoritos{/c} ganham {c_number}[Affix.\"Static Value 2\"]%{/c} de chance de Golpe de Sorte.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "2585075",
     "IdName": "legendary_generic_133_x2",
     "IdSnoList": [
@@ -16058,6 +16943,41 @@
     ]
   },
   {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "do Resoluto",
+    "Description": "Receber dano direto tem #% de chance de reiniciar a recarga de uma das suas habilidades de Defesa.",
+    "DescriptionClean": "Receber dano direto tem de chance de reiniciar a recarga de uma das suas habilidades de Defesa.",
+    "Localisation": "Receber dano direto tem {c_random}[Affix_Value_1|1%|]{/c} de chance de reiniciar a recarga de uma das suas habilidades de {c_important}Defesa{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Aquífero Pútrido",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "578758",
     "IdName": "legendary_barb_027",
     "IdSnoList": [
@@ -16162,6 +17082,41 @@
     ]
   },
   {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "do Rompe-crânios",
+    "Description": "Incapacitar um inimigo com sangramento causa #% do total de sangramento dele como dano físico.",
+    "DescriptionClean": "Incapacitar um inimigo com sangramento causa do total de sangramento dele como dano físico.",
+    "Localisation": "{c_important}{u}Incapacitar{/u}{/c} um inimigo com sangramento causa {c_random}[Affix_Value_1|%|]{/c} do total de sangramento dele como dano físico.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "614914",
     "IdName": "legendary_necro_029",
     "IdSnoList": [
@@ -16228,6 +17183,42 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "do Sangue de Ferro",
+    "Description": "Recebe #% de redução de dano por cada inimigo próximo que esteja sangrando até o máximo de #%.",
+    "DescriptionClean": "Recebe de redução de dano por cada inimigo próximo que esteja sangrando até o máximo de.",
+    "Localisation": "Recebe {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} de redução de dano por cada inimigo próximo que esteja sangrando até o máximo de {c_random}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Ruínas Esquecidas",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
     ]
   },
   {
@@ -16446,6 +17437,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "do Toque de Inverno",
+    "Description": "Ao congelar um inimigo, você causa # de dano gélido a ele.\r\n\r\nEste efeito é considerado uma habilidade de Geleira.",
+    "DescriptionClean": "Ao congelar um inimigo, você causa de dano gélido a ele. Este efeito é considerado uma habilidade de Geleira.",
+    "Localisation": "Ao {c_important}{u}congelar{/u}{/c} um inimigo, você causa {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} de dano gélido a ele.\r\n\r\nEste efeito é considerado uma habilidade de {c_important}Geleira{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -16946,6 +17972,41 @@
     ]
   },
   {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "dos Ecos Ancestrais",
+    "Description": "Golpe de Sorte: Salto, Revolta e Redemoinho têm até #% de chance de evocar um ancestral para usar a mesma habilidade. Só pode ocorrer uma vez a cada # s.\r\n\r\nSuas evocações causam #% a mais de dano.",
+    "DescriptionClean": "Golpe de Sorte: Salto, Revolta e Redemoinho têm até de chance de evocar um ancestral para usar a mesma habilidade. Só pode ocorrer uma vez a cada s. Suas evocações causam a mais de dano.",
+    "Localisation": "{c_label}Golpe de Sorte:{/c} {c_important}Salto{/c}, {c_important}Revolta{/c} e {c_important}Redemoinho{/c} têm até {c_random}[Affix_Value_1|%|]{/c} de chance de evocar um ancestral para usar a mesma habilidade. Só pode ocorrer uma vez a cada {c_number}[Affix.\"Static Value 0\"]{/c} s.\r\n\r\nSuas {c_important}evocações{/c} causam {c_random}[Affix_Value_2|%|]{/c} a mais de dano.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Reservatório Ancestral",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2014637",
     "IdName": "legendary_druid_127",
     "IdSnoList": [
@@ -17197,6 +18258,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "dos Insaciáveis",
+    "Description": "Depois de causar um acerto crítico com Retalhar, você recebe # de espírito. Enquanto tiver # de espírito, suas habilidades de Lobisomem causam #% a mais de dano até você ficar abaixo de # de espírito.",
+    "DescriptionClean": "Depois de causar um acerto crítico com Retalhar, você recebe de espírito. Enquanto tiver de espírito, suas habilidades de Lobisomem causam a mais de dano até você ficar abaixo de de espírito.",
+    "Localisation": "Depois de causar um acerto crítico com {c_important}Retalhar{/c}, você recebe {c_number}[Affix.\"Static Value 0\"]{/c} de espírito. Enquanto tiver {c_number}[Affix.\"Static Value 2\"]{/c} de espírito, suas habilidades de {c_important}Lobisomem{/c} causam {c_random}[Affix_Value_1|1%x|]{/c} a mais de dano até você ficar abaixo de {c_number}[Affix.\"Static Value 1\"]{/c} de espírito.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Ruínas Atormentadas",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2540929",
     "IdName": "legendary_druid_062_x2",
     "IdSnoList": [
@@ -17343,6 +18437,39 @@
     ]
   },
   {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "dos Passos Gigantes",
+    "Description": "Reduz a recarga de Salto em # s por inimigo atingido, até o máximo de # s. Atingir um chefe com Salto concede a redução máxima.",
+    "DescriptionClean": "Reduz a recarga de Salto em s por inimigo atingido, até o máximo de s. Atingir um chefe com Salto concede a redução máxima.",
+    "Localisation": "Reduz a recarga de {c_important}Salto{/c} em {c_random}[Affix_Value_1|1|]{/c} s por inimigo atingido, até o máximo de {c_number}[Affix_Value_2]{/c} s. Atingir um chefe com {c_important}Salto{/c} concede a redução máxima.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1893589",
     "IdName": "legendary_generic_124",
     "IdSnoList": [
@@ -17378,6 +18505,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "dos Terremotos",
+    "Description": "Pisada Poderosa cria um Terremoto que causa # de dano físico aos inimigos ao longo de # s. Enquanto está no Terremoto e por mais # s depois, você causa #% a mais de dano.\r\n\r\nSeus Terremotos causam #% a mais de dano. ",
+    "DescriptionClean": "Pisada Poderosa cria um Terremoto que causa de dano físico aos inimigos ao longo de s. Enquanto está no Terremoto e por mais s depois, você causa a mais de dano. Seus Terremotos causam a mais de dano.",
+    "Localisation": "{c_important}Pisada Poderosa{/c} cria um {c_important}Terremoto{/c} que causa {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} de dano físico aos inimigos ao longo de {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c} s. Enquanto está no {c_important}Terremoto{/c} e por mais {c_number}[Affix.\"Static Value 0\"]{/c} s depois, você causa {c_random}[Affix_Value_1|%x|]{/c} a mais de dano.\r\n\r\nSeus {c_important}Terremotos{/c} causam {c_random}[Affix_Value_1|%|]{/c} a mais de dano. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {

@@ -641,6 +641,41 @@
     ]
   },
   {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "催火狂魔",
+    "Description": "火焰傷害提高 #%。當你對敵人第一次造成燃燒時，會對其造成額外 # 點焰術火焰傷害。",
+    "DescriptionClean": "火焰傷害提高 。當你對敵人第一次造成燃燒時，會對其造成額外 點焰術火焰傷害。",
+    "Localisation": "火焰傷害提高 {c_random}[Affix_Value_2*100|%x|]{/c}。當你對敵人第一次造成燃燒時，會對其造成額外 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} 點{c_important}焰術{/c}火焰傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1977735",
     "IdName": "legendary_necro_133",
     "IdSnoList": [
@@ -1238,6 +1273,184 @@
     ]
   },
   {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "冬觸",
+    "Description": "當你凍結敵人時，你會對其造成 # 點冰寒傷害。\r\n\r\n此效果視為冰霜技能。",
+    "DescriptionClean": "當你凍結敵人時，你會對其造成 點冰寒傷害。 此效果視為冰霜技能。",
+    "Localisation": "當你{c_important}{u}凍結{/u}{/c}敵人時，你會對其造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} 點冰寒傷害。\r\n\r\n此效果視為{c_important}冰霜{/c}技能。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "冰凍苔原之",
+    "Description": "使用極度冰凍時，會在區域內生成會爆炸的冰刺，造成 # 點冰寒傷害。冰刺爆炸半徑增加 #%。",
+    "DescriptionClean": "使用極度冰凍時，會在區域內生成會爆炸的冰刺，造成 點冰寒傷害。冰刺爆炸半徑增加 。",
+    "Localisation": "使用{c_important}極度冰凍{/c}時，會在區域內生成會爆炸的{c_important}冰刺{/c}，造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} 點冰寒傷害。{c_important}冰刺{/c}爆炸半徑增加 {c_number}[Affix_Value_1 * 100|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "冰寒使者",
+    "Description": "每 # 秒，你的骷髏法師會施放暴風雪，在 # 秒內造成 # 點冰寒傷害，並持續對敵人造成 #% 冰冷效果。",
+    "DescriptionClean": "每 秒，你的骷髏法師會施放暴風雪，在 秒內造成 點冰寒傷害，並持續對敵人造成 冰冷效果。",
+    "Localisation": "每 {c_number}[Affix.\"Static Value 1\"]{/c} 秒，你的骷髏法師會施放暴風雪，在 {c_number}[Affix.\"Static Value 0\"]{/c} 秒內造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c} 點冰寒傷害，並持續對敵人造成 {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} {c_important}{u}冰冷{/u}{/c}效果。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
+    ]
+  },
+  {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "冰封軌道之",
+    "Description": "冰封球造成的傷害提高 #%，並額外爆炸一次。",
+    "DescriptionClean": "冰封球造成的傷害提高 ，並額外爆炸一次。",
+    "Localisation": "{c_important}冰封球{/c}造成的傷害提高 {c_random}[Affix_Value_1|%|]{/c}，並額外爆炸一次。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "冰河",
+    "Description": "暴風雪會定期生成爆破冰刺，造成 # 點傷害。你的冰刺會對敵人施加冰冷效果，持續 #% 秒。",
+    "DescriptionClean": "暴風雪會定期生成爆破冰刺，造成 點傷害。你的冰刺會對敵人施加冰冷效果，持續 秒。",
+    "Localisation": "{c_important}暴風雪{/c}會定期生成爆破{c_important}冰刺{/c}，造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} 點傷害。你的{c_important}冰刺{/c}會對敵人施加{c_important}{u}冰冷效果{/u}{/c}，持續 {c_number}[Affix_Value_1|%|]{/c} 秒。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1943568",
     "IdName": "S05_BSK_Rogue_003",
     "IdSnoList": [
@@ -1308,6 +1521,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "冰霜閃擊",
+    "Description": "冰霜新星獲得一次額外使用次數，但每次使用次數的冷卻時間延長 #%。",
+    "DescriptionClean": "冰霜新星獲得一次額外使用次數，但每次使用次數的冷卻時間延長 。",
+    "Localisation": "{c_important}冰霜新星{/c_important}獲得一次額外使用次數，但每次使用次數的冷卻時間延長 {c_random}[Affix_Value_1*100|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -2779,6 +3027,41 @@
     ]
   },
   {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "和穩",
+    "Description": "未擁有不穩電流時，你的電能技能有 #% 機率觸發一個無消耗的電能技能。",
+    "DescriptionClean": "未擁有不穩電流時，你的電能技能有 機率觸發一個無消耗的電能技能。",
+    "Localisation": "未擁有{c_important}不穩電流{/c}時，你的{c_important}電能{/c}技能有 {c_random}[Affix_Value_1|1%|]{/c} 機率觸發一個無消耗的電能技能。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574498",
     "IdName": "legendary_sorc_039_x2",
     "IdSnoList": [
@@ -3207,6 +3490,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "堅定不移之",
+    "Description": "受到直接傷害有 #% 機率重置你其中一個防禦技能的冷卻時間。",
+    "DescriptionClean": "受到直接傷害有 機率重置你其中一個防禦技能的冷卻時間。",
+    "Localisation": "受到直接傷害有 {c_random}[Affix_Value_1|1%|]{/c} 機率重置你其中一個{c_important}防禦{/c}技能的冷卻時間。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "腐臭水層",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -4662,6 +4980,39 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "巨人奔踏之",
+    "Description": "躍擊每擊中一名敵人，其冷卻時間便會縮短 # 秒，最多縮短 # 秒。以躍擊擊中首領時，縮短的冷卻時間會以最大值計算。",
+    "DescriptionClean": "躍擊每擊中一名敵人，其冷卻時間便會縮短 秒，最多縮短 秒。以躍擊擊中首領時，縮短的冷卻時間會以最大值計算。",
+    "Localisation": "{c_important}躍擊{/c}每擊中一名敵人，其冷卻時間便會縮短 {c_random}[Affix_Value_1|1|]{/c} 秒，最多縮短 {c_number}[Affix_Value_2]{/c} 秒。以{c_important}躍擊{/c}擊中首領時，縮短的冷卻時間會以最大值計算。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -7015,6 +7366,41 @@
     ]
   },
   {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "擲焰者之",
+    "Description": "熾焚烈焰分裂成 3 道火焰，每一道會造成 #% 的普通傷害。",
+    "DescriptionClean": "熾焚烈焰分裂成 3 道火焰，每一道會造成 的普通傷害。",
+    "Localisation": "{c_important}熾焚烈焰{/c}分裂成 {c_number}3{/c} 道火焰，每一道會造成 {c_random}[Affix_Value_1|%x|]{/c} 的普通傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "578728",
     "IdName": "legendary_barb_050",
     "IdSnoList": [
@@ -7424,6 +7810,41 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "暴風增長",
+    "Description": "當寒冰護甲效果期間，你造成的傷害提高 #%。對凍結敵人造成的傷害額外提高 #%。",
+    "DescriptionClean": "當寒冰護甲效果期間，你造成的傷害提高 。對凍結敵人造成的傷害額外提高 。",
+    "Localisation": "當{c_important}寒冰護甲{/c}效果期間，你造成的傷害提高 {c_random}[Affix_Value_1|%x|]{/c}。對{c_important}{u}凍結{/u}{/c}敵人造成的傷害額外提高 {c_number}[Affix.\"Static Value 0|%x|\"]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "黑瑪瑙堡",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -7996,6 +8417,44 @@
     "AllowedItemLabels": [
       26,
       29
+    ]
+  },
+  {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "武器大師",
+    "Description": "武器專精技能會擊昏敵人 # 秒。敵人每 # 秒依此被昏迷一次。武器專精技能有一次額外使用次數，且造成傷害提高 #%。",
+    "DescriptionClean": "武器專精技能會擊昏敵人 秒。敵人每 秒依此被昏迷一次。武器專精技能有一次額外使用次數，且造成傷害提高 。",
+    "Localisation": "{c_important}武器專精{/c}技能會擊昏敵人 {c_random}[Affix_Value_1|1|]{/c} 秒。敵人每 {c_number}[Affix.\"Static Value 0\"]{/c} 秒依此被昏迷一次。{c_important}武器專精{/c}技能有一次額外使用次數，且造成傷害提高 {c_random}[Affix_Value_2|%x|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
     ]
   },
   {
@@ -9180,6 +9639,78 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "火鳥之",
+    "Description": "火焰護盾啟動時，在你周遭砸下小隕石，造成 # 點火焰傷害。你的小隕石獲得 #% 幸運觸發機率。",
+    "DescriptionClean": "火焰護盾啟動時，在你周遭砸下小隕石，造成 點火焰傷害。你的小隕石獲得 幸運觸發機率。",
+    "Localisation": "{c_important}火焰護盾{/c}啟動時，在你周遭砸下{c_important}小隕石{/c}，造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} 點火焰傷害。你的{c_important}小隕石{/c}獲得 {c_number}[Affix.\"Static Value 2\"]%{/c} 幸運觸發機率。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "灼熱結界之",
+    "Description": "火牆術會使範圍內的敵人緩速 #%。在花費 # 點法力後，你的下一個火牆術不須消耗即可施展，可摧毀襲來的小型投射攻擊，且初始施放會使擊中的敵人定身 # 秒。",
+    "DescriptionClean": "火牆術會使範圍內的敵人緩速 。在花費 點法力後，你的下一個火牆術不須消耗即可施展，可摧毀襲來的小型投射攻擊，且初始施放會使擊中的敵人定身 秒。",
+    "Localisation": "{c_important}火牆術{/c}會使範圍內的敵人緩速 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}。在花費 {c_random}[Affix_Value_1]{/c} 點法力後，你的下一個{c_important}火牆術{/c}不須消耗即可施展，可摧毀襲來的小型投射攻擊，且初始施放會使擊中的敵人定身 {c_number}[Affix.\"Static Value 1\"]{/c} 秒。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2574620",
     "IdName": "legendary_sorc_106_x2",
     "IdSnoList": [
@@ -9711,6 +10242,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "無情狂戰士",
+    "Description": "幸運觸發：使用核心技能傷害敵人時，最高有 #% 機率使狂暴的持續時間延長 # 秒。若造成爆擊，延長的持續時間加倍。",
+    "DescriptionClean": "幸運觸發：使用核心技能傷害敵人時，最高有 機率使狂暴的持續時間延長 秒。若造成爆擊，延長的持續時間加倍。",
+    "Localisation": "{c_label}幸運觸發：{/c}使用{c_important}核心{/c}技能傷害敵人時，最高有 {c_random}[Affix_Value_1|%|]{/c} 機率使{c_important}{u}狂暴{/u}{/c}的持續時間延長 {c_number}[Affix_Value_2]{/c} 秒。若造成爆擊，延長的持續時間加倍。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "哈坎避難所",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
     ]
   },
   {
@@ -10419,6 +10988,41 @@
     ]
   },
   {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "狂暴撕扯之",
+    "Description": "你在狂暴時造成的直接傷害，會在 # 秒內施加 #% 額外流血傷害。",
+    "DescriptionClean": "你在狂暴時造成的直接傷害，會在 秒內施加 額外流血傷害。",
+    "Localisation": "你在{c_important}{u}狂暴{/u}{/c}時造成的直接傷害，會在 {c_number}[Affix.\"Static Value 0\"]{/c} 秒內施加 {c_random}[Affix_Value_1*100|%|]{/c} 額外流血傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "哀悼平原",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2445850",
     "IdName": "legendary_paladin_036",
     "IdSnoList": [
@@ -10839,6 +11443,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "猛震",
+    "Description": "你每 # 秒會電擊附近一名敵人，造成 # 點電擊傷害。\r\n\r\n此效果視為電能技能。",
+    "DescriptionClean": "你每 秒會電擊附近一名敵人，造成 點電擊傷害。 此效果視為電能技能。",
+    "Localisation": "你每 {c_random}[Affix_Value_1|1|]{/c} 秒會電擊附近一名敵人，造成 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} 點電擊傷害。\r\n\r\n此效果視為{c_important}電能{/c}技能。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -11332,6 +11971,42 @@
     ]
   },
   {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "白骨烈風",
+    "Description": "骸骨風暴最多可消耗 # 具屍體以延長持續時間，最多延長 # 秒。",
+    "DescriptionClean": "骸骨風暴最多可消耗 具屍體以延長持續時間，最多延長 秒。",
+    "Localisation": "{c_important}骸骨風暴{/c}最多可消耗 {c_number}[Affix_Value_2]{/c} 具屍體以延長持續時間，最多延長 {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c} 秒。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
+    ]
+  },
+  {
     "IdSno": "1950503",
     "IdName": "S05_BSK_Malignant_Necro_001",
     "IdSnoList": [
@@ -11620,6 +12295,41 @@
     ]
   },
   {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "碎星之",
+    "Description": "隕石術附近會降下小隕石，造成 # 點火焰傷害。\r\n\r\n你的小隕石會獲得隕石術 #% 的傷害，並且會使擊中的敵人燃燒，在 # 秒內造成 # 點傷害。",
+    "DescriptionClean": "隕石術附近會降下小隕石，造成 點火焰傷害。 你的小隕石會獲得隕石術 的傷害，並且會使擊中的敵人燃燒，在 秒內造成 點傷害。",
+    "Localisation": "{c_important}隕石術{/c}附近會降下{c_important}小隕石{/c}，造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} 點火焰傷害。\r\n\r\n你的{c_important}小隕石{/c}會獲得{c_important}隕石術{/c} {c_random}[Affix_Value_1|%|]{/c} 的傷害，並且會使擊中的敵人燃燒，在 {c_number}[Affix.\"Static Value 1\"]{/c} 秒內造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c} 點傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574623",
     "IdName": "legendary_sorc_135_x2",
     "IdSnoList": [
@@ -11723,6 +12433,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "碎顱者",
+    "Description": "使流血的敵人癱瘓，會造成其總流血量 #% 的物理傷害。",
+    "DescriptionClean": "使流血的敵人癱瘓，會造成其總流血量 的物理傷害。",
+    "Localisation": "使流血的敵人{c_important}{u}癱瘓{/u}{/c}，會造成其總流血量 {c_random}[Affix_Value_1|%|]{/c} 的物理傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -11868,40 +12613,40 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
     "IdSnoList": [
-      "1987429",
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "禁制之",
     "Description": "每層決心使你獲得 #% 格擋機率。",
     "DescriptionClean": "每層決心使你獲得 格擋機率。",
-    "Localisation": "每層{c_important}{u}決心{/u}{/c}使你獲得 {c_random}[Affix_Value_1*100|%+|]{/c} 格擋機率。",
+    "Localisation": "每層{c_important}{u}決心{/u}{/c}使你獲得 {c_random}[Affix_Value_1*100|1%+|]{/c} 格擋機率。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
-    "Category": "FILTER_Legendary_Defensive",
+    "Category": "FILTER_Legendary_Utility",
     "MagicType": 1,
     "AllowedForPlayerClass": [
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0
     ],
     "AllowedItemLabels": [
       16,
       17,
-      30,
+      29,
+      28,
       26,
+      30,
       15
     ]
   },
@@ -13886,6 +14631,41 @@
     ]
   },
   {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "蛇紋",
+    "Description": "召喚多頭蛇時，你每擁有 1 點法力便使其傷害提高 #%。施放多頭蛇會消耗你的所有法力。",
+    "DescriptionClean": "召喚多頭蛇時，你每擁有 1 點法力便使其傷害提高 。施放多頭蛇會消耗你的所有法力。",
+    "Localisation": "召喚{c_important}多頭蛇{/c}時，你每擁有 1 點法力便使其傷害提高 {c_random}[Affix_Value_1|%2x|]{/c}。施放{c_important}多頭蛇{/c}會消耗你的所有法力。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1822334",
     "IdName": "legendary_spiritborn_007_x1",
     "IdSnoList": [
@@ -14286,6 +15066,41 @@
     ]
   },
   {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "裂地之震之",
+    "Description": "震地踐踏會產生裂地之震，在 # 秒內對敵人造成 # 點物理傷害。當你處於裂地之震範圍內時，以及之後的 # 秒內，造成的傷害提高 #%。\r\n\r\n你的裂地之震造成的傷害提高 #%。 ",
+    "DescriptionClean": "震地踐踏會產生裂地之震，在 秒內對敵人造成 點物理傷害。當你處於裂地之震範圍內時，以及之後的 秒內，造成的傷害提高 。 你的裂地之震造成的傷害提高 。",
+    "Localisation": "{c_important}震地踐踏{/c}會產生{c_important}裂地之震{/c}，在 {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c} 秒內對敵人造成 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} 點物理傷害。當你處於{c_important}裂地之震{/c}範圍內時，以及之後的 {c_number}[Affix.\"Static Value 0\"]{/c} 秒內，造成的傷害提高 {c_random}[Affix_Value_1|%x|]{/c}。\r\n\r\n你的{c_important}裂地之震{/c}造成的傷害提高 {c_random}[Affix_Value_1|%|]{/c}。 ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1768379",
     "IdName": "x1_legendary_rogue_130",
     "IdSnoList": [
@@ -14389,6 +15204,39 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "言語賦能之",
+    "Description": "你的怒吼技能效果持續期間，使你獲得 # 點主要資源產生。",
+    "DescriptionClean": "你的怒吼技能效果持續期間，使你獲得 點主要資源產生。",
+    "Localisation": "你的{c_important}怒吼{/c}技能效果持續期間，使你獲得 {c_random}[Affix_Value_1|1|]{/c} 點主要資源產生。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "西洛克洞穴",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -14675,6 +15523,39 @@
       0,
       0,
       0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "貪婪怒火之",
+    "Description": "使用核心技能擊殺敵人時，歸還該技能消耗的 #% 基礎資源。每次施放技能只能觸發一次。",
+    "DescriptionClean": "使用核心技能擊殺敵人時，歸還該技能消耗的 基礎資源。每次施放技能只能觸發一次。",
+    "Localisation": "使用{c_important}核心{/c}技能擊殺敵人時，歸還該技能消耗的 {c_random}[Affix_Value_1|1%|]{/c} 基礎資源。每次施放技能只能觸發一次。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "神聖藏骨堂",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "AllowedItemLabels": [
       19,
@@ -15458,6 +16339,41 @@
     ]
   },
   {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "遠古回聲之",
+    "Description": "幸運觸發：躍擊、動盪震擊和旋風斬最高有 #% 機率召喚一名先祖施展相同技能。每 # 秒只能觸發一次。\r\n\r\n你的召喚物造成的傷害提高 #%。",
+    "DescriptionClean": "幸運觸發：躍擊、動盪震擊和旋風斬最高有 機率召喚一名先祖施展相同技能。每 秒只能觸發一次。 你的召喚物造成的傷害提高 。",
+    "Localisation": "{c_label}幸運觸發：{/c}{c_important}躍擊{/c}、{c_important}動盪震擊{/c}和{c_important}旋風斬{/c}最高有 {c_random}[Affix_Value_1|%|]{/c} 機率召喚一名先祖施展相同技能。每 {c_number}[Affix.\"Static Value 0\"]{/c} 秒只能觸發一次。\r\n\r\n你的{c_important}召喚物{/c}造成的傷害提高 {c_random}[Affix_Value_2|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "古代水庫",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2577527",
     "IdName": "legendary_sorc_101_x2",
     "IdSnoList": [
@@ -15780,6 +16696,77 @@
     ]
   },
   {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "鋼鐵之血",
+    "Description": "附近每有一名受到流血效果的敵人，可獲得 #% 傷害減免，最多可獲得 #% 傷害減免。",
+    "DescriptionClean": "附近每有一名受到流血效果的敵人，可獲得 傷害減免，最多可獲得 傷害減免。",
+    "Localisation": "附近每有一名受到流血效果的敵人，可獲得 {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} 傷害減免，最多可獲得 {c_random}[Affix_Value_1|%|]{/c} 傷害減免。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "遺忘廢墟",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
+    ]
+  },
+  {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "鋼鐵戰士之",
+    "Description": "鋼鐵之膚會提供無阻效果和 #% 傷害減免。",
+    "DescriptionClean": "鋼鐵之膚會提供無阻效果和 傷害減免。",
+    "Localisation": "{c_important}鋼鐵之膚{/c}會提供{c_important}{u}無阻{/u}{/c}效果和 {c_random}[Affix_Value_1|%|]{/c} 傷害減免。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "不潔之原",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "1791939",
     "IdName": "x1_legendary_barb_114",
     "IdSnoList": [
@@ -15993,6 +16980,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "閃焰",
+    "Description": "焰術技能的爆擊傷害提高 #%。對健康目標時，此加成效果加倍。",
+    "DescriptionClean": "焰術技能的爆擊傷害提高 。對健康目標時，此加成效果加倍。",
+    "Localisation": "{c_important}焰術{/c_important}技能的爆擊傷害提高 {c_random}[Affix_Value_1|%x|]{/c}。對{c_important}{u}健康{/u}{/c}目標時，此加成效果加倍。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "毒蛇巢穴",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -16464,6 +17486,41 @@
     ]
   },
   {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "雪衛",
+    "Description": "處於自己施展的暴風雪內，以及離開該範圍的 # 秒內，受到的傷害降低 #%。",
+    "DescriptionClean": "處於自己施展的暴風雪內，以及離開該範圍的 秒內，受到的傷害降低 。",
+    "Localisation": "處於自己施展的{c_important}暴風雪{/c}內，以及離開該範圍的 {c_number}[Affix.\"Static Value 0\"]{/c} 秒內，受到的傷害降低 {c_random}[Affix_Value_1|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "腐臭陵墓",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2145128",
     "IdName": "legendary_druid_130",
     "IdSnoList": [
@@ -16496,6 +17553,41 @@
       19,
       28,
       26
+    ]
+  },
+  {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "電能迅閃之",
+    "Description": "電流能量造成的傷害提高 #%。當你有電流能量時，電能彈會消耗一次使用次數來發射一道波動，於區域內造成電流能量的 #% 傷害。",
+    "DescriptionClean": "電流能量造成的傷害提高 。當你有電流能量時，電能彈會消耗一次使用次數來發射一道波動，於區域內造成電流能量的 傷害。",
+    "Localisation": "{c_important}電流能量{/c}造成的傷害提高 {c_random}[Affix_Value_1 * 100|%x|]{/c}。當你有{c_important}電流能量{/c}時，{c_important}電能彈{/c}會消耗一次使用次數來發射一道波動，於區域內造成{c_important}電流能量的{/c} {c_random}[Affix_Value_1 * 100|%x|]{/c} 傷害。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -17134,6 +18226,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "飢渴難饜之",
+    "Description": "使用撕碎對敵人造成爆擊後，你獲得 # 點靈力。擁有 # 點靈力時，你的狼人技能造成的傷害提高 #%，直到你的靈力低於 # 為止。",
+    "DescriptionClean": "使用撕碎對敵人造成爆擊後，你獲得 點靈力。擁有 點靈力時，你的狼人技能造成的傷害提高 ，直到你的靈力低於 為止。",
+    "Localisation": "使用{c_important}撕碎{/c}對敵人造成爆擊後，你獲得 {c_number}[Affix.\"Static Value 0\"]{/c} 點靈力。擁有 {c_number}[Affix.\"Static Value 2\"]{/c} 點靈力時，你的{c_important}狼人{/c}技能造成的傷害提高 {c_random}[Affix_Value_1|1%x|]{/c}，直到你的靈力低於 {c_number}[Affix.\"Static Value 1\"]{/c} 為止。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "苦痛廢墟",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2574656",
     "IdName": "legendary_sorc_017_x2",
     "IdSnoList": [
@@ -17342,6 +18467,41 @@
     ]
   },
   {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "高速穿透",
+    "Description": "箭幕的箭會刺穿 # 個敵人。\r\n箭幕的攻擊速度提高 #%。",
+    "DescriptionClean": "箭幕的箭會刺穿 個敵人。 箭幕的攻擊速度提高 。",
+    "Localisation": "{c_important}箭幕{/c}的箭會刺穿 {c_number}[Affix.\"Static Value 0\"]{/c} 個敵人。\r\n{c_important}箭幕{/c}的攻擊速度提高 {c_random}[Affix_Value_1|1%+|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
+    ]
+  },
+  {
     "IdSno": "1858280",
     "IdName": "legendary_spiritborn_019_x1",
     "IdSnoList": [
@@ -17408,6 +18568,44 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "鮮血收集者",
+    "Description": "你的骷髏祭司也會強化你，效果為 #%。",
+    "DescriptionClean": "你的骷髏祭司也會強化你，效果為 。",
+    "Localisation": "你的骷髏祭司也會強化你，效果為 {c_random}[Affix_Value_1|%|]{/c}。",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
     ]
   },
   {

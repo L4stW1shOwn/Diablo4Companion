@@ -144,6 +144,44 @@
     ]
   },
   {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "가차없는 광전사의",
+    "Description": "행운의 적중: 핵심 기술로 적에게 피해를 주면 최대 #% 확률로 광폭화의 지속시간이 #초 증가합니다. 극대화 적중 시 이 지속시간이 2배로 증가합니다.",
+    "DescriptionClean": "행운의 적중: 핵심 기술로 적에게 피해를 주면 최대 확률로 광폭화의 지속시간이 초 증가합니다. 극대화 적중 시 이 지속시간이 2배로 증가합니다.",
+    "Localisation": "{c_label}행운의 적중:{/c} {c_important}핵심{/c} 기술로 적에게 피해를 주면 최대 {c_random}[Affix_Value_1|%|]{/c} 확률로 {c_important}{u}광폭화{/u}{/c}의 지속시간이 {c_number}[Affix_Value_2]{/c}초 증가합니다. 극대화 적중 시 이 지속시간이 2배로 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "하칸의 도피처",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "578745",
     "IdName": "legendary_barb_021",
     "IdSnoList": [
@@ -565,6 +603,39 @@
     ]
   },
   {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "거인의 발걸음의",
+    "Description": "적중당한 적 하나당 도약의 재사용 대기시간이 #초만큼, 최대 #초까지 감소합니다. 도약으로 우두머리를 적중시키면 감소량이 최대로 적용됩니다.",
+    "DescriptionClean": "적중당한 적 하나당 도약의 재사용 대기시간이 초만큼, 최대 초까지 감소합니다. 도약으로 우두머리를 적중시키면 감소량이 최대로 적용됩니다.",
+    "Localisation": "적중당한 적 하나당 {c_important}도약{/c}의 재사용 대기시간이 {c_random}[Affix_Value_1|1|]{/c}초만큼, 최대 {c_number}[Affix_Value_2]{/c}초까지 감소합니다. {c_important}도약{/c}으로 우두머리를 적중시키면 감소량이 최대로 적용됩니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1822324",
     "IdName": "legendary_spiritborn_004_x1",
     "IdSnoList": [
@@ -771,6 +842,74 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "게걸스러운 분노의",
+    "Description": "핵심 기술로 적을 처치하면 기본 소모량의 #%를 돌려받습니다. 이 효과는 기술 시전 1회당 한 번만 발동합니다.",
+    "DescriptionClean": "핵심 기술로 적을 처치하면 기본 소모량의 를 돌려받습니다. 이 효과는 기술 시전 1회당 한 번만 발동합니다.",
+    "Localisation": "{c_important}핵심{/c} 기술로 적을 처치하면 기본 소모량의 {c_random}[Affix_Value_1|1%|]{/c}를 돌려받습니다. 이 효과는 기술 시전 1회당 한 번만 발동합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "존엄한 납골당",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "겨울 손길",
+    "Description": "적을 빙결시키면 #의 냉기 피해를 줍니다.\r\n\r\n이 효과는 서리 기술로 간주됩니다.",
+    "DescriptionClean": "적을 빙결시키면 의 냉기 피해를 줍니다. 이 효과는 서리 기술로 간주됩니다.",
+    "Localisation": "적을 {c_important}{u}빙결{/u}{/c}시키면 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}의 냉기 피해를 줍니다.\r\n\r\n이 효과는 {c_important}서리{/c} 기술로 간주됩니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -1664,6 +1803,41 @@
     ]
   },
   {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "광폭한 찢기의",
+    "Description": "광폭화 상태에서 직접 피해를 주면 #초에 걸쳐 #%의 보너스 출혈 피해를 줍니다.",
+    "DescriptionClean": "광폭화 상태에서 직접 피해를 주면 초에 걸쳐 의 보너스 출혈 피해를 줍니다.",
+    "Localisation": "{c_important}{u}광폭화{/u}{/c} 상태에서 직접 피해를 주면 {c_number}[Affix.\"Static Value 0\"]{/c}초에 걸쳐 {c_random}[Affix_Value_1*100|%|]{/c}의 보너스 출혈 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "비통의 들판",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "615173",
     "IdName": "legendary_necro_031",
     "IdSnoList": [
@@ -1846,22 +2020,22 @@
     ]
   },
   {
-    "IdSno": "2420864",
-    "IdName": "legendary_paladin_010",
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
     "IdSnoList": [
-      "2420864"
+      "579752"
     ],
     "IdNameList": [
-      "legendary_paladin_010"
+      "legendary_sorc_039"
     ],
-    "Name": "구원의",
-    "Description": "막기 시 막은 공격의 #%만큼 자신과 아군들을 치유합니다.",
-    "DescriptionClean": "막기 시 막은 공격의 만큼 자신과 아군들을 치유합니다.",
-    "Localisation": "막기 시 막은 공격의 {c_random}[Affix_Value_1|%|]{/c}만큼 자신과 아군들을 치유합니다.",
+    "Name": "구렁이의",
+    "Description": "히드라 소환 시, 보유한 마나 1당 히드라 피해가 #% 증가합니다. 히드라 시전 시 모든 마나를 소모합니다.",
+    "DescriptionClean": "히드라 소환 시, 보유한 마나 1당 히드라 피해가 증가합니다. 히드라 시전 시 모든 마나를 소모합니다.",
+    "Localisation": "히드라 소환 시, 보유한 마나 1당 {c_important}히드라{/c} 피해가 {c_random}[Affix_Value_1|%2x|]{/c} 증가합니다. {c_important}히드라{/c} 시전 시 모든 마나를 소모합니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
-    "Category": "",
+    "Category": "FILTER_Legendary_Offensive",
     "MagicType": 1,
     "AllowedForPlayerClass": [
       0,
@@ -1874,11 +2048,10 @@
       0
     ],
     "AllowedItemLabels": [
-      16,
-      17,
-      30,
+      0,
+      28,
       26,
-      15
+      19
     ]
   },
   {
@@ -1912,6 +2085,42 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "2420864",
+    "IdName": "legendary_paladin_010",
+    "IdSnoList": [
+      "2420864"
+    ],
+    "IdNameList": [
+      "legendary_paladin_010"
+    ],
+    "Name": "구원의",
+    "Description": "막기 시 막은 공격의 #%만큼 자신과 아군들을 치유합니다.",
+    "DescriptionClean": "막기 시 막은 공격의 만큼 자신과 아군들을 치유합니다.",
+    "Localisation": "막기 시 막은 공격의 {c_random}[Affix_Value_1|%|]{/c}만큼 자신과 아군들을 치유합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
     ]
   },
   {
@@ -3448,6 +3657,44 @@
     ]
   },
   {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "냉기인도자의",
+    "Description": "해골 마법학자가 #초마다 한 번씩 눈보라를 시전합니다. 눈보라는 #의 냉기 피해를 주고 #초에 걸쳐 적에게 지속적으로 #%의 오한을 유발합니다.",
+    "DescriptionClean": "해골 마법학자가 초마다 한 번씩 눈보라를 시전합니다. 눈보라는 의 냉기 피해를 주고 초에 걸쳐 적에게 지속적으로 의 오한을 유발합니다.",
+    "Localisation": "해골 마법학자가 {c_number}[Affix.\"Static Value 1\"]{/c}초마다 한 번씩 눈보라를 시전합니다. 눈보라는 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c}의 냉기 피해를 주고 {c_number}[Affix.\"Static Value 0\"]{/c}초에 걸쳐 적에게 지속적으로 {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c}의 {c_important}{u}오한{/u}{/c}을 유발합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
+    ]
+  },
+  {
     "IdSno": "2547805",
     "IdName": "legendary_warlock_001_x2",
     "IdSnoList": [
@@ -3515,6 +3762,76 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "높은 기민함",
+    "Description": "탄막의 화살이 적 #마리를 관통합니다.\r\n탄막의 공격 속도가 #% 증가합니다.",
+    "DescriptionClean": "탄막의 화살이 적 마리를 관통합니다. 탄막의 공격 속도가 증가합니다.",
+    "Localisation": "{c_important}탄막{/c}의 화살이 적 {c_number}[Affix.\"Static Value 0\"]{/c}마리를 관통합니다.\r\n{c_important}탄막{/c}의 공격 속도가 {c_random}[Affix_Value_1|1%+|]{/c} 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
+    ]
+  },
+  {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "눈경비병의",
+    "Description": "자신의 눈보라 안에 있거나 범위를 벗어난 후 #초 동안 받는 피해가 #% 감소합니다.",
+    "DescriptionClean": "자신의 눈보라 안에 있거나 범위를 벗어난 후 초 동안 받는 피해가 감소합니다.",
+    "Localisation": "자신의 {c_important}눈보라{/c} 안에 있거나 범위를 벗어난 후 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 받는 피해가 {c_random}[Affix_Value_1|%|]{/c} 감소합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "썩은 왕묘",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -4491,6 +4808,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "만족을 모르는 자의",
+    "Description": "칼날 발톱이 적에게 극대화로 적중하면 영력을 # 얻습니다. 영력이 #일 때, 영력이 # 아래로 떨어질 때까지 늑대인간 기술이 #% 증가한 피해를 줍니다.",
+    "DescriptionClean": "칼날 발톱이 적에게 극대화로 적중하면 영력을 얻습니다. 영력이 일 때, 영력이 아래로 떨어질 때까지 늑대인간 기술이 증가한 피해를 줍니다.",
+    "Localisation": "{c_important}칼날 발톱{/c}이 적에게 극대화로 적중하면 영력을 {c_number}[Affix.\"Static Value 0\"]{/c} 얻습니다. 영력이 {c_number}[Affix.\"Static Value 2\"]{/c}일 때, 영력이 {c_number}[Affix.\"Static Value 1\"]{/c} 아래로 떨어질 때까지 {c_important}늑대인간{/c} 기술이 {c_random}[Affix_Value_1|1%x|]{/c} 증가한 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "고통받는 폐허",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2574909",
     "IdName": "legendary_rogue_144_x2",
     "IdSnoList": [
@@ -5025,6 +5375,44 @@
     ]
   },
   {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "무기 전문가의",
+    "Description": "무기 숙련 기술이 적들을 #초 동안 기절시킵니다. 적은 이 방식으로 #초에 한 번씩만 기절시킬 수 있습니다. 무기 숙련 기술이 추가 충전을 얻고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "무기 숙련 기술이 적들을 초 동안 기절시킵니다. 적은 이 방식으로 초에 한 번씩만 기절시킬 수 있습니다. 무기 숙련 기술이 추가 충전을 얻고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}무기 숙련{/c} 기술이 적들을 {c_random}[Affix_Value_1|1|]{/c}초 동안 기절시킵니다. 적은 이 방식으로 {c_number}[Affix.\"Static Value 0\"]{/c}초에 한 번씩만 기절시킬 수 있습니다. {c_important}무기 숙련{/c} 기술이 추가 충전을 얻고, 주는 피해가 {c_random}[Affix_Value_2|%x|]{/c} 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2538155",
     "IdName": "legendary_druid_075_x2",
     "IdSnoList": [
@@ -5126,6 +5514,42 @@
       19,
       0,
       28,
+      26,
+      15
+    ]
+  },
+  {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "무쇠 피",
+    "Description": "주위의 출혈하는 적 하나당 피해 감소를 #%만큼, 최대 #%까지 얻습니다.",
+    "DescriptionClean": "주위의 출혈하는 적 하나당 피해 감소를 만큼, 최대 까지 얻습니다.",
+    "Localisation": "주위의 출혈하는 적 하나당 피해 감소를 {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c}만큼, 최대 {c_random}[Affix_Value_1|%|]{/c}까지 얻습니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "잊힌 폐허",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
       26,
       15
     ]
@@ -5764,6 +6188,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "방화광",
+    "Description": "화염 피해가 #% 증가합니다. 적을 새롭게 불태울 때마다 #의 추가 방화 화염 피해를 줍니다.",
+    "DescriptionClean": "화염 피해가 증가합니다. 적을 새롭게 불태울 때마다 의 추가 방화 화염 피해를 줍니다.",
+    "Localisation": "화염 피해가 {c_random}[Affix_Value_2*100|%x|]{/c} 증가합니다. 적을 새롭게 불태울 때마다 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}의 추가 {c_important}방화{/c} 화염 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -6667,6 +7126,43 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "불새의",
+    "Description": "화염 보호막이 활성화되어 있는 동안, 작은 운석이 주위에 마구 떨어지며 #의 화염 피해를 줍니다. 작은 운석이 #%의 행운의 적중 확률을 얻습니다.",
+    "DescriptionClean": "화염 보호막이 활성화되어 있는 동안, 작은 운석이 주위에 마구 떨어지며 의 화염 피해를 줍니다. 작은 운석이 의 행운의 적중 확률을 얻습니다.",
+    "Localisation": "{c_important}화염 보호막{/c}이 활성화되어 있는 동안, {c_important}작은 운석{/c}이 주위에 마구 떨어지며 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c}의 화염 피해를 줍니다. {c_important}작은 운석{/c}이 {c_number}[Affix.\"Static Value 2\"]%{/c}의 행운의 적중 확률을 얻습니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "578885",
     "IdName": "legendary_rogue_018",
     "IdSnoList": [
@@ -7060,6 +7556,41 @@
     ]
   },
   {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "빙하의",
+    "Description": "눈보라가 #의 피해를 주며 폭발하는 얼음 가시를 주기적으로 생성합니다. 얼음 가시는 적에게 #%의 오한을 유발합니다.",
+    "DescriptionClean": "눈보라가 의 피해를 주며 폭발하는 얼음 가시를 주기적으로 생성합니다. 얼음 가시는 적에게 의 오한을 유발합니다.",
+    "Localisation": "{c_important}눈보라{/c}가 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}의 피해를 주며 폭발하는 {c_important}얼음 가시{/c}를 주기적으로 생성합니다. {c_important}얼음 가시{/c}는 적에게 {c_number}[Affix_Value_1|%|]{/c}의 {c_important}{u}오한{/u}{/c}을 유발합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2621651",
     "IdName": "legendary_paladin_063_x2",
     "IdSnoList": [
@@ -7095,6 +7626,41 @@
       29,
       28,
       26
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "빠른 불길",
+    "Description": "방화 기술의 극대화 피해가 #% 증가합니다. 건강 상태의 대상에게는 이 효과가 2배로 증가합니다.",
+    "DescriptionClean": "방화 기술의 극대화 피해가 증가합니다. 건강 상태의 대상에게는 이 효과가 2배로 증가합니다.",
+    "Localisation": "{c_important}방화{/c_important} 기술의 극대화 피해가 {c_random}[Affix_Value_1|%x|]{/c} 증가합니다. {c_important}{u}건강{/u}{/c} 상태의 대상에게는 이 효과가 2배로 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "구렁이의 소굴",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -7231,6 +7797,42 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "뼈 질풍",
+    "Description": "뼈 폭풍이 시체를 최대 #구 소모하여 지속시간을 최대 #초까지 증가시킵니다.",
+    "DescriptionClean": "뼈 폭풍이 시체를 최대 구 소모하여 지속시간을 최대 초까지 증가시킵니다.",
+    "Localisation": "{c_important}뼈 폭풍{/c}이 시체를 최대 {c_number}[Affix_Value_2]{/c}구 소모하여 지속시간을 최대 {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c}초까지 증가시킵니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
     ]
   },
   {
@@ -7483,6 +8085,41 @@
     ]
   },
   {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "산산조각 난 별의",
+    "Description": "운석 주위에 작은 운석들이 떨어지며, #의 화염 피해를 줍니다.\r\n\r\n작은 운석은 운석의 #%만큼 피해를 주고 적을 불태워 #초 동안 #의 피해를 줍니다.",
+    "DescriptionClean": "운석 주위에 작은 운석들이 떨어지며, 의 화염 피해를 줍니다. 작은 운석은 운석의 만큼 피해를 주고 적을 불태워 초 동안 의 피해를 줍니다.",
+    "Localisation": "{c_important}운석{/c} 주위에 {c_important}작은 운석{/c}들이 떨어지며, {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}의 화염 피해를 줍니다.\r\n\r\n{c_important}작은 운석{/c}은 {c_important}운석{/c}의 {c_random}[Affix_Value_1|%|]{/c}만큼 피해를 주고 적을 불태워 {c_number}[Affix.\"Static Value 1\"]{/c}초 동안 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c}의 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1791939",
     "IdName": "x1_legendary_barb_114",
     "IdSnoList": [
@@ -7656,6 +8293,41 @@
     ]
   },
   {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "서리 대공세",
+    "Description": "서릿발이 추가 충전을 얻지만 충전당 재사용 대기시간이 #% 증가합니다.",
+    "DescriptionClean": "서릿발이 추가 충전을 얻지만 충전당 재사용 대기시간이 증가합니다.",
+    "Localisation": "{c_important}서릿발{/c_important}이 추가 충전을 얻지만 충전당 재사용 대기시간이 {c_random}[Affix_Value_1*100|%|]{/c} 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "1893589",
     "IdName": "legendary_generic_124",
     "IdSnoList": [
@@ -7815,6 +8487,41 @@
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "선조의 메아리의",
+    "Description": "행운의 적중: 도약, 지각 변동 또는 소용돌이 시전 시 최대 #% 확률로 선조가 소환되어 같은 기술을 사용합니다. 이 효과는 #초에 한 번씩만 발동합니다.\r\n\r\n소환수가 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "행운의 적중: 도약, 지각 변동 또는 소용돌이 시전 시 최대 확률로 선조가 소환되어 같은 기술을 사용합니다. 이 효과는 초에 한 번씩만 발동합니다. 소환수가 주는 피해가 증가합니다.",
+    "Localisation": "{c_label}행운의 적중:{/c} {c_important}도약{/c}, {c_important}지각 변동{/c} 또는 {c_important}소용돌이{/c} 시전 시 최대 {c_random}[Affix_Value_1|%|]{/c} 확률로 선조가 소환되어 같은 기술을 사용합니다. 이 효과는 {c_number}[Affix.\"Static Value 0\"]{/c}초에 한 번씩만 발동합니다.\r\n\r\n{c_important}소환수{/c}가 주는 피해가 {c_random}[Affix_Value_2|%|]{/c} 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "고대 저수지",
     "Category": "FILTER_Legendary_Offensive",
     "MagicType": 1,
     "AllowedForPlayerClass": [
@@ -9505,6 +10212,41 @@
     ]
   },
   {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "안정적인",
+    "Description": "불안정한 전류가 활성화되어 있지 않은 동안, 감전 기술이 #% 확률로 자원 소모 없이 시전을 발동시킵니다.",
+    "DescriptionClean": "불안정한 전류가 활성화되어 있지 않은 동안, 감전 기술이 확률로 자원 소모 없이 시전을 발동시킵니다.",
+    "Localisation": "{c_important}불안정한 전류{/c}가 활성화되어 있지 않은 동안, {c_important}감전{/c} 기술이 {c_random}[Affix_Value_1|1%|]{/c} 확률로 자원 소모 없이 시전을 발동시킵니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2547917",
     "IdName": "legendary_warlock_008_x2",
     "IdSnoList": [
@@ -9820,6 +10562,41 @@
     ]
   },
   {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "얼어붙은 동토의",
+    "Description": "냉대가 활성화되어 있는 동안, 범위 내에 폭발하는 얼음 가시가 생성되어 #의 냉기 피해를 줍니다. 얼음 가시의 폭발 반경이 #% 증가합니다.",
+    "DescriptionClean": "냉대가 활성화되어 있는 동안, 범위 내에 폭발하는 얼음 가시가 생성되어 의 냉기 피해를 줍니다. 얼음 가시의 폭발 반경이 증가합니다.",
+    "Localisation": "{c_important}냉대{/c}가 활성화되어 있는 동안, 범위 내에 폭발하는 {c_important}얼음 가시{/c}가 생성되어 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}의 냉기 피해를 줍니다. {c_important}얼음 가시{/c}의 폭발 반경이 {c_number}[Affix_Value_1 * 100|%|]{/c} 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574628",
     "IdName": "legendary_sorc_109_x2",
     "IdSnoList": [
@@ -9839,6 +10616,41 @@
     "MagicType": 1,
     "AllowedForPlayerClass": [
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "얼음 궤도의",
+    "Description": "얼음 보주 피해가 #% 증가하고 1회 더 폭발합니다.",
+    "DescriptionClean": "얼음 보주 피해가 증가하고 1회 더 폭발합니다.",
+    "Localisation": "{c_important}얼음 보주{/c} 피해가 {c_random}[Affix_Value_1|%|]{/c} 증가하고 1회 더 폭발합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
       0,
       0,
       0,
@@ -10730,6 +11542,74 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "외침 강화의",
+    "Description": "외침 기술이 활성화되어 있는 동안 주 자원 재생량을 # 얻습니다.",
+    "DescriptionClean": "외침 기술이 활성화되어 있는 동안 주 자원 재생량을 얻습니다.",
+    "Localisation": "{c_important}외침{/c} 기술이 활성화되어 있는 동안 주 자원 재생량을 {c_random}[Affix_Value_1|1|]{/c} 얻습니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "사막풍 동굴",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "요동하는",
+    "Description": "#초마다 근처의 적을 감전시켜 #의 번개 피해를 줍니다.\r\n\r\n이 효과는 감전 기술로 간주됩니다.",
+    "DescriptionClean": "초마다 근처의 적을 감전시켜 의 번개 피해를 줍니다. 이 효과는 감전 기술로 간주됩니다.",
+    "Localisation": "{c_random}[Affix_Value_1|1|]{/c}초마다 근처의 적을 감전시켜 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}의 번개 피해를 줍니다.\r\n\r\n이 효과는 {c_important}감전{/c} 기술로 간주됩니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -11836,6 +12716,41 @@
     ],
     "AllowedItemLabels": [
       19,
+      26
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "이글거리는 결계의",
+    "Description": "화염벽이 범위 내 적을 #% 감속시킵니다. 마나를 # 소모하면 다음 화염벽은 자원을 소모하지 않으며, 날아오는 소형 투사체를 파괴하고 최초 시전 시 적중한 모든 것을 #초 동안 이동 불가 상태로 만듭니다.",
+    "DescriptionClean": "화염벽이 범위 내 적을 감속시킵니다. 마나를 소모하면 다음 화염벽은 자원을 소모하지 않으며, 날아오는 소형 투사체를 파괴하고 최초 시전 시 적중한 모든 것을 초 동안 이동 불가 상태로 만듭니다.",
+    "Localisation": "{c_important}화염벽{/c}이 범위 내 적을 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 감속시킵니다. 마나를 {c_random}[Affix_Value_1]{/c} 소모하면 다음 {c_important}화염벽{/c}은 자원을 소모하지 않으며, 날아오는 소형 투사체를 파괴하고 최초 시전 시 적중한 모든 것을 {c_number}[Affix.\"Static Value 1\"]{/c}초 동안 이동 불가 상태로 만듭니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
       26
     ]
   },
@@ -13904,6 +14819,41 @@
     ]
   },
   {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "지진의",
+    "Description": "발 구르기가 지진을 일으켜 적들에게 #초에 걸쳐 #의 물리 피해를 줍니다. 지진 안에 서 있는 동안 그리고 그 후 #초 동안 주는 피해가 #% 증가합니다.\r\n\r\n지진으로 주는 피해가 #% 증가합니다. ",
+    "DescriptionClean": "발 구르기가 지진을 일으켜 적들에게 초에 걸쳐 의 물리 피해를 줍니다. 지진 안에 서 있는 동안 그리고 그 후 초 동안 주는 피해가 증가합니다. 지진으로 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}발 구르기{/c}가 {c_important}지진{/c}을 일으켜 적들에게 {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c}초에 걸쳐 {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c}의 물리 피해를 줍니다. {c_important}지진{/c} 안에 서 있는 동안 그리고 그 후 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 주는 피해가 {c_random}[Affix_Value_1|%x|]{/c} 증가합니다.\r\n\r\n{c_important}지진{/c}으로 주는 피해가 {c_random}[Affix_Value_1|%|]{/c} 증가합니다. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1433953",
     "IdName": "legendary_druid_121",
     "IdSnoList": [
@@ -14222,40 +15172,40 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
     "IdSnoList": [
-      "1987429",
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "차단의",
     "Description": "결의 중첩당 #%의 방패막기 확률을 얻습니다.",
     "DescriptionClean": "결의 중첩당 의 방패막기 확률을 얻습니다.",
-    "Localisation": "{c_important}{u}결의{/u}{/c} 중첩당 {c_random}[Affix_Value_1*100|%+|]{/c}의 방패막기 확률을 얻습니다.",
+    "Localisation": "{c_important}{u}결의{/u}{/c} 중첩당 {c_random}[Affix_Value_1*100|1%+|]{/c}의 방패막기 확률을 얻습니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
-    "Category": "FILTER_Legendary_Defensive",
+    "Category": "FILTER_Legendary_Utility",
     "MagicType": 1,
     "AllowedForPlayerClass": [
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0
     ],
     "AllowedItemLabels": [
       16,
       17,
-      30,
+      29,
+      28,
       26,
+      30,
       15
     ]
   },
@@ -14656,6 +15606,41 @@
     ]
   },
   {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "철갑 전사의",
+    "Description": "철갑 피부가 저지 불가와 #%의 피해 감소를 부여합니다.",
+    "DescriptionClean": "철갑 피부가 저지 불가와 의 피해 감소를 부여합니다.",
+    "Localisation": "{c_important}철갑 피부{/c}가 {c_important}{u}저지 불가{/u}{/c}와 {c_random}[Affix_Value_1|%|]{/c}의 피해 감소를 부여합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "송장의 벌판",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2547997",
     "IdName": "legendary_warlock_033_x2",
     "IdSnoList": [
@@ -15008,6 +15993,41 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "충전된 섬광의",
+    "Description": "짜릿한 에너지가 주는 피해가 #% 증가합니다. 짜릿한 에너지가 충전되어 있는 동안, 번개 줄기가 충전을 하나 소모하고 파동을 내보내 범위 내에 짜릿한 에너지의 피해만큼 피해를 줍니다.",
+    "DescriptionClean": "짜릿한 에너지가 주는 피해가 증가합니다. 짜릿한 에너지가 충전되어 있는 동안, 번개 줄기가 충전을 하나 소모하고 파동을 내보내 범위 내에 짜릿한 에너지의 피해만큼 피해를 줍니다.",
+    "Localisation": "{c_important}짜릿한 에너지{/c}가 주는 피해가 {c_random}[Affix_Value_1 * 100|%x|]{/c} 증가합니다. {c_important}짜릿한 에너지{/c}가 충전되어 있는 동안, {c_important}번개 줄기{/c}가 충전을 하나 소모하고 파동을 내보내 범위 내에 {c_important}짜릿한 에너지{/c}의 피해만큼 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -16125,6 +17145,41 @@
     ]
   },
   {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "폭풍 격화",
+    "Description": "얼음 갑옷이 활성화되어 있는 동안 피해가 #% 증가합니다. 빙결된 적에게는 이 피해가 #%만큼 추가로 증가합니다.",
+    "DescriptionClean": "얼음 갑옷이 활성화되어 있는 동안 피해가 증가합니다. 빙결된 적에게는 이 피해가 만큼 추가로 증가합니다.",
+    "Localisation": "{c_important}얼음 갑옷{/c}이 활성화되어 있는 동안 피해가 {c_random}[Affix_Value_1|%x|]{/c} 증가합니다. {c_important}{u}빙결{/u}{/c}된 적에게는 이 피해가 {c_number}[Affix.\"Static Value 0|%x|\"]{/c}만큼 추가로 증가합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "흑마노 요새",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2574571",
     "IdName": "legendary_sorc_124_x2",
     "IdSnoList": [
@@ -16411,6 +17466,44 @@
     ]
   },
   {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "피바람의",
+    "Description": "해골 사제가 강령술사에게도 #% 효율로 강화 효과를 부여합니다.",
+    "DescriptionClean": "해골 사제가 강령술사에게도 효율로 강화 효과를 부여합니다.",
+    "Localisation": "해골 사제가 강령술사에게도 {c_random}[Affix_Value_1|%|]{/c} 효율로 강화 효과를 부여합니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "1221659",
     "IdName": "legendary_necro_108",
     "IdSnoList": [
@@ -16611,6 +17704,41 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "해골 격파자의",
+    "Description": "출혈 상태인 적을 무력화하면 적의 총 출혈 피해의 #%를 즉시 물리 피해로 줍니다.",
+    "DescriptionClean": "출혈 상태인 적을 무력화하면 적의 총 출혈 피해의 를 즉시 물리 피해로 줍니다.",
+    "Localisation": "출혈 상태인 적을 {c_important}{u}무력화{/u}{/c}하면 적의 총 출혈 피해의 {c_random}[Affix_Value_1|%|]{/c}를 즉시 물리 피해로 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
       0,
       0,
       0,
@@ -16905,6 +18033,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "화염 방사의",
+    "Description": "소각이 3개의 광선으로 나뉘며, 각 광선은 원래 피해의 #%만큼 피해를 줍니다.",
+    "DescriptionClean": "소각이 3개의 광선으로 나뉘며, 각 광선은 원래 피해의 만큼 피해를 줍니다.",
+    "Localisation": "{c_important}소각{/c}이 {c_number}3{/c}개의 광선으로 나뉘며, 각 광선은 원래 피해의 {c_random}[Affix_Value_1|%x|]{/c}만큼 피해를 줍니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -17367,6 +18530,41 @@
     ],
     "AllowedItemLabels": [
       29,
+      26
+    ]
+  },
+  {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "흔들리지 않는 자의",
+    "Description": "직접 피해를 받으면 #% 확률로 방어 기술 하나의 재사용 대기시간이 초기화됩니다.",
+    "DescriptionClean": "직접 피해를 받으면 확률로 방어 기술 하나의 재사용 대기시간이 초기화됩니다.",
+    "Localisation": "직접 피해를 받으면 {c_random}[Affix_Value_1|1%|]{/c} 확률로 {c_important}방어{/c} 기술 하나의 재사용 대기시간이 초기화됩니다.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "역겨운 대수층",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
       26
     ]
   },

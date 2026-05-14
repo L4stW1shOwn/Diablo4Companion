@@ -1,5 +1,38 @@
 [
   {
+    "IdSno": "2439355",
+    "IdName": "legendary_paladin_021",
+    "IdSnoList": [
+      "2439355"
+    ],
+    "IdNameList": [
+      "legendary_paladin_021"
+    ],
+    "Name": "ms",
+    "Description": "Умения категории \"Правосудие\" повышают скорость передвижения на #% на # сек.",
+    "DescriptionClean": "Умения категории \"Правосудие\" повышают скорость передвижения на на сек.",
+    "Localisation": "Умения категории {c_important}\"Правосудие\"{/c} повышают скорость передвижения на {c_random}[Affix_Value_1|%|]{/c} на {c_number}[Affix.\"Static Value 0\"]{/c} сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Movement",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      26,
+      29
+    ]
+  },
+  {
     "IdSno": "2439363",
     "IdName": "legendary_paladin_023",
     "IdSnoList": [
@@ -33,39 +66,6 @@
       28,
       26,
       15
-    ]
-  },
-  {
-    "IdSno": "2439355",
-    "IdName": "legendary_paladin_021",
-    "IdSnoList": [
-      "2439355"
-    ],
-    "IdNameList": [
-      "legendary_paladin_021"
-    ],
-    "Name": "ms",
-    "Description": "Умения категории \"Правосудие\" повышают скорость передвижения на #% на # сек.",
-    "DescriptionClean": "Умения категории \"Правосудие\" повышают скорость передвижения на на сек.",
-    "Localisation": "Умения категории {c_important}\"Правосудие\"{/c} повышают скорость передвижения на {c_random}[Affix_Value_1|%|]{/c} на {c_number}[Affix.\"Static Value 0\"]{/c} сек.",
-    "IsSeasonal": false,
-    "IsCodex": true,
-    "Dungeon": "",
-    "Category": "FILTER_Legendary_Movement",
-    "MagicType": 1,
-    "AllowedForPlayerClass": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      26,
-      29
     ]
   },
   {
@@ -176,6 +176,41 @@
     ]
   },
   {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "Зигзаг",
+    "Description": "Гидра расходует весь запас маны и наносит на #% больше урона за каждую единицу маны на момент призыва.",
+    "DescriptionClean": "Гидра расходует весь запас маны и наносит на больше урона за каждую единицу маны на момент призыва.",
+    "Localisation": "{c_important}Гидра{/c} расходует весь запас маны и наносит на {c_random}[Affix_Value_1|%2x|]{/c} больше урона за каждую единицу маны на момент призыва.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1457950",
     "IdName": "s01_orb_offensive_druid_001",
     "IdSnoList": [
@@ -196,6 +231,41 @@
     "AllowedForPlayerClass": [
       0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "Огненная вспышка",
+    "Description": "Увеличивает критический урон от умений категории \"Пиромантия\" на #%. Бонус удваивается против целей с высоким уровнем здоровья.",
+    "DescriptionClean": "Увеличивает критический урон от умений категории \"Пиромантия\" на. Бонус удваивается против целей с высоким уровнем здоровья.",
+    "Localisation": "Увеличивает критический урон от умений категории {c_important}\"Пиромантия\"{/c_important} на {c_random}[Affix_Value_1|%x|]{/c}. Бонус удваивается против целей с {c_important}{u}высоким уровнем здоровья{/u}{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Змеиная нора",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
       0,
       0,
       0,
@@ -876,6 +946,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "безжалостно-берсеркский",
+    "Description": "Удачный удар: поразив противника, основное умение с вероятностью до #% продлевает действие эффекта берсерка на # сек. Прибавка удваивается, если удар критический.",
+    "DescriptionClean": "Удачный удар: поразив противника, основное умение с вероятностью до продлевает действие эффекта берсерка на сек. Прибавка удваивается, если удар критический.",
+    "Localisation": "{c_label}Удачный удар:{/c} поразив противника, {c_important}основное{/c} умение с вероятностью до {c_random}[Affix_Value_1|%|]{/c} продлевает действие эффекта {c_important}{u}берсерка{/u}{/c} на {c_number}[Affix_Value_2]{/c} сек. Прибавка удваивается, если удар критический.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Пристанище Хакана",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
     ]
   },
   {
@@ -1562,6 +1670,41 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "бурлящий",
+    "Description": "Если \"Бурный поток\" неактивен, ваши умения шока с вероятностью #% могут активировать его без затрат ресурса.",
+    "DescriptionClean": "Если \"Бурный поток\" неактивен, ваши умения шока с вероятностью могут активировать его без затрат ресурса.",
+    "Localisation": "Если {c_important}\"Бурный поток\"{/c} неактивен, ваши умения {c_important}шока{/c} с вероятностью {c_random}[Affix_Value_1|1%|]{/c} могут активировать его без затрат ресурса.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -2925,6 +3068,79 @@
     ]
   },
   {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "встряхивающий",
+    "Description": "Каждые # сек. вы ударяете ближайшего противника молнией, нанося ему # ед. урона от молнии.\r\n\r\nЭтот эффект считается умением категории \"Шок\".",
+    "DescriptionClean": "Каждые сек. вы ударяете ближайшего противника молнией, нанося ему ед. урона от молнии. Этот эффект считается умением категории \"Шок\".",
+    "Localisation": "Каждые {c_random}[Affix_Value_1|1|]{/c} сек. вы ударяете ближайшего противника молнией, нанося ему {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} ед. урона от молнии.\r\n\r\nЭтот эффект считается умением категории {c_important}\"Шок\"{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "высококлассный",
+    "Description": "Умения категории \"Мастер оружия\" оглушают противников на #\u00A0сек. Оглушить противника таким образом можно раз в #\u00A0сек. Ваши умения категории \"Мастер оружия\" получают дополнительный заряд и наносят на #% больше урона.",
+    "DescriptionClean": "Умения категории \"Мастер оружия\" оглушают противников на \u00A0сек. Оглушить противника таким образом можно раз в \u00A0сек. Ваши умения категории \"Мастер оружия\" получают дополнительный заряд и наносят на больше урона.",
+    "Localisation": "Умения категории {c_important}\"Мастер оружия\"{/c} оглушают противников на {c_random}[Affix_Value_1|1|]{/c}\u00A0сек. Оглушить противника таким образом можно раз в {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0сек. Ваши умения категории {c_important}\"Мастер оружия\"{/c} получают дополнительный заряд и наносят на {c_random}[Affix_Value_2|%x|]{/c} больше урона.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2574567",
     "IdName": "S05_BSK_Sorcerer_002_x2",
     "IdSnoList": [
@@ -3207,6 +3423,39 @@
     ]
   },
   {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "гигантских шагов",
+    "Description": "За каждого пораженного противника время восстановления \"Прыжка\" сокращается на # сек. вплоть до # сек. Если \"Прыжок\" поражает босса, время восстановления сокращается по максимуму.",
+    "DescriptionClean": "За каждого пораженного противника время восстановления \"Прыжка\" сокращается на сек. вплоть до сек. Если \"Прыжок\" поражает босса, время восстановления сокращается по максимуму.",
+    "Localisation": "За каждого пораженного противника время восстановления {c_important}\"Прыжка\"{/c} сокращается на {c_random}[Affix_Value_1|1|]{/c} сек. вплоть до {c_number}[Affix_Value_2]{/c} сек. Если {c_important}\"Прыжок\"{/c} поражает босса, время восстановления сокращается по максимуму.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "621929",
     "IdName": "legendary_necro_066",
     "IdSnoList": [
@@ -3314,6 +3563,39 @@
       26,
       15,
       30
+    ]
+  },
+  {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "громогласного усиления",
+    "Description": "Ваши \"Крики\" восполняют #\u00A0ед. основного ресурса во время своего действия.",
+    "DescriptionClean": "Ваши \"Крики\" восполняют \u00A0ед. основного ресурса во время своего действия.",
+    "Localisation": "Ваши {c_important}\"Крики\"{/c} восполняют {c_random}[Affix_Value_1|1|]{/c}\u00A0ед. основного ресурса во время своего действия.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Пещеры Сирокко",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -3956,6 +4238,43 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "жар-птицы",
+    "Description": "Пока действует \"Пламенный щит\", вокруг вас обрушиваются кометы, наносящие # ед. урона от огня. Вероятность удачного удара ваших комет повышается на #%.",
+    "DescriptionClean": "Пока действует \"Пламенный щит\", вокруг вас обрушиваются кометы, наносящие ед. урона от огня. Вероятность удачного удара ваших комет повышается на.",
+    "Localisation": "Пока действует {c_important}\"Пламенный щит\"{/c}, вокруг вас обрушиваются {c_important}кометы{/c}, наносящие {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} ед. урона от огня. Вероятность удачного удара ваших {c_important}комет{/c} повышается на {c_number}[Affix.\"Static Value 2\"]%{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "2575334",
     "IdName": "legendary_coldUser_003_x2",
     "IdSnoList": [
@@ -3994,6 +4313,41 @@
     ]
   },
   {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "железного воина",
+    "Description": "\"Железная кожа\" дает вам неудержимость. Кроме того, вы получаете на #% меньше урона.",
+    "DescriptionClean": "\"Железная кожа\" дает вам неудержимость. Кроме того, вы получаете на меньше урона.",
+    "Localisation": "{c_important}\"Железная кожа\"{/c} дает вам {c_important}{u}неудержимость{/u}{/c}. Кроме того, вы получаете на {c_random}[Affix_Value_1|%|]{/c} меньше урона.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Поля падали",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "2576823",
     "IdName": "legendary_rogue_149_x2",
     "IdSnoList": [
@@ -4028,6 +4382,42 @@
       28,
       26,
       30,
+      15
+    ]
+  },
+  {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "железнокровный",
+    "Description": "Получаемый урон уменьшается на #% за каждого противника с кровотечением вплоть до #%.",
+    "DescriptionClean": "Получаемый урон уменьшается на за каждого противника с кровотечением вплоть до.",
+    "Localisation": "Получаемый урон уменьшается на {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} за каждого противника с кровотечением вплоть до {c_random}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Заброшенные руины",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
       15
     ]
   },
@@ -4427,14 +4817,12 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
     "IdSnoList": [
-      "1987429",
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "заграждения",
@@ -4464,6 +4852,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "зажигающий",
+    "Description": "Вы наносите на #% больше урона от огня. Когда вы поджигаете не горящего противника, вы наносите ему еще # ед. урона от огня. Этот эффект относится к категории \"Пиромантия\".",
+    "DescriptionClean": "Вы наносите на больше урона от огня. Когда вы поджигаете не горящего противника, вы наносите ему еще ед. урона от огня. Этот эффект относится к категории \"Пиромантия\".",
+    "Localisation": "Вы наносите на {c_random}[Affix_Value_2*100|%x|]{/c} больше урона от огня. Когда вы поджигаете не горящего противника, вы наносите ему еще {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} ед. урона от огня. Этот эффект относится к категории {c_important}\"Пиромантия\"{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -4787,6 +5210,41 @@
     ]
   },
   {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "заряженной вспышки",
+    "Description": "Искрящийся заряд энергии наносит на #% больше урона. Пока у вас есть искрящиеся заряды энергии, \"Электрические разряды\" тратят заряд, чтобы выпустить волну, наносящую урон искрящегося заряда энергии по области.",
+    "DescriptionClean": "Искрящийся заряд энергии наносит на больше урона. Пока у вас есть искрящиеся заряды энергии, \"Электрические разряды\" тратят заряд, чтобы выпустить волну, наносящую урон искрящегося заряда энергии по области.",
+    "Localisation": "{c_important}Искрящийся заряд энергии{/c} наносит на {c_random}[Affix_Value_1 * 100|%x|]{/c} больше урона. Пока у вас есть {c_important}искрящиеся заряды энергии{/c}, {c_important}\"Электрические разряды\"{/c} тратят заряд, чтобы выпустить волну, наносящую урон {c_important}искрящегося заряда энергии{/c} по области.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "578914",
     "IdName": "legendary_sorc_027",
     "IdSnoList": [
@@ -5092,6 +5550,76 @@
       0,
       0,
       1
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "землетрясений",
+    "Description": "\"Топот\" вызывает землетрясение, наносящее противникам # ед. физического урона за # сек. Когда вы находитесь в области землетрясения и в течение # сек. после выхода из нее, наносимый вами урон увеличивается на #%.\r\n\r\nВаше землетрясение наносит на #% больше урона. ",
+    "DescriptionClean": "\"Топот\" вызывает землетрясение, наносящее противникам ед. физического урона за сек. Когда вы находитесь в области землетрясения и в течение сек. после выхода из нее, наносимый вами урон увеличивается на. Ваше землетрясение наносит на больше урона.",
+    "Localisation": "{c_important}\"Топот\"{/c} вызывает {c_important}землетрясение{/c}, наносящее противникам {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} ед. физического урона за {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c} сек. Когда вы находитесь в области {c_important}землетрясения{/c} и в течение {c_number}[Affix.\"Static Value 0\"]{/c} сек. после выхода из нее, наносимый вами урон увеличивается на {c_random}[Affix_Value_1|%x|]{/c}.\r\n\r\nВаше {c_important}землетрясение{/c} наносит на {c_random}[Affix_Value_1|%|]{/c} больше урона. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "зимний",
+    "Description": "Когда вы замораживаете противника, вы наносите ему # ед. урона от холода.\r\n\r\nЭтот эффект считается умением категории \"Мороз\".",
+    "DescriptionClean": "Когда вы замораживаете противника, вы наносите ему ед. урона от холода. Этот эффект считается умением категории \"Мороз\".",
+    "Localisation": "Когда вы {c_important}{u}замораживаете{/u}{/c} противника, вы наносите ему {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} ед. урона от холода.\r\n\r\nЭтот эффект считается умением категории {c_important}\"Мороз\"{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "AllowedItemLabels": [
       0,
@@ -6573,6 +7101,41 @@
     ]
   },
   {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "костоломный",
+    "Description": "Обезвреживая истекающего кровью противника, вы наносите ему физический урон в объеме #% общего эффекта кровотечения.",
+    "DescriptionClean": "Обезвреживая истекающего кровью противника, вы наносите ему физический урон в объеме общего эффекта кровотечения.",
+    "Localisation": "{c_important}{u}Обезвреживая{/u}{/c} истекающего кровью противника, вы наносите ему физический урон в объеме {c_random}[Affix_Value_1|%|]{/c} общего эффекта кровотечения.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2541132",
     "IdName": "legendary_druid_066_x2",
     "IdSnoList": [
@@ -6720,6 +7283,41 @@
     ]
   },
   {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "крепнущий грозовой",
+    "Description": "Вы наносите на #% больше урона, пока действует \"Ледяной доспех\". Эта прибавка увеличивается еще на #% против замороженных целей.",
+    "DescriptionClean": "Вы наносите на больше урона, пока действует \"Ледяной доспех\". Эта прибавка увеличивается еще на против замороженных целей.",
+    "Localisation": "Вы наносите на {c_random}[Affix_Value_1|%x|]{/c} больше урона, пока действует {c_important}\"Ледяной доспех\"{/c}. Эта прибавка увеличивается еще на {c_number}[Affix.\"Static Value 0|%x|\"]{/c} против {c_important}{u}замороженных{/u}{/c} целей.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Ониксовая крепость",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2617223",
     "IdName": "legendary_paladin_009_x2",
     "IdSnoList": [
@@ -6862,6 +7460,44 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "кровопускающий",
+    "Description": "Ваши скелеты-жрецы также усиливают вас с эффективностью #%.",
+    "DescriptionClean": "Ваши скелеты-жрецы также усиливают вас с эффективностью.",
+    "Localisation": "Ваши скелеты-жрецы также усиливают вас с эффективностью {c_random}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
     ]
   },
   {
@@ -7043,6 +7679,76 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "ледниковый",
+    "Description": "\"Снежная буря\" периодически создает ледяные шипы, которые взрываются и наносят # ед. урона. Ваши ледяные шипы вызывают у противников окоченение, замедляющее их на #%.",
+    "DescriptionClean": "\"Снежная буря\" периодически создает ледяные шипы, которые взрываются и наносят ед. урона. Ваши ледяные шипы вызывают у противников окоченение, замедляющее их на.",
+    "Localisation": "{c_important}\"Снежная буря\"{/c} периодически создает {c_important}ледяные шипы{/c}, которые взрываются и наносят {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} ед. урона. Ваши {c_important}ледяные шипы{/c} вызывают у противников {c_important}{u}окоченение{/u}{/c}, замедляющее их на {c_number}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "ледяного пути",
+    "Description": "\"Морозная сфера\" наносит на #% больше урона и вызывает еще один взрыв.",
+    "DescriptionClean": "\"Морозная сфера\" наносит на больше урона и вызывает еще один взрыв.",
+    "Localisation": "{c_important}\"Морозная сфера\"{/c} наносит на {c_random}[Affix_Value_1|%|]{/c} больше урона и вызывает еще один взрыв.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -7403,6 +8109,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "мерзлой тундры",
+    "Description": "Пока действует \"Глубокая заморозка\", вокруг появляются ледяные шипы, которые взрываются и наносят # ед. урона от холода. Радиус взрыва ваших ледяных шипов увеличивается на #%.",
+    "DescriptionClean": "Пока действует \"Глубокая заморозка\", вокруг появляются ледяные шипы, которые взрываются и наносят ед. урона от холода. Радиус взрыва ваших ледяных шипов увеличивается на.",
+    "Localisation": "Пока действует {c_important}\"Глубокая заморозка\"{/c}, вокруг появляются {c_important}ледяные шипы{/c}, которые взрываются и наносят {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} ед. урона от холода. Радиус взрыва ваших {c_important}ледяных шипов{/c} увеличивается на {c_number}[Affix_Value_1 * 100|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -8602,6 +9343,39 @@
     ]
   },
   {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "ненасытной ярости",
+    "Description": "Когда основное умение убивает противника, вы возвращаете #% его базовой стоимости. Срабатывает один раз за применение умения.",
+    "DescriptionClean": "Когда основное умение убивает противника, вы возвращаете его базовой стоимости. Срабатывает один раз за применение умения.",
+    "Localisation": "Когда {c_important}основное{/c} умение убивает противника, вы возвращаете {c_random}[Affix_Value_1|1%|]{/c} его базовой стоимости. Срабатывает один раз за применение умения.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Освященный склеп",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "1858278",
     "IdName": "legendary_spiritborn_018_x1",
     "IdSnoList": [
@@ -8743,6 +9517,41 @@
       28,
       29,
       15
+    ]
+  },
+  {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "непоколебимости",
+    "Description": "Получая прямой урон, вы с вероятностью #% мгновенно восстанавливаете одно из умений защиты.",
+    "DescriptionClean": "Получая прямой урон, вы с вероятностью мгновенно восстанавливаете одно из умений защиты.",
+    "Localisation": "Получая прямой урон, вы с вероятностью {c_random}[Affix_Value_1|1%|]{/c} мгновенно восстанавливаете одно из умений {c_important}защиты{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Тлетворные подземные воды",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -9351,6 +10160,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "неутолимости",
+    "Description": "Когда \"Разрывание\" наносит противнику критический урон, вы накапливаете# ед. духа. Когда ваш уровень духа становится равен #, ваши умения волка начинают наносить на #% больше урона. Эффект длится до тех пор, пока уровень духа не упадет ниже # ед.",
+    "DescriptionClean": "Когда \"Разрывание\" наносит противнику критический урон, вы накапливаете ед. духа. Когда ваш уровень духа становится равен , ваши умения волка начинают наносить на больше урона. Эффект длится до тех пор, пока уровень духа не упадет ниже ед.",
+    "Localisation": "Когда {c_important}\"Разрывание\"{/c} наносит противнику критический урон, вы накапливаете{c_number}[Affix.\"Static Value 0\"]{/c} ед. духа. Когда ваш уровень духа становится равен {c_number}[Affix.\"Static Value 2\"]{/c}, ваши умения {c_important}волка{/c} начинают наносить на {c_random}[Affix_Value_1|1%x|]{/c} больше урона. Эффект длится до тех пор, пока уровень духа не упадет ниже {c_number}[Affix.\"Static Value 1\"]{/c} ед.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Тоскливые руины",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "578745",
     "IdName": "legendary_barb_021",
     "IdSnoList": [
@@ -9817,6 +10659,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "огнемечущий",
+    "Description": "\"Испепеление\" разделяется на 3 луча, каждый из которых наносит #% обычного урона.",
+    "DescriptionClean": "\"Испепеление\" разделяется на 3 луча, каждый из которых наносит обычного урона.",
+    "Localisation": "{c_important}\"Испепеление\"{/c} разделяется на {c_number}3{/c} луча, каждый из которых наносит {c_random}[Affix_Value_1|%x|]{/c} обычного урона.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -12801,6 +13678,41 @@
     ]
   },
   {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "пронизывающий холодом",
+    "Description": "Количество зарядов \"Кольца льда\" увеличивается на 1, но каждый заряд восстанавливается на #% дольше.",
+    "DescriptionClean": "Количество зарядов \"Кольца льда\" увеличивается на 1, но каждый заряд восстанавливается на дольше.",
+    "Localisation": "Количество зарядов {c_important}\"Кольца льда\"{/c_white} увеличивается на 1, но каждый заряд восстанавливается на {c_random}[Affix_Value_1*100|%|]{/c} дольше.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "615483",
     "IdName": "legendary_necro_032",
     "IdSnoList": [
@@ -13005,6 +13917,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "пылающей преграды",
+    "Description": "\"Стена огня\" замедляет противников в области действия на #%. Когда вы расходуете # ед. маны, ваша следующая \"Стена огня\" не расходует ресурс при применении, уничтожает малые снаряды и обездвиживает цели, пораженные при изначальном применении, на # сек.",
+    "DescriptionClean": "\"Стена огня\" замедляет противников в области действия на. Когда вы расходуете ед. маны, ваша следующая \"Стена огня\" не расходует ресурс при применении, уничтожает малые снаряды и обездвиживает цели, пораженные при изначальном применении, на сек.",
+    "Localisation": "{c_important}\"Стена огня\"{/c} замедляет противников в области действия на {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}. Когда вы расходуете {c_random}[Affix_Value_1]{/c} ед. маны, ваша следующая {c_important}\"Стена огня\"{/c} не расходует ресурс при применении, уничтожает малые снаряды и обездвиживает цели, пораженные при изначальном применении, на {c_number}[Affix.\"Static Value 1\"]{/c} сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -13463,6 +14410,41 @@
     ]
   },
   {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "расколотых звезд",
+    "Description": "Вокруг \"Метеорита\" падают кометы, наносящие # ед. урона от огня.\r\n\r\nУрон от комет увеличивается на #% урона \"Метеорита\". Кроме того, они поджигают противников, нанося # ед. урона за # сек.",
+    "DescriptionClean": "Вокруг \"Метеорита\" падают кометы, наносящие ед. урона от огня. Урон от комет увеличивается на урона \"Метеорита\". Кроме того, они поджигают противников, нанося ед. урона за сек.",
+    "Localisation": "Вокруг {c_important}\"Метеорита\"{/c} падают {c_important}кометы{/c}, наносящие {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} ед. урона от огня.\r\n\r\nУрон от {c_important}комет{/c} увеличивается на {c_random}[Affix_Value_1|%|]{/c} урона {c_important}\"Метеорита\"{/c}. Кроме того, они поджигают противников, нанося {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c} ед. урона за {c_number}[Affix.\"Static Value 1\"]{/c} сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1221534",
     "IdName": "legendary_necro_107",
     "IdSnoList": [
@@ -13811,6 +14793,41 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "резни берсерка",
+    "Description": "Нанося прямой урон в состоянии берсерка, вы наносите еще #% урона от кровотечения за #\u00A0сек.",
+    "DescriptionClean": "Нанося прямой урон в состоянии берсерка, вы наносите еще урона от кровотечения за \u00A0сек.",
+    "Localisation": "Нанося прямой урон в состоянии {c_important}{u}берсерка{/u}{/c}, вы наносите еще {c_random}[Affix_Value_1*100|%|]{/c} урона от кровотечения за {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Край горя",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -14634,6 +15651,41 @@
     ]
   },
   {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "скоростной",
+    "Description": "Стрелы \"Шквального огня\" теперь пронзают # противника.\r\nСкорость атаки \"Шквального огня\" повышается на #%.",
+    "DescriptionClean": "Стрелы \"Шквального огня\" теперь пронзают противника. Скорость атаки \"Шквального огня\" повышается на.",
+    "Localisation": "Стрелы {c_important}\"Шквального огня\"{/c} теперь пронзают {c_number}[Affix.\"Static Value 0\"]{/c} противника.\r\nСкорость атаки {c_important}\"Шквального огня\"{/c} повышается на {c_random}[Affix_Value_1|1%+|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
+    ]
+  },
+  {
     "IdSno": "578779",
     "IdName": "Legendary_Generic_110",
     "IdSnoList": [
@@ -14809,6 +15861,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "снежный защитный",
+    "Description": "Находясь в своей \"Снежной буре\" и в течение # сек. после выхода из нее вы получаете на #% меньше урона.",
+    "DescriptionClean": "Находясь в своей \"Снежной буре\" и в течение сек. после выхода из нее вы получаете на меньше урона.",
+    "Localisation": "Находясь в своей {c_important}\"Снежной буре\"{/c} и в течение {c_number}[Affix.\"Static Value 0\"]{/c} сек. после выхода из нее вы получаете на {c_random}[Affix_Value_1|%|]{/c} меньше урона.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Зловонный мавзолей",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -16731,6 +17818,44 @@
     ]
   },
   {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "хладоносный",
+    "Description": "Раз в # сек. ваши скелеты-маги применяют \"Снежную бурю\", наносящую # ед. урона от холода и периодически заставляющую противников коченеть, замедляя их на #% на # сек.",
+    "DescriptionClean": "Раз в сек. ваши скелеты-маги применяют \"Снежную бурю\", наносящую ед. урона от холода и периодически заставляющую противников коченеть, замедляя их на на сек.",
+    "Localisation": "Раз в {c_number}[Affix.\"Static Value 1\"]{/c} сек. ваши скелеты-маги применяют \"Снежную бурю\", наносящую {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c} ед. урона от холода и периодически заставляющую противников {c_important}{u}коченеть{/u}{/c}, замедляя их на {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} на {c_number}[Affix.\"Static Value 0\"]{/c} сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
+    ]
+  },
+  {
     "IdSno": "578758",
     "IdName": "legendary_barb_027",
     "IdSnoList": [
@@ -17015,6 +18140,42 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "штормокостный",
+    "Description": "\"Буря костей\" расходует до # трупов. Ее время действия продлевается до # сек.",
+    "DescriptionClean": "\"Буря костей\" расходует до трупов. Ее время действия продлевается до сек.",
+    "Localisation": "{c_important}\"Буря костей\"{/c} расходует до {c_number}[Affix_Value_2]{/c} |4трупа:трупов:трупов;. Ее время действия продлевается до {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c} сек.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
     ]
   },
   {
@@ -17303,6 +18464,41 @@
     "AllowedItemLabels": [
       19,
       26
+    ]
+  },
+  {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "эха предков",
+    "Description": "Удачный удар: \"Прыжок\", \"Выброс земли\" и \"Вихрь\" с вероятностью до #% призывают Древнего, применяющего то же умение. Срабатывает не чаще раза в # сек.\r\n\r\nВаши призванные существа наносят на #% больше урона.",
+    "DescriptionClean": "Удачный удар: \"Прыжок\", \"Выброс земли\" и \"Вихрь\" с вероятностью до призывают Древнего, применяющего то же умение. Срабатывает не чаще раза в сек. Ваши призванные существа наносят на больше урона.",
+    "Localisation": "{c_label}Удачный удар:{/c} {c_important}\"Прыжок\"{/c}, {c_important}\"Выброс земли\"{/c} и {c_important}\"Вихрь\"{/c} с вероятностью до {c_random}[Affix_Value_1|%|]{/c} призывают Древнего, применяющего то же умение. Срабатывает не чаще раза в {c_number}[Affix.\"Static Value 0\"]{/c} сек.\r\n\r\nВаши {c_important}призванные{/c} существа наносят на {c_random}[Affix_Value_2|%|]{/c} больше урона.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Древний резервуар",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {

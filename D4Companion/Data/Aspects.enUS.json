@@ -650,6 +650,44 @@
     ]
   },
   {
+    "IdSno": "621955",
+    "IdName": "legendary_necro_067",
+    "IdSnoList": [
+      "621955"
+    ],
+    "IdNameList": [
+      "legendary_necro_067"
+    ],
+    "Name": "Blood Getter's",
+    "Description": "Your Skeletal Priests now also empower you at #% effectiveness.",
+    "DescriptionClean": "Your Skeletal Priests now also empower you at effectiveness.",
+    "Localisation": "Your Skeletal Priests now also empower you at {c_random}[Affix_Value_1|%|]{/c} effectiveness.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      15,
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "667442",
     "IdName": "legendary_barb_057",
     "IdSnoList": [
@@ -1069,6 +1107,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "610372",
+    "IdName": "legendary_necro_023",
+    "IdSnoList": [
+      "610372"
+    ],
+    "IdNameList": [
+      "legendary_necro_023"
+    ],
+    "Name": "Coldbringer's",
+    "Description": "Every # seconds, your Skeletal Mages cast a blizzard that deals # Cold damage and continuously Chills enemies for #% over # seconds.",
+    "DescriptionClean": "Every seconds, your Skeletal Mages cast a blizzard that deals Cold damage and continuously Chills enemies for over seconds.",
+    "Localisation": "Every {c_number}[Affix.\"Static Value 1\"]{/c} seconds, your Skeletal Mages cast a blizzard that deals {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * (1 + Owner.Main_Hand_Damage_Percent_Bonus) * Affix_Value_1]{/c} Cold damage and continuously {c_important}{u}Chills{/u}{/c} enemies for {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      15,
+      30
     ]
   },
   {
@@ -2177,6 +2253,111 @@
     ]
   },
   {
+    "IdSno": "1936204",
+    "IdName": "S05_BSK_Sorcerer_003",
+    "IdSnoList": [
+      "1936204"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_003"
+    ],
+    "Name": "Firestarter",
+    "Description": "Gain #% increased Fire Damage. When newly Burning an enemy, you deal an additional # Pyromancy Fire damage to them.",
+    "DescriptionClean": "Gain increased Fire Damage. When newly Burning an enemy, you deal an additional Pyromancy Fire damage to them.",
+    "Localisation": "Gain {c_random}[Affix_Value_2*100|%x|]{/c} increased Fire Damage. When newly Burning an enemy, you deal an additional {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} {c_important}Pyromancy{/c} Fire damage to them.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1755013",
+    "IdName": "legendary_sorc_139",
+    "IdSnoList": [
+      "1755013"
+    ],
+    "IdNameList": [
+      "legendary_sorc_139"
+    ],
+    "Name": "Flamethrower's",
+    "Description": "WIP",
+    "DescriptionClean": "WIP",
+    "Localisation": "WIP",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578925",
+    "IdName": "legendary_sorc_008",
+    "IdSnoList": [
+      "578925"
+    ],
+    "IdNameList": [
+      "legendary_sorc_008"
+    ],
+    "Name": "Flash Fire",
+    "Description": "Increase the Critical Strike Damage of Pyromancy Skills by #%. Double this bonus against Healthy targets.",
+    "DescriptionClean": "Increase the Critical Strike Damage of Pyromancy Skills by. Double this bonus against Healthy targets.",
+    "Localisation": "Increase the Critical Strike Damage of {c_important}Pyromancy{/c_important} Skills by {c_random}[Affix_Value_1|%x|]{/c}. Double this bonus against {c_important}{u}Healthy{/u}{/c} targets.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Serpent's Lair",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1302634",
     "IdName": "legendary_rogue_123",
     "IdSnoList": [
@@ -2209,6 +2390,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "579747",
+    "IdName": "legendary_sorc_017",
+    "IdSnoList": [
+      "579747"
+    ],
+    "IdNameList": [
+      "legendary_sorc_017"
+    ],
+    "Name": "Frostblitz",
+    "Description": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by #%.",
+    "DescriptionClean": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by.",
+    "Localisation": "{c_important}Frost Nova{/c_important} gains an additional Charge but the Cooldown per Charge is increased by {c_random}[Affix_Value_1*100|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -2310,6 +2526,41 @@
     "AllowedItemLabels": [
       29,
       26
+    ]
+  },
+  {
+    "IdSno": "1212318",
+    "IdName": "legendary_sorc_107",
+    "IdSnoList": [
+      "1212318"
+    ],
+    "IdNameList": [
+      "legendary_sorc_107"
+    ],
+    "Name": "Glacial",
+    "Description": "Blizzard periodically spawns exploding Ice Spikes that deal # damage. Your Ice Spikes Chill enemies for #%.",
+    "DescriptionClean": "Blizzard periodically spawns exploding Ice Spikes that deal damage. Your Ice Spikes Chill enemies for.",
+    "Localisation": "{c_important}Blizzard{/c} periodically spawns exploding {c_important}Ice Spikes{/c} that deal {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} damage. Your {c_important}Ice Spikes{/c} {c_important}{u}Chill{/u}{/c} enemies for {c_number}[Affix_Value_1|%|]{/c}.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -2530,6 +2781,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1884339",
+    "IdName": "legendary_rogue_129",
+    "IdSnoList": [
+      "1884339"
+    ],
+    "IdNameList": [
+      "legendary_rogue_129"
+    ],
+    "Name": "High Velocity",
+    "Description": "Barrage arrows now pierce through # enemy.\r\nBarrage has #% increased Attack Speed.",
+    "DescriptionClean": "Barrage arrows now pierce through enemy. Barrage has increased Attack Speed.",
+    "Localisation": "{c_important}Barrage{/c} arrows now pierce through {c_number}[Affix.\"Static Value 0\"]{/c} enemy.\r\n{c_important}Barrage{/c} has {c_random}[Affix_Value_1|1%+|]{/c} increased Attack Speed.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      19,
+      26,
+      28
     ]
   },
   {
@@ -2824,6 +3110,42 @@
     ]
   },
   {
+    "IdSno": "578749",
+    "IdName": "legendary_barb_005",
+    "IdSnoList": [
+      "578749"
+    ],
+    "IdNameList": [
+      "legendary_barb_005"
+    ],
+    "Name": "Iron Blood",
+    "Description": "Gain #% Damage Reduction for each Nearby Bleeding enemy up to #% maximum.",
+    "DescriptionClean": "Gain Damage Reduction for each Nearby Bleeding enemy up to maximum.",
+    "Localisation": "Gain {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} Damage Reduction for each Nearby Bleeding enemy up to {c_random}[Affix_Value_1|%|]{/c} maximum.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Forgotten Ruins",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26,
+      15
+    ]
+  },
+  {
     "IdSno": "2558637",
     "IdName": "legendary_barb_008_x2",
     "IdSnoList": [
@@ -2857,6 +3179,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "1935062",
+    "IdName": "S05_BSK_Sorcerer_002",
+    "IdSnoList": [
+      "1935062"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_002"
+    ],
+    "Name": "Jolting",
+    "Description": "Every # seconds, you zap a nearby enemy for # Lightning damage.\r\n\r\nThis effect is treated as a Shock Skill.",
+    "DescriptionClean": "Every seconds, you zap a nearby enemy for Lightning damage. This effect is treated as a Shock Skill.",
+    "Localisation": "Every {c_random}[Affix_Value_1|1|]{/c} seconds, you zap a nearby enemy for {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} Lightning damage.\r\n\r\nThis effect is treated as a {c_important}Shock{/c} Skill.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -3789,6 +4146,42 @@
     ]
   },
   {
+    "IdSno": "1220408",
+    "IdName": "legendary_necro_102",
+    "IdSnoList": [
+      "1220408"
+    ],
+    "IdNameList": [
+      "legendary_necro_102"
+    ],
+    "Name": "Osseous Gale",
+    "Description": "Bone Storm consumes up to # Corpses to increase its duration by up to # seconds.",
+    "DescriptionClean": "Bone Storm consumes up to Corpses to increase its duration by up to seconds.",
+    "Localisation": "{c_important}Bone Storm{/c} consumes up to {c_number}[Affix_Value_2]{/c} Corpses to increase its duration by up to {c_random}[Affix_Value_1*Affix_Value_2|1|]{/c} seconds.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
+      15
+    ]
+  },
+  {
     "IdSno": "2620614",
     "IdName": "legendary_druid_028_x2",
     "IdSnoList": [
@@ -4507,6 +4900,44 @@
     ]
   },
   {
+    "IdSno": "578699",
+    "IdName": "legendary_barb_011",
+    "IdSnoList": [
+      "578699"
+    ],
+    "IdNameList": [
+      "legendary_barb_011"
+    ],
+    "Name": "Relentless Berserker's",
+    "Description": "Lucky Hit: Damaging an enemy with a Core Skill has up to a #% chance to extend the duration of Berserking by # seconds. Double this duration if it was a Critical Strike.",
+    "DescriptionClean": "Lucky Hit: Damaging an enemy with a Core Skill has up to a chance to extend the duration of Berserking by seconds. Double this duration if it was a Critical Strike.",
+    "Localisation": "{c_label}Lucky Hit:{/c} Damaging an enemy with a {c_important}Core{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to extend the duration of {c_important}{u}Berserking{/u}{/c} by {c_number}[Affix_Value_2]{/c} seconds. Double this duration if it was a Critical Strike.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Hakan's Refuge",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "2547911",
     "IdName": "legendary_warlock_005_x2",
     "IdSnoList": [
@@ -4929,6 +5360,41 @@
     ]
   },
   {
+    "IdSno": "579752",
+    "IdName": "legendary_sorc_039",
+    "IdSnoList": [
+      "579752"
+    ],
+    "IdNameList": [
+      "legendary_sorc_039"
+    ],
+    "Name": "Serpentine",
+    "Description": "Hydra deals #% increased damage per Mana you had when Summoned. Casting Hydra Consumes all of your Mana.",
+    "DescriptionClean": "Hydra deals increased damage per Mana you had when Summoned. Casting Hydra Consumes all of your Mana.",
+    "Localisation": "{c_important}Hydra{/c} deals {c_random}[Affix_Value_1|%2x|]{/c} increased damage per Mana you had when Summoned. Casting {c_important}Hydra{/c} Consumes all of your Mana.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "615483",
     "IdName": "legendary_necro_032",
     "IdSnoList": [
@@ -5209,6 +5675,41 @@
     ]
   },
   {
+    "IdSno": "578754",
+    "IdName": "legendary_barb_003",
+    "IdSnoList": [
+      "578754"
+    ],
+    "IdNameList": [
+      "legendary_barb_003"
+    ],
+    "Name": "Skullbreaker's",
+    "Description": "Incapacitating a Bleeding enemy deals #% of their total Bleeding amount as Physical damage.",
+    "DescriptionClean": "Incapacitating a Bleeding enemy deals of their total Bleeding amount as Physical damage.",
+    "Localisation": "{c_important}{u}Incapacitating{/u}{/c} a Bleeding enemy deals {c_random}[Affix_Value_1|%|]{/c} of their total Bleeding amount as Physical damage.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "1202013",
     "IdName": "legendary_barb_103",
     "IdSnoList": [
@@ -5313,6 +5814,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "578919",
+    "IdName": "legendary_sorc_006",
+    "IdSnoList": [
+      "578919"
+    ],
+    "IdNameList": [
+      "legendary_sorc_006"
+    ],
+    "Name": "Snowguard's",
+    "Description": "While within your own Blizzard and for # seconds after leaving it, you take #% less damage.",
+    "DescriptionClean": "While within your own Blizzard and for seconds after leaving it, you take less damage.",
+    "Localisation": "While within your own {c_important}Blizzard{/c} and for {c_number}[Affix.\"Static Value 0\"]{/c} seconds after leaving it, you take {c_random}[Affix_Value_1|%|]{/c} less damage.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Fetid Mausoleum",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -5456,6 +5992,41 @@
       28,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "1227270",
+    "IdName": "legendary_sorc_124",
+    "IdSnoList": [
+      "1227270"
+    ],
+    "IdNameList": [
+      "legendary_sorc_124"
+    ],
+    "Name": "Stable",
+    "Description": "While Unstable Currents is not active, your Shock Skills have a #% chance to trigger a free cast from it.",
+    "DescriptionClean": "While Unstable Currents is not active, your Shock Skills have a chance to trigger a free cast from it.",
+    "Localisation": "While {c_important}Unstable Currents{/c} is not active, your {c_important}Shock{/c} Skills have a {c_random}[Affix_Value_1|1%|]{/c} chance to trigger a free cast from it.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -5657,6 +6228,41 @@
     "MagicType": 1,
     "AllowedForPlayerClass": [
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1224681",
+    "IdName": "legendary_sorc_115",
+    "IdSnoList": [
+      "1224681"
+    ],
+    "IdNameList": [
+      "legendary_sorc_115"
+    ],
+    "Name": "Storm Swell",
+    "Description": "You deal #% increased damage while Ice Armor is active. This amount is increased by another #% against Frozen enemies.",
+    "DescriptionClean": "You deal increased damage while Ice Armor is active. This amount is increased by another against Frozen enemies.",
+    "Localisation": "You deal {c_random}[Affix_Value_1|%x|]{/c} increased damage while {c_important}Ice Armor{/c} is active. This amount is increased by another {c_number}[Affix.\"Static Value 0|%x|\"]{/c} against {c_important}{u}Frozen{/u}{/c} enemies.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Onyx Hold",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
       0,
       0,
       0,
@@ -6524,6 +7130,44 @@
     ]
   },
   {
+    "IdSno": "579643",
+    "IdName": "legendary_barb_004",
+    "IdSnoList": [
+      "579643"
+    ],
+    "IdNameList": [
+      "legendary_barb_004"
+    ],
+    "Name": "Weapon Master's",
+    "Description": "Weapon Mastery Skills Stun enemies for # seconds. Enemies can be Stunned this way once every # seconds. Your Weapon Mastery Skills have an additional Charge and deal #% increased damage.",
+    "DescriptionClean": "Weapon Mastery Skills Stun enemies for seconds. Enemies can be Stunned this way once every seconds. Your Weapon Mastery Skills have an additional Charge and deal increased damage.",
+    "Localisation": "{c_important}Weapon Mastery{/c} Skills Stun enemies for {c_random}[Affix_Value_1|1|]{/c} seconds. Enemies can be Stunned this way once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds. Your {c_important}Weapon Mastery{/c} Skills have an additional Charge and deal {c_random}[Affix_Value_2|%x|]{/c} increased damage.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
+    ]
+  },
+  {
     "IdSno": "1919997",
     "IdName": "S05_BSK_Generic_005",
     "IdSnoList": [
@@ -6616,6 +7260,41 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "1934512",
+    "IdName": "S05_BSK_Sorcerer_001",
+    "IdSnoList": [
+      "1934512"
+    ],
+    "IdNameList": [
+      "S05_BSK_Sorcerer_001"
+    ],
+    "Name": "Winter Touch",
+    "Description": "When you Freeze an enemy, you deal # Cold damage to them.\r\n\r\nThis effect is treated as a Frost Skill.",
+    "DescriptionClean": "When you Freeze an enemy, you deal Cold damage to them. This effect is treated as a Frost Skill.",
+    "Localisation": "When you {c_important}{u}Freeze{/u}{/c} an enemy, you deal {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} Cold damage to them.\r\n\r\nThis effect is treated as a {c_important}Frost{/c} Skill.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
       0,
       0,
       0,
@@ -6995,6 +7674,41 @@
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
+    "IdSno": "578765",
+    "IdName": "legendary_barb_014",
+    "IdSnoList": [
+      "578765"
+    ],
+    "IdNameList": [
+      "legendary_barb_014"
+    ],
+    "Name": "of Ancestral Echoes",
+    "Description": "Lucky Hit: Leap, Upheaval, and Whirlwind have up to a #% chance to Summon an Ancient to perform the same Skill. Can only occur once every # seconds.\r\n\r\nYour Summons deal #% increased damage.",
+    "DescriptionClean": "Lucky Hit: Leap, Upheaval, and Whirlwind have up to a chance to Summon an Ancient to perform the same Skill. Can only occur once every seconds. Your Summons deal increased damage.",
+    "Localisation": "{c_label}Lucky Hit:{/c} {c_important}Leap{/c}, {c_important}Upheaval{/c}, and {c_important}Whirlwind{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to Summon an Ancient to perform the same Skill. Can only occur once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds.\r\n\r\nYour {c_important}Summons{/c} deal {c_random}[Affix_Value_2|%|]{/c} increased damage.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Ancient Reservoir",
     "Category": "FILTER_Legendary_Offensive",
     "MagicType": 1,
     "AllowedForPlayerClass": [
@@ -7731,6 +8445,41 @@
     ]
   },
   {
+    "IdSno": "578706",
+    "IdName": "legendary_barb_001",
+    "IdSnoList": [
+      "578706"
+    ],
+    "IdNameList": [
+      "legendary_barb_001"
+    ],
+    "Name": "of Berserk Ripping",
+    "Description": "While Berserking, your direct damage inflicts #% bonus Bleeding damage over # seconds.",
+    "DescriptionClean": "While Berserking, your direct damage inflicts bonus Bleeding damage over seconds.",
+    "Localisation": "While {c_important}{u}Berserking{/u}{/c}, your direct damage inflicts {c_random}[Affix_Value_1*100|%|]{/c} bonus Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Mournfield",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "579749",
     "IdName": "legendary_sorc_004",
     "IdSnoList": [
@@ -8233,6 +8982,41 @@
       19,
       28,
       15
+    ]
+  },
+  {
+    "IdSno": "1925377",
+    "IdName": "x1_legendary_sorc_140",
+    "IdSnoList": [
+      "1925377"
+    ],
+    "IdNameList": [
+      "x1_legendary_sorc_140"
+    ],
+    "Name": "of Charged Flash",
+    "Description": "Crackling Energy deals #% increased damage. While you have Crackling Energy, Charged Bolts spends a charge to also fire a wave dealing Crackling Energy's damage in the area.",
+    "DescriptionClean": "Crackling Energy deals increased damage. While you have Crackling Energy, Charged Bolts spends a charge to also fire a wave dealing Crackling Energy's damage in the area.",
+    "Localisation": "{c_important}Crackling Energy{/c} deals {c_random}[Affix_Value_1 * 100|%x|]{/c} increased damage. While you have {c_important}Crackling Energy{/c}, {c_important}Charged Bolts{/c} spends a charge to also fire a wave dealing {c_important}Crackling Energy's{/c} damage in the area.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -9343,6 +10127,41 @@
       29,
       28,
       26
+    ]
+  },
+  {
+    "IdSno": "578764",
+    "IdName": "legendary_barb_002",
+    "IdSnoList": [
+      "578764"
+    ],
+    "IdNameList": [
+      "legendary_barb_002"
+    ],
+    "Name": "of Earthquakes",
+    "Description": "Ground Stomp creates an Earthquake damaging enemies for # Physical damage over # seconds. While standing in Earthquakes and for # seconds afterwards, you deal #% increased damage.\r\n\r\nYour Earthquakes deal #% increased damage. ",
+    "DescriptionClean": "Ground Stomp creates an Earthquake damaging enemies for Physical damage over seconds. While standing in Earthquakes and for seconds afterwards, you deal increased damage. Your Earthquakes deal increased damage.",
+    "Localisation": "{c_important}Ground Stomp{/c} creates an {c_important}Earthquake{/c} damaging enemies for {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} Physical damage over {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c} seconds. While standing in {c_important}Earthquakes{/c} and for {c_number}[Affix.\"Static Value 0\"]{/c} seconds afterwards, you deal {c_random}[Affix_Value_1|%x|]{/c} increased damage.\r\n\r\nYour {c_important}Earthquakes{/c} deal {c_random}[Affix_Value_1|%|]{/c} increased damage. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -10549,6 +11368,41 @@
     ]
   },
   {
+    "IdSno": "578927",
+    "IdName": "legendary_sorc_035",
+    "IdSnoList": [
+      "578927"
+    ],
+    "IdNameList": [
+      "legendary_sorc_035"
+    ],
+    "Name": "of Frozen Orbit",
+    "Description": "Frozen Orb deals #% increased damage and explodes an additional time.",
+    "DescriptionClean": "Frozen Orb deals increased damage and explodes an additional time.",
+    "Localisation": "{c_important}Frozen Orb{/c} deals {c_random}[Affix_Value_1|%|]{/c} increased damage and explodes an additional time.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
+    ]
+  },
+  {
     "IdSno": "2571959",
     "IdName": "legendary_barb_013_x2",
     "IdSnoList": [
@@ -10561,6 +11415,39 @@
     "Description": "Each time you swap weapons, gain # Fury.",
     "DescriptionClean": "Each time you swap weapons, gain Fury.",
     "Localisation": "Each time you swap weapons, gain {c_random}[Affix_Value_1]{/c} Fury.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
+    "IdSno": "579641",
+    "IdName": "legendary_barb_010",
+    "IdSnoList": [
+      "579641"
+    ],
+    "IdNameList": [
+      "legendary_barb_010"
+    ],
+    "Name": "of Giant Strides",
+    "Description": "Reduces the Cooldown of Leap by # seconds per enemy hit, up to a maximum of # seconds. Hitting a Boss with Leap provides the maximum reduction.",
+    "DescriptionClean": "Reduces the Cooldown of Leap by seconds per enemy hit, up to a maximum of seconds. Hitting a Boss with Leap provides the maximum reduction.",
+    "Localisation": "Reduces the Cooldown of {c_important}Leap{/c} by {c_random}[Affix_Value_1|1|]{/c} seconds per enemy hit, up to a maximum of {c_number}[Affix_Value_2]{/c} seconds. Hitting a Boss with {c_important}Leap{/c} provides the maximum reduction.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -11502,40 +12389,40 @@
     ]
   },
   {
-    "IdSno": "1987429;2620643",
-    "IdName": "legendary_spiritborn_034_x1;legendary_spiritborn_034_x2",
+    "IdSno": "2620643",
+    "IdName": "legendary_spiritborn_034_x2",
     "IdSnoList": [
-      "1987429",
       "2620643"
     ],
     "IdNameList": [
-      "legendary_spiritborn_034_x1",
       "legendary_spiritborn_034_x2"
     ],
     "Name": "of Interdiction",
     "Description": "Gain #% Block Chance per Resolve stack.",
     "DescriptionClean": "Gain Block Chance per Resolve stack.",
-    "Localisation": "Gain {c_random}[Affix_Value_1*100|%+|]{/c} Block Chance per {c_important}{u}Resolve{/u}{/c} stack.",
+    "Localisation": "Gain {c_random}[Affix_Value_1*100|1%+|]{/c} Block Chance per {c_important}{u}Resolve{/u}{/c} stack.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
-    "Category": "FILTER_Legendary_Defensive",
+    "Category": "FILTER_Legendary_Utility",
     "MagicType": 1,
     "AllowedForPlayerClass": [
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0
     ],
     "AllowedItemLabels": [
       16,
       17,
-      30,
+      29,
+      28,
       26,
+      30,
       15
     ]
   },
@@ -13860,6 +14747,41 @@
     ]
   },
   {
+    "IdSno": "1439762",
+    "IdName": "legendary_sorc_136",
+    "IdSnoList": [
+      "1439762"
+    ],
+    "IdNameList": [
+      "legendary_sorc_136"
+    ],
+    "Name": "of Searing Wards",
+    "Description": "(PH) I need a new design! (Firewall)",
+    "DescriptionClean": "(PH) I need a new design! (Firewall)",
+    "Localisation": "(PH) I need a new design! (Firewall)",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
+    ]
+  },
+  {
     "IdSno": "616122",
     "IdName": "legendary_necro_038",
     "IdSnoList": [
@@ -13931,6 +14853,41 @@
       26,
       30,
       15
+    ]
+  },
+  {
+    "IdSno": "1212515",
+    "IdName": "legendary_sorc_106",
+    "IdSnoList": [
+      "1212515"
+    ],
+    "IdNameList": [
+      "legendary_sorc_106"
+    ],
+    "Name": "of Shattered Stars",
+    "Description": "Meteorites fall around Meteor, dealing # Fire damage.\r\n\r\nYour Meteorites gain #% of Meteor's damage and Burn enemies for # damage over # seconds.",
+    "DescriptionClean": "Meteorites fall around Meteor, dealing Fire damage. Your Meteorites gain of Meteor's damage and Burn enemies for damage over seconds.",
+    "Localisation": "{c_important}Meteorites{/c} fall around {c_important}Meteor{/c}, dealing {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} Fire damage.\r\n\r\nYour {c_important}Meteorites{/c} gain {c_random}[Affix_Value_1|%|]{/c} of {c_important}Meteor's{/c} damage and Burn enemies for {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1 * Affix.\"Static Value 0 / 100\"]{/c} damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -15462,6 +16419,39 @@
     ]
   },
   {
+    "IdSno": "579652",
+    "IdName": "legendary_barb_007",
+    "IdSnoList": [
+      "579652"
+    ],
+    "IdNameList": [
+      "legendary_barb_007"
+    ],
+    "Name": "of Vocalized Empowerment",
+    "Description": "Your Shout Skills grant you # Primary Resource Regeneration while active.",
+    "DescriptionClean": "Your Shout Skills grant you Primary Resource Regeneration while active.",
+    "Localisation": "Your {c_important}Shout{/c} Skills grant you {c_random}[Affix_Value_1|1|]{/c} Primary Resource Regeneration while active.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Sirocco Caverns",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "578854",
     "IdName": "legendary_rogue_013",
     "IdSnoList": [
@@ -15494,6 +16484,39 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "578762",
+    "IdName": "legendary_barb_013",
+    "IdSnoList": [
+      "578762"
+    ],
+    "IdNameList": [
+      "legendary_barb_013"
+    ],
+    "Name": "of Voracious Rage",
+    "Description": "Killing an enemy with a Core Skill refunds #% of its base cost. Can only happen once per Skill cast.",
+    "DescriptionClean": "Killing an enemy with a Core Skill refunds of its base cost. Can only happen once per Skill cast.",
+    "Localisation": "Killing an enemy with a {c_important}Core{/c} Skill refunds {c_random}[Affix_Value_1|1%|]{/c} of its base cost. Can only happen once per Skill cast.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Hallowed Ossuary",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
     ]
   },
   {
@@ -16211,6 +17234,43 @@
     ]
   },
   {
+    "IdSno": "1963371",
+    "IdName": "legendary_sorc_142",
+    "IdSnoList": [
+      "1963371"
+    ],
+    "IdNameList": [
+      "legendary_sorc_142"
+    ],
+    "Name": "of the Firebird",
+    "Description": "While Flame Shield is active, Meteorites cascade around you and deal # Fire damage. Your Meteorites gain #% Lucky Hit Chance. ",
+    "DescriptionClean": "While Flame Shield is active, Meteorites cascade around you and deal Fire damage. Your Meteorites gain Lucky Hit Chance.",
+    "Localisation": "While {c_important}Flame Shield{/c} is active, {c_important}Meteorites{/c} cascade around you and deal {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_1]{/c} Fire damage. Your {c_important}Meteorites{/c} gain {c_number}[Affix.\"Static Value 2\"]%{/c} Lucky Hit Chance. ",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30
+    ]
+  },
+  {
     "IdSno": "1803887",
     "IdName": "x1_legendary_barb_115",
     "IdSnoList": [
@@ -16314,6 +17374,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "1212281",
+    "IdName": "legendary_sorc_116",
+    "IdSnoList": [
+      "1212281"
+    ],
+    "IdNameList": [
+      "legendary_sorc_116"
+    ],
+    "Name": "of the Frozen Tundra",
+    "Description": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing # Cold damage. Your Ice Spikes have a #% increased explosion radius.",
+    "DescriptionClean": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing Cold damage. Your Ice Spikes have a increased explosion radius.",
+    "Localisation": "While {c_important}Deep Freeze{/c} is active, exploding {c_important}Ice Spikes{/c} form in the area, dealing {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} Cold damage. Your {c_important}Ice Spikes{/c} have a {c_number}[Affix_Value_1 * 100|%|]{/c} increased explosion radius.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      28,
+      26,
+      19
     ]
   },
   {
@@ -16457,6 +17552,41 @@
       30,
       26,
       15
+    ]
+  },
+  {
+    "IdSno": "578756",
+    "IdName": "legendary_barb_008",
+    "IdSnoList": [
+      "578756"
+    ],
+    "IdNameList": [
+      "legendary_barb_008"
+    ],
+    "Name": "of the Iron Warrior",
+    "Description": "Iron Skin grants Unstoppable, and #% Damage Reduction.",
+    "DescriptionClean": "Iron Skin grants Unstoppable, and Damage Reduction.",
+    "Localisation": "{c_important}Iron Skin{/c} grants {c_important}{u}Unstoppable{/u}{/c}, and {c_random}[Affix_Value_1|%|]{/c} Damage Reduction.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Carrion Fields",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
@@ -17162,6 +18292,39 @@
     ]
   },
   {
+    "IdSno": "579704",
+    "IdName": "legendary_druid_002",
+    "IdSnoList": [
+      "579704"
+    ],
+    "IdNameList": [
+      "legendary_druid_002"
+    ],
+    "Name": "of the Unsatiated",
+    "Description": "After Critically Striking an enemy with Shred, you gain # Spirit. While at # Spirit, your Werewolf Skills deal #% increased damage until you go below # Spirit.",
+    "DescriptionClean": "After Critically Striking an enemy with Shred, you gain Spirit. While at Spirit, your Werewolf Skills deal increased damage until you go below Spirit.",
+    "Localisation": "After Critically Striking an enemy with {c_important}Shred{/c}, you gain {c_number}[Affix.\"Static Value 0\"]{/c} Spirit. While at {c_number}[Affix.\"Static Value 2\"]{/c} Spirit, your {c_important}Werewolf{/c} Skills deal {c_random}[Affix_Value_1|1%x|]{/c} increased damage until you go below {c_number}[Affix.\"Static Value 1\"]{/c} Spirit.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Tormented Ruins",
+    "Category": "FILTER_Legendary_Resource",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      19,
+      26
+    ]
+  },
+  {
     "IdSno": "2575135",
     "IdName": "legendary_sorc_008_x2",
     "IdSnoList": [
@@ -17194,6 +18357,41 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "1225191",
+    "IdName": "legendary_sorc_126",
+    "IdSnoList": [
+      "1225191"
+    ],
+    "IdNameList": [
+      "legendary_sorc_126"
+    ],
+    "Name": "of the Unwavering",
+    "Description": "Taking direct damage has a #% chance to reset the Cooldown of one of your Defensive Skills.",
+    "DescriptionClean": "Taking direct damage has a chance to reset the Cooldown of one of your Defensive Skills.",
+    "Localisation": "Taking direct damage has a {c_random}[Affix_Value_1|1%|]{/c} chance to reset the Cooldown of one of your {c_important}Defensive{/c} Skills.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "Putrid Aquifer",
+    "Category": "FILTER_Legendary_Defensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      30,
+      26
     ]
   },
   {
