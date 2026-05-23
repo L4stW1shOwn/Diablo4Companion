@@ -134,17 +134,6 @@
 
                     <StackPanel Orientation="Horizontal">
                         <mah:ToggleSwitch 
-                            IsOn="{Binding IsImportUniqueAffixesD2CoreEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                            OffContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            OnContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}"/>
-                        <Label HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}">
-                            <iconPacks:PackIconMaterial Kind="InformationOutline" Width="16" Height="16"/>
-                        </Label>
-                    </StackPanel>
-
-                    <StackPanel Orientation="Horizontal">
-                        <mah:ToggleSwitch 
                             IsOn="{Binding IsImportParagonD2CoreEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                             OffContent="{loc:LocExtension rsCapImportParagon}"
                             OnContent="{loc:LocExtension rsCapImportParagon}"
@@ -467,7 +456,7 @@
                             <iconPacks:PackIconMaterial Kind="Plus" />
                         </Button>
                     </StackPanel>
-                    
+
                     <StackPanel Orientation="Horizontal">
                         <ComboBox Width="125"
                                   Margin="0 0 1 0"
@@ -478,17 +467,6 @@
                         <Button Command="{Binding RemoveAffixPresetNameCommand}" ToolTip="{loc:LocExtension rsTooltipRemovePreset}" Margin="0" Padding="4 0 4 0">
                             <iconPacks:PackIconMaterial Kind="DeleteOutline" />
                         </Button>
-                    </StackPanel>
-                    
-                    <StackPanel Orientation="Horizontal">
-                        <mah:ToggleSwitch 
-                            IsOn="{Binding IsImportUniqueAffixesMaxrollEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                            OffContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            OnContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}"/>
-                        <Label HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}">
-                            <iconPacks:PackIconMaterial Kind="InformationOutline" Width="16" Height="16"/>
-                        </Label>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal">
@@ -652,16 +630,6 @@
                         <Button Command="{Binding RemoveAffixPresetNameCommand}" ToolTip="{loc:LocExtension rsTooltipRemovePreset}" Margin="0" Padding="4 0 4 0">
                             <iconPacks:PackIconMaterial Kind="DeleteOutline" />
                         </Button>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <mah:ToggleSwitch 
-                            IsOn="{Binding IsImportUniqueAffixesMobalyticsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                            OffContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            OnContent="{loc:LocExtension rsCapImportUniqueAffixes}"
-                            ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}"/>
-                        <Label HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="{loc:LocExtension rsTooltipImportUniqueAffixes}">
-                            <iconPacks:PackIconMaterial Kind="InformationOutline" Width="16" Height="16"/>
-                        </Label>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <mah:ToggleSwitch 

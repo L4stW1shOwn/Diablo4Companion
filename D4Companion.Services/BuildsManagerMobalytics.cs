@@ -1056,7 +1056,6 @@ namespace D4Companion.Services
                 if (itemSlot == null) return affixes;
 
                 bool isUniqueItem = itemSlot.GameEntity.Type.Equals("uniqueItems", StringComparison.OrdinalIgnoreCase);
-                if (isUniqueItem && !_settingsManager.Settings.IsImportUniqueAffixesMobalyticsEnabled) return affixes;
 
                 // Explicit
                 foreach (var affix in itemSlot.GameEntity.Modifiers?.GearStats ?? Enumerable.Empty<MobalyticsBuildModifiersGearStatJson>())

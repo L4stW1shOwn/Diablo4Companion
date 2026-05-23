@@ -384,43 +384,7 @@ namespace D4Companion.ViewModels.Dialogs
 
                 _settingsManager.SaveSettings();
             }
-        }
-
-        public bool IsImportUniqueAffixesD2CoreEnabled
-        {
-            get => _settingsManager.Settings.IsImportUniqueAffixesD2CoreEnabled;
-            set
-            {
-                _settingsManager.Settings.IsImportUniqueAffixesD2CoreEnabled = value;
-                OnPropertyChanged(nameof(IsImportUniqueAffixesD2CoreEnabled));
-
-                _settingsManager.SaveSettings();
-            }
-        }
-
-        public bool IsImportUniqueAffixesMaxrollEnabled
-        {
-            get => _settingsManager.Settings.IsImportUniqueAffixesMaxrollEnabled;
-            set
-            {
-                _settingsManager.Settings.IsImportUniqueAffixesMaxrollEnabled = value;
-                OnPropertyChanged(nameof(IsImportUniqueAffixesMaxrollEnabled));
-
-                _settingsManager.SaveSettings();
-            }
-        }
-
-        public bool IsImportUniqueAffixesMobalyticsEnabled
-        {
-            get => _settingsManager.Settings.IsImportUniqueAffixesMobalyticsEnabled;
-            set
-            {
-                _settingsManager.Settings.IsImportUniqueAffixesMobalyticsEnabled = value;
-                OnPropertyChanged(nameof(IsImportUniqueAffixesMobalyticsEnabled));
-
-                _settingsManager.SaveSettings();
-            }
-        }
+        }        
 
         public AffixPreset SelectedAffixPreset
         {

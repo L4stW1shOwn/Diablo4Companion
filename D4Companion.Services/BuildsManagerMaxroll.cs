@@ -156,9 +156,6 @@ namespace D4Companion.Services
                             Type = string.Empty,
                             Color = _settingsManager.Settings.DefaultColorUniques
                         });
-
-                        // Skip unique affixes
-                        if (!_settingsManager.Settings.IsImportUniqueAffixesMaxrollEnabled) continue;
                     }
 
                     // Process implicit affixes
@@ -283,6 +280,8 @@ namespace D4Companion.Services
                     {
                         // For legendary items only add the first four affixes.
                         if (uniqueInfo == null && i > 3) break;
+                        // For unique items only add the first four affixes. First index contains id of unique item.
+                        if (uniqueInfo != null && i > 4) break;
 
                         var explicitAffix = maxrollBuild.Data.Items[item.Value].Explicits[i];
                         int affixSno = explicitAffix.Nid;

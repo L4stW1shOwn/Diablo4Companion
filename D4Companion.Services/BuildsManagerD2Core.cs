@@ -378,9 +378,6 @@ namespace D4Companion.Services
                             Type = string.Empty,
                             Color = _settingsManager.Settings.DefaultColorUniques
                         });
-
-                        // Skip unique affixes
-                        if (!_settingsManager.Settings.IsImportUniqueAffixesD2CoreEnabled) continue;
                     }
                 }
 

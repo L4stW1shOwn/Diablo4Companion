@@ -268,14 +268,6 @@ namespace D4Companion.Services
                     {
                         var affixColor = itemAffix.Item2.Color;
 
-                        // Overwrite affix colors for unique items
-                        if (_settingsManager.Settings.IsUniqueDetectionEnabled &&
-                            !_currentTooltip.ItemAspectLocation.IsEmpty && _currentTooltip.IsUniqueItem &&
-                            !string.IsNullOrEmpty(_currentTooltip.ItemAspect.Id))
-                        {
-                            affixColor = _currentTooltip.ItemAspect.Color == Colors.Red ? itemAffix.Item2.Color : _currentTooltip.ItemAspect.Color;
-                        }
-
                         // Cases
                         // (1) Show all. Always show all markers
                         // (2) Hide unwanted. Show when color is not equal to red.
@@ -365,14 +357,6 @@ namespace D4Companion.Services
                     if (itemAffix != null)
                     {
                         var affixColor = itemAffix.Item2.Color;
-
-                        // Overwrite affix colors for unique items
-                        if (_settingsManager.Settings.IsUniqueDetectionEnabled &&
-                            !_currentTooltip.ItemAspectLocation.IsEmpty && _currentTooltip.IsUniqueItem &&
-                            !string.IsNullOrEmpty(_currentTooltip.ItemAspect.Id))
-                        {
-                            affixColor = itemAspect.Color == Colors.Red ? itemAffix.Item2.Color : itemAspect.Color;
-                        }
 
                         // Hide all unwanted affixes.
                         if (!affixColor.ToString().Equals(Colors.Red.ToString()))
