@@ -6517,9 +6517,9 @@
       "legendary_generic_011"
     ],
     "Name": "보호자의",
-    "Description": "정예 적에게 피해를 주면 #초 동안 최대 생명력의 #%에 해당하는 보호막#을 얻습니다. 이 효과는 #초에 한 번만 발동합니다.",
-    "DescriptionClean": "정예 적에게 피해를 주면 초 동안 최대 생명력의 에 해당하는 보호막을 얻습니다. 이 효과는 초에 한 번만 발동합니다.",
-    "Localisation": "정예 적에게 피해를 주면 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 최대 생명력의 {c_random}[Affix_Value_2*100|%|]{/c}에 해당하는 {c_important}{u}보호막{/u}[Affix.\"Static Value 0\"]{/c}을 얻습니다. 이 효과는 {c_number}[Affix_Value_1]{/c}초에 한 번만 발동합니다.",
+    "Description": "정예 적에게 피해를 주면 #초 동안 최대 생명력의 #%에 해당하는 보호막 #을 얻습니다. 이 효과는 #초에 한 번만 발동합니다.",
+    "DescriptionClean": "정예 적에게 피해를 주면 초 동안 최대 생명력의 에 해당하는 보호막 을 얻습니다. 이 효과는 초에 한 번만 발동합니다.",
+    "Localisation": "정예 적에게 피해를 주면 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 최대 생명력의 {c_random}[Affix_Value_2*100|%|]{/c}에 해당하는 {c_important}{u}보호막{/u} [Affix.\"Static Value 0\"]{/c}을 얻습니다. 이 효과는 {c_number}[Affix_Value_1]{/c}초에 한 번만 발동합니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "잊힌 기록보관소",
