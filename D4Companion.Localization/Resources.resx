@@ -946,4 +946,10 @@
   <data name="rsTooltipWarlock" xml:space="preserve">
     <value>Warlock</value>
   </data>
+  <data name="rsCapShowBrowser" xml:space="preserve">
+    <value>Show browser</value>
+  </data>
+  <data name="rsTooltipShowBrowser" xml:space="preserve">
+    <value>Shows browser while importing builds needed for CloudFlare protection.</value>
+  </data>
 </root>

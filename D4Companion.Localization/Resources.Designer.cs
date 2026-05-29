@@ -1330,6 +1330,15 @@ namespace D4Companion.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show browser.
+        /// </summary>
+        internal static string rsCapShowBrowser {
+            get {
+                return ResourceManager.GetString("rsCapShowBrowser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show Overlay Icon.
         /// </summary>
         internal static string rsCapShowOverlayIcon {
@@ -2415,6 +2424,15 @@ namespace D4Companion.Localization {
         internal static string rsTooltipSetUnique {
             get {
                 return ResourceManager.GetString("rsTooltipSetUnique", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows browser while importing builds needed for CloudFlare protection..
+        /// </summary>
+        internal static string rsTooltipShowBrowser {
+            get {
+                return ResourceManager.GetString("rsTooltipShowBrowser", resourceCulture);
             }
         }
         

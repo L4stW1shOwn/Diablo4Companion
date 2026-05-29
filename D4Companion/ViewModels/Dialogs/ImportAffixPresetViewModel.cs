@@ -384,7 +384,19 @@ namespace D4Companion.ViewModels.Dialogs
 
                 _settingsManager.SaveSettings();
             }
-        }        
+        }
+
+        public bool IsShowBrowserMobalyticsEnabled
+        {
+            get => _settingsManager.Settings.IsShowBrowserMobalyticsEnabled;
+            set
+            {
+                _settingsManager.Settings.IsShowBrowserMobalyticsEnabled = value;
+                OnPropertyChanged(nameof(IsShowBrowserMobalyticsEnabled));
+
+                _settingsManager.SaveSettings();
+            }
+        }
 
         public AffixPreset SelectedAffixPreset
         {

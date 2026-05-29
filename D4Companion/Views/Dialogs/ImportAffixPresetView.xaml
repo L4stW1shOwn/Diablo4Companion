@@ -641,6 +641,16 @@
                             <iconPacks:PackIconMaterial Kind="InformationOutline" Width="16" Height="16"/>
                         </Label>
                     </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <mah:ToggleSwitch 
+                            IsOn="{Binding IsShowBrowserMobalyticsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                            OffContent="{loc:LocExtension rsCapShowBrowser}"
+                            OnContent="{loc:LocExtension rsCapShowBrowser}"
+                            ToolTip="{loc:LocExtension rsTooltipShowBrowser}"/>
+                        <Label HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="{loc:LocExtension rsTooltipShowBrowser}">
+                            <iconPacks:PackIconMaterial Kind="InformationOutline" Width="16" Height="16"/>
+                        </Label>
+                    </StackPanel>
                     <mah:MetroAnimatedSingleRowTabControl SelectedIndex="{Binding SelectedTabIndexMobalytics}">
                         <TabItem Header="Builds">
                             <Grid>
