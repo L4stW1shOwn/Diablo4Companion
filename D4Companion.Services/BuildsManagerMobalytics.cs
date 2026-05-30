@@ -378,11 +378,11 @@ namespace D4Companion.Services
                 // Note: ChromeDriver 129 is bugged and causes blank window when using headless mode. Test again with the release of 130.
                 //options.AddArgument("--headless=old"); //v129 and older
                 options.AddArgument("--headless"); // v130+
-            }            
 
-            // Note: ChromeDriver DevToolsActivePort file doesn't exist exceptions. Below fix might be needed in combination with "--headless=old"
-            // https://issues.chromium.org/issues/42323434#comment36
-            //options.AddArgument("--remote-debugging-pipe");
+                // Note: ChromeDriver DevToolsActivePort file doesn't exist exceptions. Below fix might be needed in combination with "--headless=old"
+                // https://issues.chromium.org/issues/42323434#comment36
+                //options.AddArgument("--remote-debugging-pipe");
+            }
 
             options.AddArgument("--disable-gpu"); // Applicable to windows os only
 
@@ -393,11 +393,14 @@ namespace D4Companion.Services
             options.AddArgument("--disable-dev-shm-usage"); // Overcome limited resource problems
             options.AddArgument("--no-sandbox"); // Bypass OS security model
             options.AddArgument("--window-size=1600,900");
+            options.AddArgument("--window-position=-32000,-32000");
 
             // Cache related settings
             options.AddArgument("--disable-cache");
             options.AddArgument("--disk-cache-size=0");
             options.AddArgument("--media-cache-size=0");
+
+            options.AddArgument("--user-agent=Diablo4Companion/1.0");
 
             // Service
             ChromeDriverService service = ChromeDriverService.CreateDefaultService();
@@ -1421,21 +1424,20 @@ namespace D4Companion.Services
             if (mobalyticsProfileJson != null)
             {
                 // Valid json - Convert to MobalyticsProfile
-                var author = mobalyticsProfileJson.Apollo.Graphql.FirstOrDefault(g => g.Key.StartsWith("NgfDocumentAuthor:"));
-                string authorJsonString = JsonSerializer.Serialize(author.Value);
-                var ngfDocumentAuthorJson = JsonSerializer.Deserialize<MobalyticsProfileNgfDocumentAuthorJson>(authorJsonString);
+                var queryBuilds = mobalyticsProfileJson.Apollo.Graphql.Queries.FirstOrDefault(q => q.QueryKeys.Any(k => (k?.ToString() ?? string.Empty) == "ngf-creator-profile-documents"));
+                var queryProfile = mobalyticsProfileJson.Apollo.Graphql.Queries.FirstOrDefault(q => q.QueryKeys.Any(k => (k?.ToString() ?? string.Empty) == "mgp-header"));
 
-                if (ngfDocumentAuthorJson != null)
+                if (queryBuilds != null && queryProfile != null)
                 {
-                    // Valid json - Convert to NgfDocumentAuthor
-                    string profileId = ngfDocumentAuthorJson.Id;
-                    string name = ngfDocumentAuthorJson.Name;
-                    string profileName = ngfDocumentAuthorJson.Creator.ProfileName;
+                    string queryBuildsJsonString = JsonSerializer.Serialize(queryBuilds.State);
+                    string queryProfileJsonString = JsonSerializer.Serialize(queryProfile.State);
 
-                    if (string.IsNullOrWhiteSpace(name))
-                    {
-                        name = ngfDocumentAuthorJson.User.DisplayName;
-                    }
+                    var queryStateBuilds = JsonSerializer.Deserialize<MobalyticsProfileStateBuildsJson>(queryBuildsJsonString) ?? new();
+                    var queryStateProfile = JsonSerializer.Deserialize<MobalyticsProfileStateProfileJson>(queryProfileJsonString) ?? new();
+
+                    string profileId = queryStateProfile.DataList[0].Mgp.Profile.Data.User.Id;
+                    string name = queryStateProfile.DataList[0].Mgp.Profile.Data.User.DisplayName;
+                    string profileName = queryStateProfile.DataList[0].Mgp.Profile.Data.User.Username;
 
                     // Parse url
                     string filters = url.Split('?').Length > 1 ? url.Split('?')[1] : string.Empty;
@@ -1461,11 +1463,7 @@ namespace D4Companion.Services
                         Status = $"Exporting {mobalyticsProfile.Name}."
                     }));
 
-                    var builds = mobalyticsProfileJson.Apollo.Graphql
-                        .Where(g => g.Key.StartsWith("Diablo4UserGeneratedDocument:"))
-                        .Select(g => JsonSerializer.Deserialize<MobalyticsProfileDiablo4UserGeneratedDocumentJson>(JsonSerializer.Serialize(g.Value))).ToList();
-
-                    foreach (var build in builds)
+                    foreach (var build in queryStateBuilds.Data.Pages[0][0].Game.Documents.UserGeneratedDocuments.Documents)
                     {
                         if (build == null) continue;
 
@@ -1474,7 +1472,7 @@ namespace D4Companion.Services
                             Date = build.UpdatedAt,
                             Id = build.Id,
                             Name = build.Data.Name,
-                            Url = $"https://mobalytics.gg/diablo-4/profile/{profileId}/builds/{build.Id}"
+                            Url = $"https://mobalytics.gg/diablo-4/profile/{profileName}/builds/{build.SlugifiedName}"
                         };
                         mobalyticsProfile.Variants.Add(mobalyticsBuildVariant);
 
