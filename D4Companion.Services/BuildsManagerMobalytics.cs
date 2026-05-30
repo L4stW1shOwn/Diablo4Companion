@@ -1472,7 +1472,7 @@ namespace D4Companion.Services
                             Date = build.UpdatedAt,
                             Id = build.Id,
                             Name = build.Data.Name,
-                            Url = $"https://mobalytics.gg/diablo-4/profile/{profileName}/builds/{build.SlugifiedName}"
+                            Url = $"https://mobalytics.gg/diablo-4/profile/{profileName}/builds/{build.SlugifiedName ?? build.Id}"
                         };
                         mobalyticsProfile.Variants.Add(mobalyticsBuildVariant);
 
