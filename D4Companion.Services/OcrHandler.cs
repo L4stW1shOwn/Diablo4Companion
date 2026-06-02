@@ -849,7 +849,10 @@ namespace D4Companion.Services
                 words.Add(new HOcrWord
                 {
                     Id = m.Groups["id"].Value,
-                    IdLine = lines.FirstOrDefault(l => x1 + offsetBoundingBox >= l.X1 && x2 - offsetBoundingBox <= l.X2 && y1 + offsetBoundingBox >= l.Y1 && y2 - offsetBoundingBox <= l.Y2)?.Id ?? string.Empty,
+                    // When there are multiple overlapping bounding boxes pick the smallest one.
+                    IdLine = lines.Where(l => x1 + offsetBoundingBox >= l.X1 && x2 - offsetBoundingBox <= l.X2 && y1 + offsetBoundingBox >= l.Y1 && y2 - offsetBoundingBox <= l.Y2)
+                                  .OrderBy(l => (l.X2 - l.X1) * (l.Y2 - l.Y1))
+                                  .Select(l => l.Id).FirstOrDefault() ?? string.Empty,
                     Text = m.Groups["text"].Value.Trim(),
                     X1 = x1,
                     Y1 = y1,

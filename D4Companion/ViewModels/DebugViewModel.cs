@@ -101,7 +101,7 @@ namespace D4Companion.ViewModels
         public ICommand ExportDebugImagesCommand { get; }
         public ICommand ReloadSystemPresetImagesCommand { get; }
         public ICommand ResetPerformceResultsCommand { get; }
-        public ICommand TakeScreenshotCommand { get; }
+        public ICommand TakeScreenshotCommand { get; }        
 
         public int AffixAreaHeightOffsetTop
         {
@@ -412,6 +412,18 @@ namespace D4Companion.ViewModels
             {
                 _settingsManager.Settings.TooltipWidth = value;
                 OnPropertyChanged(nameof(TooltipWidth));
+
+                _settingsManager.SaveSettings();
+            }
+        }
+
+        public int TypeAreaOffsetLeft
+        {
+            get => _settingsManager.Settings.TypeAreaOffsetLeft;
+            set
+            {
+                _settingsManager.Settings.TypeAreaOffsetLeft = value;
+                OnPropertyChanged(nameof(TypeAreaOffsetLeft));
 
                 _settingsManager.SaveSettings();
             }

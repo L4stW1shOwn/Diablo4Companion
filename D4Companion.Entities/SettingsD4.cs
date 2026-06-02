@@ -87,6 +87,7 @@ namespace D4Companion.Entities
         public double ThresholdSimilaritySplitterLocation { get; set; } = 0.05;
         public int TooltipMaxHeight { get; set; } = 200;
         public int TooltipWidth { get; set; } = 500;
+        public int TypeAreaOffsetLeft { get; set; } = 5;
         public string SelectedOverlayMarkerMode { get; set; } = "Show All";
         public string SelectedSigilDisplayMode { get; set; } = "Whitelisting";
 

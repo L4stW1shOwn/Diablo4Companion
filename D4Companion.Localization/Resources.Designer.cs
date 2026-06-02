@@ -1645,6 +1645,15 @@ namespace D4Companion.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Type Area Offset (Left).
+        /// </summary>
+        internal static string rsCapTypeAreaOffsetLeft {
+            get {
+                return ResourceManager.GetString("rsCapTypeAreaOffsetLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unique Detection.
         /// </summary>
         internal static string rsCapUniqueDetection {
