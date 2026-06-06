@@ -2040,39 +2040,64 @@
     "Type": "weapon"
   },
   {
-    "Name": "Pieczęć Koszmarów",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "zestawowy amulet",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "starożytny zestawowy amulet",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "magiczna Pieczęć Horadrimów",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "rzadka Pieczęć Horadrimów",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "legendarna Pieczęć Horadrimów",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "magiczna runa rytuału",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "rzadka runa rytuału",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "legendarna runa rytuału",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "magiczna runa inwokacji",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "rzadka runa inwokacji",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "legendarna runa inwokacji",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Pieczęć Koszmarów",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Szepczące Drewno",

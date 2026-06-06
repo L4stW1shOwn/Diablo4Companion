@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "梦魇符印",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "魔法神符",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "稀有神符",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "传奇神符",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "暗金神符",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "套装神符",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "先祖魔法神符",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "先祖稀有神符",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "先祖传奇神符",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "先祖暗金神符",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "先祖套装神符",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "魔法 赫拉迪姆封印",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "稀有 赫拉迪姆封印",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "传奇 赫拉迪姆封印",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "魔法 仪祭符文",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "稀有 仪祭符文",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "传奇 仪祭符文",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "魔法 祈告符文",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "稀有 祈告符文",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "传奇 祈告符文",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "梦魇符印",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "密语之木",

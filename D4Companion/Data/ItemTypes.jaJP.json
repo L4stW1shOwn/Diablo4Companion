@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "悪夢の紋章",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "マジック チャーム",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "レア チャーム",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "レジェンダリー チャーム",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "ユニーク チャーム",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "セット チャーム",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "祖霊 マジック チャーム",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "祖霊 レア チャーム",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "祖霊 レジェンダリー チャーム",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "祖霊 ユニーク チャーム",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "祖霊 セット チャーム",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "マジック ホラドリムの封印",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "レア ホラドリムの封印",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "レジェンダリー ホラドリムの封印",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "マジック 儀式のルーン",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "レア 儀式のルーン",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "レジェンダリー 儀式のルーン",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "マジック 招来のルーン",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "レア 招来のルーン",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "レジェンダリー 招来のルーン",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "悪夢の紋章",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "囁く森",

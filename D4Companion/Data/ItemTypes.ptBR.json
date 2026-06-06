@@ -2040,39 +2040,64 @@
     "Type": "weapon"
   },
   {
-    "Name": "Sigilo do Pesadelo",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Amuleto de Conjunto",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Amuleto de Conjunto Ancestral",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Mágico Selo Horádrico",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Raro Selo Horádrico",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Lendário Selo Horádrico",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Mágica Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rara Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Lendária Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Mágica Runa de Invocação",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rara Runa de Invocação",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Lendária Runa de Invocação",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Sigilo do Pesadelo",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Madeira Sussurrante",

@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Sigilo de pesadilla",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Dije mágico",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije raro",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije legendario",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije único",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije de conjunto",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije mágico ancestral",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije raro ancestral",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije legendario ancestral",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije único ancestral",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Dije de conjunto ancestral",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Sello horádrico mágico",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Sello horádrico raro",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Sello horádrico legendario",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Runa de ritual mágica",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Runa de ritual rara",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Runa de ritual legendaria",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Runa de invocación mágica",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Runa de invocación rara",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Runa de invocación legendaria",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Sigilo de pesadilla",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Madera susurrante",

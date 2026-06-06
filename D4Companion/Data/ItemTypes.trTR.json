@@ -1190,39 +1190,84 @@
     "Type": "weapon"
   },
   {
-    "Name": "Kâbus Mührü",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Sihirli Tılsım",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Nadir Tılsım",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Efsanevi Tılsım",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Eşsiz Tılsım",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Set Tılsım",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Kadim Tılsım",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Sihirli Horadrim Mührü",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Nadir Horadrim Mührü",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Efsanevi Horadrim Mührü",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Sihirli Ayin Rünü",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Nadir Ayin Rünü",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Efsanevi Ayin Rünü",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Sihirli Çağırma Rünü",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Nadir Çağırma Rünü",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Efsanevi Çağırma Rünü",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Kâbus Mührü",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Fısıldayan Odun",

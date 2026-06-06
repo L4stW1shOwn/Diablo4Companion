@@ -7,6 +7,7 @@
         public const string Rare = "Rare";
         public const string Legendary = "Legendary";
         public const string Unique = "Unique";
+        public const string Set = "Set";
         public const string Mythic = "Mythic";
     }
 }

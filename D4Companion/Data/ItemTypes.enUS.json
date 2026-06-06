@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Nightmare Sigil",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Magic Charm",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Rare Charm",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Legendary Charm",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Unique Charm",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Set Charm",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Ancestral Magic Charm",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Ancestral Rare Charm",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Ancestral Legendary Charm",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Ancestral Unique Charm",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Ancestral Set Charm",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Magic Horadric Seal",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Rare Horadric Seal",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Legendary Horadric Seal",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Magic Rune of Ritual",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rare Rune of Ritual",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Legendary Rune of Ritual",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Magic Rune of Invocation",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rare Rune of Invocation",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Legendary Rune of Invocation",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Nightmare Sigil",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Whispering Wood",

@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Sigillo dell'Incubo",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Portafortuna Magico",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Raro",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Leggendario",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Unico",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna appartenente a un set",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Ancestrale Magico",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Ancestrale Raro",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Ancestrale Leggendario",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Ancestrale Unico",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Portafortuna Ancestrale appartenente a un set",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Magico Sigillo Horadrico",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Raro Sigillo Horadrico",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Leggendario Sigillo Horadrico",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Magica Runa del Rituale",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rara Runa del Rituale",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Leggendaria Runa del Rituale",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Magica Runa dell'Invocazione",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rara Runa dell'Invocazione",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Leggendaria Runa dell'Invocazione",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Sigillo dell'Incubo",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Legno Sussurrante",

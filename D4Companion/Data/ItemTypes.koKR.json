@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "악몽의 인장",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "마법 부적",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "희귀 부적",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "전설 부적",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "고유 부적",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "세트 부적",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "선조 마법 부적",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "선조 희귀 부적",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "선조 전설 부적",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "선조 고유 부적",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "선조 세트 부적",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "마법 호라드림 문장",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "희귀 호라드림 문장",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "전설 호라드림 문장",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "마법 의식의 룬",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "희귀 의식의 룬",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "전설 의식의 룬",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "마법 기원의 룬",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "희귀 기원의 룬",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "전설 기원의 룬",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "악몽의 인장",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "속삭이는 나무",

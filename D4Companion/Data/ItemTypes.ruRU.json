@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Печать кошмара",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Магический Оберег",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Редкий Оберег",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Легендарный Оберег",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Уникальный Оберег",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Комплектный Оберег",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Наследный Магический Оберег",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Наследный Редкий Оберег",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Наследный Легендарный Оберег",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Наследный Уникальный Оберег",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Наследный Комплектный Оберег",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Магическая Хорадримская печать",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Редкая Хорадримская печать",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Легендарная Хорадримская печать",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Магическая Руна ритуала",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Редкая Руна ритуала",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Легендарная Руна ритуала",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Магическая Руна воззвания",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Редкая Руна воззвания",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Легендарная Руна воззвания",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Печать кошмара",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Шепчущий символ",

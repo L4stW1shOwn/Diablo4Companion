@@ -1980,39 +1980,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Emblème du Cauchemar",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Charme magique",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme rare",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme légendaire",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme unique",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme d’ensemble",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme ancestral magique",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme ancestral rare",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme ancestral légendaire",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme ancestral unique",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Charme ancestral d’ensemble",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Sceau horadrique magique",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Sceau horadrique rare",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Sceau horadrique légendaire",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Rune de rituel magique",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rune de rituel rare",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Rune de rituel légendaire",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Rune d’invocation magique",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Rune d’invocation rare",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Rune d’invocation légendaire",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Emblème du Cauchemar",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Bois chuchotant",

@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Alptraumsiegel",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Magischer Zauber",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Seltener Zauber",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Legendärer Zauber",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Einzigartiger Zauber",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Set: Zauber",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Vermachter Magischer Zauber",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Vermachter Seltener Zauber",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Vermachter Legendärer Zauber",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Vermachter Einzigartiger Zauber",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Vermachter Set: Zauber",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Magisches Horadrisches Siegel",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Seltenes Horadrisches Siegel",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "Legendäres Horadrisches Siegel",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "Magische Rune des Rituals",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Seltene Rune des Rituals",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Legendäre Rune des Rituals",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "Magische Rune der Anrufung",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "Seltene Rune der Anrufung",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "Legendäre Rune der Anrufung",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Alptraumsiegel",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Flüsterndes Holz",

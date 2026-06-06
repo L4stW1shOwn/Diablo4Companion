@@ -12,9 +12,11 @@
         public const string Weapon = "weapon";
         public const string Ranged = "ranged";
         public const string Offhand = "offhand";
+        public const string Charm = "charm";
+        public const string HoradricSeal = "horadricseal";
+        public const string Rune = "rune";
         public const string Sigil = "sigil";
         public const string Temper = "temper";
-        public const string Rune = "rune";
         public const string OccultGem = "occultgem"; // Season 7
         public const string WitcherSigil = "witchersigil"; // Whispering Wood - Season 7
         public const string DungeonEscalation = "dungeonescalation"; // Escalation Sigil - Season 9+

@@ -2040,39 +2040,104 @@
     "Type": "weapon"
   },
   {
-    "Name": "Sello de Pesadilla",
-    "Rarerity": "",
-    "Type": "sigil"
+    "Name": "Abalorio mágico",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio raro",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio legendario",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio único",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio de conjunto",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio ancestral mágico",
+    "Rarerity": "Magic",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio ancestral raro",
+    "Rarerity": "Rare",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio ancestral legendario",
+    "Rarerity": "Legendary",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio ancestral único",
+    "Rarerity": "Unique",
+    "Type": "charm"
+  },
+  {
+    "Name": "Abalorio ancestral de conjunto",
+    "Rarerity": "Set",
+    "Type": "charm"
+  },
+  {
+    "Name": "mágico Sello Horádrico",
+    "Rarerity": "Magic",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "raro Sello Horádrico",
+    "Rarerity": "Rare",
+    "Type": "horadricseal"
+  },
+  {
+    "Name": "legendario Sello Horádrico",
+    "Rarerity": "Legendary",
+    "Type": "horadricseal"
   },
   {
     "Name": "mágica Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "rara Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "legendaria Runa de Ritual",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
   },
   {
     "Name": "mágica Runa de Invocación",
-    "Rarerity": "",
+    "Rarerity": "Magic",
     "Type": "rune"
   },
   {
     "Name": "rara Runa de Invocación",
-    "Rarerity": "",
+    "Rarerity": "Rare",
     "Type": "rune"
   },
   {
     "Name": "legendaria Runa de Invocación",
-    "Rarerity": "",
+    "Rarerity": "Legendary",
     "Type": "rune"
+  },
+  {
+    "Name": "Sello de Pesadilla",
+    "Rarerity": "",
+    "Type": "sigil"
   },
   {
     "Name": "Madera Susurrante",
