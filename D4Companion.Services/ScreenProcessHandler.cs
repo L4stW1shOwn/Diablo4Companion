@@ -1112,10 +1112,8 @@ namespace D4Companion.Services
             var areaImages = new List<Image<Gray, byte>>();
             foreach (var area in _currentTooltip.ItemAffixAreas)
             {
-                areaImages.Add(_currentScreenTooltipFilter!.Copy(area.Location));
-
-                // TODO: Performance improvements
-                //areaImages.Add(_currentScreenTooltipFilter!.GetSubRect(area.Location));
+                //areaImages.Add(_currentScreenTooltipFilter!.Copy(area.Location));
+                areaImages.Add(_currentScreenTooltipFilter!.GetSubRect(area.Location));
             }
 
             ConcurrentBag<ItemAffixDescriptor> itemAffixBag = new ConcurrentBag<ItemAffixDescriptor>();
