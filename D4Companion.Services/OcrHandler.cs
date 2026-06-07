@@ -44,6 +44,11 @@ namespace D4Companion.Services
         private List<string> _sigilNames = new List<string>();
         private Dictionary<string, string> _sigilMapNameToId = new Dictionary<string, string>();
 
+        private readonly ConcurrentDictionary<string, (int, string, string, string)> _cacheAffixes = new(StringComparer.OrdinalIgnoreCase);
+        private readonly ConcurrentDictionary<string, string> _cacheAspects = new(StringComparer.OrdinalIgnoreCase);
+        private readonly ConcurrentDictionary<string, (int, string, string, string, string)> _cacheItemtypes = new(StringComparer.OrdinalIgnoreCase);
+        private readonly ConcurrentDictionary<string, string> _cacheUniques = new(StringComparer.OrdinalIgnoreCase);
+
         private ObjectPool<Engine> _engines;
         private Language _language = Language.English;
 
@@ -137,7 +142,7 @@ namespace D4Companion.Services
                         (c != ',') &&
                         (c != '%'))).Trim();
 
-            var affixResult = TextToAffix(textClean);
+            var affixResult = TextToAffixCached(textClean);
             double textValue = TextToAffixValue(rawText);
 
             result.Text = rawText;
@@ -182,7 +187,7 @@ namespace D4Companion.Services
             ConcurrentBag<(int, string, string, string)> affixBag = new ConcurrentBag<(int, string, string, string)>();
             Parallel.ForEach(possibleAffixes, affix =>
             {
-                var affixResult = TextToAffix(affix);
+                var affixResult = TextToAffixCached(affix);
                 affixBag.Add(affixResult);
             });
 
@@ -209,29 +214,21 @@ namespace D4Companion.Services
         /// Converts aspect text to a matching AspectId
         /// </summary>
         public OcrResultAffix ConvertToAspect(string rawText)
-        {
-            // Note: When needed could be improve further for fuzzy search by removing non alphabetic characters.
-
+        {           
             OcrResultAffix result = new OcrResultAffix();
             var textClean = rawText.Replace("\n", " ").Trim();
-            //int affixLine = rawText.IndexOf('\n');
-            //string textClean = affixLine >= 0
-            //    ? rawText.Substring(affixLine + 1)
-            //    : rawText;
-
-            //textClean = textClean.Replace("\n", " ").Trim();
-            //textClean = String.Concat(textClean.Where(c =>
-            //            (c < '0' || c > '9') &&
-            //            (c != '[') &&
-            //            (c != ']') &&
-            //            (c != '(') &&
-            //            (c != ')') &&
-            //            (c != '+') &&
-            //            (c != '-') &&
-            //            (c != '.') &&
-            //            (c != ',') &&
-            //            (c != '%'))).Trim();
-            var aspectId = TextToAspect(textClean);
+            textClean = String.Concat(textClean.Where(c =>
+                        (c < '0' || c > '9') &&
+                        (c != '[') &&
+                        (c != ']') &&
+                        (c != '(') &&
+                        (c != ')') &&
+                        (c != '+') &&
+                        (c != '-') &&
+                        (c != '.') &&
+                        (c != ',') &&
+                        (c != '%'))).Trim();
+            var aspectId = TextToAspectCached(textClean);
 
             result.Text = rawText;
             result.TextClean = textClean;
@@ -244,12 +241,21 @@ namespace D4Companion.Services
         /// Converts unique aspect text to a matching AspectId
         /// </summary>
         public OcrResultAffix ConvertToUnique(string rawText)
-        {
-            // Note: When needed could be improve further for fuzzy search by removing non alphabetic characters.
-
+        {            
             OcrResultAffix result = new OcrResultAffix();
             var textClean = rawText.Replace("\n", " ").Trim();
-            var aspectId = TextToUnique(textClean);
+            textClean = String.Concat(textClean.Where(c =>
+                        (c < '0' || c > '9') &&
+                        (c != '[') &&
+                        (c != ']') &&
+                        (c != '(') &&
+                        (c != ')') &&
+                        (c != '+') &&
+                        (c != '-') &&
+                        (c != '.') &&
+                        (c != ',') &&
+                        (c != '%'))).Trim();
+            var aspectId = TextToUniqueCached(textClean);
 
             result.Text = rawText;
             result.TextClean = textClean;
@@ -331,14 +337,10 @@ namespace D4Companion.Services
             // (3) Number of lines 1 or lower. Scrollbar active. Skip.
 
             OcrResultItemType result = new OcrResultItemType();
-            var lines = rawText.Split(new string[] { "\n" }, StringSplitOptions.None).ToList();
+            var lines = rawText.Split(new string[] { "\n" }, StringSplitOptions.None)
+                .Select(line => line.Trim())
+                .Where(l => l.Length > 0).ToList();
             lines.RemoveAll(line => string.IsNullOrWhiteSpace(line));
-            lines.RemoveAll(line =>
-            {
-                // Remove possible artifacts caused by the image in the top right corner of the item tooltips.
-                bool hasArtifacts = line.Split(' ',StringSplitOptions.RemoveEmptyEntries).All(s => s.Length < 3);
-                return hasArtifacts;
-            });
 
             // Check if there is an item power
             int powerIndex = -1;
@@ -358,13 +360,13 @@ namespace D4Companion.Services
             {
                 List<string> possibleItemTypes = new List<string>();
                 if (powerIndex - 1 >= 0) possibleItemTypes.Add(lines[powerIndex - 1]);
-                if (powerIndex - 2 >= 0) possibleItemTypes.Add($"{lines[powerIndex - 2].Trim()} {lines[powerIndex - 1].Trim()}");
+                if (powerIndex - 2 >= 0) possibleItemTypes.Add($"{lines[powerIndex - 2]} {lines[powerIndex - 1]}");
                 if (possibleItemTypes.Count == 0) return result;
 
                 ConcurrentBag<(int, string, string, string, string)> itemTypeBag = new ConcurrentBag<(int, string, string, string, string)>();
                 Parallel.ForEach(possibleItemTypes, itemType =>
                 {
-                    var itemTypeResult = TextToItemType(itemType);
+                    var itemTypeResult = TextToItemTypeCached(itemType);
                     itemTypeBag.Add(itemTypeResult);
                 });
 
@@ -389,18 +391,18 @@ namespace D4Companion.Services
                 List<string> possibleItemTypes = new List<string>();
                 // Sigil
                 if (lines.Count >= 2) possibleItemTypes.Add(lines[lines.Count - 2]);
-                if (lines.Count >= 3) possibleItemTypes.Add($"{lines[lines.Count - 3].Trim()} {lines[lines.Count - 2].Trim()}");
+                if (lines.Count >= 3) possibleItemTypes.Add($"{lines[lines.Count - 3]} {lines[lines.Count - 2]}");
 
                 // Runes
                 if (lines.Count >= 1) possibleItemTypes.Add(lines[lines.Count - 1]);
-                if (lines.Count >= 2) possibleItemTypes.Add($"{lines[lines.Count - 2].Trim()} {lines[lines.Count - 1].Trim()}" );
+                if (lines.Count >= 2) possibleItemTypes.Add($"{lines[lines.Count - 2]} {lines[lines.Count - 1]}");
 
                 if (possibleItemTypes.Count == 0) return result;
 
                 ConcurrentBag<(int, string, string, string, string)> itemTypeBag = new ConcurrentBag<(int, string, string, string, string)>();
                 Parallel.ForEach(possibleItemTypes, itemType =>
                 {
-                    var itemTypeResult = TextToItemType(itemType);
+                    var itemTypeResult = TextToItemTypeCached(itemType);
                     itemTypeBag.Add(itemTypeResult);
                 });
 
@@ -454,7 +456,7 @@ namespace D4Companion.Services
         public string ConvertToText(Image image)
         {
             MemoryStream memoryStream = new MemoryStream();
-            image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
+            image.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Bmp);
 
             var engine = _engines.Get();
             try
@@ -921,6 +923,11 @@ namespace D4Companion.Services
             return (result.Score, text, result.Value, _affixMapDescriptionToId[result.Value]);
         }
 
+        private (int, string, string, string) TextToAffixCached(string text)
+        {
+            return _cacheAffixes.GetOrAdd(text, TextToAffix);
+        }
+
         private double TextToAffixValue(string text)
         {
             string textClean = text.Replace("\n", " ");
@@ -962,6 +969,11 @@ namespace D4Companion.Services
             return _aspectMapDescriptionToId[result.Value];
         }
 
+        private string TextToAspectCached(string text)
+        {
+            return _cacheAspects.GetOrAdd(text, TextToAspect);
+        }
+
         private string TextToUnique(string text)
         {
             string language = _settingsManager.Settings.SelectedAffixLanguage;
@@ -976,6 +988,11 @@ namespace D4Companion.Services
             _logger.LogDebug($"{MethodBase.GetCurrentMethod()?.Name}: {result}");
 
             return _uniqueMapDescriptionToId[result.Value];
+        }
+
+        private string TextToUniqueCached(string text)
+        {
+            return _cacheUniques.GetOrAdd(text, TextToUnique);
         }
 
         private (int, string, string, string) TextToRune(string text)
@@ -1031,6 +1048,11 @@ namespace D4Companion.Services
             _logger.LogDebug($"{MethodBase.GetCurrentMethod()?.Name}: {result}");
 
             return (result.Score, text, result.Value, _itemTypeMapNameToId[result.Value], _itemTypeMapNameToRarity[result.Value]);
+        }
+
+        private (int, string, string, string, string) TextToItemTypeCached(string text)
+        {
+            return _cacheItemtypes.GetOrAdd(text, TextToItemType);
         }
 
         private void SetLanguage()

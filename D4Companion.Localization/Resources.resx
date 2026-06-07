@@ -953,6 +953,9 @@
     <value>Shows browser while importing builds needed for CloudFlare protection.</value>
   </data>
   <data name="rsCapTypeAreaOffsetLeft" xml:space="preserve">
-    <value>Type Area Offset (Left)</value>
+    <value>Type Area Offset (Left):</value>
+  </data>
+  <data name="rsCapAspectAreaMaxHeight" xml:space="preserve">
+    <value>Aspect Area Max Height:</value>
   </data>
 </root>

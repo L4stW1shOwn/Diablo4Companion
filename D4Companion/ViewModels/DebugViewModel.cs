@@ -151,6 +151,18 @@ namespace D4Companion.ViewModels
             }
         }
 
+        public int AspectAreaMaxHeight
+        {
+            get => _settingsManager.Settings.AspectAreaMaxHeight;
+            set
+            {
+                _settingsManager.Settings.AspectAreaMaxHeight = value;
+                OnPropertyChanged(nameof(AspectAreaMaxHeight));
+
+                _settingsManager.SaveSettings();
+            }
+        }
+
         public int? BadgeCount { get => _badgeCount; set => _badgeCount = value; }
 
         public bool IsDebugInfoEnabled

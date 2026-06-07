@@ -143,6 +143,14 @@
                         Value="{Binding Path=AspectAreaHeightOffsetTop, UpdateSourceTrigger=PropertyChanged}"/>
                 </mah:MetroHeader>
 
+                <mah:MetroHeader Margin="0 0 0 5" Header="{loc:LocExtension rsCapAspectAreaMaxHeight}">
+                    <mah:NumericUpDown 
+                        Minimum="100"
+                        Maximum="999"
+                        Interval="1"
+                        Value="{Binding Path=AspectAreaMaxHeight, UpdateSourceTrigger=PropertyChanged}"/>
+                </mah:MetroHeader>
+
                 <mah:MetroHeader Margin="0 0 0 5" Header="{loc:LocExtension rsCapMinimalOcrMatchType}">
                     <mah:NumericUpDown 
                         Minimum="1"

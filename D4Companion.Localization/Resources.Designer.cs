@@ -142,6 +142,15 @@ namespace D4Companion.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Aspect Area Max Height:.
+        /// </summary>
+        internal static string rsCapAspectAreaMaxHeight {
+            get {
+                return ResourceManager.GetString("rsCapAspectAreaMaxHeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Aspect Detection.
         /// </summary>
         internal static string rsCapAspectDetection {
@@ -1645,7 +1654,7 @@ namespace D4Companion.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Type Area Offset (Left).
+        ///   Looks up a localized string similar to Type Area Offset (Left):.
         /// </summary>
         internal static string rsCapTypeAreaOffsetLeft {
             get {

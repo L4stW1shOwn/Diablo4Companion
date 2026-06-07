@@ -1109,11 +1109,13 @@ namespace D4Companion.Services
             }
 
             // Create image for each area
-            var currentScreenTooltip = _currentScreenTooltipFilter!.Convert<Bgr, byte>();
             var areaImages = new List<Image<Gray, byte>>();
             foreach (var area in _currentTooltip.ItemAffixAreas)
             {
-                areaImages.Add(_currentScreenTooltipFilter.Copy(area.Location));
+                areaImages.Add(_currentScreenTooltipFilter!.Copy(area.Location));
+
+                // TODO: Performance improvements
+                //areaImages.Add(_currentScreenTooltipFilter!.GetSubRect(area.Location));
             }
 
             ConcurrentBag<ItemAffixDescriptor> itemAffixBag = new ConcurrentBag<ItemAffixDescriptor>();
@@ -1369,11 +1371,13 @@ namespace D4Companion.Services
             var splitterLocation = areaSplitPoints.FirstOrDefault(loc => loc.Y > _currentTooltip.ItemAspectLocation.Y);
             int yCoordsNextPoint = (splitterLocation.IsEmpty) ? _currentTooltip.Location.Height : splitterLocation.Y - _settingsManager.Settings.AffixAreaHeightOffsetBottom;
 
-            _currentTooltip.ItemAspectArea = new Rectangle(
-                _currentTooltip.ItemAspectLocation.X + offsetAffixMarker,
-                _currentTooltip.ItemAspectLocation.Y - _settingsManager.Settings.AspectAreaHeightOffsetTop,
-                _currentTooltip.Location.Width - _currentTooltip.ItemAspectLocation.X - offsetAffixMarker - _settingsManager.Settings.AffixAspectAreaWidthOffset,
-                yCoordsNextPoint - (_currentTooltip.ItemAspectLocation.Y - _settingsManager.Settings.AspectAreaHeightOffsetTop));                
+            int x = _currentTooltip.ItemAspectLocation.X + offsetAffixMarker;
+            int y = _currentTooltip.ItemAspectLocation.Y - _settingsManager.Settings.AspectAreaHeightOffsetTop;
+            int width = _currentTooltip.Location.Width - _currentTooltip.ItemAspectLocation.X - offsetAffixMarker - _settingsManager.Settings.AffixAspectAreaWidthOffset;
+            int height = yCoordsNextPoint - (_currentTooltip.ItemAspectLocation.Y - _settingsManager.Settings.AspectAreaHeightOffsetTop);
+            height = int.Min(_settingsManager.Settings.AspectAreaMaxHeight, height);
+
+            _currentTooltip.ItemAspectArea = new Rectangle(x, y, width, height);
 
             if (IsDebugInfoEnabled)
             {
@@ -1404,7 +1408,8 @@ namespace D4Companion.Services
 
             bool IsDebugInfoEnabled = _settingsManager.Settings.IsDebugInfoEnabled;
 
-            var area = _currentScreenTooltipFilter!.Copy(_currentTooltip.ItemAspectArea);
+            //var area = _currentScreenTooltipFilter!.Copy(_currentTooltip.ItemAspectArea);
+            var area = _currentScreenTooltipFilter!.GetSubRect(_currentTooltip.ItemAspectArea);
 
             var itemAspectResult = FindItemAspect(area, _currentTooltip.ItemType);
             _currentTooltip.ItemAspect = itemAspectResult.ItemAspect;
@@ -1452,7 +1457,8 @@ namespace D4Companion.Services
 
             bool IsDebugInfoEnabled = _settingsManager.Settings.IsDebugInfoEnabled;
 
-            var area = _currentScreenTooltipFilter!.Copy(_currentTooltip.ItemAspectArea);
+            //var area = _currentScreenTooltipFilter!.Copy(_currentTooltip.ItemAspectArea);
+            var area = _currentScreenTooltipFilter!.GetSubRect(_currentTooltip.ItemAspectArea);
 
             var itemAspectResult = FindItemUniqueAspect(area, _currentTooltip.ItemType);
             _currentTooltip.ItemAspect = itemAspectResult.ItemAspect;
