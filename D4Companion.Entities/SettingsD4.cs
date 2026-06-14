@@ -89,6 +89,7 @@ namespace D4Companion.Entities
         public int TooltipMaxHeight { get; set; } = 200;
         public int TooltipWidth { get; set; } = 500;
         public int TypeAreaOffsetLeft { get; set; } = 5;
+        public int TypeAreaOffsetRight { get; set; } = 5;
         public string SelectedOverlayMarkerMode { get; set; } = "Show All";
         public string SelectedSigilDisplayMode { get; set; } = "Whitelisting";
 

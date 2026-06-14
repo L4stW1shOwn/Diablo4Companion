@@ -690,9 +690,11 @@ namespace D4Companion.Services
 
             bool IsDebugInfoEnabled = _settingsManager.Settings.IsDebugInfoEnabled;
 
-            int offset = _settingsManager.Settings.TypeAreaOffsetLeft;
+            int offsetLeft = _settingsManager.Settings.TypeAreaOffsetLeft;
+            int offsetRight = _settingsManager.Settings.TypeAreaOffsetRight;
             int startY = Math.Max(0, _currentTooltip.ItemSplitterLocations[0].Location.Y - _settingsManager.Settings.TooltipMaxHeight);
             int height = Math.Min(_currentTooltip.ItemSplitterLocations[0].Location.Y, _settingsManager.Settings.TooltipMaxHeight);
+            int width = (_currentScreenTooltip!.Width - offsetLeft - offsetRight) <= 0 ? _currentScreenTooltip!.Width - offsetLeft : (_currentScreenTooltip!.Width - offsetLeft - offsetRight);
             //var area = _currentTooltip.ItemSplitterLocations.Count > 0 ?
             //    _currentScreenTooltipFilter!.Copy(new Rectangle(0 + offset, startY, _currentScreenTooltip!.Width - offset, height)) :
             //    _currentScreenTooltipFilter!;
@@ -700,7 +702,7 @@ namespace D4Companion.Services
             Image<Gray, byte> area;
             if (_currentTooltip.ItemSplitterLocations.Count > 0)
             {
-                var rect = new Rectangle(offset, startY, _currentScreenTooltip!.Width - offset, height);
+                var rect = new Rectangle(offsetLeft, startY, width, height);
                 area = _currentScreenTooltipFilter!.GetSubRect(rect);
             }
             else

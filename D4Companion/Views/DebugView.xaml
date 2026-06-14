@@ -111,6 +111,14 @@
                         Value="{Binding Path=TypeAreaOffsetLeft, UpdateSourceTrigger=PropertyChanged}"/>
                 </mah:MetroHeader>
 
+                <mah:MetroHeader Margin="0 0 0 5" Header="{loc:LocExtension rsCapTypeAreaOffsetRight}">
+                    <mah:NumericUpDown 
+                        Minimum="0"
+                        Maximum="250"
+                        Interval="1"
+                        Value="{Binding Path=TypeAreaOffsetRight, UpdateSourceTrigger=PropertyChanged}"/>
+                </mah:MetroHeader>
+
                 <mah:MetroHeader Margin="0 0 0 5" Header="{loc:LocExtension rsCapAffixAreaHeightOffsetTop}">
                     <mah:NumericUpDown 
                         Minimum="0"

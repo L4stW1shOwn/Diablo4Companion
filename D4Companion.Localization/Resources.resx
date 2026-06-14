@@ -958,4 +958,7 @@
   <data name="rsCapAspectAreaMaxHeight" xml:space="preserve">
     <value>Aspect Area Max Height:</value>
   </data>
+  <data name="rsCapTypeAreaOffsetRight" xml:space="preserve">
+    <value>Type Area Offset (Right):</value>
+  </data>
 </root>

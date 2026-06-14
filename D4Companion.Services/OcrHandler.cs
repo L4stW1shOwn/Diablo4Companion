@@ -811,6 +811,11 @@ namespace D4Companion.Services
 
         private string ParseHOcrText(string hocrText)
         {
+            // TODO: Improve word/line matching.
+            // - list all words and group by order and increase x-value.
+            // - Create new group each time x-value is lower than previous word.
+            // - Validate by checking y-values.
+
             List<HOcrLine> lines = new List<HOcrLine>(25);
             List<HOcrWord> words = new List<HOcrWord>(50);
 

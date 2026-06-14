@@ -441,6 +441,18 @@ namespace D4Companion.ViewModels
             }
         }
 
+        public int TypeAreaOffsetRight
+        {
+            get => _settingsManager.Settings.TypeAreaOffsetRight;
+            set
+            {
+                _settingsManager.Settings.TypeAreaOffsetRight = value;
+                OnPropertyChanged(nameof(TypeAreaOffsetRight));
+
+                _settingsManager.SaveSettings();
+            }
+        }
+
         #endregion
 
         // Start of Event handlers region
