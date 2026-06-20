@@ -810,10 +810,10 @@ namespace D4Companion.Services
         }        
 
         private string ParseHOcrText(string hocrText)
-        {
+        {          
             List<HOcrLine> lines = new List<HOcrLine>(25);
             List<HOcrWord> words = new List<HOcrWord>(50);
-
+            string language = _settingsManager.Settings.SelectedAffixLanguage;
             var wordMatches = WordRegex().Matches(hocrText);
 
             // Find all words            
@@ -879,13 +879,13 @@ namespace D4Companion.Services
                 words[i].Line = lineCounter;
             }
 
-            // Add words to their corresponding line
+            // Add words to their corresponding line            
             for (int i = 1; i <= lineCounter; i++)
             {
                 var selectedWords = words.Where(w => w.Line == i);
                 lines.Add(new HOcrLine
                 {
-                    Text = string.Join(" ", selectedWords.Select(w => w.Text)),
+                    Text = language.Equals("zhCN") ? string.Join("", selectedWords.Select(w => w.Text)) : string.Join(" ", selectedWords.Select(w => w.Text)),
                     X1 = selectedWords.Min(w => w.X1),
                     Y1 = 0,
                     X2 = 0,
