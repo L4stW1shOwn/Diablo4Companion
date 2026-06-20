@@ -19,6 +19,7 @@ namespace D4Companion.Entities
         public string Id { get; set; } = string.Empty;
         public string IdLine { get; set; } = string.Empty;
         public string Text { get; set; } = string.Empty;
+        public int Line { get; set; } = 0;
         public int X1 { get; set; } = 0;
         public int X2 { get; set; } = 0;
         public int Y1 { get; set; } = 0;

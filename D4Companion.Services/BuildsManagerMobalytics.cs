@@ -299,46 +299,6 @@ namespace D4Companion.Services
                 // Attach handler
                 responseReceivedEvent.AddEventHandler(networkAdapter, delegateHandler);
             }
-
-            // Create event handler - RequestWillBeSent
-            //var requestWillBeSentEvent = networkAdapterType.GetEvent("RequestWillBeSent");
-            //if (requestWillBeSentEvent != null)
-            //{
-            //    // Get the delegate type for the event
-            //    var eventHandlerType = requestWillBeSentEvent.EventHandlerType;
-
-            //    // Create a dynamic handler using a lambda
-            //    var handler = (EventHandler)((sender, e) =>
-            //    {
-            //        try
-            //        {
-            //            lock (_lockTimerTimeout)
-            //            {
-            //                // Use dynamic since we don’t know the exact type
-            //                dynamic args = e;
-            //                string url = args.Request.Url;
-
-            //                System.Diagnostics.Debug.WriteLine("URL: " + url);
-
-            //                foreach (var header in args.Request.Headers)
-            //                {
-            //                    System.Diagnostics.Debug.WriteLine($"{header.Key}: {header.Value}");
-            //                }
-            //            }                        
-            //        }
-            //        catch (Exception)
-            //        {
-            //            // Ignore exceptions in event handler
-            //            // Failed processes will be handled by the timeout timer.
-            //        }
-            //    });
-
-            //    // Convert the lambda to the correct delegate type
-            //    var delegateHandler = Delegate.CreateDelegate(eventHandlerType!, handler.Target, handler.Method);
-
-            //    // Attach handler
-            //    requestWillBeSentEvent.AddEventHandler(networkAdapter, delegateHandler);
-            //}
         }
 
         private void InitRuneData()

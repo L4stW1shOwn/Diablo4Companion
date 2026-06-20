@@ -554,8 +554,8 @@ namespace D4Companion.Services
                     //var watch = System.Diagnostics.Stopwatch.StartNew();
                     string result = string.Empty;
                     using (var page = engine.Process(img, PageSegMode.SparseText))
-                    {
-                        result = ParseHOcrText(page.HOcrText());
+                    {                       
+                        result = ParseHOcrText(page.HOcrText());                            
                     }
                     //watch.Stop();
                     //var elapsedMs = watch.ElapsedMilliseconds;
@@ -807,59 +807,28 @@ namespace D4Companion.Services
                     _sigilMapNameToId.Add(name, sigil.IdName);
                 }
             }
-        }
+        }        
 
         private string ParseHOcrText(string hocrText)
         {
-            // TODO: Improve word/line matching.
-            // - list all words and group by order and increase x-value.
-            // - Create new group each time x-value is lower than previous word.
-            // - Validate by checking y-values.
-
             List<HOcrLine> lines = new List<HOcrLine>(25);
             List<HOcrWord> words = new List<HOcrWord>(50);
 
-            var lineMatches = LineRegex().Matches(hocrText);
             var wordMatches = WordRegex().Matches(hocrText);
 
-            // An offset is needed because the bounding boxes of words sometimes exceed the bounding box of the line.
-            int offsetBoundingBox = 20;
-
-            // Find all lines            
-            var matches = LineRegex().Matches(hocrText);
-            foreach (Match m in matches)
-            {
-                int x1 = int.Parse(m.Groups["x1"].ValueSpan);
-                int y1 = int.Parse(m.Groups["y1"].ValueSpan);
-                int x2 = int.Parse(m.Groups["x2"].ValueSpan);
-                int y2 = int.Parse(m.Groups["y2"].ValueSpan);                
-
-                lines.Add(new HOcrLine
-                {
-                    Id = m.Groups["id"].Value,
-                    X1 = x1,
-                    Y1 = y1,
-                    X2 = x2,
-                    Y2 = y2
-                });
-            }
-
             // Find all words            
-            matches = WordRegex().Matches(hocrText);
+            var matches = WordRegex().Matches(hocrText);
             foreach (Match m in matches)
             {
                 int x1 = int.Parse(m.Groups["x1"].ValueSpan);
                 int y1 = int.Parse(m.Groups["y1"].ValueSpan);
                 int x2 = int.Parse(m.Groups["x2"].ValueSpan);
-                int y2 = int.Parse(m.Groups["y2"].ValueSpan);                
+                int y2 = int.Parse(m.Groups["y2"].ValueSpan);
 
                 words.Add(new HOcrWord
                 {
                     Id = m.Groups["id"].Value,
-                    // When there are multiple overlapping bounding boxes pick the smallest one.
-                    IdLine = lines.Where(l => x1 + offsetBoundingBox >= l.X1 && x2 - offsetBoundingBox <= l.X2 && y1 + offsetBoundingBox >= l.Y1 && y2 - offsetBoundingBox <= l.Y2)
-                                  .OrderBy(l => (l.X2 - l.X1) * (l.Y2 - l.Y1))
-                                  .Select(l => l.Id).FirstOrDefault() ?? string.Empty,
+                    IdLine = string.Empty,
                     Text = m.Groups["text"].Value.Trim(),
                     X1 = x1,
                     Y1 = y1,
@@ -868,14 +837,62 @@ namespace D4Companion.Services
                 });
             }
 
-            if (lines.Count == 0 || words.Count == 0) return string.Empty;
+            if (words.Count == 0) return string.Empty;
+
+            int lineCounter = 1;
+            int maxWordDistance = 20;
+            for (int i = 0; i < words.Count; i++)
+            {                
+                if (i > 0)
+                {
+                    //if(words[i].X1 < words[i-1].X2)
+                    //{
+                    //    // Case x: Previous word is on the right side of current word.
+                    //    // Note: This check does not work if the bounding boxes of words overlap.
+                    //
+                    //    lineCounter++;
+                    //}
+
+                    if ((words[i].Y1 - words[i - 1].Y1 < -20) || (words[i].Y1 - words[i - 1].Y1 > 20))
+                    {
+                        // Case 1: Previous word y-pos differs too much from current word.
+                        lineCounter++;
+                    }
+                    else if ((words[i].X1 - words[i - 1].X1 > -5) && (words[i].X1 - words[i - 1].X1 < 5))
+                    {
+                        // Case 2: Previous word is at the same start position as the current word.
+                        lineCounter++;
+                    }
+                    else if (words[i].X1 - words[i - 1].X1 < -5)
+                    {
+                        // Case 3: Previous word is on the right side of current word.
+                        lineCounter++;
+                    }
+                    else if (words[i].X1 > words[i - 1].X2 && (words[i].X1 - words[i-1].X2 > maxWordDistance))
+                    {
+                        // Case 4: Previous word is on the left side of current word.
+                        //         But there is too much whitespace between the words.
+                        lineCounter++;
+                    }
+                }
+
+                words[i].Line = lineCounter;
+            }
 
             // Add words to their corresponding line
-            foreach (var line in lines)
+            for (int i = 1; i <= lineCounter; i++)
             {
-                line.Text = string.Join(" ", words.Where(w => w.IdLine == line.Id).Select(w => w.Text));
+                var selectedWords = words.Where(w => w.Line == i);
+                lines.Add(new HOcrLine
+                {
+                    Text = string.Join(" ", selectedWords.Select(w => w.Text)),
+                    X1 = selectedWords.Min(w => w.X1),
+                    Y1 = 0,
+                    X2 = 0,
+                    Y2 = 0
+                });
             }
-            
+
             // Find item power line.
             int powerIndex = -1;
             for (int i = lines.Count - 1; i >= 0; i--)
@@ -890,23 +907,23 @@ namespace D4Companion.Services
                     break;
                 }
             }
-
-            // Removed lines below item power.
+            
             if (powerIndex >= 0)
             {
+                // Removed lines below item power.
                 lines.RemoveRange(powerIndex + 1, lines.Count - powerIndex - 1);
+
+                // Remove artifacts based on item power x-pos.
+                lines.RemoveAll(l => l.X1 < lines[powerIndex].X1 - 10 || l.X1 > lines[powerIndex].X1 + 10);
             }
 
-            // Find the x-coords start position to remove artifacts.
-            // - Item power line.
-            // - Longest string.
-            int xSmallest = powerIndex >= 0 ? lines[powerIndex].X1 : lines.MaxBy(l => l.Text.Length)!.X1;
-
             // Remove artifacts.
-            // - Lines starting before or after the longest line.
             // - Lines smaller than 3 characterts.
-            lines.RemoveAll(l => l.X1 < xSmallest - 10 || l.X1 > xSmallest + 10);
+            // - Lines not starting on the left side.
+            // - Lines starting exactly at x-pos 0.
             lines.RemoveAll(l => l.Text.Length < 3);
+            lines.RemoveAll(l => l.X1 > 100);
+            lines.RemoveAll(l => l.X1 == 0);
 
             var finalText = string.Join("\n", lines.Select(l => l.Text));
 
