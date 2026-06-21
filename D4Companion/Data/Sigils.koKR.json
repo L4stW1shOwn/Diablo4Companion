@@ -166,7 +166,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "고통받는 숲",
     "Description": "당신은 숲의 저주를 풀 수 있을까요, 아니면 이곳을 떠도는 유령의 대열에 합류하게 될까요?",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -508,7 +508,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "내륙지역",
     "Description": "보물이 있다는 소문에도, 이 해안을 지나간 이는 많지 않습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -580,7 +580,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "대격변",
     "Description": "수백 년 동안 분출된 불길이 이 땅을 변화시켰습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -601,33 +601,6 @@
     "DungeonZoneInfo": "의 조각난 봉우리",
     "IsSeasonal": true,
     "Type": "Dungeon"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "던전 탐구",
-    "Description": "던전을 완료하면 추가 경험치와 보상이 지급됩니다.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "던전 탐구",
-    "Description": "던전을 완료하면 추가 경험치와 보상이 지급됩니다.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "던전 탐구",
-    "Description": "던전을 완료하면 추가 경험치와 보상이 지급됩니다.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
   },
   {
     "IdSno": 2613077,
@@ -778,7 +751,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "마법에 홀린 굴길",
     "Description": "으스스한 곡조가 준비되지 않은 이들을 홀려 위험천만한 무아지경 상태에 빠뜨립니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -877,7 +850,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "물에 잠긴 폐허",
     "Description": "오래전 기억에서 사라진 폐허로, 산호와 따개비가 지탱하고 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -895,7 +868,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "바다 마녀의 동굴",
     "Description": "바다 마녀가 노예를 모아 두는 축축한 동굴입니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1345,7 +1318,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "산의 심장부",
     "Description": "산의 숨겨진 심장부로, 안에서 용암으로 이루어진 피가 요동치고 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1354,7 +1327,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "삼켜진 사원",
     "Description": "세월의 손길이 닿지 않은 태초자의 사원입니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1381,7 +1354,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "선견자의 손길",
     "Description": "공기에 불편한 침묵이 묵직하게 내려앉아 있습니다. 그 아래에는 무엇이 도사리고 있을까요?",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1417,7 +1390,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "섬찟한 낙원",
     "Description": "증오의 부하들이 주인의 뜻을 실행에 옮기기 위해 모여드는 곳입니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1543,7 +1516,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "숨겨진 태초자 유적",
     "Description": "역사의 한 조각이 화쇄암을 통해 보존되었습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1705,7 +1678,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "아이고이",
     "Description": "고대 시험의 장으로, 지금은 잠들지 못한 영혼들이 떠도는 곳입니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1840,18 +1813,9 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "어둠의 도피처",
     "Description": "신비로운 보물에 대한 소문이 이 황폐해진 묘실에 떠돕니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
-  },
-  {
-    "IdSno": 2355995,
-    "IdName": "DungeonAffix_Minor_S9_Suppressor",
-    "Name": "억압자 정예",
-    "Description": "정예 괴물이 \"억압자\" 속성을 가지며, 20% 증가한 피해를 줍니다.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Minor"
   },
   {
     "IdSno": 1314333,
@@ -1861,6 +1825,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Major"
+  },
+  {
+    "IdSno": 2355995,
+    "IdName": "DungeonAffix_Minor_S9_Suppressor",
+    "Name": "억압자 정예",
+    "Description": "정예 괴물이 \"억압자\" 속성을 가지며, 20% 증가한 피해를 줍니다.",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Minor"
   },
   {
     "IdSno": 2381230,
@@ -2110,7 +2083,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "잊힌 자의 도피처",
     "Description": "기만자의 감시를 받는, 위안의 장소입니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2713,7 +2686,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "타오르는 굴",
     "Description": "강인한 자라면 용암에 깎여 나간 동굴을 따라가 이루 말할 수 없는 보물을 차지할 수 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2875,7 +2848,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "현무암 승천길",
     "Description": "용암에 유린당하고도 폐허는 꿋꿋이 버티고 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2907,11 +2880,11 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2579464,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
+    "IdSno": 2579466,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "화산암재 길",
     "Description": "강인한 자라면 용암에 깎여 나간 동굴을 따라가 이루 말할 수 없는 보물을 차지할 수 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2920,16 +2893,16 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "화산암재 길",
     "Description": "강인한 자라면 용암에 깎여 나간 동굴을 따라가 이루 말할 수 없는 보물을 차지할 수 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2579466,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
+    "IdSno": 2579464,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "화산암재 길",
     "Description": "강인한 자라면 용암에 깎여 나간 동굴을 따라가 이루 말할 수 없는 보물을 차지할 수 있습니다.",
-    "DungeonZoneInfo": "의 ",
+    "DungeonZoneInfo": "의 스코보스",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },

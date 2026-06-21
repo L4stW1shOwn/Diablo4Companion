@@ -98,41 +98,6 @@
     ]
   },
   {
-    "IdSno": "1934447",
-    "IdName": "Pants_Unique_Sorc_101",
-    "IdSnoList": [
-      "1934447"
-    ],
-    "IdNameList": [
-      "Pants_Unique_Sorc_101"
-    ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
-    "IdNameItemList": [
-      "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
-    ],
-    "IdNameItemActor": "Pants_Unique_Sorcerer_98",
-    "Name": "[ph_Hope's Respite]",
-    "Description": "施放連鎖閃電時，有 #% 機率會額外發動 # 到 # 次。",
-    "DescriptionClean": "施放連鎖閃電時，有 機率會額外發動 到 次。",
-    "Localisation": "施放{c_important}連鎖閃電{/c}時，有 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 機率會額外發動 {c_number}[Affix.\"Static Value 1\"]{/c} 到 {c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c} 次。",
-    "MagicType": 2,
-    "AllowedForPlayerClass": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      30
-    ]
-  },
-  {
     "IdSno": "1489569",
     "IdName": "Helm_Unique_Barb_100",
     "IdSnoList": [
@@ -178,7 +143,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "twoHandMace_uniq17",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "三大魔王權杖",
     "Description": "你現在可以裝備所有絕招，其技能等級提高 #。未啟動絕招時攻擊敵人會為你的絕招蓄力，使傷害提高 #%，最多提高 #%。開始施放絕招，所有效果結束後傷害加成會重置。",
     "DescriptionClean": "你現在可以裝備所有絕招，其技能等級提高 。未啟動絕招時攻擊敵人會為你的絕招蓄力，使傷害提高 ，最多提高 。開始施放絕招，所有效果結束後傷害加成會重置。",
@@ -532,9 +497,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "信徒福音",
-    "Description": "你的基本技能獲得所有升級的效果。使用基本技能對敵人造成傷害時，使你其他基本技能對其造成的傷害提高 #%，持續 # 秒。",
-    "DescriptionClean": "你的基本技能獲得所有升級的效果。使用基本技能對敵人造成傷害時，使你其他基本技能對其造成的傷害提高 ，持續 秒。",
-    "Localisation": "你的{c_important}基本{/c}技能獲得所有升級的效果。使用{c_important}基本{/c}技能對敵人造成傷害時，使你其他{c_important}基本{/c}技能對其造成的傷害提高 {c_random}[Affix_Value_1 * 100|%x|]{/c}，持續 {c_number}[Affix.\"Static Value 0\"]{/c} 秒。",
+    "Description": "你的基本技能免費獲得所有升級。使用基本技能對敵人造成傷害時，使你其他基本技能對其造成的傷害提高 #%，持續 # 秒。",
+    "DescriptionClean": "你的基本技能免費獲得所有升級。使用基本技能對敵人造成傷害時，使你其他基本技能對其造成的傷害提高 ，持續 秒。",
+    "Localisation": "你的{c_important}基本{/c}技能免費獲得所有升級。使用{c_important}基本{/c}技能對敵人造成傷害時，使你其他{c_important}基本{/c}技能對其造成的傷害提高 {c_random}[Affix_Value_1 * 100|%x|]{/c}，持續 {c_number}[Affix.\"Static Value 0\"]{/c} 秒。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -593,7 +558,7 @@
       "Glaive_Unique_Spiritborn_014_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_014_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq09",
     "Name": "先驅納瑟坎姆",
     "Description": "每 # 秒，你會隨機標記一個附近敵人。被標記的敵人會受到易傷效果，你對這些敵人的攻擊必定造成爆擊。\r\n\r\n攻擊受到標記的敵人 # 次會移除此標記。",
     "DescriptionClean": "每 秒，你會隨機標記一個附近敵人。被標記的敵人會受到易傷效果，你對這些敵人的攻擊必定造成爆擊。 攻擊受到標記的敵人 次會移除此標記。",
@@ -791,7 +756,7 @@
     "Name": "冰霜禮贈",
     "Description": "寒冰護甲免費獲得極寒冰霜變化，且效力提高 #%。",
     "DescriptionClean": "寒冰護甲免費獲得極寒冰霜變化，且效力提高 。",
-    "Localisation": "{c_important}寒冰護甲{/c}免費獲得{c_important}極寒冰霜{/c}變化，且效力提高 {c_random}[Affix_Value_1|%|]{/c}。",
+    "Localisation": "{c_important}寒冰護甲{/c}免費獲得極寒冰霜變化，且效力提高 {c_random}[Affix_Value_1|%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -1010,7 +975,7 @@
       "Boots_Unique_Rogue_101",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Boots_unique_Rogue_101",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "刺客行靴",
     "Description": "機動技能一律會暗影灌注，效力提高 #%。\r\n\r\n幸運觸發：機動技能對精英或首領造成傷害時，最高有 #% 機率立即觸發無消耗的暗影灌注爆炸。",
     "DescriptionClean": "機動技能一律會暗影灌注，效力提高 。 幸運觸發：機動技能對精英或首領造成傷害時，最高有 機率立即觸發無消耗的暗影灌注爆炸。",
@@ -1137,7 +1102,7 @@
       "S12_1HAxe_Unique_Generic_003",
       "Talisman_Charm_Unique_1HAxe_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Axe_uniq15",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "千眼劫掠者",
     "Description": "移動使你獲得凶暴，且凶暴上限提高 #。每層凶暴也會使移動速度提高 #%。",
     "DescriptionClean": "移動使你獲得凶暴，且凶暴上限提高 。每層凶暴也會使移動速度提高 。",
@@ -1169,7 +1134,7 @@
       "Amulet_Unique_Spiritborn_102",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_102"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_015",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "千變之心",
     "Description": "施展基礎魂靈技能可獲得：\r\n 飛鷹：#% 移動速度\r\n 巨猩：#% 傷害減免\r\n 獵豹：#% 攻擊速度\r\n 蜈蚣：#% 每秒生命恢復\r\n\r\n施放不同的基礎魂靈技能時：\r\n 切換至新的加成\r\n 核心屬性提高 #%，持續 # 秒。",
     "DescriptionClean": "施展基礎魂靈技能可獲得： 飛鷹： 移動速度 巨猩： 傷害減免 獵豹： 攻擊速度 蜈蚣： 每秒生命恢復 施放不同的基礎魂靈技能時： 切換至新的加成 核心屬性提高 ，持續 秒。",
@@ -1233,7 +1198,7 @@
       "Ring_Unique_Sorc_104_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_104_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_018",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "卓格南之痛",
     "Description": "施放焰術技能會在 # 秒內對你造成相當於生命值上限 #% 的燃燒傷害。根據你生命值燃燒的比例，使你施加的燃燒傷害提高 #%。",
     "DescriptionClean": "施放焰術技能會在 秒內對你造成相當於生命值上限 的燃燒傷害。根據你生命值燃燒的比例，使你施加的燃燒傷害提高 。",
@@ -1328,9 +1293,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "卡辛姆步行靴",
-    "Description": "獲得大地壁壘的大地裂片升級效果，且傷害提高 #%。",
-    "DescriptionClean": "獲得大地壁壘的大地裂片升級效果，且傷害提高 。",
-    "Localisation": "獲得{c_important}大地壁壘{/c}的{c_important}大地裂片{/c}升級效果，且傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
+    "Description": "大地壁壘免費獲得大地裂片變化，且造成傷害提高 #%。",
+    "DescriptionClean": "大地壁壘免費獲得大地裂片變化，且造成傷害提高 。",
+    "Localisation": "{c_important}大地壁壘{/c}免費獲得大地裂片變化，且造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1422,7 +1387,7 @@
       "Gloves_Unique_Generic_002",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_002"
     ],
-    "IdNameItemActor": "GLV_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "命運之拳",
     "Description": "攻擊會隨機造成普通傷害的 #% 至 #% 傷害。",
     "DescriptionClean": "攻擊會隨機造成普通傷害的 至 傷害。",
@@ -1454,7 +1419,7 @@
       "Gloves_Unique_Generic_005",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_005"
     ],
-    "IdNameItemActor": "GLV_gnrc126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "命運之觸",
     "Description": "攻擊時，對遠距敵人施加易傷、對近距敵人施加削弱。你對同時受到易傷與削弱影響的敵人造成傷害提高 #%。",
     "DescriptionClean": "攻擊時，對遠距敵人施加易傷、對近距敵人施加削弱。你對同時受到易傷與削弱影響的敵人造成傷害提高 。",
@@ -1486,7 +1451,7 @@
       "Ring_Unique_Spiritborn_004_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_004_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_050",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "和平使者印璽",
     "Description": "當你有至少 # 層凶暴時，你的傷害提高 #%，護甲值提高 #%。\r\n\r\n獲得凶暴也會使你獲得決心。",
     "DescriptionClean": "當你有至少 層凶暴時，你的傷害提高 ，護甲值提高 。 獲得凶暴也會使你獲得決心。",
@@ -1611,7 +1576,7 @@
       "Chest_Unique_Barb_100",
       "Talisman_Charm_Unique_Chest_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "TRS_sets52",
     "Name": "哈洛加斯的憤怒",
     "Description": "對敵人施加持續傷害效果時，最高有 #% 機率使你的技能冷卻時間縮短 # 秒。",
     "DescriptionClean": "對敵人施加持續傷害效果時，最高有 機率使你的技能冷卻時間縮短 秒。",
@@ -1716,9 +1681,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "地獄之鎚",
-    "Description": "動盪震擊獲得鋼鐵爆發變化，且造成傷害提高 #%。",
-    "DescriptionClean": "動盪震擊獲得鋼鐵爆發變化，且造成傷害提高 。",
-    "Localisation": "{c_important}動盪震擊{/c}獲得{c_important}鋼鐵爆發{/c}變化，且造成傷害提高 {c_random}[Affix_Value_1 * 100|1%x|]{/c}。",
+    "Description": "動盪震擊免費獲得鋼鐵爆發變化，且造成傷害提高 #%。",
+    "DescriptionClean": "動盪震擊免費獲得鋼鐵爆發變化，且造成傷害提高 。",
+    "Localisation": "{c_important}動盪震擊{/c}免費獲得鋼鐵爆發變化，且造成傷害提高 {c_random}[Affix_Value_1 * 100|1%x|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1966,7 +1931,7 @@
       "S05_BSK_Gloves_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Gloves_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_unique_generic_125",
     "Name": "堅忍信仰",
     "Description": "當你受到的單次傷害達到生命值上限的 #%，此傷害改為在接下來的 # 秒內平均分攤並降低 #%。",
     "DescriptionClean": "當你受到的單次傷害達到生命值上限的 ，此傷害改為在接下來的 秒內平均分攤並降低 。",
@@ -2128,7 +2093,7 @@
       "Gloves_Unique_Necro_105",
       "Talisman_Charm_Unique_Gloves_Unique_Necro_105"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_Unique_Necromancer_98",
     "Name": "墓行者之手",
     "Description": "你的魂能產生提高 #%，並且施放時每擁有一點魂能，骸骨技能造成的傷害便提高 #%，最多提高 #%。",
     "DescriptionClean": "你的魂能產生提高 ，並且施放時每擁有一點魂能，骸骨技能造成的傷害便提高 ，最多提高 。",
@@ -2191,7 +2156,7 @@
       "Helm_Unique_Generic_004",
       "Talisman_Charm_Unique_Helm_Unique_Generic_004"
     ],
-    "IdNameItemActor": "HLM_gnrc130",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "墮滅繼承者",
     "Description": "屈服於憎恨並獲得聖母的眷顧，使你造成的傷害提高 #%。屠殺敵人會暫時從周遭盟友身上偷取聖母的眷顧。",
     "DescriptionClean": "屈服於憎恨並獲得聖母的眷顧，使你造成的傷害提高 。屠殺敵人會暫時從周遭盟友身上偷取聖母的眷顧。",
@@ -2285,7 +2250,7 @@
       "Amulet_Unique_Warlock_003",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_003"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_03",
     "Name": "夜之恐懼",
     "Description": "每層暗影形態使你的深淵技能造成傷害提高 #%。你有匿蹤效果時，此加成提高 #%。",
     "DescriptionClean": "每層暗影形態使你的深淵技能造成傷害提高 。你有匿蹤效果時，此加成提高 。",
@@ -2349,7 +2314,7 @@
       "2HSword_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HSword_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandSword_uniq19",
     "Name": "大罪咒影",
     "Description": "每使用一個核心技能擊中敵人時，使你對其造成的傷害提高 #%，最多提高 #%。大惡魔惡魔形態技能變體變為核心技能，且消耗憤怒。",
     "DescriptionClean": "每使用一個核心技能擊中敵人時，使你對其造成的傷害提高 ，最多提高 。大惡魔惡魔形態技能變體變為核心技能，且消耗憤怒。",
@@ -2665,7 +2630,7 @@
       "S12_1HDagger_Unique_Rogue_001",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "dagger_uniq06",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "定罪",
     "Description": "當你消耗 3 點連擊點數時，核心技能的傷害提高 #%，持續 # 秒。施放基本技能必定會產生 3 點連擊點數。",
     "DescriptionClean": "當你消耗 3 點連擊點數時，核心技能的傷害提高 ，持續 秒。施放基本技能必定會產生 3 點連擊點數。",
@@ -2732,7 +2697,7 @@
       "Amulet_Unique_Spiritborn_103",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_103"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_022",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "寡婦蛛網",
     "Description": "爆擊時會使受到你中毒效果的敵人爆炸，立即對其造成中毒效果總和 #% 的傷害，並對附近敵人造成該次爆炸 #% 的傷害，接著從主要目標身上移除中毒效果。",
     "DescriptionClean": "爆擊時會使受到你中毒效果的敵人爆炸，立即對其造成中毒效果總和 的傷害，並對附近敵人造成該次爆炸 的傷害，接著從主要目標身上移除中毒效果。",
@@ -2797,9 +2762,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "尊奉之手",
-    "Description": "惡魔化身免費獲得所有側向升級效果，且效力提高 #%。",
-    "DescriptionClean": "惡魔化身免費獲得所有側向升級效果，且效力提高 。",
-    "Localisation": "{c_important}惡魔化身{/c}免費獲得所有側向升級效果，且效力提高 {c_random}[Affix_Value_1*100|+%|]{/c}。",
+    "Description": "惡魔化身免費獲得所有升級，且效力提高 #%。",
+    "DescriptionClean": "惡魔化身免費獲得所有升級，且效力提高 。",
+    "Localisation": "{c_important}惡魔化身{/c}免費獲得所有升級，且效力提高 {c_random}[Affix_Value_1*100|+%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -2990,7 +2955,7 @@
       "Pants_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Spiritborn_96",
     "Name": "巴拉贊的腰布",
     "Description": "你施放的技能會對近距敵人造成荊棘傷害 #% 的傷害，也會在 # 秒內造成此傷害 #% 的中毒傷害。\r\n\r\n每次用荊棘傷害反擊後，該中毒傷害提高 #%，最多提高 #%，持續 # 秒。",
     "DescriptionClean": "你施放的技能會對近距敵人造成荊棘傷害 的傷害，也會在 秒內造成此傷害 的中毒傷害。 每次用荊棘傷害反擊後，該中毒傷害提高 ，最多提高 ，持續 秒。",
@@ -3023,9 +2988,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "巴爾之眼",
-    "Description": "靈魂裂片技能和對應的惡魔造成 #% 傷害。施放靈魂裂片技能會使你的所有傷害提高 #%，持續 # 秒，最多提高 #%。",
-    "DescriptionClean": "靈魂裂片技能和對應的惡魔造成 傷害。施放靈魂裂片技能會使你的所有傷害提高 ，持續 秒，最多提高 。",
-    "Localisation": "{c_important}靈魂裂片{/c}技能和對應的惡魔造成 {c_random}[Affix_Value_1*100|%x|]{/c} 傷害。施放{c_important}靈魂裂片{/c}技能會使你的所有傷害提高 {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}，持續 {c_number}[Affix.\"Static Value 1\"]{/c} 秒，最多提高 {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}。",
+    "Description": "靈魂裂片技能和對應的惡魔造成傷害提高 #%。施放靈魂裂片技能會使你的所有傷害提高 #%，持續 # 秒，最多提高 #%。",
+    "DescriptionClean": "靈魂裂片技能和對應的惡魔造成傷害提高 。施放靈魂裂片技能會使你的所有傷害提高 ，持續 秒，最多提高 。",
+    "Localisation": "{c_important}靈魂裂片{/c}技能和對應的惡魔造成傷害提高 {c_random}[Affix_Value_1*100|%x|]{/c}。施放{c_important}靈魂裂片{/c}技能會使你的所有傷害提高 {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}，持續 {c_number}[Affix.\"Static Value 1\"]{/c} 秒，最多提高 {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3140,6 +3105,40 @@
     "AllowedItemLabels": []
   },
   {
+    "IdSno": "1934447",
+    "IdName": "Pants_Unique_Sorc_101",
+    "IdSnoList": [
+      "1934447"
+    ],
+    "IdNameList": [
+      "Pants_Unique_Sorc_101"
+    ],
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
+    "IdNameItemList": [
+      "Pants_Unique_Sorc_101",
+      "Pants_Unique_Sorc_96"
+    ],
+    "IdNameItemActor": "Pants_Unique_Sorcerer_96",
+    "Name": "布卡蘭尼的決心",
+    "Description": "施放連鎖閃電時，有 #% 機率會額外發動 # 到 # 次。",
+    "DescriptionClean": "施放連鎖閃電時，有 機率會額外發動 到 次。",
+    "Localisation": "施放{c_important}連鎖閃電{/c}時，有 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 機率會額外發動 {c_number}[Affix.\"Static Value 1\"]{/c} 到 {c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c} 次。",
+    "MagicType": 2,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      30
+    ]
+  },
+  {
     "IdSno": "1215923",
     "IdName": "Boots_Unique_Sorc_100",
     "IdSnoList": [
@@ -3224,7 +3223,7 @@
       "1HShield_Unique_Necro_101",
       "Talisman_Charm_Unique_1HShield_Unique_Necro_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq03",
     "Name": "幽暗結界",
     "Description": "暗影傷害會使敵人感染暗影荒疫，持續 # 秒。你對感染暗影荒疫的敵人每造成 8 次暗影傷害，該敵人會在 # 秒內額外受到相當於該傷害 #% 的腐化傷害。",
     "DescriptionClean": "暗影傷害會使敵人感染暗影荒疫，持續 秒。你對感染暗影荒疫的敵人每造成 8 次暗影傷害，該敵人會在 秒內額外受到相當於該傷害 的腐化傷害。",
@@ -3319,7 +3318,7 @@
       "Helm_Unique_Spiritborn_011_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_011_x1"
     ],
-    "IdNameItemActor": "HLM_crft44",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "忠誠斗篷",
     "Description": "你選擇相符的魂靈殿堂時：\r\n 其加成效果提高 #%。\r\n 其基礎魂靈技能活力消耗降低 #%。\r\n 其基礎魂靈技能的冷卻時間縮短 #%。",
     "DescriptionClean": "你選擇相符的魂靈殿堂時： 其加成效果提高 。 其基礎魂靈技能活力消耗降低 。 其基礎魂靈技能的冷卻時間縮短 。",
@@ -3640,7 +3639,7 @@
       "Ring_Unique_Spiritborn_002_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_002_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_054",
     "Name": "扭動之月戒指",
     "Description": "你每 # 秒生成一群瘟疫蟲群，每次擊中造成 # 點毒素傷害。\r\n\r\n你的瘟疫蟲群現在會在你身邊環繞，且每次擊中時使一個裝備中飛鷹技能的冷卻時間縮短 # 秒。",
     "DescriptionClean": "你每 秒生成一群瘟疫蟲群，每次擊中造成 點毒素傷害。 你的瘟疫蟲群現在會在你身邊環繞，且每次擊中時使一個裝備中飛鷹技能的冷卻時間縮短 秒。",
@@ -3709,7 +3708,7 @@
       "Amulet_Unique_Necro_102",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_017",
     "Name": "拉斯瑪的意志",
     "Description": "受易傷、削弱、控場效果或腐化傷害影響的敵人，會受到苦痛效果，使你對其造成的傷害提高 #%。\r\n\r\n詛咒技能會對受到苦痛的敵人造成 # 點暗影傷害。",
     "DescriptionClean": "受易傷、削弱、控場效果或腐化傷害影響的敵人，會受到苦痛效果，使你對其造成的傷害提高 。 詛咒技能會對受到苦痛的敵人造成 點暗影傷害。",
@@ -3776,7 +3775,7 @@
       "Pants_Unique_Generic_102",
       "Talisman_Charm_Unique_Pants_Unique_Generic_102"
     ],
-    "IdNameItemActor": "LEG_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "提鮑特之志",
     "Description": "你處於無阻狀態以及無阻結束後的 # 秒內，造成的傷害提高 #%，並獲得 # 點主要資源產生。",
     "DescriptionClean": "你處於無阻狀態以及無阻結束後的 秒內，造成的傷害提高 ，並獲得 點主要資源產生。",
@@ -3808,7 +3807,7 @@
       "Amulet_Unique_Warlock_002",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_07",
     "Name": "摩洛克鼓動之焰",
     "Description": "你每有一個受易爆強化的技能，就使地獄火技能造成傷害提高 #%。施放受易爆強化的技能會使核心屬性提高 #%，持續 # 秒，最多提高 #%。",
     "DescriptionClean": "你每有一個受易爆強化的技能，就使地獄火技能造成傷害提高 。施放受易爆強化的技能會使核心屬性提高 ，持續 秒，最多提高 。",
@@ -3840,7 +3839,7 @@
       "1HShield_Unique_Paladin_004",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq17",
     "Name": "撒卡蘭姆使者",
     "Description": "力量、抗性、護甲值與懲戒機率提高 #%。\r\n\r\n懲戒的範圍提高 #%。",
     "DescriptionClean": "力量、抗性、護甲值與懲戒機率提高 。 懲戒的範圍提高 。",
@@ -4133,7 +4132,7 @@
       "S12_1HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "sword_uniq10",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "末日使者",
     "Description": "幸運觸發：最高有 #% 機率對附近敵人造成 # 點暗影傷害，並使其造成的傷害降低 #%，持續 # 秒。",
     "DescriptionClean": "幸運觸發：最高有 機率對附近敵人造成 點暗影傷害，並使其造成的傷害降低 ，持續 秒。",
@@ -4228,7 +4227,7 @@
       "S12_1HSword_Unique_Paladin_002",
       "Talisman_Charm_Unique_1HSword_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "sword_uniq20",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "格里斯瓦德的鉅作",
     "Description": "造成直接傷害時，在 # 秒內每擊中一個敵人可使爆擊傷害提高 #%，最多可達 #%。\r\n\r\n達到最大層數時獲得：\r\n\r\n幸運觸發：爆擊有最多 #% 機率造成雙倍傷害、回復 # 生命值，並重置此加成的持續時間。",
     "DescriptionClean": "造成直接傷害時，在 秒內每擊中一個敵人可使爆擊傷害提高 ，最多可達 。 達到最大層數時獲得： 幸運觸發：爆擊有最多 機率造成雙倍傷害、回復 生命值，並重置此加成的持續時間。",
@@ -4324,7 +4323,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_053",
     "Name": "正午狩獵戒指",
     "Description": "你的活力上限提高 #%，擊殺敵人會使你獲得 # 點活力。\r\n\r\n當你擁有凶暴時，你新的中毒效果持續時間延長 #%。",
     "DescriptionClean": "你的活力上限提高 ，擊殺敵人會使你獲得 點活力。 當你擁有凶暴時，你新的中毒效果持續時間延長 。",
@@ -4611,7 +4610,7 @@
       "Boots_Unique_Rogue_100",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_uniq97",
     "Name": "殞獸長靴",
     "Description": "當你施放非引導絕招時會消耗你所有的能量，每消耗一點能量會使傷害提高 #%。\r\n\r\n使用冷卻時間技能後恢復 # 點能量。",
     "DescriptionClean": "當你施放非引導絕招時會消耗你所有的能量，每消耗一點能量會使傷害提高 。 使用冷卻時間技能後恢復 點能量。",
@@ -4674,7 +4673,7 @@
       "Chest_Unique_Generic_127",
       "Talisman_Charm_Unique_Chest_Unique_Generic_127"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_127",
     "Name": "泰瑞爾之力",
     "Description": "在生命值全滿時施放技能，會射出神性箭幕，造成 # 點傷害。",
     "DescriptionClean": "在生命值全滿時施放技能，會射出神性箭幕，造成 點傷害。",
@@ -4806,7 +4805,7 @@
       "Gloves_Unique_Rogue_002_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_002_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_sets52",
     "Name": "海洋領主精良手套",
     "Description": "施展或引導割喉技能會獲得一層趁勢強攻，最多可堆疊至 # 層。施展射手技能會消耗一層趁勢強攻。\r\n\r\n每擁有一層趁勢強攻使你獲得：\r\n #% 能量上限\r\n #% 能量恢復\r\n 傷害提高 #%",
     "DescriptionClean": "施展或引導割喉技能會獲得一層趁勢強攻，最多可堆疊至 層。施展射手技能會消耗一層趁勢強攻。 每擁有一層趁勢強攻使你獲得：  能量上限  能量恢復 傷害提高",
@@ -4962,7 +4961,7 @@
       "Chest_Unique_Paladin_001",
       "Talisman_Charm_Unique_Chest_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_Unique_Paladin_95",
     "Name": "灰聖者斗篷",
     "Description": "鐵禦者誓約使你的鐵禦者技能範圍擴大 #%，但會消耗最多 # 點決心，每消耗 1 點可使鐵禦者技能傷害提高 #%。",
     "DescriptionClean": "鐵禦者誓約使你的鐵禦者技能範圍擴大 ，但會消耗最多 點決心，每消耗 1 點可使鐵禦者技能傷害提高 。",
@@ -5025,7 +5024,7 @@
       "Chest_Unique_Generic_101",
       "Talisman_Charm_Unique_Chest_Unique_Generic_101"
     ],
-    "IdNameItemActor": "TRS_sets55",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "烙魂",
     "Description": "你的治療藥水給予一個等同於你生命值上限 #% 的屏障，持續 # 秒。\r\n\r\n當你擁有屏障時，獲得 #% 傷害減免，而且可以於生命值全滿時飲用治療藥水。",
     "DescriptionClean": "你的治療藥水給予一個等同於你生命值上限 的屏障，持續 秒。 當你擁有屏障時，獲得 傷害減免，而且可以於生命值全滿時飲用治療藥水。",
@@ -5120,7 +5119,7 @@
       "Helm_Unique_Rogue_001",
       "Talisman_Charm_Unique_Helm_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_sets51",
     "Name": "無名風帽",
     "Description": "幸運觸發：灌注強化的技能有最高 #% 機率觸發大型爆炸，造成 #% 的傷害，並以 #% 效力對擊中的敵人施加灌注效果。",
     "DescriptionClean": "幸運觸發：灌注強化的技能有最高 機率觸發大型爆炸，造成 的傷害，並以 效力對擊中的敵人施加灌注效果。",
@@ -5152,12 +5151,45 @@
       "Ring_Unique_Generic_101",
       "Talisman_Charm_Unique_Ring_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "無星深空戒指",
     "Description": "花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 #%，最高為 #%，持續 # 秒。 ",
     "DescriptionClean": "花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 ，最高為 ，持續 秒。",
     "Localisation": "花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 {c_number}[Affix_Value_1|%x|]{/c}，最高為 {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}，持續 {c_number}[Affix.\"Static Value 1\"]{/c} 秒。 ",
     "MagicType": 4,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "無星深空戒指",
+    "Description": "秘傳：花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 #%，最高為 #%，持續 # 秒。 ",
+    "DescriptionClean": "秘傳：花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 ，最高為 ，持續 秒。",
+    "Localisation": "{c_mythic}秘傳：{/c}花費主要資源會使你降低技能的資源消耗和提高傷害，影響的百分比為 {c_number}[Affix_Value_1|1%x|]{/c}，最高為 {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}，持續 {c_number}[Affix.\"Static Value 1\"]{/c} 秒。 ",
+    "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
       1,
@@ -5280,9 +5312,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "煉獄魔胎",
-    "Description": "你的大惡魔技能造成傷害提高 #%，免費獲得其次級惡魔附屬升級效果，持續時間延長 #%。",
-    "DescriptionClean": "你的大惡魔技能造成傷害提高 ，免費獲得其次級惡魔附屬升級效果，持續時間延長 。",
-    "Localisation": "你的{c_important}大惡魔{/c}技能造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}，免費獲得其次級惡魔附屬升級效果，持續時間延長 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}。",
+    "Description": "你的大惡魔技能造成傷害提高 #%，免費獲得其次級惡魔升級效果，持續時間延長 #%。",
+    "DescriptionClean": "你的大惡魔技能造成傷害提高 ，免費獲得其次級惡魔升級效果，持續時間延長 。",
+    "Localisation": "你的{c_important}大惡魔{/c}技能造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}，免費獲得其次級惡魔升級效果，持續時間延長 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5341,7 +5373,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "熊化之力",
     "Description": "於熊人形態時，每層決心使你的傷害提高 #%。此外，於熊人形態時，你每 # 秒自動獲得 # 層決心。",
     "DescriptionClean": "於熊人形態時，每層決心使你的傷害提高 。此外，於熊人形態時，你每 秒自動獲得 層決心。",
@@ -5373,7 +5405,7 @@
       "Ring_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_007",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "熔火指環",
     "Description": "你對健康敵人使用焰術造成的爆擊傷害提高 #%，且你對受傷敵人用焰術造成爆擊的機率提高 #%。\r\n\r\n以爆擊殺死敵人時使你獲得上述兩種加成效果（無關敵人的狀態），以及 #% 攻擊速度，持續 # 秒。",
     "DescriptionClean": "你對健康敵人使用焰術造成的爆擊傷害提高 ，且你對受傷敵人用焰術造成爆擊的機率提高 。 以爆擊殺死敵人時使你獲得上述兩種加成效果（無關敵人的狀態），以及 攻擊速度，持續 秒。",
@@ -5853,7 +5885,7 @@
       "Chest_Unique_Rogue_100",
       "Talisman_Charm_Unique_Chest_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "TRS_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "盜賊皮甲",
     "Description": "你的陷阱技能可以進行投擲，且造成傷害提高 #%。 ",
     "DescriptionClean": "你的陷阱技能可以進行投擲，且造成傷害提高 。",
@@ -5951,7 +5983,7 @@
       "Ring_Unique_Rogue_102",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_014",
     "Name": "破壞者印璽",
     "Description": "你的榴彈大小提高 #%，造成傷害提高 #%。\r\n\r\n受到榴彈技能傷害的敵人會被施加易傷或削弱，持續 # 秒。",
     "DescriptionClean": "你的榴彈大小提高 ，造成傷害提高 。 受到榴彈技能傷害的敵人會被施加易傷或削弱，持續 秒。",
@@ -6112,7 +6144,7 @@
       "S12_1HSword_Unique_Generic_100",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq11",
     "Name": "碧藍怒火",
     "Description": "凍結效果結束後，敵人會爆炸並受到傷害，數值等同你在凍結期間對該敵人造成傷害的 #%。",
     "DescriptionClean": "凍結效果結束後，敵人會爆炸並受到傷害，數值等同你在凍結期間對該敵人造成傷害的 。",
@@ -6310,7 +6342,7 @@
       "Ring_Unique_Paladin_002",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_020",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "第二號角之徽印",
     "Description": "審判造成的傷害提高 #%，且使用審判者誓約時有 #% 機率爆炸兩次。",
     "DescriptionClean": "審判造成的傷害提高 ，且使用審判者誓約時有 機率爆炸兩次。",
@@ -6342,7 +6374,7 @@
       "Ring_Unique_Barb_100",
       "Talisman_Charm_Unique_Ring_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Barbarian_Master",
     "Name": "紅色狂熱之戒",
     "Description": "在 # 秒內花費 # 點怒氣後，你施放的下一個非引導核心或武器專精技能在 # 秒內必定爆擊，並造成額外 #% 爆擊傷害。",
     "DescriptionClean": "在 秒內花費 點怒氣後，你施放的下一個非引導核心或武器專精技能在 秒內必定爆擊，並造成額外 爆擊傷害。",
@@ -6471,7 +6503,7 @@
     "Name": "綠行者之誓",
     "Description": "劇毒藤蔓免費獲得生長變化，且造成傷害提高 #%。",
     "DescriptionClean": "劇毒藤蔓免費獲得生長變化，且造成傷害提高 。",
-    "Localisation": "{c_important}劇毒藤蔓{/c}免費獲得{c_important}生長{/c}變化，且造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
+    "Localisation": "{c_important}劇毒藤蔓{/c}免費獲得生長變化，且造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6499,7 +6531,7 @@
       "Ring_Unique_Druid_02_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_02_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_019",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "綠行者印璽",
     "Description": "施放或引導人類技能有 #% 機率觸發額外一個已裝備的非絕招人類技能。人類技能造成傷害提高 #%。",
     "DescriptionClean": "施放或引導人類技能有 機率觸發額外一個已裝備的非絕招人類技能。人類技能造成傷害提高 。",
@@ -6664,9 +6696,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "老巫婆大法杖",
-    "Description": "爪擊獲得所有變化效果，且造成傷害提高 #%。",
-    "DescriptionClean": "爪擊獲得所有變化效果，且造成傷害提高 。",
-    "Localisation": "{c_important}爪擊{/c}獲得所有變化效果，且造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
+    "Description": "爪擊獲得所有變化，且造成傷害提高 #%。",
+    "DescriptionClean": "爪擊獲得所有變化，且造成傷害提高 。",
+    "Localisation": "{c_important}爪擊{/c}獲得所有變化，且造成傷害提高 {c_random}[Affix_Value_1*100|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6694,7 +6726,7 @@
       "Ring_Unique_Druid_05_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_05_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_008",
     "Name": "老狼印記",
     "Description": " 中毒傷害提高 #%。\r\n 狼人技能造成的直接傷害提高，效果等同於中毒傷害加成的 #%，最多提高 #%。\r\n 狼人技能造成的毒素傷害提高，效果等同於額外攻擊速度及爆擊機率的 #%，最多提高 #%。\r\n\r\n當前直接傷害加成：#%\r\n當前毒素傷害加成：#%",
     "DescriptionClean": "中毒傷害提高 。 狼人技能造成的直接傷害提高，效果等同於中毒傷害加成的 ，最多提高 。 狼人技能造成的毒素傷害提高，效果等同於額外攻擊速度及爆擊機率的 ，最多提高 。 當前直接傷害加成： 當前毒素傷害加成：",
@@ -6854,7 +6886,7 @@
     "Name": "膿液玫瑰臂環",
     "Description": "幸運觸發：裝備劇毒陷阱時，毒素或冰寒（取決於你所裝備的劇毒陷阱的元素）灌注的技能有最高 #% 機率會設置一個劇毒陷阱。\r\n\r\n劇毒陷阱免費獲得入侵者變化，且造成傷害提高 #%。",
     "DescriptionClean": "幸運觸發：裝備劇毒陷阱時，毒素或冰寒（取決於你所裝備的劇毒陷阱的元素）灌注的技能有最高 機率會設置一個劇毒陷阱。 劇毒陷阱免費獲得入侵者變化，且造成傷害提高 。",
-    "Localisation": "{c_label}幸運觸發：{/c}裝備劇毒陷阱時，毒素或冰寒（取決於你所裝備的{c_important}劇毒陷阱{/c}的元素）{c_important}灌注{/c}的技能有最高 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 機率會設置一個{c_important}劇毒陷阱{/c}。\r\n\r\n{c_important}劇毒陷阱{/c}免費獲得{c_important}入侵者{/c}變化，且造成傷害提高 {c_random}[Affix_Value_1|x%|]{/c}。",
+    "Localisation": "{c_label}幸運觸發：{/c}裝備劇毒陷阱時，毒素或冰寒（取決於你所裝備的{c_important}劇毒陷阱{/c}的元素）{c_important}灌注{/c}的技能有最高 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 機率會設置一個{c_important}劇毒陷阱{/c}。\r\n\r\n{c_important}劇毒陷阱{/c}免費獲得入侵者變化，且造成傷害提高 {c_random}[Affix_Value_1|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6882,7 +6914,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
     "Name": "至尊守護",
     "Description": "移動時獲得 #% 閃躲機率和傷害減免。\r\n\r\n站立不動 # 秒後獲得無阻效果，直到你下次移動。",
     "DescriptionClean": "移動時獲得 閃躲機率和傷害減免。 站立不動 秒後獲得無阻效果，直到你下次移動。",
@@ -7072,7 +7104,7 @@
       "Amulet_Unique_Barb_105_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_105_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_008",
     "Name": "苟戈拉睜開之眼",
     "Description": "施加持續傷害效果時，有等同你爆擊機率的機會使傷害提高 #%。",
     "DescriptionClean": "施加持續傷害效果時，有等同你爆擊機率的機會使傷害提高 。",
@@ -7360,9 +7392,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "虐殺",
-    "Description": "死亡之擊獲得所有附屬升級，且造成傷害提高 #%。",
-    "DescriptionClean": "死亡之擊獲得所有附屬升級，且造成傷害提高 。",
-    "Localisation": "{c_important}死亡之擊{/c}獲得所有附屬升級，且造成傷害提高 {c_random}[Affix_Value_1 * 100|1%x|]{/c}。",
+    "Description": "死亡之擊免費獲得所有升級，且造成傷害提高 #%。",
+    "DescriptionClean": "死亡之擊免費獲得所有升級，且造成傷害提高 。",
+    "Localisation": "{c_important}死亡之擊{/c}免費獲得所有升級，且造成傷害提高 {c_random}[Affix_Value_1 * 100|1%x|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7550,7 +7582,7 @@
       "Pants_Unique_Necro_100",
       "Talisman_Charm_Unique_Pants_Unique_Necro_100"
     ],
-    "IdNameItemActor": "LEG_sets56",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "血月馬褲",
     "Description": "你的召喚物在造成傷害時有 #% 機率隨機施加衰老或攻擊反噬。\r\n\r\n你對受你詛咒影響的敵人造成的爆擊傷害提高 #%。",
     "DescriptionClean": "你的召喚物在造成傷害時有 機率隨機施加衰老或攻擊反噬。 你對受你詛咒影響的敵人造成的爆擊傷害提高 。",
@@ -7771,7 +7803,7 @@
       "Chest_Unique_Generic_103",
       "Talisman_Charm_Unique_Chest_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_125",
     "Name": "詐死遮罩",
     "Description": "你即將受到致命傷害時，改為將生命值恢復至全滿，獲得一道相當於生命值上限 #% 的屏障，持續 # 秒，並擊退近距敵人。此效果每 # 秒只能觸發一次。",
     "DescriptionClean": "你即將受到致命傷害時，改為將生命值恢復至全滿，獲得一道相當於生命值上限 的屏障，持續 秒，並擊退近距敵人。此效果每 秒只能觸發一次。",
@@ -7803,7 +7835,7 @@
       "Helm_Unique_Generic_002",
       "Talisman_Charm_Unique_Helm_Unique_Generic_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_gnrc127",
     "Name": "諧角之冠",
     "Description": "獲得 #% 傷害減免。此外，所有技能等級 +#。",
     "DescriptionClean": "獲得 傷害減免。此外，所有技能等級 。",
@@ -7900,9 +7932,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "赤紅布道",
-    "Description": "熱忱打擊傷害提高 #%，並自動獲得生死榮耀變化。",
-    "DescriptionClean": "熱忱打擊傷害提高 ，並自動獲得生死榮耀變化。",
-    "Localisation": "{c_important}熱忱打擊{/c}傷害提高 {c_random}[Affix_Value_1*100|%x|]{/c}，並自動獲得{c_important}生死榮耀{/c}變化。",
+    "Description": "熱忱打擊免費獲得生死榮耀變化，且造成傷害提高 #%。",
+    "DescriptionClean": "熱忱打擊免費獲得生死榮耀變化，且造成傷害提高 。",
+    "Localisation": "{c_important}熱忱打擊{/c}免費獲得{c_important}生死榮耀{/c}變化，且造成傷害提高 {c_random}[Affix_Value_1*100|%x|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7930,7 +7962,7 @@
       "Amulet_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_009",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "赤紅祝福",
     "Description": "處於健康狀態時，獲得 # 層壓制上限。生命之球會賦予 # 層壓制。\r\n\r\n每層壓制使你造成的傷害提高 #%。",
     "DescriptionClean": "處於健康狀態時，獲得 層壓制上限。生命之球會賦予 層壓制。 每層壓制使你造成的傷害提高 。",
@@ -8086,7 +8118,7 @@
       "Amulet_Unique_Warlock_001",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_02",
     "Name": "赫拉森種子",
     "Description": "你每擁有 1 點憤怒，使你的惡魔學識技能造成傷害提高 #%，你每擁有 1 點統御力，使你受到的傷害降低 #%。",
     "DescriptionClean": "你每擁有 1 點憤怒，使你的惡魔學識技能造成傷害提高 ，你每擁有 1 點統御力，使你受到的傷害降低 。",
@@ -8471,7 +8503,7 @@
       "S12_1HDagger_Unique_Generic_001",
       "Talisman_Charm_Unique_1HDagger_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Dagger_uniq22",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "鏽蝕長匕首",
     "Description": "對孤立敵人造成的傷害提高 #%。",
     "DescriptionClean": "對孤立敵人造成的傷害提高 。",
@@ -8535,7 +8567,7 @@
       "Ring_Unique_Generic_103",
       "Talisman_Charm_Unique_Ring_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_010",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "長毛獸烙印",
     "Description": "在 # 秒內的每 # 次擊殺會使你的傷害提高 #%，生命值上限提高 #%。",
     "DescriptionClean": "在 秒內的每 次擊殺會使你的傷害提高 ，生命值上限提高 。",
@@ -8630,7 +8662,7 @@
       "Pants_Unique_Paladin_002",
       "Talisman_Charm_Unique_Pants_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Pants_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "阿卡迪亞",
     "Description": "奮戰號召會使你獲得相當於生命值上限 #% 的強韌。每當你回復生命值上限的 #% 時，獲得一次奮戰號召使用次數。",
     "DescriptionClean": "奮戰號召會使你獲得相當於生命值上限 的強韌。每當你回復生命值上限的 時，獲得一次奮戰號召使用次數。",
@@ -8848,7 +8880,7 @@
       "Gloves_Unique_Generic_003",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_sets54",
     "Name": "霜燃",
     "Description": "幸運觸發：最高有 #% 機率凍結敵人 # 秒。\r\n\r\n你對被凍結的敵人造成傷害提高 #%。",
     "DescriptionClean": "幸運觸發：最高有 機率凍結敵人 秒。 你對被凍結的敵人造成傷害提高 。",
@@ -8973,7 +9005,7 @@
       "Gloves_Unique_Generic_004",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_sets50",
     "Name": "食痛者護手",
     "Description": "以非基本技能對敵人造成傷害會標記他們 # 秒。基本技能首次擊中被標記的敵人時，該基本技能的傷害會迴盪到所有被標記的敵人身上，而且造成的傷害提高 #%。",
     "DescriptionClean": "以非基本技能對敵人造成傷害會標記他們 秒。基本技能首次擊中被標記的敵人時，該基本技能的傷害會迴盪到所有被標記的敵人身上，而且造成的傷害提高 。",
@@ -9068,7 +9100,7 @@
       "Ring_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Ring_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_047",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "骸骨契約",
     "Description": "你的僕從獲得 #% 攻擊速度和爆擊機率。\r\n\r\n當你其中一個僕從死亡後，其他僕從會陷入狂怒，造成的傷害提高 #%，持續 # 秒。",
     "DescriptionClean": "你的僕從獲得 攻擊速度和爆擊機率。 當你其中一個僕從死亡後，其他僕從會陷入狂怒，造成的傷害提高 ，持續 秒。",
@@ -9363,7 +9395,7 @@
       "Amulet_Unique_Barb_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_024",
     "Name": "黑暗潛襲者的勳章",
     "Description": "使用雙手鈍擊武器、雙手斬擊武器或雙持武器施放技能時，傷害會提高 #%，持續 # 秒。\r\n\r\n全部三種傷害加成效果均在作用中時，你的控場持續時間和攻擊速度提高 #%。",
     "DescriptionClean": "使用雙手鈍擊武器、雙手斬擊武器或雙持武器施放技能時，傷害會提高 ，持續 秒。 全部三種傷害加成效果均在作用中時，你的控場持續時間和攻擊速度提高 。",

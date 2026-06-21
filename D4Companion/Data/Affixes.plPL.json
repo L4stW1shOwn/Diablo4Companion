@@ -9157,17 +9157,19 @@
     "DescriptionClean": "redukcji obrażeń podczas umocnienia"
   },
   {
-    "IdSno": "2482409;577229;577233",
-    "IdName": "GemPower1Socket;GemPower2Socket;X2_Transfiguration_IncreasedGemEffect",
+    "IdSno": "2482409;2655049;577229;577233",
+    "IdName": "GemPower1Socket;GemPower2Socket;X2_Transfiguration_IncreasedGemEffect;X2_Transfiguration_IncreasedGemEffect2H",
     "IdSnoList": [
       "2482409",
+      "2655049",
       "577229",
       "577233"
     ],
     "IdNameList": [
       "GemPower1Socket",
       "GemPower2Socket",
-      "X2_Transfiguration_IncreasedGemEffect"
+      "X2_Transfiguration_IncreasedGemEffect",
+      "X2_Transfiguration_IncreasedGemEffect2H"
     ],
     "AffixType": 2,
     "Category": 0,
@@ -13330,12 +13332,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 3,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Energia ",
-    "DescriptionClean": "regeneracji: Energia"
+    "Description": "# Energia regeneracji",
+    "DescriptionClean": "Energia regeneracji"
   },
   {
     "IdSno": "1924666",
@@ -13372,12 +13374,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 6,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Esencja ",
-    "DescriptionClean": "regeneracji: Esencja"
+    "Description": "# Esencja regeneracji",
+    "DescriptionClean": "Esencja regeneracji"
   },
   {
     "IdSno": "2520249",
@@ -13414,12 +13416,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 9,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Wiara ",
-    "DescriptionClean": "regeneracji: Wiara"
+    "Description": "# Wiara regeneracji",
+    "DescriptionClean": "Wiara regeneracji"
   },
   {
     "IdSno": "1924664;2211386;2592919",
@@ -13460,12 +13462,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 1,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Furia ",
-    "DescriptionClean": "regeneracji: Furia"
+    "Description": "# Furia regeneracji",
+    "DescriptionClean": "Furia regeneracji"
   },
   {
     "IdSno": "1924662",
@@ -13502,12 +13504,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 0,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Mana ",
-    "DescriptionClean": "regeneracji: Mana"
+    "Description": "# Mana regeneracji",
+    "DescriptionClean": "Mana regeneracji"
   },
   {
     "IdSno": "1924659",
@@ -13544,12 +13546,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 5,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Siła Duchowa ",
-    "DescriptionClean": "regeneracji: Siła Duchowa"
+    "Description": "# Siła Duchowa regeneracji",
+    "DescriptionClean": "Siła Duchowa regeneracji"
   },
   {
     "IdSno": "2012489",
@@ -13586,12 +13588,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 7,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Wigor ",
-    "DescriptionClean": "regeneracji: Wigor"
+    "Description": "# Wigor regeneracji",
+    "DescriptionClean": "Wigor regeneracji"
   },
   {
     "IdSno": "2532220",
@@ -13628,12 +13630,12 @@
         "LocalisationId": "Resource_Regen_Per_Second",
         "LocalisationParameter": 10,
         "LocalisationAttributeFormulaValue": "1",
-        "Localisation": "[{VALUE2}|~|] regeneracji: {VALUE1} "
+        "Localisation": "[{VALUE2}|~|] {VALUE1} regeneracji"
       }
     ],
     "ClassRestriction": "",
-    "Description": "# regeneracji: Gniew ",
-    "DescriptionClean": "regeneracji: Gniew"
+    "Description": "# Gniew regeneracji",
+    "DescriptionClean": "Gniew regeneracji"
   },
   {
     "IdSno": "1859772;2545589;2593603;760582",
@@ -20307,6 +20309,108 @@
     "DescriptionClean": "Rozjuszenie: Siły Woli za każdą rangę serii zabójstw"
   },
   {
+    "IdSno": "2588120",
+    "IdName": "S14_Mythic_CooldownReductionCDR",
+    "IdSnoList": [
+      "2588120"
+    ],
+    "IdNameList": [
+      "S14_Mythic_CooldownReductionCDR"
+    ],
+    "AffixType": 2,
+    "Category": 0,
+    "Flags": 1028,
+    "IsTemperingAvailable": false,
+    "MagicType": 0,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      0,
+      14,
+      18,
+      29,
+      17,
+      28,
+      16,
+      30,
+      15
+    ],
+    "AffixAttributes": [
+      {
+        "LocalisationId": "S14_Mythic_CooldownReductionCDR",
+        "LocalisationParameter": 4294967295,
+        "LocalisationAttributeFormulaValue": "0.2",
+        "Localisation": "{c_mythic}{i}Mityczne:{/i}{/c} [{VALUE1}*100|1%|] redukcji czasu odnowienia"
+      }
+    ],
+    "ClassRestriction": "",
+    "Description": "Mityczne: #% redukcji czasu odnowienia",
+    "DescriptionClean": "Mityczne: redukcji czasu odnowienia"
+  },
+  {
+    "IdSno": "1983837;2481661;2571274;2588122;2626679",
+    "IdName": "S14_Mythic_SkillRanksAll;SkillRanksAll_UBERUNIQUE;X2_SkillRankBonus_AllSkills;X2_Transfiguration_SkillRankBonus_AllSkills;X2_UBERUNIQUE_SkillRankBonus_AllSkills",
+    "IdSnoList": [
+      "1983837",
+      "2481661",
+      "2571274",
+      "2588122",
+      "2626679"
+    ],
+    "IdNameList": [
+      "S14_Mythic_SkillRanksAll",
+      "SkillRanksAll_UBERUNIQUE",
+      "X2_SkillRankBonus_AllSkills",
+      "X2_Transfiguration_SkillRankBonus_AllSkills",
+      "X2_UBERUNIQUE_SkillRankBonus_AllSkills"
+    ],
+    "AffixType": 2,
+    "Category": 0,
+    "Flags": 1028,
+    "IsTemperingAvailable": false,
+    "MagicType": 0,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      0,
+      14,
+      18,
+      29,
+      17,
+      28,
+      16,
+      30,
+      15
+    ],
+    "AffixAttributes": [
+      {
+        "LocalisationId": "Skill_Rank_All_Bonus",
+        "LocalisationParameter": 4294967295,
+        "LocalisationAttributeFormulaValue": "3",
+        "Localisation": "+[{VALUE1}] do wszystkich umiejętności"
+      }
+    ],
+    "ClassRestriction": "",
+    "Description": "+# do wszystkich umiejętności",
+    "DescriptionClean": "do wszystkich umiejętności"
+  },
+  {
     "IdSno": "1093328;1480175",
     "IdName": "ShrineDuration;ShrineDuration_Lesser",
     "IdSnoList": [
@@ -20346,49 +20450,6 @@
     "ClassRestriction": "",
     "Description": "+#% czasu działania wzmocnienia z kapliczek",
     "DescriptionClean": "czasu działania wzmocnienia z kapliczek"
-  },
-  {
-    "IdSno": "1983837;2481661;2571274;2626679",
-    "IdName": "SkillRanksAll_UBERUNIQUE;X2_SkillRankBonus_AllSkills;X2_Transfiguration_SkillRankBonus_AllSkills;X2_UBERUNIQUE_SkillRankBonus_AllSkills",
-    "IdSnoList": [
-      "1983837",
-      "2481661",
-      "2571274",
-      "2626679"
-    ],
-    "IdNameList": [
-      "SkillRanksAll_UBERUNIQUE",
-      "X2_SkillRankBonus_AllSkills",
-      "X2_Transfiguration_SkillRankBonus_AllSkills",
-      "X2_UBERUNIQUE_SkillRankBonus_AllSkills"
-    ],
-    "AffixType": 2,
-    "Category": 0,
-    "Flags": 140,
-    "IsTemperingAvailable": false,
-    "MagicType": 0,
-    "AllowedForPlayerClass": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "AllowedItemLabels": [],
-    "AffixAttributes": [
-      {
-        "LocalisationId": "Skill_Rank_All_Bonus",
-        "LocalisationParameter": 4294967295,
-        "LocalisationAttributeFormulaValue": "5",
-        "Localisation": "+[{VALUE1}] do wszystkich umiejętności"
-      }
-    ],
-    "ClassRestriction": "",
-    "Description": "+# do wszystkich umiejętności",
-    "DescriptionClean": "do wszystkich umiejętności"
   },
   {
     "IdSno": "2483836;2616425;2616427;2616429",
@@ -37085,7 +37146,7 @@
       {
         "LocalisationId": "UBERUNIQUE_DoT_Duration",
         "LocalisationParameter": 4294967295,
-        "LocalisationAttributeFormulaValue": "0.5",
+        "LocalisationAttributeFormulaValue": "0.6",
         "Localisation": "+[{VALUE}*100|%|] czasu działania obrażeń z upływem czasu"
       }
     ],
@@ -41081,14 +41142,14 @@
     "AffixAttributes": [
       {
         "LocalisationId": "Skill_Rank_Skill_Tag_Bonus",
-        "LocalisationParameter": 2258379325,
+        "LocalisationParameter": 3759085154,
         "LocalisationAttributeFormulaValue": "0",
         "Localisation": "+[{VALUE2}|0|] do umiejętności: {c_important}{VALUE1}{/c}"
       }
     ],
     "ClassRestriction": "",
-    "Description": "+# do umiejętności: Zawierucha",
-    "DescriptionClean": "do umiejętności: Zawierucha"
+    "Description": "+# do umiejętności: {VALUE1}",
+    "DescriptionClean": "do umiejętności: {VALUE1}"
   },
   {
     "IdSno": "2589355",

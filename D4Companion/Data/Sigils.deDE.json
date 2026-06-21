@@ -202,7 +202,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Basaltanstieg",
     "Description": "Diese Ruinen bestehen fort, obwohl sie von Magma verschlungen wurden.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -463,7 +463,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "Das Hinterland",
     "Description": "Trotz der angeblichen Schätze haben nur wenige diese Küste überquert.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -481,7 +481,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Der Verschlungene Tempel",
     "Description": "Ein der Zeit trotzender Tempel der Erstgeborenen.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -499,7 +499,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "Die Aegoye",
     "Description": "Eine Stätte uralter Prüfungen, die jetzt von ruhelosen Geistern heimgesucht wird.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -549,38 +549,11 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Dungeon-Streifzug",
-    "Description": "Das Abschließen des Dungeons gewährt zusätzliche Erfahrung und Belohnungen.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "Dungeon-Streifzug",
-    "Description": "Das Abschließen des Dungeons gewährt zusätzliche Erfahrung und Belohnungen.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Dungeon-Streifzug",
-    "Description": "Das Abschließen des Dungeons gewährt zusätzliche Erfahrung und Belohnungen.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2600290,
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Dunkle Zuflucht",
     "Description": "Gerüchte über mythische Reichtümer ranken sich um diese verfallene Krypta.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -994,7 +967,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Gequälter Wald",
     "Description": "Werdet Ihr den Fluch des Waldes brechen oder Euch seinen gespenstischen Rängen anschließen?",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1165,7 +1138,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Grimmhafen",
     "Description": "Das Kontingent des Hasses versammelt sich, um den Willen seines Meisters durchzusetzen.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1255,7 +1228,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Herz des Berges",
     "Description": "Geschmolzenes Blut fließt durch das verborgene Herz des Bergs.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1309,7 +1282,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Höhle der Seehexe",
     "Description": "Eine muffige Höhle, in der die Seehexe ihre Sklaven versammelt.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1480,7 +1453,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Kataklysmus",
     "Description": "Jahrhunderte feuriger Ausbrüche haben das Land verändert.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2245,7 +2218,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Sehergrat",
     "Description": "Eine beunruhigende Stille liegt in der Luft. Was lauert darunter?",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2502,15 +2475,6 @@
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2355995,
-    "IdName": "DungeonAffix_Minor_S9_Suppressor",
-    "Name": "Unterdrücker-Elitegegner",
-    "Description": "Elitemonster besitzen das Affix \"Unterdrücker\" und verursachen 20\u00A0% mehr Schaden.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Minor"
-  },
-  {
     "IdSno": 1314333,
     "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
     "Name": "Unterdrücker-Elitegegner",
@@ -2518,6 +2482,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Major"
+  },
+  {
+    "IdSno": 2355995,
+    "IdName": "DungeonAffix_Minor_S9_Suppressor",
+    "Name": "Unterdrücker-Elitegegner",
+    "Description": "Elitemonster besitzen das Affix \"Unterdrücker\" und verursachen 20\u00A0% mehr Schaden.",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Minor"
   },
   {
     "IdSno": 1113931,
@@ -2578,7 +2551,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Verborgene Ruinen der Erstgeborenen",
     "Description": "Ein Fragment der Geschichte, konserviert in pyroklastischem Feuer.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2722,7 +2695,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Verhexte Grotte",
     "Description": "Eine unheimliche Melodie lockt Unvorbereitete in eine tödliche Trance.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2803,7 +2776,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "Verschlackter Pfad",
     "Description": "Für die Unerschütterlichen führen die aus Lava geformten Höhlen zu unermesslichen Reichtümern.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2812,7 +2785,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Verschlackter Pfad",
     "Description": "Für die Unerschütterlichen führen die aus Lava geformten Höhlen zu unermesslichen Reichtümern.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2821,7 +2794,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Verschlackter Pfad",
     "Description": "Für die Unerschütterlichen führen die aus Lava geformten Höhlen zu unermesslichen Reichtümern.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2839,7 +2812,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Versengte Tunnel",
     "Description": "Für die Unerschütterlichen führen die aus Lava geformten Höhlen zu unermesslichen Reichtümern.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2853,8 +2826,8 @@
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2511994,
-    "IdName": "DungeonAffix_Positive_AncestralElites",
+    "IdSno": 2516764,
+    "IdName": "DungeonAffix_Positive_LegendaryElites",
     "Name": "Versteckte Rüstkammer",
     "Description": "Hier werden außergewöhnliche Gegenstände aufbewahrt, was Elitemonstern ein mächtiges Beuteaffix gewährt.",
     "DungeonZoneInfo": "",
@@ -2862,8 +2835,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2516764,
-    "IdName": "DungeonAffix_Positive_LegendaryElites",
+    "IdSno": 2511994,
+    "IdName": "DungeonAffix_Positive_AncestralElites",
     "Name": "Versteckte Rüstkammer",
     "Description": "Hier werden außergewöhnliche Gegenstände aufbewahrt, was Elitemonstern ein mächtiges Beuteaffix gewährt.",
     "DungeonZoneInfo": "",
@@ -2929,7 +2902,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Versunkene Ruinen",
     "Description": "Längst vergessene Ruinen, die von Korallen und Muscheln zusammengehalten werden.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -3019,7 +2992,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Zuflucht der Verlorenen",
     "Description": "Ein Ort des Trostes unter den wachsamen Augen eines Täuschers.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

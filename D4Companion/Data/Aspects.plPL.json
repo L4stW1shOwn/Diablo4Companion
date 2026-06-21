@@ -501,6 +501,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -750,42 +752,6 @@
       28,
       26,
       30,
-      15
-    ]
-  },
-  {
-    "IdSno": "1848038",
-    "IdName": "x1_legendary_necro_129",
-    "IdSnoList": [
-      "1848038"
-    ],
-    "IdNameList": [
-      "x1_legendary_necro_129"
-    ],
-    "Name": "Brutalnie Łamiący",
-    "Description": "Po wykonaniu # trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o #% w ciągu kolejnych # sek.",
-    "DescriptionClean": "Po wykonaniu trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o w ciągu kolejnych sek.",
-    "Localisation": "Po wykonaniu {c_number}[Affix.\"Static Value 0\"]{/c} trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o {c_random}[Affix_Value_1|%x|]{/c} w ciągu kolejnych {c_number}[Affix.\"Static Value 1\"]{/c} sek.",
-    "IsSeasonal": false,
-    "IsCodex": true,
-    "Dungeon": "",
-    "Category": "FILTER_Legendary_Offensive",
-    "MagicType": 1,
-    "AllowedForPlayerClass": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      0,
-      26,
-      19,
-      28,
       15
     ]
   },
@@ -1866,7 +1832,7 @@
     "Name": "Dominacji",
     "Description": "Wywoływanie ograniczenia kontroli wroga przyznaje # kumulacji Animuszu.",
     "DescriptionClean": "Wywoływanie ograniczenia kontroli wroga przyznaje kumulacji Animuszu.",
-    "Localisation": "Wywoływanie ograniczenia kontroli wroga przyznaje {c_random}[Affix_Value_1]{/c} |4kumulację:kumulacje:kumulacji; {u}{c_important}Animuszu{/c}{/u}.",
+    "Localisation": "Wywoływanie ograniczenia kontroli wroga przyznaje {c_random}[Ceil(Affix_Value_1)]{/c} |4kumulację:kumulacje:kumulacji; {u}{c_important}Animuszu{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -2686,9 +2652,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "Gardłowego Ryku",
-    "Description": "Twoje umiejętności Okrzyków sprawiają, że wrogowie zadają obrażenia zmniejszone o #% przez #% sek.",
+    "Description": "Twoje umiejętności Okrzyków sprawiają, że wrogowie zadają obrażenia zmniejszone o #% przez # sek.",
     "DescriptionClean": "Twoje umiejętności Okrzyków sprawiają, że wrogowie zadają obrażenia zmniejszone o przez sek.",
-    "Localisation": "Twoje umiejętności {c_important}Okrzyków{/c} sprawiają, że wrogowie zadają obrażenia zmniejszone o {c_random}[Affix_Value_1|2%|]{/c} przez {c_number}[Affix.\"Static Value 0\"|%|]{/c} sek.",
+    "Localisation": "Twoje umiejętności {c_important}Okrzyków{/c} sprawiają, że wrogowie zadają obrażenia zmniejszone o {c_random}[Affix_Value_1|2%|]{/c} przez {c_number}[Affix.\"Static Value 0\"||]{/c} sek.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -3598,7 +3564,7 @@
     "IdNameList": [
       "legendary_spiritborn_007_x1"
     ],
-    "Name": "Inwazji Insektów",
+    "Name": "Inwazji Skolopendry",
     "Description": "Rój Zarazy teraz zadaje także #% standardowych obrażeń w postaci obrażeń od zatrucia w ciągu # sek.",
     "DescriptionClean": "Rój Zarazy teraz zadaje także standardowych obrażeń w postaci obrażeń od zatrucia w ciągu sek.",
     "Localisation": "{c_important}{u}Rój Zarazy{/u}{/c} teraz zadaje także {c_random}[ Affix_Value_1*100|%|]{/c} standardowych obrażeń w postaci obrażeń od zatrucia w ciągu {c_number}[Affix.\"Static Value 1\"]{/c} sek.",
@@ -6125,9 +6091,9 @@
       "legendary_paladin_020"
     ],
     "Name": "Nieposkromionych",
-    "Description": "Zyskujesz maksymalnie #% premii do redukcji obrażeń oraz do odporności na osłabienie na podstawie twojej szansy na blok.\r\n\r\nAktualna premia: #% ",
-    "DescriptionClean": "Zyskujesz maksymalnie premii do redukcji obrażeń oraz do odporności na osłabienie na podstawie twojej szansy na blok. Aktualna premia:",
-    "Localisation": "Zyskujesz maksymalnie {c_random}[Affix_Value_1|%|]{/c} premii do redukcji obrażeń oraz do odporności na osłabienie na podstawie twojej szansy na blok.\r\n\r\nAktualna premia: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Zyskujesz pancerz i skrócenie osłabienia kontroli o wartości #% twojej szansy na blok.\r\n\r\nAktualna premia: #% ",
+    "DescriptionClean": "Zyskujesz pancerz i skrócenie osłabienia kontroli o wartości twojej szansy na blok. Aktualna premia:",
+    "Localisation": "Zyskujesz pancerz i skrócenie osłabienia kontroli o wartości {c_random}[Affix_Value_1|%|]{/c} twojej szansy na blok.\r\n\r\nAktualna premia: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -9752,10 +9718,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -9996,7 +9964,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -10794,7 +10761,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -11619,10 +11587,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -13617,7 +13587,7 @@
     "IdNameList": [
       "legendary_sorc_006_x2"
     ],
-    "Name": "Tajemnie Osłaniający",
+    "Name": "Tajemnej Osłony",
     "Description": "Twoje umiejętności Mistrzostwa zapewniają #% redukcji obrażeń, gdy ich efekty są aktywne.",
     "DescriptionClean": "Twoje umiejętności Mistrzostwa zapewniają redukcji obrażeń, gdy ich efekty są aktywne.",
     "Localisation": "Twoje umiejętności {c_important}Mistrzostwa{/c} zapewniają {c_random}[Affix_Value_1|%|]{/c} redukcji obrażeń, gdy ich efekty są aktywne.",
@@ -14422,6 +14392,44 @@
       28,
       26,
       19
+    ]
+  },
+  {
+    "IdSno": "2580585",
+    "IdName": "legendary_rogue_101_x2",
+    "IdSnoList": [
+      "2580585"
+    ],
+    "IdNameList": [
+      "legendary_rogue_101_x2"
+    ],
+    "Name": "Usidlający",
+    "Description": "Szczęśliwy traf: zadawanie obrażeń wrogom, na których działają twoje umiejętności Pułapek, daje #% szans na spowodowanie eksplozji, która zadaje # pkt. obrażeń od Cienia i powoduje odsłonięcie na # sek.",
+    "DescriptionClean": "Szczęśliwy traf: zadawanie obrażeń wrogom, na których działają twoje umiejętności Pułapek, daje szans na spowodowanie eksplozji, która zadaje pkt. obrażeń od Cienia i powoduje odsłonięcie na sek.",
+    "Localisation": "{c_label}Szczęśliwy traf:{/c} zadawanie obrażeń wrogom, na których działają twoje umiejętności {c_important}Pułapek{/c}, daje {c_random}[Affix_Value_1|%|]{/c} szans na spowodowanie eksplozji, która zadaje {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} pkt. obrażeń od Cienia i powoduje {c_important}{u}odsłonięcie{/u}{/c} na {c_number}[Affix.\"Static Value 0\"]{/c} sek.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Utility",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      16,
+      17,
+      29,
+      28,
+      26,
+      30,
+      15
     ]
   },
   {
@@ -15313,44 +15321,6 @@
       26,
       19,
       28,
-      15
-    ]
-  },
-  {
-    "IdSno": "2580585",
-    "IdName": "legendary_rogue_101_x2",
-    "IdSnoList": [
-      "2580585"
-    ],
-    "IdNameList": [
-      "legendary_rogue_101_x2"
-    ],
-    "Name": "Wybuchająco Usidlający",
-    "Description": "Szczęśliwy traf: zadawanie obrażeń wrogom, na których działają twoje umiejętności Pułapek, daje #% szans na spowodowanie eksplozji, która zadaje # pkt. obrażeń od Cienia i powoduje odsłonięcie na # sek.",
-    "DescriptionClean": "Szczęśliwy traf: zadawanie obrażeń wrogom, na których działają twoje umiejętności Pułapek, daje szans na spowodowanie eksplozji, która zadaje pkt. obrażeń od Cienia i powoduje odsłonięcie na sek.",
-    "Localisation": "{c_label}Szczęśliwy traf:{/c} zadawanie obrażeń wrogom, na których działają twoje umiejętności {c_important}Pułapek{/c}, daje {c_random}[Affix_Value_1|%|]{/c} szans na spowodowanie eksplozji, która zadaje {c_random}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix_Value_2]{/c} pkt. obrażeń od Cienia i powoduje {c_important}{u}odsłonięcie{/u}{/c} na {c_number}[Affix.\"Static Value 0\"]{/c} sek.",
-    "IsSeasonal": false,
-    "IsCodex": true,
-    "Dungeon": "",
-    "Category": "FILTER_Legendary_Utility",
-    "MagicType": 1,
-    "AllowedForPlayerClass": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      16,
-      17,
-      29,
-      28,
-      26,
-      30,
       15
     ]
   },
@@ -17509,7 +17479,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -17730,6 +17699,42 @@
       28,
       26,
       30,
+      15
+    ]
+  },
+  {
+    "IdSno": "1848038",
+    "IdName": "x1_legendary_necro_129",
+    "IdSnoList": [
+      "1848038"
+    ],
+    "IdNameList": [
+      "x1_legendary_necro_129"
+    ],
+    "Name": "Złamania z Przemieszczeniem",
+    "Description": "Po wykonaniu # trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o #% w ciągu kolejnych # sek.",
+    "DescriptionClean": "Po wykonaniu trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o w ciągu kolejnych sek.",
+    "Localisation": "Po wykonaniu {c_number}[Affix.\"Static Value 0\"]{/c} trafień krytycznych umiejętnościami Kości umiejętności te zadają obrażenia zwiększone o {c_random}[Affix_Value_1|%x|]{/c} w ciągu kolejnych {c_number}[Affix.\"Static Value 1\"]{/c} sek.",
+    "IsSeasonal": false,
+    "IsCodex": true,
+    "Dungeon": "",
+    "Category": "FILTER_Legendary_Offensive",
+    "MagicType": 1,
+    "AllowedForPlayerClass": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      0,
+      26,
+      19,
+      28,
       15
     ]
   },

@@ -510,9 +510,9 @@
       "legendary_sorc_039_x2"
     ],
     "Name": "Beschwörungsmeisters",
-    "Description": "Your maximum Conjurations is increased by # and your Summon Skill damage is increased by #%.",
-    "DescriptionClean": "Your maximum Conjurations is increased by and your Summon Skill damage is increased by.",
-    "Localisation": "Your maximum {c_important}Conjurations{/c} is increased by {c_number}[Affix.\"Static Value 0\"]{/c} and your {c_important}Summon{/c} Skill damage is increased by {c_random}[Affix_Value_1|%x|]{/c}.",
+    "Description": "Your maximum number of Conjurations is increased by # and your Conjuration damage is increased by #%.",
+    "DescriptionClean": "Your maximum number of Conjurations is increased by and your Conjuration damage is increased by.",
+    "Localisation": "Your maximum number of {c_important}Conjurations{/c} is increased by {c_number}[Affix.\"Static Value 0\"]{/c} and your {c_important}Conjuration{/c} damage is increased by {c_random}[Affix_Value_1|%x|]{/c}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -962,10 +962,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -2557,7 +2559,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -4118,9 +4121,9 @@
       "legendary_rogue_151_x2"
     ],
     "Name": "Nachtpirschender",
-    "Description": "Verdunklungsfertigkeiten verursachen um #% erhöhten Schaden und erhalten eine Chance von #%, eine zusätzliche Verdunklung herbeizurufen.",
-    "DescriptionClean": "Verdunklungsfertigkeiten verursachen um erhöhten Schaden und erhalten eine Chance von , eine zusätzliche Verdunklung herbeizurufen.",
-    "Localisation": "{c_important}Verdunklungsfertigkeiten{/c} verursachen um {c_random}[Affix_Value_1|x%|]{/c} erhöhten Schaden und erhalten eine Chance von {c_number}[Affix.\"Static Value 0\"|%|]{/c}, eine zusätzliche {c_important}Verdunklung{/c} herbeizurufen.",
+    "Description": "Verdunklungsfertigkeiten verursachen um #% erhöhten Schaden und erhalten eine Chance von #%, einen zusätzlichen Schatten herbeizurufen.",
+    "DescriptionClean": "Verdunklungsfertigkeiten verursachen um erhöhten Schaden und erhalten eine Chance von , einen zusätzlichen Schatten herbeizurufen.",
+    "Localisation": "{c_important}Verdunklungsfertigkeiten{/c} verursachen um {c_random}[Affix_Value_1|x%|]{/c} erhöhten Schaden und erhalten eine Chance von {c_number}[Affix.\"Static Value 0\"|%|]{/c}, einen zusätzlichen {c_important}Schatten{/c} herbeizurufen.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -4714,7 +4717,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -8022,7 +8024,7 @@
     "Name": "der Dominanz",
     "Description": "Belegt Ihr einen Gegner mit Kontrollverlust, erhaltet Ihr # Entschlossenheit.",
     "DescriptionClean": "Belegt Ihr einen Gegner mit Kontrollverlust, erhaltet Ihr Entschlossenheit.",
-    "Localisation": "Belegt Ihr einen Gegner mit Kontrollverlust, erhaltet Ihr {c_random}[Affix_Value_1]{/c} {u}{c_important}Entschlossenheit{/c}{/u}.",
+    "Localisation": "Belegt Ihr einen Gegner mit Kontrollverlust, erhaltet Ihr {c_random}[Ceil(Affix_Value_1)]{/c} {u}{c_important}Entschlossenheit{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -8572,7 +8574,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -10005,9 +10006,9 @@
       "legendary_paladin_020"
     ],
     "Name": "der Unbeugsamen",
-    "Description": "Erhaltet bis zu #% Schadensreduktion und Widerstand gegen Beeinträchtigungen, basierend auf Eurer Blockchance.\r\n\r\nAktueller Bonus: #% ",
-    "DescriptionClean": "Erhaltet bis zu Schadensreduktion und Widerstand gegen Beeinträchtigungen, basierend auf Eurer Blockchance. Aktueller Bonus:",
-    "Localisation": "Erhaltet bis zu {c_random}[Affix_Value_1|%|]{/c} Schadensreduktion und Widerstand gegen Beeinträchtigungen, basierend auf Eurer Blockchance.\r\n\r\nAktueller Bonus: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Erhaltet Rüstung und Beeinträchtigungsreduktion in Höhe von #% Eurer Blockchance.\r\n\r\nAktueller Bonus: #% ",
+    "DescriptionClean": "Erhaltet Rüstung und Beeinträchtigungsreduktion in Höhe von Eurer Blockchance. Aktueller Bonus:",
+    "Localisation": "Erhaltet Rüstung und Beeinträchtigungsreduktion in Höhe von {c_random}[Affix_Value_1|%|]{/c} Eurer Blockchance.\r\n\r\nAktueller Bonus: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -10202,10 +10203,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -11433,9 +11436,9 @@
       "legendary_spiritborn_049"
     ],
     "Name": "der endlosen Klauen",
-    "Description": "Eure Geisterstürme fügen Gegnern im Verlauf von #\u00A0Sek. zusätzlich #% des Gesamtschadens durch Geistersturm in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
-    "DescriptionClean": "Eure Geisterstürme fügen Gegnern im Verlauf von \u00A0Sek. zusätzlich des Gesamtschadens durch Geistersturm in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
-    "Localisation": "Eure {c_important}{u}Geisterstürme{/u}{/c} fügen Gegnern im Verlauf von {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. zusätzlich {c_random}[Affix_Value_1 * 100|%|]{/c} des Gesamtschadens durch {c_important}{u}Geistersturm{/u}{/c} in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
+    "Description": "Eure Geisterstürme fügen Gegnern im Verlauf von #\u00A0Sek. zusätzlich #% des Gesamtschadenschadens durch Geistersturm in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
+    "DescriptionClean": "Eure Geisterstürme fügen Gegnern im Verlauf von \u00A0Sek. zusätzlich des Gesamtschadenschadens durch Geistersturm in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
+    "Localisation": "Eure {c_important}{u}Geisterstürme{/u}{/c} fügen Gegnern im Verlauf von {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. zusätzlich {c_random}[Affix_Value_1 * 100|%|]{/c} des Gesamtschadenschadens durch {c_important}{u}Geistersturm{/u}{/c} in Form von Funkenschaden zu, nachdem diese einen Sturm verlassen.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -12840,9 +12843,9 @@
       "legendary_necro_125"
     ],
     "Name": "der rapiden Verknöcherung",
-    "Description": "Jede #. Essenz, die Ihr verbraucht, verringert die Abklingzeiten Eurer Knochenfertigkeiten um # Sek.",
-    "DescriptionClean": "Jede. Essenz, die Ihr verbraucht, verringert die Abklingzeiten Eurer Knochenfertigkeiten um Sek.",
-    "Localisation": "Jede {c_number}[Affix.\"Static Value 0\"]{/c}. Essenz, die Ihr verbraucht, verringert die Abklingzeiten Eurer {c_important}Knochenfertigkeiten{/c} um {c_random}[Affix_Value_1]{/c} Sek.",
+    "Description": "Wirkt Ihr Knochengeist, werden dabei auch # Knochensplitter in alle Richtungen geschleudert, die #% erhöhten Schaden verursachen und # Essenz pro getroffenem Gegner erzeugen.",
+    "DescriptionClean": "Wirkt Ihr Knochengeist, werden dabei auch Knochensplitter in alle Richtungen geschleudert, die erhöhten Schaden verursachen und Essenz pro getroffenem Gegner erzeugen.",
+    "Localisation": "Wirkt Ihr {c_important}Knochengeist{/c}, werden dabei auch {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}Knochensplitter{/c} in alle Richtungen geschleudert, die {c_random}[Affix_Value_1|%x|]{/c} erhöhten Schaden verursachen und {c_number}[Affix.\"Static Value 1\"]{/c} Essenz pro getroffenem Gegner erzeugen.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -14701,6 +14704,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -17476,9 +17481,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "des kehligen Schreis",
-    "Description": "Eure Ruffertigkeiten lassen Gegner \u00A0Sek. lang #%#% weniger Schaden verursachen.",
+    "Description": "Eure Ruffertigkeiten lassen Gegner \u00A0Sek. lang #%# weniger Schaden verursachen.",
     "DescriptionClean": "Eure Ruffertigkeiten lassen Gegner \u00A0Sek. lang weniger Schaden verursachen.",
-    "Localisation": "Eure {c_important}Ruffertigkeiten{/c} lassen Gegner {c_random}{c_number}\u00A0Sek. lang [Affix_Value_1|2%|]{/c}[Affix.\"Static Value 0\"|%|]{/c} weniger Schaden verursachen.",
+    "Localisation": "Eure {c_important}Ruffertigkeiten{/c} lassen Gegner {c_random}{c_number}\u00A0Sek. lang [Affix_Value_1|2%|]{/c}[Affix.\"Static Value 0\"||]{/c} weniger Schaden verursachen.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -17901,9 +17906,9 @@
       "legendary_spiritborn_002_x1"
     ],
     "Name": "des sammelnden Konters",
-    "Description": "Ihr habt eine Chance von #%, # Wildheit zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Boss zum Taumeln bringt.",
-    "DescriptionClean": "Ihr habt eine Chance von , Wildheit zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Boss zum Taumeln bringt.",
-    "Localisation": "Ihr habt eine Chance von {c_random}[Affix_Value_1*100|%|]{/c}, {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}{u}Wildheit{/u}{/c} zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Boss zum Taumeln bringt.",
+    "Description": "Ihr habt eine Chance von #%, # Wildheit zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Gegner zum Taumeln bringt.",
+    "DescriptionClean": "Ihr habt eine Chance von , Wildheit zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Gegner zum Taumeln bringt.",
+    "Localisation": "Ihr habt eine Chance von {c_random}[Affix_Value_1*100|%|]{/c}, {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}{u}Wildheit{/u}{/c} zu erlangen, wenn Ihr einen Gegner mit Kontrollverlusteffekten belegt oder einen Gegner zum Taumeln bringt.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",

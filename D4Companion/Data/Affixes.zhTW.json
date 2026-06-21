@@ -9128,17 +9128,19 @@
     "DescriptionClean": "強韌時傷害減免"
   },
   {
-    "IdSno": "2482409;577229;577233",
-    "IdName": "GemPower1Socket;GemPower2Socket;X2_Transfiguration_IncreasedGemEffect",
+    "IdSno": "2482409;2655049;577229;577233",
+    "IdName": "GemPower1Socket;GemPower2Socket;X2_Transfiguration_IncreasedGemEffect;X2_Transfiguration_IncreasedGemEffect2H",
     "IdSnoList": [
       "2482409",
+      "2655049",
       "577229",
       "577233"
     ],
     "IdNameList": [
       "GemPower1Socket",
       "GemPower2Socket",
-      "X2_Transfiguration_IncreasedGemEffect"
+      "X2_Transfiguration_IncreasedGemEffect",
+      "X2_Transfiguration_IncreasedGemEffect2H"
     ],
     "AffixType": 2,
     "Category": 0,
@@ -20203,6 +20205,108 @@
     "DescriptionClean": "暴怒：每個連殺階級 意志"
   },
   {
+    "IdSno": "2588120",
+    "IdName": "S14_Mythic_CooldownReductionCDR",
+    "IdSnoList": [
+      "2588120"
+    ],
+    "IdNameList": [
+      "S14_Mythic_CooldownReductionCDR"
+    ],
+    "AffixType": 2,
+    "Category": 0,
+    "Flags": 1028,
+    "IsTemperingAvailable": false,
+    "MagicType": 0,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      0,
+      14,
+      18,
+      29,
+      17,
+      28,
+      16,
+      30,
+      15
+    ],
+    "AffixAttributes": [
+      {
+        "LocalisationId": "S14_Mythic_CooldownReductionCDR",
+        "LocalisationParameter": 4294967295,
+        "LocalisationAttributeFormulaValue": "0.2",
+        "Localisation": "{c_mythic}{i}秘傳：{/i}{/c}冷卻時間縮短 [{VALUE1}*100|1%|]"
+      }
+    ],
+    "ClassRestriction": "",
+    "Description": "秘傳：冷卻時間縮短 #%",
+    "DescriptionClean": "秘傳：冷卻時間縮短"
+  },
+  {
+    "IdSno": "1983837;2481661;2571274;2588122;2626679",
+    "IdName": "S14_Mythic_SkillRanksAll;SkillRanksAll_UBERUNIQUE;X2_SkillRankBonus_AllSkills;X2_Transfiguration_SkillRankBonus_AllSkills;X2_UBERUNIQUE_SkillRankBonus_AllSkills",
+    "IdSnoList": [
+      "1983837",
+      "2481661",
+      "2571274",
+      "2588122",
+      "2626679"
+    ],
+    "IdNameList": [
+      "S14_Mythic_SkillRanksAll",
+      "SkillRanksAll_UBERUNIQUE",
+      "X2_SkillRankBonus_AllSkills",
+      "X2_Transfiguration_SkillRankBonus_AllSkills",
+      "X2_UBERUNIQUE_SkillRankBonus_AllSkills"
+    ],
+    "AffixType": 2,
+    "Category": 0,
+    "Flags": 1028,
+    "IsTemperingAvailable": false,
+    "MagicType": 0,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      0,
+      14,
+      18,
+      29,
+      17,
+      28,
+      16,
+      30,
+      15
+    ],
+    "AffixAttributes": [
+      {
+        "LocalisationId": "Skill_Rank_All_Bonus",
+        "LocalisationParameter": 4294967295,
+        "LocalisationAttributeFormulaValue": "3",
+        "Localisation": "所有技能 +[{VALUE1}]"
+      }
+    ],
+    "ClassRestriction": "",
+    "Description": "所有技能 +#",
+    "DescriptionClean": "所有技能"
+  },
+  {
     "IdSno": "1093328;1480175",
     "IdName": "ShrineDuration;ShrineDuration_Lesser",
     "IdSnoList": [
@@ -20242,49 +20346,6 @@
     "ClassRestriction": "",
     "Description": "聖壇增益時效 +#%",
     "DescriptionClean": "聖壇增益時效"
-  },
-  {
-    "IdSno": "1983837;2481661;2571274;2626679",
-    "IdName": "SkillRanksAll_UBERUNIQUE;X2_SkillRankBonus_AllSkills;X2_Transfiguration_SkillRankBonus_AllSkills;X2_UBERUNIQUE_SkillRankBonus_AllSkills",
-    "IdSnoList": [
-      "1983837",
-      "2481661",
-      "2571274",
-      "2626679"
-    ],
-    "IdNameList": [
-      "SkillRanksAll_UBERUNIQUE",
-      "X2_SkillRankBonus_AllSkills",
-      "X2_Transfiguration_SkillRankBonus_AllSkills",
-      "X2_UBERUNIQUE_SkillRankBonus_AllSkills"
-    ],
-    "AffixType": 2,
-    "Category": 0,
-    "Flags": 140,
-    "IsTemperingAvailable": false,
-    "MagicType": 0,
-    "AllowedForPlayerClass": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "AllowedItemLabels": [],
-    "AffixAttributes": [
-      {
-        "LocalisationId": "Skill_Rank_All_Bonus",
-        "LocalisationParameter": 4294967295,
-        "LocalisationAttributeFormulaValue": "5",
-        "Localisation": "所有技能 +[{VALUE1}]"
-      }
-    ],
-    "ClassRestriction": "",
-    "Description": "所有技能 +#",
-    "DescriptionClean": "所有技能"
   },
   {
     "IdSno": "1859734;1932456;1939586;2060487;2592930",
@@ -36950,7 +37011,7 @@
       {
         "LocalisationId": "UBERUNIQUE_DoT_Duration",
         "LocalisationParameter": 4294967295,
-        "LocalisationAttributeFormulaValue": "0.5",
+        "LocalisationAttributeFormulaValue": "0.6",
         "Localisation": "持續傷害時效 +[{VALUE}*100|%|]"
       }
     ],
@@ -40946,14 +41007,14 @@
     "AffixAttributes": [
       {
         "LocalisationId": "Skill_Rank_Skill_Tag_Bonus",
-        "LocalisationParameter": 2258379325,
+        "LocalisationParameter": 3759085154,
         "LocalisationAttributeFormulaValue": "0",
         "Localisation": "{c_important}{VALUE1}{/c}技能 +[{VALUE2}|0|]"
       }
     ],
     "ClassRestriction": "",
-    "Description": "狂風沙技能 +#",
-    "DescriptionClean": "狂風沙技能"
+    "Description": "{VALUE1}技能 +#",
+    "DescriptionClean": "{VALUE1}技能"
   },
   {
     "IdSno": "2589355",

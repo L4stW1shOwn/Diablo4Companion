@@ -139,7 +139,7 @@
       "1HSword_Unique_Generic_002",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq24",
     "Name": "Adalet Kılıcı El'Druin",
     "Description": "Bir Seçkin grubunu öldürmek, Yetenek Bekleme Sürelerini # saniyeliğine # saniye azaltır.",
     "DescriptionClean": "Bir Seçkin grubunu öldürmek, Yetenek Bekleme Sürelerini saniyeliğine saniye azaltır.",
@@ -359,7 +359,7 @@
       "Ring_Unique_Rogue_101",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_012",
     "Name": "Alçağın Öpücüğü",
     "Description": "Yakınında hiçbir düşman olmadığı sürece her # saniyede bir # Vahşilik kazan.\r\n\r\nNişancı Yeteneklerin, her bir Vahşilik yükü başına #% artırılmış hasar verir.",
     "DescriptionClean": "Yakınında hiçbir düşman olmadığı sürece her saniyede bir Vahşilik kazan. Nişancı Yeteneklerin, her bir Vahşilik yükü başına artırılmış hasar verir.",
@@ -427,7 +427,7 @@
       "Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_base05",
     "Name": "Andariel'in Siması",
     "Description": "Şanslı Vuruş: En fazla #% ihtimalle bölgedeki düşmanlara # saniye boyunca verilen hasarın #% kadarını veren bir zehir novası tetikle.",
     "DescriptionClean": "Şanslı Vuruş: En fazla ihtimalle bölgedeki düşmanlara saniye boyunca verilen hasarın kadarını veren bir zehir novası tetikle.",
@@ -491,7 +491,7 @@
       "Pants_Unique_Paladin_002",
       "Talisman_Charm_Unique_Pants_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Pants_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Arcadia",
     "Description": "Birlik, seni Maksimum Canının #% kadarı Güçlendirir. Maksimum Canının #% kadarını iyileştirdiğin her seferinde bir Birlik yükü kazanırsın.",
     "DescriptionClean": "Birlik, seni Maksimum Canının kadarı Güçlendirir. Maksimum Canının kadarını iyileştirdiğin her seferinde bir Birlik yükü kazanırsın.",
@@ -523,7 +523,7 @@
       "Pants_Unique_Barb_100",
       "Talisman_Charm_Unique_Pants_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_unique_Barbarian_99",
     "Name": "Arreat'ın Duruşu",
     "Description": "Kadim çağıran ve Ulti olmayan Yeteneklerin artık bir Kadim daha çağırır. Kadim çağıran yeteneklerin #% artırılmış hasar verir.",
     "DescriptionClean": "Kadim çağıran ve Ulti olmayan Yeteneklerin artık bir Kadim daha çağırır. Kadim çağıran yeteneklerin artırılmış hasar verir.",
@@ -618,7 +618,7 @@
       "Chest_Unique_Generic_103",
       "Talisman_Charm_Unique_Chest_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_125",
     "Name": "Asılsız Ölüm Örtüsü",
     "Description": "Normalde ölümcül hasar alacağın zaman bunun yerine Canın tamamen dolar, # saniyeliğine Maksimum Canının #% kadarı değerinde bir Bariyer kazanırsın ve Yakındaki düşmanları Geri Savurursun. Bu, # saniyede bir en fazla bir defa gerçekleşebilir.",
     "DescriptionClean": "Normalde ölümcül hasar alacağın zaman bunun yerine Canın tamamen dolar, saniyeliğine Maksimum Canının kadarı değerinde bir Bariyer kazanırsın ve Yakındaki düşmanları Geri Savurursun. Bu, saniyede bir en fazla bir defa gerçekleşebilir.",
@@ -837,7 +837,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Ayı Kudreti",
     "Description": "Ayı Adam formundayken her Azim yükü için #% bonus hasar kazan. Ayrıca Ayı Adam formundayken her # saniyede bir otomatik olarak # Azim yükü kazanırsın.",
     "DescriptionClean": "Ayı Adam formundayken her Azim yükü için bonus hasar kazan. Ayrıca Ayı Adam formundayken her saniyede bir otomatik olarak Azim yükü kazanırsın.",
@@ -963,9 +963,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "Aşırı Güç",
-    "Description": "Ölüm Darbesi tüm yan yükseltmelerini kazanır ve #% artırılmış hasar verir.",
-    "DescriptionClean": "Ölüm Darbesi tüm yan yükseltmelerini kazanır ve artırılmış hasar verir.",
-    "Localisation": "{c_important}Ölüm Darbesi{/c} tüm yan yükseltmelerini kazanır ve {c_random}[Affix_Value_1 * 100|1%x|]{/c} artırılmış hasar verir.",
+    "Description": "Ölüm Darbesi tüm Yükseltmeleri bedelsiz kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Ölüm Darbesi tüm Yükseltmeleri bedelsiz kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Ölüm Darbesi{/c} tüm Yükseltmeleri bedelsiz kazanır ve {c_random}[Affix_Value_1 * 100|1%x|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -994,9 +994,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "Baal'ın Gözü",
-    "Description": "Ruh Parçacığı Yetenekleri ve iblisleri #% hasar verir. Bir Ruh Parçacığı Yeteneği kullanmak, tüm hasarını # saniyeliğine #%artırır. Bu miktar en fazla #% olabilir.",
-    "DescriptionClean": "Ruh Parçacığı Yetenekleri ve iblisleri hasar verir. Bir Ruh Parçacığı Yeteneği kullanmak, tüm hasarını saniyeliğine artırır. Bu miktar en fazla olabilir.",
-    "Localisation": "{c_important}Ruh Parçacığı{/c} Yetenekleri ve iblisleri {c_random}[Affix_Value_1*100|%x|]{/c} hasar verir. Bir {c_important}Ruh Parçacığı{/c} Yeteneği kullanmak, tüm hasarını {c_number}[Affix.\"Static Value 1\"]{/c} saniyeliğine {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}artırır. Bu miktar en fazla {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c} olabilir.",
+    "Description": "Ruh Parçacığı Yetenekleri ve iblisleri #% artırılmış hasar verir. Bir Ruh Parçacığı Yeteneği kullanmak, tüm hasarını # saniyeliğine #%artırır. Bu miktar en fazla #% olabilir.",
+    "DescriptionClean": "Ruh Parçacığı Yetenekleri ve iblisleri artırılmış hasar verir. Bir Ruh Parçacığı Yeteneği kullanmak, tüm hasarını saniyeliğine artırır. Bu miktar en fazla olabilir.",
+    "Localisation": "{c_important}Ruh Parçacığı{/c} Yetenekleri ve iblisleri {c_random}[Affix_Value_1*100|%x|]{/c} artırılmış hasar verir. Bir {c_important}Ruh Parçacığı{/c} Yeteneği kullanmak, tüm hasarını {c_number}[Affix.\"Static Value 1\"]{/c} saniyeliğine {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}artırır. Bu miktar en fazla {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c} olabilir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1024,7 +1024,7 @@
       "Pants_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Spiritborn_96",
     "Name": "Balazan'ın Aztek Peştamalı",
     "Description": "Kullanımların, Yakındaki düşmanlara Dikenlerinin hasarının #% kadarı hasar verir ve bu hasarın #% kadarı # saniye boyunca Zehir Hasarı olarak verilir.\r\n\r\nDikenler ile her karşılık verdiğinde Zehir Hasarı, # saniyeliğine #% artar. Bu artış en fazla #% olabilir.",
     "DescriptionClean": "Kullanımların, Yakındaki düşmanlara Dikenlerinin hasarının kadarı hasar verir ve bu hasarın kadarı saniye boyunca Zehir Hasarı olarak verilir. Dikenler ile her karşılık verdiğinde Zehir Hasarı, saniyeliğine artar. Bu artış en fazla olabilir.",
@@ -1124,7 +1124,7 @@
       "2HSword_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HSword_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "twoHandSword_uniq19",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Baş Şeytanların Aforozu",
     "Description": "Düşmanlara bir Çekirdek Yetenekle vurmak, senden aldıkları hasarı Yetenek başına #% artırır. Bu miktar en fazla #% olabilir. Baş Şeytan İblis Formu Yetenek Çeşitleri, Çekirdek Yetenekleridir ve Gazap bedeli gerektirir.",
     "DescriptionClean": "Düşmanlara bir Çekirdek Yetenekle vurmak, senden aldıkları hasarı Yetenek başına artırır. Bu miktar en fazla olabilir. Baş Şeytan İblis Formu Yetenek Çeşitleri, Çekirdek Yetenekleridir ve Gazap bedeli gerektirir.",
@@ -1310,11 +1310,10 @@
     "IdNameList": [
       "Pants_Unique_Sorc_101"
     ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
     "IdNameItemList": [
       "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
+      "Pants_Unique_Sorc_96"
     ],
     "IdNameItemActor": "Pants_Unique_Sorcerer_96",
     "Name": "Bucrani Azmi",
@@ -1491,7 +1490,7 @@
     "Name": "Buzun Hediyesi",
     "Description": "Buz Zırh, Sonsuz Donma Çeşidini bedelsiz olarak kazanır ve #% artırılmış tesire sahip olur.",
     "DescriptionClean": "Buz Zırh, Sonsuz Donma Çeşidini bedelsiz olarak kazanır ve artırılmış tesire sahip olur.",
-    "Localisation": "{c_important}Buz Zırh{/c}, {c_important}Sonsuz Donma{/c} Çeşidini bedelsiz olarak kazanır ve {c_random}[Affix_Value_1|%|]{/c} artırılmış tesire sahip olur.",
+    "Localisation": "{c_important}Buz Zırh{/c}, Sonsuz Donma Çeşidini bedelsiz olarak kazanır ve {c_random}[Affix_Value_1|%|]{/c} artırılmış tesire sahip olur.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -1522,7 +1521,7 @@
       "S12_2HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_2HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandSword_uniq06",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Büyükbaba",
     "Description": "Kritik Vuruş Hasarını #% artırır.",
     "DescriptionClean": "Kritik Vuruş Hasarını artırır.",
@@ -1650,9 +1649,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "Cehennem Cücesi",
-    "Description": "Baş Şeytan Yeteneklerin #% artırılmış hasar verir ve Alt İblis Yan Yükseltmelerini #% daha uzun sürelerle bedelsiz olarak kazanırlar.",
-    "DescriptionClean": "Baş Şeytan Yeteneklerin artırılmış hasar verir ve Alt İblis Yan Yükseltmelerini daha uzun sürelerle bedelsiz olarak kazanırlar.",
-    "Localisation": "{c_important}Baş Şeytan{/c} Yeteneklerin {c_random}[Affix_Value_1*100|x%|]{/c} artırılmış hasar verir ve Alt İblis Yan Yükseltmelerini {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} daha uzun sürelerle bedelsiz olarak kazanırlar.",
+    "Description": "Baş Şeytan Yeteneklerin #% artırılmış hasar verir ve Alt İblis Yükseltmelerini #% daha uzun sürelerle bedelsiz olarak kazanırlar.",
+    "DescriptionClean": "Baş Şeytan Yeteneklerin artırılmış hasar verir ve Alt İblis Yükseltmelerini daha uzun sürelerle bedelsiz olarak kazanırlar.",
+    "Localisation": "{c_important}Baş Şeytan{/c} Yeteneklerin {c_random}[Affix_Value_1*100|x%|]{/c} artırılmış hasar verir ve Alt İblis Yükseltmelerini {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} daha uzun sürelerle bedelsiz olarak kazanırlar.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1743,9 +1742,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "Cehennem Çekici",
-    "Description": "Ayaklanma Demir Patlaması Çeşidini kazanır ve #% artırılmış hasar verir.",
-    "DescriptionClean": "Ayaklanma Demir Patlaması Çeşidini kazanır ve artırılmış hasar verir.",
-    "Localisation": "{c_important}Ayaklanma{/c} {c_important}Demir Patlaması{/c} Çeşidini kazanır ve {c_random}[Affix_Value_1 * 100|1%x|]{/c} artırılmış hasar verir.",
+    "Description": "Ayaklanma, Demir Patlaması Çeşidini bedelsiz kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Ayaklanma, Demir Patlaması Çeşidini bedelsiz kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Ayaklanma{/c}, Demir Patlaması Çeşidini bedelsiz kazanır ve {c_random}[Affix_Value_1 * 100|1%x|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1974,7 +1973,7 @@
       "Boots_Unique_Barb_101",
       "Talisman_Charm_Unique_Boots_Unique_Barb_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Boots_Unique_Barbarian_103",
     "Name": "Dağ Kralının Toynakları",
     "Description": "Maksimum Hiddet sırasında bir Temel Yetenek kullanmak, tamamen bitene kadar Hiddetinin hızlıca kullanılmasına neden olur ve bu sırada Temel yeteneklerin bundan sonra hedefleri ikiye ayırarak #% artırılmış hasar verir.",
     "DescriptionClean": "Maksimum Hiddet sırasında bir Temel Yetenek kullanmak, tamamen bitene kadar Hiddetinin hızlıca kullanılmasına neden olur ve bu sırada Temel yeteneklerin bundan sonra hedefleri ikiye ayırarak artırılmış hasar verir.",
@@ -2007,7 +2006,7 @@
       "S12_2HPolearm_Unique_Generic_001",
       "Talisman_Charm_Unique_2HPolearm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandPolearm_uniq16",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Dağılmış Yemin",
     "Description": "Kalan canlarından daha fazla Zamanla Hasar etkisi altında olan düşmanları infaz et. ",
     "DescriptionClean": "Kalan canlarından daha fazla Zamanla Hasar etkisi altında olan düşmanları infaz et.",
@@ -2168,7 +2167,7 @@
       "Gloves_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_sets54",
     "Name": "Demir Gülün Yumruğu",
     "Description": "Yakındaki bir düşmana Nişancı veya Cani Yetenekleriyle her hasar verdiğinde # saniyeliğine #% Saldırı Hızı bonusu kazanırsın.\r\n\r\nİki Saldırı Hızı bonusu da etkinken Yakındaki düşmanlara #% artırılmış hasar verirsin.",
     "DescriptionClean": "Yakındaki bir düşmana Nişancı veya Cani Yetenekleriyle her hasar verdiğinde saniyeliğine Saldırı Hızı bonusu kazanırsın. İki Saldırı Hızı bonusu da etkinken Yakındaki düşmanlara artırılmış hasar verirsin.",
@@ -2325,7 +2324,7 @@
       "Ring_Unique_Sorc_104_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_104_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_018",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Drognan'ın Izdırabı",
     "Description": "Alev Büyüsü Yeteneklerini kullanmak, # saniye boyunca seni Maksimum Canının #% kadarıyla Yakar. Canının ne kadarının Yandığına bağlı olarak #% artırılmış Yanma hasarı verirsin.",
     "DescriptionClean": "Alev Büyüsü Yeteneklerini kullanmak, saniye boyunca seni Maksimum Canının kadarıyla Yakar. Canının ne kadarının Yandığına bağlı olarak artırılmış Yanma hasarı verirsin.",
@@ -2357,7 +2356,7 @@
       "Amulet_Unique_Spiritborn_103",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_103"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_022",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Dul Ağı",
     "Description": "Kritik Vuruşlar düşman üzerindeki Zehirleme etkinin patlamasına neden olarak anında toplam Zehirlemenin #% kadarını hedefe, patlamanın #% kadarını ise hedefin etrafındaki düşmanlara verip birincil hedeften Zehirleme etkisini kaldırır.",
     "DescriptionClean": "Kritik Vuruşlar düşman üzerindeki Zehirleme etkinin patlamasına neden olarak anında toplam Zehirlemenin kadarını hedefe, patlamanın kadarını ise hedefin etrafındaki düşmanlara verip birincil hedeften Zehirleme etkisini kaldırır.",
@@ -2576,7 +2575,7 @@
       "Glaive_Unique_Spiritborn_014_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_014_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq09",
     "Name": "Elçi Nesekem",
     "Description": "Her # saniyede bir kez Yakın bir rastgele düşmanı işaretlersin. İşaretli düşmanlar Savunmasız kalır ve onlara karşı saldırılarının Kritik Vuruş yapması garantidir.\r\n\r\nİşaretli bir düşmana # defa vurmak, o düşmandan işareti kaldırır.",
     "DescriptionClean": "Her saniyede bir kez Yakın bir rastgele düşmanı işaretlersin. İşaretli düşmanlar Savunmasız kalır ve onlara karşı saldırılarının Kritik Vuruş yapması garantidir. İşaretli bir düşmana defa vurmak, o düşmandan işareti kaldırır.",
@@ -2796,7 +2795,7 @@
       "1HDagger_Unique_Rogue_003_x2",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_003_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "dagger_uniq10",
     "Name": "Etna'nın Kayıp Hançeri",
     "Description": "# farklı türde Fiziksel Olmayan hasar vermek, Aşılama Yeteneklerinin Tesirini #% artırır ve Fiziksel Olmayan hasarı ise # saniye boyunca #% artırır. \r\n\r\nTemel Yetenekler artık Aşılanabilir.",
     "DescriptionClean": "farklı türde Fiziksel Olmayan hasar vermek, Aşılama Yeteneklerinin Tesirini artırır ve Fiziksel Olmayan hasarı ise saniye boyunca artırır.  Temel Yetenekler artık Aşılanabilir.",
@@ -2829,9 +2828,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "Fedai'nin Öğretisi",
-    "Description": "Temel Yeteneklerin tüm Yükseltmelerin etkilerini kazanır. Bir düşmana bir Temel Yetenekle hasar vermek diğer Temel Yeteneklerinden # saniye boyunca #% artırılmış hasar almasını sağlar.",
-    "DescriptionClean": "Temel Yeteneklerin tüm Yükseltmelerin etkilerini kazanır. Bir düşmana bir Temel Yetenekle hasar vermek diğer Temel Yeteneklerinden saniye boyunca artırılmış hasar almasını sağlar.",
-    "Localisation": "{c_important}Temel{/c} Yeteneklerin tüm Yükseltmelerin etkilerini kazanır. Bir düşmana bir {c_important}Temel{/c} Yetenekle hasar vermek diğer {c_important}Temel{/c} Yeteneklerinden {c_number}[Affix.\"Static Value 0\"]{/c} saniye boyunca {c_random}[Affix_Value_1 * 100|%x|]{/c} artırılmış hasar almasını sağlar.",
+    "Description": "Temel Yeteneklerin tüm Yükseltmeleri bedelsiz kazanır. Bir düşmana bir Temel Yetenekle hasar vermek diğer Temel Yeteneklerinden # saniye boyunca #% artırılmış hasar almasını sağlar.",
+    "DescriptionClean": "Temel Yeteneklerin tüm Yükseltmeleri bedelsiz kazanır. Bir düşmana bir Temel Yetenekle hasar vermek diğer Temel Yeteneklerinden saniye boyunca artırılmış hasar almasını sağlar.",
+    "Localisation": "{c_important}Temel{/c} Yeteneklerin tüm Yükseltmeleri bedelsiz kazanır. Bir düşmana bir {c_important}Temel{/c} Yetenekle hasar vermek diğer {c_important}Temel{/c} Yeteneklerinden {c_number}[Affix.\"Static Value 0\"]{/c} saniye boyunca {c_random}[Affix_Value_1 * 100|%x|]{/c} artırılmış hasar almasını sağlar.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -2991,7 +2990,7 @@
       "Ring_Unique_Spiritborn_006_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_006_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_055",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Gece Yarısı Güneşi Yüzüğü",
     "Description": "Kritik Vuruş yaptığında son # saniyede harcadığın Dinçliğin #% kadarını geri kazanırsın.\r\n\r\nKarşı Saldırının Pasif Etkisini kazanırsın.",
     "DescriptionClean": "Kritik Vuruş yaptığında son saniyede harcadığın Dinçliğin kadarını geri kazanırsın. Karşı Saldırının Pasif Etkisini kazanırsın.",
@@ -3023,7 +3022,7 @@
       "Gloves_Unique_Rogue_98",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_98"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_Unique_Rogue_98",
     "Name": "Gladyatör Zaferi",
     "Description": "Bir düşmana verdiğin ilk doğrudan hasar garanti bir Kritik Vuruştur. Bir Nişancı Yeteneği ilk kez Kritik Vuruş yaptığında #% artırılmış hasar kazanır ve sen # Aşırı Güç kazanırsın. Bu, Maksimum Aşırı Gücünün üzerine # kadar birikebilir.",
     "DescriptionClean": "Bir düşmana verdiğin ilk doğrudan hasar garanti bir Kritik Vuruştur. Bir Nişancı Yeteneği ilk kez Kritik Vuruş yaptığında artırılmış hasar kazanır ve sen Aşırı Güç kazanırsın. Bu, Maksimum Aşırı Gücünün üzerine kadar birikebilir.",
@@ -3117,7 +3116,7 @@
       "Amulet_Unique_Barb_105_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_105_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_008",
     "Name": "Gorgorra'nın Açık Gözü",
     "Description": "Zamanla Hasar uygularken, hasar miktarını #% artırmak için Kritik Vuruş İhtimaline eşit bir ihtimale sahip olursun.",
     "DescriptionClean": "Zamanla Hasar uygularken, hasar miktarını artırmak için Kritik Vuruş İhtimaline eşit bir ihtimale sahip olursun.",
@@ -3151,7 +3150,7 @@
       "Chest_Unique_Paladin_001",
       "Talisman_Charm_Unique_Chest_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Grilerin Örtüsü",
     "Description": "Ezici Yemin, Ezici Yeteneklerini #% büyütür fakat en fazla # Azim harcar ve Harcanan her puan başına #% artırılmış Ezici Yetenek hasarı kazandırır.",
     "DescriptionClean": "Ezici Yemin, Ezici Yeteneklerini büyütür fakat en fazla Azim harcar ve Harcanan her puan başına artırılmış Ezici Yetenek hasarı kazandırır.",
@@ -3184,7 +3183,7 @@
       "S12_1HSword_Unique_Paladin_002",
       "Talisman_Charm_Unique_1HSword_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "sword_uniq20",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Griswold'un Başyapıtı",
     "Description": "Doğrudan hasar vermek, # saniye içerisinde vurulan her bir düşman başına #% artırılmış Kritik Vuruş Hasarı kazandırır. Kazanç en fazla #% olabilir.\r\n\r\nMaksimum değere ulaşınca bunları kazanırsın:\r\n\r\nŞanslı Vuruş: Kritik Vuruşlar en fazla #% ihtimalle iki katı hasar verir, # Can İyileştirir ve bonusun süresini yeniler.",
     "DescriptionClean": "Doğrudan hasar vermek, saniye içerisinde vurulan her bir düşman başına artırılmış Kritik Vuruş Hasarı kazandırır. Kazanç en fazla olabilir. Maksimum değere ulaşınca bunları kazanırsın: Şanslı Vuruş: Kritik Vuruşlar en fazla ihtimalle iki katı hasar verir, Can İyileştirir ve bonusun süresini yeniler.",
@@ -3248,7 +3247,7 @@
       "S12_1HSword_Unique_Generic_100",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_100"
     ],
-    "IdNameItemActor": "sword_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Gök Mavi Gazap",
     "Description": "Dondurmanın süresi dolduktan sonra düşmanlar patlayarak Donmuşken onlara verdiğin hasarın #% kadarına eşit hasar verirler.",
     "DescriptionClean": "Dondurmanın süresi dolduktan sonra düşmanlar patlayarak Donmuşken onlara verdiğin hasarın kadarına eşit hasar verirler.",
@@ -3375,7 +3374,7 @@
       "Amulet_Unique_Barb_104_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_104_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_020",
     "Name": "Göçebenin Özleyen Kalbi",
     "Description": "Çekirdek Yetenekler #% artırılmış hasar verir ama Hiddet bedelleri #% artar. Yaralı düşmanlara karşı hasar ikiye katlanır.",
     "DescriptionClean": "Çekirdek Yetenekler artırılmış hasar verir ama Hiddet bedelleri artar. Yaralı düşmanlara karşı hasar ikiye katlanır.",
@@ -3502,7 +3501,7 @@
       "Amulet_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_018",
     "Name": "Güneş Kuşu Boyunluğu",
     "Description": "Fırtına Tüyü almak, çevrende # saniyeliğine bir alev fırtınası oluşturarak her # saniyede bir # Ateş Hasarı verir.\r\n\r\nEk olarak aldığın her # Fırtına Tüyü, alev fırtınasını güçlendirerek hasarını #% artırır ama süreyi yenilemez. Fırtına Tüyleri artık Jaguar Yeteneği olur ve alev fırtınası ise Kartal, Jaguar ve Fırtına Tüyü Yeteneği olur.",
     "DescriptionClean": "Fırtına Tüyü almak, çevrende saniyeliğine bir alev fırtınası oluşturarak her saniyede bir Ateş Hasarı verir. Ek olarak aldığın her Fırtına Tüyü, alev fırtınasını güçlendirerek hasarını artırır ama süreyi yenilemez. Fırtına Tüyleri artık Jaguar Yeteneği olur ve alev fırtınası ise Kartal, Jaguar ve Fırtına Tüyü Yeteneği olur.",
@@ -3660,9 +3659,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "Hamsin Bozkırgezenleri",
-    "Description": "Toprak Siperi'nin Toprak Şarapneli yükseltmesini bedelsiz kazan ve hasarı #% artır.",
-    "DescriptionClean": "Toprak Siperi'nin Toprak Şarapneli yükseltmesini bedelsiz kazan ve hasarı artır.",
-    "Localisation": "{c_important}Toprak Siperi'nin{/c} {c_important}Toprak Şarapneli{/c} yükseltmesini bedelsiz kazan ve hasarı {c_random}[Affix_Value_1*100|x%|]{/c} artır.",
+    "Description": "Toprak Siperi, Toprak Şarapneli Çeşidini ücretsiz olarak kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Toprak Siperi, Toprak Şarapneli Çeşidini ücretsiz olarak kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Toprak Siperi{/c}, Toprak Şarapneli Çeşidini ücretsiz olarak kazanır ve {c_random}[Affix_Value_1*100|x%|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3721,7 +3720,7 @@
       "Chest_Unique_Barb_100",
       "Talisman_Charm_Unique_Chest_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "TRS_sets52",
     "Name": "Harrogath'ın Öfkesi",
     "Description": "Bir düşmana Zamanla Hasar vermek, en fazla #% ihtimalle Yeteneklerinin Bekleme Sürelerini # saniye azaltır.",
     "DescriptionClean": "Bir düşmana Zamanla Hasar vermek, en fazla ihtimalle Yeteneklerinin Bekleme Sürelerini saniye azaltır.",
@@ -4071,7 +4070,7 @@
       "Gloves_Unique_Generic_005",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_005"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_gnrc126",
     "Name": "Kader Derisi",
     "Description": "Saldırılar Uzak Düşmanlara\u00A0Savunmasız, Yakın Düşmanlara ise Zayıflamış etkisi uygular. Hem Savunmasız hem de Zayıflamış Düşmanlara #% artırılmış hasar verirsin.",
     "DescriptionClean": "Saldırılar Uzak Düşmanlara\u00A0Savunmasız, Yakın Düşmanlara ise Zayıflamış etkisi uygular. Hem Savunmasız hem de Zayıflamış Düşmanlara artırılmış hasar verirsin.",
@@ -4552,7 +4551,7 @@
       "Amulet_Unique_Barb_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Karanlık İz Sürücünün Madalyonu",
     "Description": "Çift El Ezici, Çift El Kesici veya İkili silahlarla Yetenek kullanmak # saniyeliğine #% artırılmış hasar kazandırır.\r\n\r\nÜç bonus da etkinken #% Kitle Kontrolü Süresi ve Saldırı Hızı kazanırsın.",
     "DescriptionClean": "Çift El Ezici, Çift El Kesici veya İkili silahlarla Yetenek kullanmak saniyeliğine artırılmış hasar kazandırır. Üç bonus da etkinken Kitle Kontrolü Süresi ve Saldırı Hızı kazanırsın.",
@@ -4681,7 +4680,7 @@
       "1HShield_Unique_Necro_101",
       "Talisman_Charm_Unique_1HShield_Unique_Necro_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq03",
     "Name": "Kasvet Koruması",
     "Description": "Gölge hasarı düşmanlara # saniye boyunca Gölgemaraz bulaştırır. Gölgemaraz bulaşmış bir düşman, senden her 8. kez Gölge hasarı alışında # saniye boyunca bu hasarın #% kadarını ilave Yozlaşma hasarı olarak alır.",
     "DescriptionClean": "Gölge hasarı düşmanlara saniye boyunca Gölgemaraz bulaştırır. Gölgemaraz bulaşmış bir düşman, senden her 8. kez Gölge hasarı alışında saniye boyunca bu hasarın kadarını ilave Yozlaşma hasarı olarak alır.",
@@ -4777,7 +4776,7 @@
       "Quarterstaff_Unique_Spiritborn_016_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_016_x1"
     ],
-    "IdNameItemActor": "twoHandQuarterstaff_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Kepeleke Çubuğu",
     "Description": "Çekirdek Yeteneklerin artık ek olarak kullanması bedelsiz birer Temel Yetenek hâline gelir.\r\n\r\nMaksimum Dinçlikte kullanıldığında Çekirdek Yeteneklerin tüm Dinçliği tüketerek en büyük Boyutunda kullanılır ve bu şekilde harcanan her Dinçlik puanı için #% artırılmış Kritik Vuruş Hasarına sahip olan garanti Kritik Vuruşlar yapar.",
     "DescriptionClean": "Çekirdek Yeteneklerin artık ek olarak kullanması bedelsiz birer Temel Yetenek hâline gelir. Maksimum Dinçlikte kullanıldığında Çekirdek Yeteneklerin tüm Dinçliği tüketerek en büyük Boyutunda kullanılır ve bu şekilde harcanan her Dinçlik puanı için artırılmış Kritik Vuruş Hasarına sahip olan garanti Kritik Vuruşlar yapar.",
@@ -4840,7 +4839,7 @@
       "Amulet_Unique_Paladin_002",
       "Talisman_Charm_Unique_Amulet_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_025",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Kethamar Kutsalı",
     "Description": "Yargıcı formu, Hare Tesirini #%, Kanat Darbesi hasarını #% artırır",
     "DescriptionClean": "Yargıcı formu, Hare Tesirini , Kanat Darbesi hasarını artırır",
@@ -4935,9 +4934,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "Kocakarı Büyük Asası",
-    "Description": "Pençe tüm Çeşitleri kazanır ve #% bonus hasar verir.",
-    "DescriptionClean": "Pençe tüm Çeşitleri kazanır ve bonus hasar verir.",
-    "Localisation": "{c_important}Pençe{/c} tüm Çeşitleri kazanır ve {c_random}[Affix_Value_1*100|x%|]{/c} bonus hasar verir.",
+    "Description": "Pençe tüm Çeşitleri bedelsiz kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Pençe tüm Çeşitleri bedelsiz kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Pençe{/c} tüm Çeşitleri bedelsiz kazanır ve {c_random}[Affix_Value_1*100|x%|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5187,7 +5186,7 @@
       "Amulet_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_009",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Kırmızı Kutsama",
     "Description": "Sağlıklıyken # Maksimum Aşırı Güç kazanırsın. Kan Küreleri, # Aşırı Güç yükü kazandırır.\r\n\r\nHer Aşırı Güç yükü başına #% artırılmış hasar verirsin.",
     "DescriptionClean": "Sağlıklıyken Maksimum Aşırı Güç kazanırsın. Kan Küreleri, Aşırı Güç yükü kazandırır. Her Aşırı Güç yükü başına artırılmış hasar verirsin.",
@@ -5251,7 +5250,7 @@
       "Ring_Unique_Spiritborn_002_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_002_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_054",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Kıvranan Ay Yüzüğü",
     "Description": "Her # saniyede bir kez vuruş başına # Zehir hasarı veren bir Tehlikeli Sürü ortaya çıkar. \r\n\r\nTehlikeli Sürülerin artık senin çevrende döner ve vuruş başına kuşanılmış bir Kartal Yeteneğinin bekleme süresini # saniye azaltır.",
     "DescriptionClean": "Her saniyede bir kez vuruş başına Zehir hasarı veren bir Tehlikeli Sürü ortaya çıkar.  Tehlikeli Sürülerin artık senin çevrende döner ve vuruş başına kuşanılmış bir Kartal Yeteneğinin bekleme süresini saniye azaltır.",
@@ -5412,9 +5411,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "Kızıl Vaaz",
-    "Description": "Şevk #% artırılmış hasar verir ve Ölüm ve Şöhret Çeşidini ücretsiz edinir.",
-    "DescriptionClean": "Şevk artırılmış hasar verir ve Ölüm ve Şöhret Çeşidini ücretsiz edinir.",
-    "Localisation": "{c_important}Şevk{/c} {c_random}[Affix_Value_1*100|%x|]{/c} artırılmış hasar verir ve {c_important}Ölüm ve Şöhret{/c} Çeşidini ücretsiz edinir.",
+    "Description": "Şevk, Ölüm veya Şöhret Çeşidini ücretsiz kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Şevk, Ölüm veya Şöhret Çeşidini ücretsiz kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Şevk{/c}, {c_important}Ölüm veya Şöhret{/c} Çeşidini ücretsiz kazanır ve {c_random}[Affix_Value_1*100|%x|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5505,7 +5504,7 @@
       "Chest_Unique_Spiritborn_013_x1",
       "Talisman_Charm_Unique_Chest_Unique_Spiritborn_013_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_Unique_Spiritborn_95",
     "Name": "Lal Kabuk",
     "Description": "Dinçlik harcamak, seni Maksimum Canının #% kadarı iyileştirir. \r\n\r\nEtkin Bekleme Sürelerinin her biri, her saniye Maksimum Canından #% tüketerek sürelerini # saniye azaltır. ",
     "DescriptionClean": "Dinçlik harcamak, seni Maksimum Canının kadarı iyileştirir.  Etkin Bekleme Sürelerinin her biri, her saniye Maksimum Canından tüketerek sürelerini saniye azaltır.",
@@ -5568,7 +5567,7 @@
       "S05_BSK_Amulet_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Amulet_Unique_Generic_001"
     ],
-    "IdNameItemActor": "S05_Locran_Petal_Necklace_01_Flippy",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Locran'ın Tılsımı",
     "Description": "Kritik Vuruşlar #% artırılmış hasar verir ancak Kritik Vuruş İhtimalin #% azalır.",
     "DescriptionClean": "Kritik Vuruşlar artırılmış hasar verir ancak Kritik Vuruş İhtimalin azalır.",
@@ -5605,7 +5604,7 @@
       "S05_BSK_Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Helmet_unique_generic_128",
     "Name": "Lucion'un Tacı",
     "Description": "Birincil Kaynak Bedeli olan bir Yeteneği her kullandığında #% artırılmış hasar kazanırsın ve Kaynak Bedelin # saniyeliğine #% artar. En fazla # kez birikir.",
     "DescriptionClean": "Birincil Kaynak Bedeli olan bir Yeteneği her kullandığında artırılmış hasar kazanırsın ve Kaynak Bedelin saniyeliğine artar. En fazla kez birikir.",
@@ -6435,7 +6434,7 @@
       "S05_BSK_Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Boots_unique_generic_126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Rakanoth'un Adımları",
     "Description": "Bekleme Süresi olan bir Yetenek kullandığında patlayarak # Ateş hasarı verirsin.",
     "DescriptionClean": "Bekleme Süresi olan bir Yetenek kullandığında patlayarak Ateş hasarı verirsin.",
@@ -6634,7 +6633,7 @@
       "Helm_Unique_Spiritborn_011_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_011_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_crft44",
     "Name": "Sadakat Örtüsü",
     "Description": "Ruhlar Salonu seçimlerin eşleştiğinde:\r\n Bonusları #% daha etkilidir.\r\n Temel Ruhlarının Yetenekleri #% Dinçlik Bedeli Azaltma kazanır.\r\n Temel Ruhlarının Yetenekleri #% Bekleme Süresi Azaltma kazanır.",
     "DescriptionClean": "Ruhlar Salonu seçimlerin eşleştiğinde: Bonusları daha etkilidir. Temel Ruhlarının Yetenekleri Dinçlik Bedeli Azaltma kazanır. Temel Ruhlarının Yetenekleri Bekleme Süresi Azaltma kazanır.",
@@ -7053,7 +7052,7 @@
       "Amulet_Unique_Barb_102_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_102_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_005",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Staalbreak Amblemi",
     "Description": "Başıbozukluğun hasar bonusu #% artar. Sağlıklı değilken her zaman Başıbozuk olursun.",
     "DescriptionClean": "Başıbozukluğun hasar bonusu artar. Sağlıklı değilken her zaman Başıbozuk olursun.",
@@ -7182,7 +7181,7 @@
       "Ring_Unique_Sorc_101",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Sorcerer_Master",
     "Name": "Tal Rasha'nın Yanardöner Halkası",
     "Description": "Alev Büyüsü, Şok ya da Buz Yeteneği kullandığında hasarın her Element için bir kez birikecek şekilde # saniyeliğine #% artar. Önceki yetenek farklı bir Elementse tekrar kullanımda tüm bonuslar yenilenir.",
     "DescriptionClean": "Alev Büyüsü, Şok ya da Buz Yeteneği kullandığında hasarın her Element için bir kez birikecek şekilde saniyeliğine artar. Önceki yetenek farklı bir Elementse tekrar kullanımda tüm bonuslar yenilenir.",
@@ -7405,7 +7404,7 @@
       "Pants_Unique_Generic_102",
       "Talisman_Charm_Unique_Pants_Unique_Generic_102"
     ],
-    "IdNameItemActor": "LEG_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Tibault'un İradesi",
     "Description": "Durdurulamaz durumdayken ve sonraki # saniye boyunca #% artırılmış hasar verirsin ve # Birincil Kaynak Yenilemesi kazanırsın.",
     "DescriptionClean": "Durdurulamaz durumdayken ve sonraki saniye boyunca artırılmış hasar verirsin ve Birincil Kaynak Yenilemesi kazanırsın.",
@@ -7598,7 +7597,7 @@
       "Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_sets52",
     "Name": "Tövbekâr Baldırlık",
     "Description": "Kalıcı olarak Engelsiz olursun ve arkanda düşmanları Soğutan bir buz izi bırakırsın. \r\n\r\nSoğutma etkilerin, düşmanların senden #% artırılmış hasar almasına neden olur.",
     "DescriptionClean": "Kalıcı olarak Engelsiz olursun ve arkanda düşmanları Soğutan bir buz izi bırakırsın.  Soğutma etkilerin, düşmanların senden artırılmış hasar almasına neden olur.",
@@ -7869,7 +7868,7 @@
       "Glaive_Unique_Spiritborn_010_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_010_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq05",
     "Name": "Wushe Nak Pa",
     "Description": "Bir Ulti Yeteneği kullanmak, # saniyeliğine eşleşen Birincil Ruh Salonu Bonusunu verir veya tesirini #% artırır.\r\n\r\nUlti Yeteneklerinin her biri, ilave bir Yetenek Türüne sahip olur:\r\n Arayıcı, bir Odak Yeteneğidir.\r\n Avcı, bir Hareketlilik Yeteneğidir.\r\n Sömürücü, bir Tesir Yeteneğidir.\r\n Koruyucu, bir Savunma Yeteneğidir.",
     "DescriptionClean": "Bir Ulti Yeteneği kullanmak, saniyeliğine eşleşen Birincil Ruh Salonu Bonusunu verir veya tesirini artırır. Ulti Yeteneklerinin her biri, ilave bir Yetenek Türüne sahip olur: Arayıcı, bir Odak Yeteneğidir. Avcı, bir Hareketlilik Yeteneğidir. Sömürücü, bir Tesir Yeteneğidir. Koruyucu, bir Savunma Yeteneğidir.",
@@ -7901,7 +7900,7 @@
       "Ring_Unique_Generic_102",
       "Talisman_Charm_Unique_Ring_Unique_Generic_102"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_013",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "X'Fal'ın Aşınmış Damgası",
     "Description": "Uyguladığın her Zamanla Hasar türü her saniye patlayarak çevredeki düşmanlara # saniye boyunca # hasar verir.",
     "DescriptionClean": "Uyguladığın her Zamanla Hasar türü her saniye patlayarak çevredeki düşmanlara saniye boyunca hasar verir.",
@@ -7933,7 +7932,7 @@
       "Ring_Unique_Druid_04_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_04_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_005",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Yaban Sözleşmesi",
     "Description": "Her Yoldaş Yeteneğin ilave 1 yoldaş kazanır ve #% bonus hasar verir.\r\n\r\nKuzgun, Kurt ve Zehirli Sarmaşık Pasif Etkilerini bedelsiz kazanırsın.",
     "DescriptionClean": "Her Yoldaş Yeteneğin ilave 1 yoldaş kazanır ve bonus hasar verir. Kuzgun, Kurt ve Zehirli Sarmaşık Pasif Etkilerini bedelsiz kazanırsın.",
@@ -8029,7 +8028,7 @@
       "Ring_Unique_Spiritborn_001_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_001_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_051",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Yara İçen",
     "Description": "Her Diken hasarı verdiğinde # Dinçlik kazanırsın.\r\n\r\nZehirli Derinin Pasif Etkisini kazanırsın.",
     "DescriptionClean": "Her Diken hasarı verdiğinde Dinçlik kazanırsın. Zehirli Derinin Pasif Etkisini kazanırsın.",
@@ -8061,7 +8060,7 @@
       "Ring_Unique_Druid_05_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_05_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_008",
     "Name": "Yaşlı Kurdun Simgesi",
     "Description": "#% Bonus Zehirleme hasarı kazan.\r\nKurt Adam Yeteneklerinden gelen doğrudan hasar, bonus Zehirleme hasarının #% kadarına eşit bir bonus kazanır. Bu miktar en fazla #% olabilir.\r\nKurt Adam Yeteneklerinden gelen zehir hasarı, bonus Saldırı Hızı ve Kritik Vuruş İhtimalinin #% kadarına eşit bir bonus kazanır. Bu miktar en fazla #% olabilir.\r\n\r\nMevcut Doğrudan Hasar bonusu: #%\r\nMevcut Zehir Hasarı bonusu: #%",
     "DescriptionClean": "Bonus Zehirleme hasarı kazan. Kurt Adam Yeteneklerinden gelen doğrudan hasar, bonus Zehirleme hasarının kadarına eşit bir bonus kazanır. Bu miktar en fazla olabilir. Kurt Adam Yeteneklerinden gelen zehir hasarı, bonus Saldırı Hızı ve Kritik Vuruş İhtimalinin kadarına eşit bir bonus kazanır. Bu miktar en fazla olabilir. Mevcut Doğrudan Hasar bonusu: Mevcut Zehir Hasarı bonusu:",
@@ -8093,7 +8092,7 @@
       "Boots_Unique_Generic_003",
       "Talisman_Charm_Unique_Boots_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Boots_Unique_Generic_125",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Yen'in Kutsaması",
     "Description": "Bir Yetenek kullanmak #% ihtimalle şu anda Bekleme Süresinde olan, Hareket veya Ulti Olmayan bir Yetenek tetikler. Yalnızca # saniyede bir kez gerçekleşebilir.",
     "DescriptionClean": "Bir Yetenek kullanmak ihtimalle şu anda Bekleme Süresinde olan, Hareket veya Ulti Olmayan bir Yetenek tetikler. Yalnızca saniyede bir kez gerçekleşebilir.",
@@ -8187,11 +8186,11 @@
       "Ring_Unique_Druid_02_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_02_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_019",
     "Name": "Yeşil Gezginin Damgası",
-    "Description": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, %# ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri #% bonus hasar verir.",
-    "DescriptionClean": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri bonus hasar verir.",
-    "Localisation": "Bir {c_important}İnsan{/c} Yeteneği Kullanmak veya Yönlendirmek, {c_number}%[Affix_Value_1*100]{/c} ihtimalle {c_important}Ulti{/c} olmayan ilave bir donanılmış {c_important}İnsan{/c} Yeteneği tetikler. {c_important}İnsan{/c} Yetenekleri {c_random}[Affix_Value_2*100|x%|]{/c} bonus hasar verir.",
+    "Description": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, %# ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri x%|# bonus hasar verir.",
+    "DescriptionClean": "Bir İnsan Yeteneği Kullanmak veya Yönlendirmek, ihtimalle Ulti olmayan ilave bir donanılmış İnsan Yeteneği tetikler. İnsan Yetenekleri x| bonus hasar verir.",
+    "Localisation": "Bir {c_important}İnsan{/c} Yeteneği Kullanmak veya Yönlendirmek, {c_number}%[Affix_Value_1*100]{/c} ihtimalle {c_important}Ulti{/c} olmayan ilave bir donanılmış {c_important}İnsan{/c} Yeteneği tetikler. {c_important}İnsan{/c} Yetenekleri {c_random}x%|[Affix_Value_2*100|]{/c} bonus hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8220,9 +8219,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_97",
     "Name": "Yeşil Gezginin Yemini",
-    "Description": "Zehirli Sarmaşık, Çimlenme Çeşidini ücretsiz olarak kazanır ve #% bonus hasar verir.",
-    "DescriptionClean": "Zehirli Sarmaşık, Çimlenme Çeşidini ücretsiz olarak kazanır ve bonus hasar verir.",
-    "Localisation": "{c_important}Zehirli Sarmaşık{/c}, {c_important}Çimlenme{/c} Çeşidini ücretsiz olarak kazanır ve {c_random}[Affix_Value_1*100|x%|]{/c} bonus hasar verir.",
+    "Description": "Zehirli Sarmaşık, Çimlenme Çeşidini ücretsiz olarak kazanır ve #% artırılmış hasar verir.",
+    "DescriptionClean": "Zehirli Sarmaşık, Çimlenme Çeşidini ücretsiz olarak kazanır ve artırılmış hasar verir.",
+    "Localisation": "{c_important}Zehirli Sarmaşık{/c}, Çimlenme Çeşidini ücretsiz olarak kazanır ve {c_random}[Affix_Value_1*100|x%|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8344,9 +8343,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "Yücelten El",
-    "Description": "Metamorfoz, tüm Yan Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler #% daha etkilidir.",
-    "DescriptionClean": "Metamorfoz, tüm Yan Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler daha etkilidir.",
-    "Localisation": "{c_important}Metamorfoz{/c}, tüm Yan Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler {c_random}[Affix_Value_1*100|+%|]{/c} daha etkilidir.",
+    "Description": "Metamorfoz, tüm Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler #% daha etkilidir.",
+    "DescriptionClean": "Metamorfoz, tüm Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler daha etkilidir.",
+    "Localisation": "{c_important}Metamorfoz{/c}, tüm Yükseltmeleri ücretsiz olarak kazanır ve bu yükseltmeler {c_random}[Affix_Value_1*100|+%|]{/c} daha etkilidir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8467,12 +8466,45 @@
       "Ring_Unique_Generic_101",
       "Talisman_Charm_Unique_Ring_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Yıldızsız Gökler Yüzüğü",
     "Description": "Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını # saniyeliğine #% artırır. Bu artış en fazla #% olabilir. ",
     "DescriptionClean": "Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını saniyeliğine artırır. Bu artış en fazla olabilir.",
     "Localisation": "Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını {c_number}[Affix.\"Static Value 1\"]{/c} saniyeliğine {c_number}[Affix_Value_1|%x|]{/c} artırır. Bu artış en fazla {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c} olabilir. ",
     "MagicType": 4,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "Yıldızsız Gökler Yüzüğü",
+    "Description": "Mitik: Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını # saniyeliğine #% artırır. Bu artış en fazla #% olabilir. ",
+    "DescriptionClean": "Mitik: Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını saniyeliğine artırır. Bu artış en fazla olabilir.",
+    "Localisation": "{c_mythic}Mitik: {/c}Birincil Kaynağını harcamak, Yeteneklerinin Kaynak bedelini azaltır ve hasarını {c_number}[Affix.\"Static Value 1\"]{/c} saniyeliğine {c_number}[Affix_Value_1|1%x|]{/c} artırır. Bu artış en fazla {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c} olabilir. ",
+    "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
       1,
@@ -9096,7 +9128,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_053",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Öğle Avı Yüzüğü",
     "Description": "Maksimum Dinçliğin #% artar ve her düşman öldürdüğünde # Dinçlik kazanırsın. \r\n\r\nVahşiliğe sahipken Zehirleme etkilerin #% daha uzun sürer. ",
     "DescriptionClean": "Maksimum Dinçliğin artar ve her düşman öldürdüğünde Dinçlik kazanırsın.  Vahşiliğe sahipken Zehirleme etkilerin daha uzun sürer.",
@@ -9128,7 +9160,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Üstün Koruması",
     "Description": "Hareket ederken #% Sıyrılma İhtimali ve Hasar Azaltma kazanırsın. \r\n\r\n# saniye sabit durduktan sonra hareket edene kadar Durdurulamaz hâle gelirsin.",
     "DescriptionClean": "Hareket ederken Sıyrılma İhtimali ve Hasar Azaltma kazanırsın.  saniye sabit durduktan sonra hareket edene kadar Durdurulamaz hâle gelirsin.",
@@ -9191,7 +9223,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandMace_uniq17",
     "Name": "Üçler Asası",
     "Description": "Artık tüm Ulti Yetenekleri kuşanabilir ve onlarda # Kademe kazanırsın. Aktif bir Ulti Yeteneği olmadan düşmanlara saldırmak, Ulti Yetenek hasarını #% oranında artırır. Bu miktar en fazla #% olabilir. Ulti Yeteneklerini başlattıktan sonra hepsi sona erdiğinde hasar bonusu sıfırlanır.",
     "DescriptionClean": "Artık tüm Ulti Yetenekleri kuşanabilir ve onlarda Kademe kazanırsın. Aktif bir Ulti Yeteneği olmadan düşmanlara saldırmak, Ulti Yetenek hasarını oranında artırır. Bu miktar en fazla olabilir. Ulti Yeteneklerini başlattıktan sonra hepsi sona erdiğinde hasar bonusu sıfırlanır.",
@@ -9260,7 +9292,7 @@
       "Ring_Unique_Paladin_002",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_020",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "İkinci Trompetin Mührü",
     "Description": "Yargıç Yemini'ni kullanırken Yargı #% artırılmış hasar verir ve #% ihtimalle iki defa patlar.",
     "DescriptionClean": "Yargıç Yemini'ni kullanırken Yargı artırılmış hasar verir ve ihtimalle iki defa patlar.",
@@ -9323,7 +9355,7 @@
       "Ring_Unique_Spiritborn_003_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_003_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_052",
     "Name": "İlk Nefes Sade Yüzüğü",
     "Description": "Kaçın kullanmak, verdiğin hasarı # saniyeliğine #% artırmak için # Azim birikmesi tüketir.\r\n\r\nZırhlı Postun Pasif Etkisini kazanırsın.",
     "DescriptionClean": "Kaçın kullanmak, verdiğin hasarı saniyeliğine artırmak için Azim birikmesi tüketir. Zırhlı Postun Pasif Etkisini kazanırsın.",
@@ -9394,7 +9426,7 @@
     "Name": "İrinli Gül Takımı",
     "Description": "Şanslı Vuruş: Kuşanıldığı sürece Zehir veya Soğuk Aşılanmış Yetenekler en fazla #% ihtimalle kuşandığın Zehir Tuzağının elementine göre bir Zehir Tuzağı yerleştirir.\r\n\r\nZehir Tuzağı Casus Çeşidini maliyetsiz olarak kazanır ve #% artırılmış hasar verir.",
     "DescriptionClean": "Şanslı Vuruş: Kuşanıldığı sürece Zehir veya Soğuk Aşılanmış Yetenekler en fazla ihtimalle kuşandığın Zehir Tuzağının elementine göre bir Zehir Tuzağı yerleştirir. Zehir Tuzağı Casus Çeşidini maliyetsiz olarak kazanır ve artırılmış hasar verir.",
-    "Localisation": "{c_label}Şanslı Vuruş:{/c} Kuşanıldığı sürece Zehir veya Soğuk {c_important}Aşılanmış{/c} Yetenekler en fazla {c_number}[Affix.\"Static Value 0\"|%|]{/c} ihtimalle kuşandığın {c_important}Zehir Tuzağının{/c} elementine göre bir {c_important}Zehir Tuzağı{/c} yerleştirir.\r\n\r\n{c_important}Zehir Tuzağı{/c} {c_important}Casus{/c} Çeşidini maliyetsiz olarak kazanır ve {c_random}[Affix_Value_1|x%|]{/c} artırılmış hasar verir.",
+    "Localisation": "{c_label}Şanslı Vuruş:{/c} Kuşanıldığı sürece Zehir veya Soğuk {c_important}Aşılanmış{/c} Yetenekler en fazla {c_number}[Affix.\"Static Value 0\"|%|]{/c} ihtimalle kuşandığın {c_important}Zehir Tuzağının{/c} elementine göre bir {c_important}Zehir Tuzağı{/c} yerleştirir.\r\n\r\n{c_important}Zehir Tuzağı{/c} Casus Çeşidini maliyetsiz olarak kazanır ve {c_random}[Affix_Value_1|x%|]{/c} artırılmış hasar verir.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -9485,7 +9517,7 @@
       "Pants_Unique_Generic_101",
       "Talisman_Charm_Unique_Pants_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets55",
     "Name": "Şafak Vakti Uyluk Zırhı",
     "Description": "Fiziksel Olmayan türden hasar aldığında bu hasar türüne karşı # saniyeliğine #% Direnç kazanırsın. Bu etki aynı anda yalnızca bir hasar türü için geçerli olabilir.",
     "DescriptionClean": "Fiziksel Olmayan türden hasar aldığında bu hasar türüne karşı saniyeliğine Direnç kazanırsın. Bu etki aynı anda yalnızca bir hasar türü için geçerli olabilir.",

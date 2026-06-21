@@ -49,7 +49,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "アエゴイェ",
     "Description": "古代の裁判所。霊たちが平穏を求めて今も彷徨っている。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -252,15 +252,6 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2355995,
-    "IdName": "DungeonAffix_Minor_S9_Suppressor",
-    "Name": "エリート（抑圧者）",
-    "Description": "エリートモンスターが「抑圧者」の特性を持ち、ダメージが20%増加する。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Minor"
-  },
-  {
     "IdSno": 1314333,
     "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
     "Name": "エリート（抑圧者）",
@@ -268,6 +259,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Major"
+  },
+  {
+    "IdSno": 2355995,
+    "IdName": "DungeonAffix_Minor_S9_Suppressor",
+    "Name": "エリート（抑圧者）",
+    "Description": "エリートモンスターが「抑圧者」の特性を持ち、ダメージが20%増加する。",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Minor"
   },
   {
     "IdSno": 1314342,
@@ -594,33 +594,6 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "ダンジョン探査",
-    "Description": "ダンジョンをクリアすると経験値と報酬を追加で獲得できる。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "ダンジョン探査",
-    "Description": "ダンジョンをクリアすると経験値と報酬を追加で獲得できる。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "ダンジョン探査",
-    "Description": "ダンジョンをクリアすると経験値と報酬を追加で獲得できる。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
     "Name": "ダンジョン探査",
@@ -687,7 +660,7 @@
     "IdSno": 1314354,
     "IdName": "DungeonAffix_Minor_Monster_AttackFaster",
     "Name": "ハンター",
-    "Description": "モンスターの速度が異様に上がり、移動速度と攻撃速度が15%上昇する。",
+    "Description": "モンスターの速度が異様に上がり、移動速度と攻撃速度が33%上昇する。",
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Minor"
@@ -1183,7 +1156,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "不気味な安息所",
     "Description": "憎悪の分遣隊が主の意志を果たすために集まる場所。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1219,7 +1192,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "予言者の手",
     "Description": "空気は不気味なほど静かだ。その下に何が潜んでいるのだろか？",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1489,7 +1462,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "失われし者の隠れ家",
     "Description": "欺く者の監視下に置かれた安らぎの場。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1570,7 +1543,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "山の心臓",
     "Description": "溶解した血液が脈打つ、山の隠された心臓部。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1579,7 +1552,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "岩滓質の道",
     "Description": "溶岩が形成した洞窟は、頑強な者を計り知れない富へと導く。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1588,7 +1561,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "岩滓質の道",
     "Description": "溶岩が形成した洞窟は、頑強な者を計り知れない富へと導く。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1597,7 +1570,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "岩滓質の道",
     "Description": "溶岩が形成した洞窟は、頑強な者を計り知れない富へと導く。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1669,7 +1642,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "後背地",
     "Description": "財宝の噂があるにもかかわらず、この海岸を渡った者はほとんどいない。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2029,7 +2002,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "沈下した遺跡",
     "Description": "珊瑚とフジツボに支えられた、大昔に忘れ去られた廃墟。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2056,7 +2029,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "海の怪物の洞窟",
     "Description": "海の怪物が囚えた者たちが集められているじめじめした洞窟。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2164,7 +2137,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "焼け焦げた坑道",
     "Description": "溶岩が形成した洞窟は、頑強な者を計り知れない富へと導く。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2227,7 +2200,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "玄武岩の勾配",
     "Description": "溶岩の浸食を受けながらも、この遺跡は耐え続けている。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2443,7 +2416,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "第一子の秘密の遺構",
     "Description": "火砕物によって保存された歴史の一片。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2587,7 +2560,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "苦悩の森",
     "Description": "森の呪いを解かなければ、幽霊の仲間入りをすることになる。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2632,7 +2605,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "荒れ狂う雷雲",
     "Description": "この地形は幾世紀にもわたる激しい噴火によって形成された。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2902,7 +2875,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "闇の隠れ家",
     "Description": "伝説的な財宝にまつわる噂が常に囁かれている荒廃した地下墓所。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -3028,7 +3001,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "飲み込まれし神殿",
     "Description": "時間に取り残されたかのような第一子の神殿。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -3046,7 +3019,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "魅惑の岩屋",
     "Description": "不気味な調べが無警戒の者を危険な恍惚状態へと誘う。",
-    "DungeonZoneInfo": "の ",
+    "DungeonZoneInfo": "の スコヴォス",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

@@ -44,7 +44,7 @@
       "Ring_Unique_Druid_04_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_04_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_005",
     "Name": "Accord des contrées sauvages",
     "Description": "Vos compétences de compagnon génèrent chacune 1\u00A0compagnons supplémentaires et infligent #%\u00A0points de dégâts supplémentaires.\r\n\r\nVous bénéficiez gratuitement de l’effet de compétence passive des corbeaux, des loups et du lierre empoisonné.",
     "DescriptionClean": "Vos compétences de compagnon génèrent chacune 1\u00A0compagnons supplémentaires et infligent \u00A0points de dégâts supplémentaires. Vous bénéficiez gratuitement de l’effet de compétence passive des corbeaux, des loups et du lierre empoisonné.",
@@ -263,7 +263,7 @@
       "2HSword_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HSword_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandSword_uniq19",
     "Name": "Anathème des Primordiaux",
     "Description": "Lorsque vous touchez une cible adverse avec une compétence principale, celle-ci subit #% de dégâts supplémentaires par compétence de votre part, jusqu’à un maximum de #%. Les variantes de compétences d’archidémon et de forme démoniaque sont des compétences principales et coûtent des points de colère.",
     "DescriptionClean": "Lorsque vous touchez une cible adverse avec une compétence principale, celle-ci subit de dégâts supplémentaires par compétence de votre part, jusqu’à un maximum de. Les variantes de compétences d’archidémon et de forme démoniaque sont des compétences principales et coûtent des points de colère.",
@@ -390,7 +390,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_053",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Anneau de la chasse méridienne",
     "Description": "Votre maximum de vigueur augmente de #% et l’élimination d’une cible adverse vous octroie #\u00A0points de vigueur. \r\n\r\nTant que vous bénéficiez de Férocité, vos nouveaux effets de poison durent #% plus longtemps. ",
     "DescriptionClean": "Votre maximum de vigueur augmente de et l’élimination d’une cible adverse vous octroie \u00A0points de vigueur.  Tant que vous bénéficiez de Férocité, vos nouveaux effets de poison durent plus longtemps.",
@@ -486,9 +486,9 @@
     ],
     "IdNameItemActor": "Icons_Ring_Unique_017",
     "Name": "Anneau des affamés",
-    "Description": "La durée de Déchirure augmente de #\u00A0s et les dégâts qu’elle inflige augmentent de #%. \r\n\r\nLorsque vous infligez des dégâts à des adversaires grâce à vos compétences de bagarre, vous appliquez #\u00A0cumuls de saignement de Déchirure. Cet effet ne peut affecter la même cible qu’une seule fois toutes les #\u00A0s.",
-    "DescriptionClean": "La durée de Déchirure augmente de \u00A0s et les dégâts qu’elle inflige augmentent de.  Lorsque vous infligez des dégâts à des adversaires grâce à vos compétences de bagarre, vous appliquez \u00A0cumuls de saignement de Déchirure. Cet effet ne peut affecter la même cible qu’une seule fois toutes les \u00A0s.",
-    "Localisation": "La durée de {c_important}Déchirure{/c} augmente de {c_random}[Affix_Value_1|1|]{/c}\u00A0s et les dégâts qu’elle inflige augmentent de {c_random}[Affix_Value_2 * 100|1%x|]{/c}. \r\n\r\nLorsque vous infligez des dégâts à des adversaires grâce à vos compétences de {c_important}bagarre{/c}, vous appliquez {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0cumuls de saignement de {c_important}Déchirure{/c}. Cet effet ne peut affecter la même cible qu’une seule fois toutes les {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0s.",
+    "Description": "La durée de Déchirure augmente de #\u00A0s et les dégâts qu’elle inflige augmentent de #%. \r\n\r\nLorsque vous infligez des dégâts à des adversaires grâce à vos compétences de combat, vous appliquez #\u00A0cumuls de saignement de Déchirure. Cet effet ne peut affecter la même cible qu’une seule fois toutes les #\u00A0s.",
+    "DescriptionClean": "La durée de Déchirure augmente de \u00A0s et les dégâts qu’elle inflige augmentent de.  Lorsque vous infligez des dégâts à des adversaires grâce à vos compétences de combat, vous appliquez \u00A0cumuls de saignement de Déchirure. Cet effet ne peut affecter la même cible qu’une seule fois toutes les \u00A0s.",
+    "Localisation": "La durée de {c_important}Déchirure{/c} augmente de {c_random}[Affix_Value_1|1|]{/c}\u00A0s et les dégâts qu’elle inflige augmentent de {c_random}[Affix_Value_2 * 100|1%x|]{/c}. \r\n\r\nLorsque vous infligez des dégâts à des adversaires grâce à vos compétences de {c_important}combat{/c}, vous appliquez {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0cumuls de saignement de {c_important}Déchirure{/c}. Cet effet ne peut affecter la même cible qu’une seule fois toutes les {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0s.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -537,6 +537,39 @@
     ]
   },
   {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "Anneau du ciel sans étoiles",
+    "Description": "Mythique\u00A0: lorsque vous utilisez votre ressource principale, le coût en ressource de vos compétences est réduit et vos dégâts augmentent de #% pendant #\u00A0s, jusqu’à #% au maximum. ",
+    "DescriptionClean": "Mythique\u00A0: lorsque vous utilisez votre ressource principale, le coût en ressource de vos compétences est réduit et vos dégâts augmentent de pendant \u00A0s, jusqu’à au maximum.",
+    "Localisation": "{c_mythic}Mythique\u00A0:{/c} lorsque vous utilisez votre ressource principale, le coût en ressource de vos compétences est réduit et vos dégâts augmentent de {c_number}[Affix_Value_1|1%x|]{/c} pendant {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0s, jusqu’à {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c} au maximum. ",
+    "MagicType": 2,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
     "IdSno": "1966841",
     "IdName": "Ring_Unique_Spiritborn_006_x1",
     "IdSnoList": [
@@ -550,7 +583,7 @@
       "Ring_Unique_Spiritborn_006_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_006_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_055",
     "Name": "Anneau du soleil de minuit",
     "Description": "Lorsque vous infligez un coup critique, vous récupérez #% de la vigueur utilisée au cours des #\u00A0dernières secondes.\r\n\r\nVous obtenez l’effet passif de Contre-attaque.",
     "DescriptionClean": "Lorsque vous infligez un coup critique, vous récupérez de la vigueur utilisée au cours des \u00A0dernières secondes. Vous obtenez l’effet passif de Contre-attaque.",
@@ -613,7 +646,7 @@
       "Pants_Unique_Paladin_002",
       "Talisman_Charm_Unique_Pants_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Paladin_95",
     "Name": "Arcadie",
     "Description": "Ralliement vous fortifie à hauteur de #% de votre maximum de points de vie. Lorsque vous récupérez #% de votre maximum de points de vie, vous obtenez une charge de ralliement.",
     "DescriptionClean": "Ralliement vous fortifie à hauteur de de votre maximum de points de vie. Lorsque vous récupérez de votre maximum de points de vie, vous obtenez une charge de ralliement.",
@@ -676,7 +709,7 @@
       "Ring_Unique_Rogue_100",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Rogue_Master",
     "Name": "Bague de supercherie mouvante",
     "Description": "Vos compétences de subterfuge créent un leurre piégé qui provoque les adversaires et les attire pour leur infliger #\u00A0points de dégâts de corruption en #\u00A0s. Cet effet est considéré comme une compétence de piège et un seul leurre peut être actif à la fois.",
     "DescriptionClean": "Vos compétences de subterfuge créent un leurre piégé qui provoque les adversaires et les attire pour leur infliger \u00A0points de dégâts de corruption en \u00A0s. Cet effet est considéré comme une compétence de piège et un seul leurre peut être actif à la fois.",
@@ -708,7 +741,7 @@
       "Ring_Unique_Spiritborn_003_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_003_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_052",
     "Name": "Bague du Premier Souffle",
     "Description": "L’utilisation de votre esquive consomme #\u00A0cumuls de détermination pour augmenter les dégâts que vous infligez de #% pendant #\u00A0s.\r\n\r\nVous obtenez l’effet passif de Peau armurée.",
     "DescriptionClean": "L’utilisation de votre esquive consomme \u00A0cumuls de détermination pour augmenter les dégâts que vous infligez de pendant \u00A0s. Vous obtenez l’effet passif de Peau armurée.",
@@ -740,7 +773,7 @@
       "Ring_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_007",
     "Name": "Bague en fusion",
     "Description": "Les dégâts critiques de vos compétences de pyromancie sont augmentés de #% contre les cibles en bonne santé et leurs chances d’infliger un coup critique sont augmentées de #% contre les cibles blessées.\r\n\r\nLorsque vous tuez une cible adverse avec un coup critique, vous obtenez ces bonus contre toutes les cibles et bénéficiez de #% de vitesse d’attaque supplémentaire pendant #\u00A0s.",
     "DescriptionClean": "Les dégâts critiques de vos compétences de pyromancie sont augmentés de contre les cibles en bonne santé et leurs chances d’infliger un coup critique sont augmentées de contre les cibles blessées. Lorsque vous tuez une cible adverse avec un coup critique, vous obtenez ces bonus contre toutes les cibles et bénéficiez de de vitesse d’attaque supplémentaire pendant \u00A0s.",
@@ -903,7 +936,7 @@
       "Boots_Unique_Rogue_100",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_uniq97",
     "Name": "Bottes de morbête",
     "Description": "Lorsque vous utilisez une compétence ultime non canalisée, elle consomme toute votre énergie et inflige #% de dégâts supplémentaires par point d’énergie consommé.\r\n\r\nL’utilisation d’une compétence avec temps de recharge restaure #\u00A0points d’énergie.",
     "DescriptionClean": "Lorsque vous utilisez une compétence ultime non canalisée, elle consomme toute votre énergie et inflige de dégâts supplémentaires par point d’énergie consommé. L’utilisation d’une compétence avec temps de recharge restaure \u00A0points d’énergie.",
@@ -1201,7 +1234,7 @@
       "Quarterstaff_Unique_Spiritborn_016_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_016_x1"
     ],
-    "IdNameItemActor": "twoHandQuarterstaff_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Bâton de Kepeleke",
     "Description": "Vos compétences principales sont également des compétences de base que vous pouvez utiliser gratuitement.\r\n\r\nLorsque vous disposez de votre maximum de points de vigueur, les compétences principales les consomment dans leur intégralité pour atteindre leur taille optimale et infliger des coups critiques garantis. Les dégâts critiques sont augmentés de #% pour chaque point de vigueur dépensé de cette manière.",
     "DescriptionClean": "Vos compétences principales sont également des compétences de base que vous pouvez utiliser gratuitement. Lorsque vous disposez de votre maximum de points de vigueur, les compétences principales les consomment dans leur intégralité pour atteindre leur taille optimale et infliger des coups critiques garantis. Les dégâts critiques sont augmentés de pour chaque point de vigueur dépensé de cette manière.",
@@ -1326,7 +1359,7 @@
       "Boots_Unique_Generic_003",
       "Talisman_Charm_Unique_Boots_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Boots_Unique_Generic_125",
     "Name": "Bénédiction de Yen",
     "Description": "Lorsque vous utilisez une compétence, vous avez #% de chances de déclencher une compétence, hors compétences de mobilité et ultimes, qui est actuellement en temps de recharge. Cet effet ne peut se produire qu’une fois toutes les #\u00A0s.",
     "DescriptionClean": "Lorsque vous utilisez une compétence, vous avez de chances de déclencher une compétence, hors compétences de mobilité et ultimes, qui est actuellement en temps de recharge. Cet effet ne peut se produire qu’une fois toutes les \u00A0s.",
@@ -1389,7 +1422,7 @@
       "Amulet_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_009",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Bénédiction écarlate",
     "Description": "Lorsque vous êtes en bonne santé, vous obtenez #\u00A0cumuls maximum d’accablement. Les orbes de sang octroient #\u00A0cumuls d’accablement.\r\n\r\nVous infligez #% de dégâts supplémentaires par cumul d’accablement.",
     "DescriptionClean": "Lorsque vous êtes en bonne santé, vous obtenez \u00A0cumuls maximum d’accablement. Les orbes de sang octroient \u00A0cumuls d’accablement. Vous infligez de dégâts supplémentaires par cumul d’accablement.",
@@ -1514,7 +1547,7 @@
       "Helm_Unique_Rogue_001",
       "Talisman_Charm_Unique_Helm_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "HLM_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Capuchon de l’Anonyme",
     "Description": "Coup de chance\u00A0: les compétences imprégnées ont jusqu’à #% de chances de déclencher une puissante explosion qui inflige #% des dégâts et applique l’effet d’imprégnation à l’ensemble des cibles touchées à #% de sa puissance.",
     "DescriptionClean": "Coup de chance\u00A0: les compétences imprégnées ont jusqu’à de chances de déclencher une puissante explosion qui inflige des dégâts et applique l’effet d’imprégnation à l’ensemble des cibles touchées à de sa puissance.",
@@ -1795,7 +1828,7 @@
       "1HShield_Unique_Paladin_005",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_005"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq15",
     "Name": "Chanson de la cathédrale",
     "Description": "Coup de chance\u00A0: les utilisations de compétences de disciple ont #% de chances de faire s’abattre une lance des Cieux sur une cible adverse aléatoire. \r\n\r\nLes dégâts de votre lance des Cieux sont augmentés de #%. ",
     "DescriptionClean": "Coup de chance\u00A0: les utilisations de compétences de disciple ont de chances de faire s’abattre une lance des Cieux sur une cible adverse aléatoire.  Les dégâts de votre lance des Cieux sont augmentés de.",
@@ -1923,7 +1956,7 @@
       "S12_1HSword_Unique_Barb_101",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq09",
     "Name": "Chef-d’œuvre de Ramaladni",
     "Description": "Les compétences infligent #% de dégâts supplémentaires par point de fureur dont vous disposez, mais #\u00A0points de fureur sont drainés par seconde.",
     "DescriptionClean": "Les compétences infligent de dégâts supplémentaires par point de fureur dont vous disposez, mais \u00A0points de fureur sont drainés par seconde.",
@@ -2052,7 +2085,7 @@
       "Ring_Unique_Spiritborn_004_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_004_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_050",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Chevalière de pacifiste",
     "Description": "Lorsque vous disposez d’au moins #\u00A0cumuls de férocité, vous obtenez #% de dégâts et #% d’armure supplémentaires.\r\n\r\nLorsque vous obtenez de la férocité, vous gagnez également de la détermination.",
     "DescriptionClean": "Lorsque vous disposez d’au moins \u00A0cumuls de férocité, vous obtenez de dégâts et d’armure supplémentaires. Lorsque vous obtenez de la férocité, vous gagnez également de la détermination.",
@@ -2147,7 +2180,7 @@
       "Helm_Unique_Generic_002",
       "Talisman_Charm_Unique_Helm_Unique_Generic_002"
     ],
-    "IdNameItemActor": "HLM_gnrc127",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Cimier arlequin",
     "Description": "Vous gagnez #% de réduction des dégâts. De plus, vous gagnez +#\u00A0rangs à toutes les compétences.",
     "DescriptionClean": "Vous gagnez de réduction des dégâts. De plus, vous gagnez \u00A0rangs à toutes les compétences.",
@@ -2271,11 +2304,10 @@
     "IdNameList": [
       "Pants_Unique_Sorc_101"
     ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
     "IdNameItemList": [
       "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
+      "Pants_Unique_Sorc_96"
     ],
     "IdNameItemActor": "Pants_Unique_Sorcerer_101",
     "Name": "Conduit axial",
@@ -2311,7 +2343,7 @@
       "Chest_Unique_Spiritborn_013_x1",
       "Talisman_Charm_Unique_Chest_Unique_Spiritborn_013_x1"
     ],
-    "IdNameItemActor": "Chest_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Coquille de hyacinthe",
     "Description": "Les dépenses de vigueur vous soignent de #% de votre maximum de points de vie. \r\n\r\nChaque seconde, vos temps de recharge actifs drainent chacun #% de votre maximum de points de vie pour réduire leur durée de #\u00A0s. ",
     "DescriptionClean": "Les dépenses de vigueur vous soignent de de votre maximum de points de vie.  Chaque seconde, vos temps de recharge actifs drainent chacun de votre maximum de points de vie pour réduire leur durée de \u00A0s.",
@@ -2502,7 +2534,7 @@
       "S05_BSK_Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Helmet_unique_generic_128",
     "Name": "Couronne de Lucion",
     "Description": "Chaque fois que vous utilisez une compétence avec un coût en ressource principale, vous infligez #% de dégâts supplémentaires et le coût en ressource augmente de #% pendant #\u00A0s, jusqu’à un maximum de #\u00A0fois.",
     "DescriptionClean": "Chaque fois que vous utilisez une compétence avec un coût en ressource principale, vous infligez de dégâts supplémentaires et le coût en ressource augmente de pendant \u00A0s, jusqu’à un maximum de \u00A0fois.",
@@ -2733,7 +2765,7 @@
       "Quarterstaff_Unique_Spiritborn_001",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_001"
     ],
-    "IdNameItemActor": "twoHandQuarterstaff_uniq10",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Crosse de guerre décolorée",
     "Description": "Vos compétences de catalyseur de base bénéficient de l’ensemble de leurs améliorations et elles augmentent les dégâts infligés par vos compétences de puissance de #% pendant #\u00A0s, jusqu’à un maximum de #%.",
     "DescriptionClean": "Vos compétences de catalyseur de base bénéficient de l’ensemble de leurs améliorations et elles augmentent les dégâts infligés par vos compétences de puissance de pendant \u00A0s, jusqu’à un maximum de.",
@@ -2796,7 +2828,7 @@
       "Amulet_Unique_Generic_100",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_007",
     "Name": "Cœur fondu de Selig",
     "Description": "Les dégâts sont infligés en premier lieu à votre ressource principale au lieu de vos points de vie et les dégâts subis de cette manière sont considérablement réduits.\r\n\r\nVotre ressource principale est doublée, mais votre maximum de points de vie est réduit de #%. ",
     "DescriptionClean": "Les dégâts sont infligés en premier lieu à votre ressource principale au lieu de vos points de vie et les dégâts subis de cette manière sont considérablement réduits. Votre ressource principale est doublée, mais votre maximum de points de vie est réduit de.",
@@ -2864,7 +2896,7 @@
       "Amulet_Unique_Barb_104_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_104_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_020",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Cœur nostalgique de nomade",
     "Description": "Les compétences principales infligent #% de dégâts supplémentaires, mais coûtent #% de fureur en plus. Les dégâts sont doublés contre les cibles blessées.",
     "DescriptionClean": "Les compétences principales infligent de dégâts supplémentaires, mais coûtent de fureur en plus. Les dégâts sont doublés contre les cibles blessées.",
@@ -3025,9 +3057,9 @@
     ],
     "IdNameItemActor": "Boots_unique_Sorcerer_98",
     "Name": "Don de givre",
-    "Description": "Armure de glace obtient gratuitement la variante Gel prolongé et son efficacité est augmentée de #%.",
-    "DescriptionClean": "Armure de glace obtient gratuitement la variante Gel prolongé et son efficacité est augmentée de.",
-    "Localisation": "{c_important}Armure de glace{/c} obtient gratuitement la variante {c_important}Gel prolongé{/c} et son efficacité est augmentée de {c_random}[Affix_Value_1|%|]{/c}.",
+    "Description": "Armure de glace bénéficie gratuitement de la variante Gel prolongé et son efficacité est augmentée de #%.",
+    "DescriptionClean": "Armure de glace bénéficie gratuitement de la variante Gel prolongé et son efficacité est augmentée de.",
+    "Localisation": "{c_important}Armure de glace{/c} bénéficie gratuitement de la variante Gel prolongé et son efficacité est augmentée de {c_random}[Affix_Value_1|%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -3093,7 +3125,7 @@
       "1HSword_Unique_Generic_002",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_002"
     ],
-    "IdNameItemActor": "sword_uniq24",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "El’Druin, épée de justice",
     "Description": "L’élimination d’un groupe d’adversaires d’élite réduit le temps de recharge de vos compétences de #\u00A0s pendant #\u00A0s.",
     "DescriptionClean": "L’élimination d’un groupe d’adversaires d’élite réduit le temps de recharge de vos compétences de \u00A0s pendant \u00A0s.",
@@ -3417,7 +3449,7 @@
       "Boots_Unique_Rogue_101",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Boots_unique_Rogue_101",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Foulée assassine",
     "Description": "Les compétences de mobilité sont toujours imprégnées d’ombre et leurs effets sont augmentés de #%. \r\n\r\nCoup de chance\u00A0: lorsque vous infligez des dégâts à une cible élite ou un boss avec une compétence de mobilité, vous avez jusqu’à #% de chances de déclencher gratuitement une explosion imprégnée d’ombre.",
     "DescriptionClean": "Les compétences de mobilité sont toujours imprégnées d’ombre et leurs effets sont augmentés de.  Coup de chance\u00A0: lorsque vous infligez des dégâts à une cible élite ou un boss avec une compétence de mobilité, vous avez jusqu’à de chances de déclencher gratuitement une explosion imprégnée d’ombre.",
@@ -3643,7 +3675,7 @@
       "Gloves_Unique_Generic_004",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_004"
     ],
-    "IdNameItemActor": "GLV_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Gantelets du Dévoreur de souffrance",
     "Description": "Les dégâts que vous infligez avec des compétences autres que les compétences de base marquent les adversaires pendant #\u00A0s. Lorsqu’une compétence de base touche sa première cible marquée, elle reporte ses dégâts sur toutes les autres cibles marquées, leur infligeant #%\u00A0de dégâts supplémentaires.",
     "DescriptionClean": "Les dégâts que vous infligez avec des compétences autres que les compétences de base marquent les adversaires pendant \u00A0s. Lorsqu’une compétence de base touche sa première cible marquée, elle reporte ses dégâts sur toutes les autres cibles marquées, leur infligeant \u00A0de dégâts supplémentaires.",
@@ -3740,7 +3772,7 @@
     "Name": "Gants de rose ichoreuse",
     "Description": "Coup de chance\u00A0: en fonction de l’élément associé à votre piège de poison, les compétences imprégnées de poison ou de froid ont jusqu’à #% de chances de créer un piège de poison tant que la compétence est équipée.\r\n\r\nPiège de poison obtient gratuitement la variante Infiltration et inflige #% de dégâts supplémentaires.",
     "DescriptionClean": "Coup de chance\u00A0: en fonction de l’élément associé à votre piège de poison, les compétences imprégnées de poison ou de froid ont jusqu’à de chances de créer un piège de poison tant que la compétence est équipée. Piège de poison obtient gratuitement la variante Infiltration et inflige de dégâts supplémentaires.",
-    "Localisation": "{c_label}Coup de chance\u00A0:{/c} en fonction de l’élément associé à votre {c_important}piège de poison{/c}, les compétences {c_important}imprégnées{/c} de poison ou de froid ont jusqu’à {c_number}[Affix.\"Static Value 0\"|%|]{/c} de chances de créer un {c_important}piège de poison{/c} tant que la compétence est équipée.\r\n\r\n{c_important}Piège de poison{/c} obtient gratuitement la variante {c_important}Infiltration{/c} et inflige {c_random}[Affix_Value_1|x%|]{/c} de dégâts supplémentaires.",
+    "Localisation": "{c_label}Coup de chance\u00A0:{/c} en fonction de l’élément associé à votre {c_important}piège de poison{/c}, les compétences {c_important}imprégnées{/c} de poison ou de froid ont jusqu’à {c_number}[Affix.\"Static Value 0\"|%|]{/c} de chances de créer un {c_important}piège de poison{/c} tant que la compétence est équipée.\r\n\r\n{c_important}Piège de poison{/c} obtient gratuitement la variante Infiltration et inflige {c_random}[Affix_Value_1|x%|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3800,7 +3832,7 @@
       "Pants_Unique_Warlock_004",
       "Talisman_Charm_Unique_Pants_Unique_Warlock_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets53",
     "Name": "Garde-chair morlu",
     "Description": "Vous ne pouvez pas vous soigner au-delà de #% de votre maximum de points de vie, mais vos compétences défensives infligent #% de dégâts supplémentaires.",
     "DescriptionClean": "Vous ne pouvez pas vous soigner au-delà de de votre maximum de points de vie, mais vos compétences défensives infligent de dégâts supplémentaires.",
@@ -3927,9 +3959,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "Grand bâton de la vieille sorcière",
-    "Description": "Griffe obtient toutes les variantes et inflige #% de dégâts supplémentaires.",
-    "DescriptionClean": "Griffe obtient toutes les variantes et inflige de dégâts supplémentaires.",
-    "Localisation": "{c_important}Griffe{/c} obtient toutes les variantes et inflige {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires.",
+    "Description": "Griffe bénéficie gratuitement de toutes ses variantes et inflige #% de dégâts supplémentaires.",
+    "DescriptionClean": "Griffe bénéficie gratuitement de toutes ses variantes et inflige de dégâts supplémentaires.",
+    "Localisation": "{c_important}Griffe{/c} bénéficie gratuitement de toutes ses variantes et inflige {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4051,7 +4083,7 @@
       "Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "BTS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Grèves de la Pénitence",
     "Description": "Vous vous déplacez librement en permanence et laissez derrière vous une traînée de givre qui glace les adversaires. \r\n\r\nLes cibles affectées par vos effets de glace subissent #% de dégâts supplémentaires de votre part.",
     "DescriptionClean": "Vous vous déplacez librement en permanence et laissez derrière vous une traînée de givre qui glace les adversaires.  Les cibles affectées par vos effets de glace subissent de dégâts supplémentaires de votre part.",
@@ -4177,7 +4209,7 @@
       "Helm_Unique_Spiritborn_009_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_009_x1"
     ],
-    "IdNameItemActor": "Helm_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Harmonie d’Ebewaka",
     "Description": "En fonction de votre deuxième choix dans la salle des Esprits, vos compétences deviennent également des compétences de jaguar, d’aigle, de gorille ou de mille-pattes.\r\n\r\nVos compétences infligent #% de dégâts supplémentaires par type d’esprit dont elles disposent.",
     "DescriptionClean": "En fonction de votre deuxième choix dans la salle des Esprits, vos compétences deviennent également des compétences de jaguar, d’aigle, de gorille ou de mille-pattes. Vos compétences infligent de dégâts supplémentaires par type d’esprit dont elles disposent.",
@@ -4210,9 +4242,9 @@
     ],
     "IdNameItemActor": "TRS_sets54",
     "Name": "Harnois de mutilation",
-    "Description": "Vous êtes sous l’effet d’un prélèvement. Au lieu de vous infliger des dégâts, Prélèvement vous octroie un montant de fortification égal à #% de votre maximum de points de vie. La compétence a également #% de chances de générer un orbe de sang.\r\n\r\nPrélèvement inflige #% de dégâts supplémentaires.",
-    "DescriptionClean": "Vous êtes sous l’effet d’un prélèvement. Au lieu de vous infliger des dégâts, Prélèvement vous octroie un montant de fortification égal à de votre maximum de points de vie. La compétence a également de chances de générer un orbe de sang. Prélèvement inflige de dégâts supplémentaires.",
-    "Localisation": "Vous êtes sous l’effet d’un {c_important}prélèvement{/c}. Au lieu de vous infliger des dégâts, {c_important}Prélèvement{/c} vous octroie un montant de {c_important}{u}fortification{/u}{/c} égal à {c_number}[Affix_Value_2|%|]{/c} de votre maximum de points de vie. La compétence a également {c_number}[Affix.\"Static Value 1\"|%|]{/c} de chances de générer un {c_important}orbe de sang{/c}.\r\n\r\n{c_important}Prélèvement{/c} inflige {c_random}[Affix_Value_1 * Affix.\"Static Value 0\"|%x|]{/c} de dégâts supplémentaires.",
+    "Description": "Vous êtes sous l’effet d’un prélèvement. Au lieu de vous infligez des dégâts, Prélèvement vous octroie un montant de fortification égal à #% de votre maximum de points de vie. La compétence a également #% de chances de générer un orbe de sang.\r\n\r\nPrélèvement inflige #% de dégâts supplémentaires.",
+    "DescriptionClean": "Vous êtes sous l’effet d’un prélèvement. Au lieu de vous infligez des dégâts, Prélèvement vous octroie un montant de fortification égal à de votre maximum de points de vie. La compétence a également de chances de générer un orbe de sang. Prélèvement inflige de dégâts supplémentaires.",
+    "Localisation": "Vous êtes sous l’effet d’un {c_important}prélèvement{/c}. Au lieu de vous infligez des dégâts, {c_important}Prélèvement{/c} vous octroie un montant de {c_important}{u}fortification{/u}{/c} égal à {c_number}[Affix_Value_2|%|]{/c} de votre maximum de points de vie. La compétence a également {c_number}[Affix.\"Static Value 1\"|%|]{/c} de chances de générer un {c_important}orbe de sang{/c}.\r\n\r\n{c_important}Prélèvement{/c} inflige {c_random}[Affix_Value_1 * Affix.\"Static Value 0\"|%x|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4240,7 +4272,7 @@
       "Amulet_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_018",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Hausse-col de souimanga",
     "Description": "Lorsque vous ramassez une plume tempétueuse, une tempête de feu se forme autour de vous pendant #\u00A0s et inflige #\u00A0points de dégâts de feu toutes les #\u00A0s.\r\n\r\nToutes les #\u00A0plumes tempétueuses supplémentaires ramassées, la tempête de feu se renforce et les dégâts qu’elle inflige sont augmentés de #%, mais sa durée reste la même. Plume tempétueuse est désormais une compétence de jaguar et Tempête de feu est à la fois une compétence d’aigle, de jaguar et de plume tempétueuse.",
     "DescriptionClean": "Lorsque vous ramassez une plume tempétueuse, une tempête de feu se forme autour de vous pendant \u00A0s et inflige \u00A0points de dégâts de feu toutes les \u00A0s. Toutes les \u00A0plumes tempétueuses supplémentaires ramassées, la tempête de feu se renforce et les dégâts qu’elle inflige sont augmentés de , mais sa durée reste la même. Plume tempétueuse est désormais une compétence de jaguar et Tempête de feu est à la fois une compétence d’aigle, de jaguar et de plume tempétueuse.",
@@ -4402,9 +4434,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "Homoncule infernal",
-    "Description": "Vos compétences d’archidémon infligent #% de dégâts supplémentaires et obtiennent gratuitement les améliorations de leurs versions de démons mineurs avec des durées augmentées de #%.",
-    "DescriptionClean": "Vos compétences d’archidémon infligent de dégâts supplémentaires et obtiennent gratuitement les améliorations de leurs versions de démons mineurs avec des durées augmentées de.",
-    "Localisation": "Vos compétences {c_important}d’archidémon{/c} infligent {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires et obtiennent gratuitement les améliorations de leurs versions de démons mineurs avec des durées augmentées de {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}.",
+    "Description": "Vos compétences d’archidémon infligent #% de dégâts supplémentaires et bénéficient gratuitement de leurs améliorations de démons mineurs avec des durées augmentées de #%.",
+    "DescriptionClean": "Vos compétences d’archidémon infligent de dégâts supplémentaires et bénéficient gratuitement de leurs améliorations de démons mineurs avec des durées augmentées de.",
+    "Localisation": "Vos compétences {c_important}d’archidémon{/c} infligent {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires et bénéficient gratuitement de leurs améliorations de démons mineurs avec des durées augmentées de {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4494,7 +4526,7 @@
       "1HShield_Unique_Paladin_004",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq17",
     "Name": "Héraut du Zakarum",
     "Description": "Vous obtenez #% de force, de résistance, d’armure et de chances de représailles supplémentaires.\r\n\r\nLa taille de Représailles est augmentée de #%.",
     "DescriptionClean": "Vous obtenez de force, de résistance, d’armure et de chances de représailles supplémentaires. La taille de Représailles est augmentée de.",
@@ -4622,7 +4654,7 @@
       "S12_1HSword_Unique_Generic_100",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_100"
     ],
-    "IdNameItemActor": "sword_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Irebleue",
     "Description": "Lorsque l’effet de gel expire, les cibles explosent en infligeant #% des dégâts qu’elles ont subis de votre part pendant qu’elles étaient gelées.",
     "DescriptionClean": "Lorsque l’effet de gel expire, les cibles explosent en infligeant des dégâts qu’elles ont subis de votre part pendant qu’elles étaient gelées.",
@@ -4687,7 +4719,7 @@
       "Pants_Unique_Necro_100",
       "Talisman_Charm_Unique_Pants_Unique_Necro_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets56",
     "Name": "Jambières de la lune de sang",
     "Description": "Vos invocations ont #% de chances d’appliquer aléatoirement Décrépitude ou Vierge de fer lorsqu’elles infligent des dégâts.  \r\n\r\nVous infligez #% de dégâts critiques supplémentaires aux cibles adverses affectées par vos malédictions.",
     "DescriptionClean": "Vos invocations ont de chances d’appliquer aléatoirement Décrépitude ou Vierge de fer lorsqu’elles infligent des dégâts.  Vous infligez de dégâts critiques supplémentaires aux cibles adverses affectées par vos malédictions.",
@@ -5133,7 +5165,7 @@
       "Ring_Unique_Spiritborn_001_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_001_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_051",
     "Name": "Lèche-blessure",
     "Description": "Chaque fois que vos épines infligent des dégâts, vous gagnez #\u00A0points de vigueur.\r\n\r\nVous obtenez l’effet passif de Derme toxique.",
     "DescriptionClean": "Chaque fois que vos épines infligent des dégâts, vous gagnez \u00A0points de vigueur. Vous obtenez l’effet passif de Derme toxique.",
@@ -5262,9 +5294,9 @@
     ],
     "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mailles châtiées",
-    "Description": "Lorsque vous utilisez une compétence de bagarre qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de combat que vous utilisez infligent #% de dégâts supplémentaires par compétence désactivée.",
-    "DescriptionClean": "Lorsque vous utilisez une compétence de bagarre qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de combat que vous utilisez infligent de dégâts supplémentaires par compétence désactivée.",
-    "Localisation": "Lorsque vous utilisez une compétence de {c_important}bagarre{/c} qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de {c_important}combat{/c} que vous utilisez infligent {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires par compétence désactivée.",
+    "Description": "Lorsque vous utilisez une compétence de combat qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de combat que vous utilisez infligent #% de dégâts supplémentaires par compétence désactivée.",
+    "DescriptionClean": "Lorsque vous utilisez une compétence de combat qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de combat que vous utilisez infligent de dégâts supplémentaires par compétence désactivée.",
+    "Localisation": "Lorsque vous utilisez une compétence de {c_important}combat{/c} qui inflige des dégâts, celle-ci est désactivée par la suite. Lorsque toutes les compétences de votre barre d’action sont désactivées, elles sont réactivées et leurs temps de recharge sont réinitialisés. Les compétences de {c_important}combat{/c} que vous utilisez infligent {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires par compétence désactivée.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5324,9 +5356,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "Main d’apothéose",
-    "Description": "Métamorphose bénéficie gratuitement de toutes ses améliorations et celles-ci sont #% plus efficaces.",
-    "DescriptionClean": "Métamorphose bénéficie gratuitement de toutes ses améliorations et celles-ci sont plus efficaces.",
-    "Localisation": "{c_important}Métamorphose{/c} bénéficie gratuitement de toutes ses améliorations et celles-ci sont {c_random}[Affix_Value_1*100|+%|]{/c} plus efficaces.",
+    "Description": "Métamorphose bénéficie gratuitement de toutes les améliorations et celles-ci sont #% plus efficaces.",
+    "DescriptionClean": "Métamorphose bénéficie gratuitement de toutes les améliorations et celles-ci sont plus efficaces.",
+    "Localisation": "{c_important}Métamorphose{/c} bénéficie gratuitement de toutes les améliorations et celles-ci sont {c_random}[Affix_Value_1*100|+%|]{/c} plus efficaces.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5485,7 +5517,7 @@
       "Helm_Unique_Spiritborn_011_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_011_x1"
     ],
-    "IdNameItemActor": "HLM_crft44",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mantelet de loyauté",
     "Description": "Tant que vos choix de la salle des Esprits sont identiques\u00A0:\r\n leurs bonus sont #% plus puissants\u00A0;\r\n les compétences utilisant leur esprit de base coûtent #% de vigueur en moins\u00A0;\r\n les compétences utilisant leur esprit de base voient leur temps de recharge réduit de #%.",
     "DescriptionClean": "Tant que vos choix de la salle des Esprits sont identiques\u00A0: leurs bonus sont plus puissants\u00A0; les compétences utilisant leur esprit de base coûtent de vigueur en moins\u00A0; les compétences utilisant leur esprit de base voient leur temps de recharge réduit de.",
@@ -5580,9 +5612,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "Marche-steppes de Khamsin",
-    "Description": "Vos obtenez l’amélioration Éclats de terre de Rempart de terre gratuitement et ses dégâts sont augmentés de #%.",
-    "DescriptionClean": "Vos obtenez l’amélioration Éclats de terre de Rempart de terre gratuitement et ses dégâts sont augmentés de.",
-    "Localisation": "Vos obtenez l’amélioration {c_important}Éclats de terre{/c} de {c_important}Rempart de terre{/c} gratuitement et ses dégâts sont augmentés de {c_random}[Affix_Value_1*100|x%|]{/c}.",
+    "Description": "Rempart de terre bénéficie gratuitement de la variante Éclats de terre et inflige #% dégâts supplémentaires.",
+    "DescriptionClean": "Rempart de terre bénéficie gratuitement de la variante Éclats de terre et inflige dégâts supplémentaires.",
+    "Localisation": "{c_important}Rempart de terre{/c} bénéficie gratuitement de la variante Éclats de terre et inflige {c_random}[Affix_Value_1*100|x%|]{/c} dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5706,9 +5738,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "Martelenfer",
-    "Description": "Soulèvement obtient la variante Explosion de fer et inflige #% de dégâts supplémentaires.",
-    "DescriptionClean": "Soulèvement obtient la variante Explosion de fer et inflige de dégâts supplémentaires.",
-    "Localisation": "{c_important}Soulèvement{/c} obtient la variante {c_important}Explosion de fer{/c} et inflige {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires.",
+    "Description": "Soulèvement bénéficie de la variante Explosion de fer et inflige #% de dégâts supplémentaires.",
+    "DescriptionClean": "Soulèvement bénéficie de la variante Explosion de fer et inflige de dégâts supplémentaires.",
+    "Localisation": "{c_important}Soulèvement{/c} bénéficie de la variante Explosion de fer et inflige {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5799,9 +5831,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "Masse-âcre",
-    "Description": "Coup de grâce obtient toutes les améliorations et inflige #% de dégâts supplémentaires.",
-    "DescriptionClean": "Coup de grâce obtient toutes les améliorations et inflige de dégâts supplémentaires.",
-    "Localisation": "{c_important}Coup de grâce{/c} obtient toutes les améliorations et inflige {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires.",
+    "Description": "Coup de grâce bénéficie gratuitement de l’ensemble de ses améliorations et inflige #% de dégâts supplémentaires.",
+    "DescriptionClean": "Coup de grâce bénéficie gratuitement de l’ensemble de ses améliorations et inflige de dégâts supplémentaires.",
+    "Localisation": "{c_important}Coup de grâce{/c} bénéficie gratuitement de l’ensemble de ses améliorations et inflige {c_random}[Affix_Value_1 * 100|1%x|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5861,7 +5893,7 @@
       "1HSword_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_1HSword_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq08",
     "Name": "Miséricorde",
     "Description": "Coup de chance\u00A0: lorsque vous infligez des dégâts à une cible affectée par une compétence de piège, vous avez jusqu’à #% de chances de\u00A0:\r\n réduire de #% les temps de recharge actifs de vos compétences de piège\u00A0;\r\n augmenter les dégâts infligés par vos compétences de piège de #% pendant #\u00A0s, jusqu’à un maximum de #%.",
     "DescriptionClean": "Coup de chance\u00A0: lorsque vous infligez des dégâts à une cible affectée par une compétence de piège, vous avez jusqu’à de chances de\u00A0: réduire de les temps de recharge actifs de vos compétences de piège\u00A0; augmenter les dégâts infligés par vos compétences de piège de pendant \u00A0s, jusqu’à un maximum de.",
@@ -6030,7 +6062,7 @@
       "Ring_Unique_Druid_01_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_01_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_021",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mélopée d’Airidah",
     "Description": "Les compétences de tempête que vous utilisez vous confèrent #\u00A0points d’esprit et infligent #% de dégâts supplémentaires. Ce bonus est doublé lorsque vous touchez des cibles vulnérables, immobilisées ou ralenties.",
     "DescriptionClean": "Les compétences de tempête que vous utilisez vous confèrent \u00A0points d’esprit et infligent de dégâts supplémentaires. Ce bonus est doublé lorsque vous touchez des cibles vulnérables, immobilisées ou ralenties.",
@@ -6256,7 +6288,7 @@
       "1HMace_Unique_Sorc_100",
       "Talisman_Charm_Unique_1HMace_Unique_Sorc_100"
     ],
-    "IdNameItemActor": "mace_uniq17",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Orsivane",
     "Description": "Pour chaque compétence défensive absente de votre barre d’action, vous infligez #% de dégâts supplémentaires et bénéficiez de l’effet d’enchantement associé.",
     "DescriptionClean": "Pour chaque compétence défensive absente de votre barre d’action, vous infligez de dégâts supplémentaires et bénéficiez de l’effet d’enchantement associé.",
@@ -6319,7 +6351,7 @@
       "Ring_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Ring_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_047",
     "Name": "Pacte d’os",
     "Description": "Vos serviteurs obtiennent #% de vitesse d’attaque et de chances d’infliger un coup critique en plus.\r\n\r\nLorsqu’un de vos serviteurs meurt, vos autres serviteurs enragent et infligent #% de dégâts supplémentaires pendant #\u00A0s.",
     "DescriptionClean": "Vos serviteurs obtiennent de vitesse d’attaque et de chances d’infliger un coup critique en plus. Lorsqu’un de vos serviteurs meurt, vos autres serviteurs enragent et infligent de dégâts supplémentaires pendant \u00A0s.",
@@ -6413,7 +6445,7 @@
       "Boots_Unique_Generic_002",
       "Talisman_Charm_Unique_Boots_Unique_Generic_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_sets54",
     "Name": "Pas vacillant",
     "Description": "Chaque fois que vous esquivez un adversaire, le temps de recharge de votre compétence ultime est réduit de #\u00A0s, jusqu’à un maximum de #\u00A0s.",
     "DescriptionClean": "Chaque fois que vous esquivez un adversaire, le temps de recharge de votre compétence ultime est réduit de \u00A0s, jusqu’à un maximum de \u00A0s.",
@@ -6665,7 +6697,7 @@
       "Ring_Unique_Druid_03_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_03_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Rare_Scosglen_001",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Pierre runique fracturée",
     "Description": "Vos compétences de terre infligent #% de dégâts critiques supplémentaires. Ce bonus passe à #% lorsque vous disposez d’au moins #\u00A0cumuls d’accablement. Vous obtenez de manière passive 2\u00A0cumuls d’accablement toutes les #\u00A0s.",
     "DescriptionClean": "Vos compétences de terre infligent de dégâts critiques supplémentaires. Ce bonus passe à lorsque vous disposez d’au moins \u00A0cumuls d’accablement. Vous obtenez de manière passive 2\u00A0cumuls d’accablement toutes les \u00A0s.",
@@ -6884,7 +6916,7 @@
       "Gloves_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "GLV_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Poing de la Rose de fer",
     "Description": "Infliger des dégâts à une cible à proximité avec des compétences de tir d’élite ou de coupe-jarret vous confère un bonus à la vitesse d’attaque de #% pendant #\u00A0s.\r\n\r\nSi les deux bonus à la vitesse d’attaque sont actifs, vous infligez #% de dégâts supplémentaires aux adversaires à proximité.",
     "DescriptionClean": "Infliger des dégâts à une cible à proximité avec des compétences de tir d’élite ou de coupe-jarret vous confère un bonus à la vitesse d’attaque de pendant \u00A0s. Si les deux bonus à la vitesse d’attaque sont actifs, vous infligez de dégâts supplémentaires aux adversaires à proximité.",
@@ -7170,7 +7202,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Protection de la première",
     "Description": "Lorsque vous vous déplacez, vos chances d’esquiver et votre réduction des dégâts augmentent de #%.\r\n\r\nSi vous restez immobile pendant #\u00A0s, vous devenez inarrêtable jusqu’à ce que vous vous déplaciez.",
     "DescriptionClean": "Lorsque vous vous déplacez, vos chances d’esquiver et votre réduction des dégâts augmentent de. Si vous restez immobile pendant \u00A0s, vous devenez inarrêtable jusqu’à ce que vous vous déplaciez.",
@@ -7297,7 +7329,7 @@
       "Chest_Unique_Generic_127",
       "Talisman_Charm_Unique_Chest_Unique_Generic_127"
     ],
-    "IdNameItemActor": "Chest_unique_generic_127",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Puissance de Tyraël",
     "Description": "Lorsque vous disposez de votre maximum de vie, l’utilisation d’une compétence déclenche un barrage divin infligeant #\u00A0points de dégâts.",
     "DescriptionClean": "Lorsque vous disposez de votre maximum de vie, l’utilisation d’une compétence déclenche un barrage divin infligeant \u00A0points de dégâts.",
@@ -7329,7 +7361,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Puissance ursine",
     "Description": "Vous infligez #% de dégâts supplémentaires pour chaque cumul de détermination dont vous disposez sous forme d’ursoïde. De plus, vous obtenez automatiquement #\u00A0cumuls de détermination toutes les #\u00A0s sous forme d’ursoïde.",
     "DescriptionClean": "Vous infligez de dégâts supplémentaires pour chaque cumul de détermination dont vous disposez sous forme d’ursoïde. De plus, vous obtenez automatiquement \u00A0cumuls de détermination toutes les \u00A0s sous forme d’ursoïde.",
@@ -7361,7 +7393,7 @@
       "Chest_Unique_Barb_100",
       "Talisman_Charm_Unique_Chest_Unique_Barb_100"
     ],
-    "IdNameItemActor": "TRS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Rage d’Harrogath",
     "Description": "Lorsque vous infligez des dégâts sur la durée à l’adversaire, vous avez jusqu’à #% de chances de réduire le temps de recharge de vos compétences de #\u00A0s",
     "DescriptionClean": "Lorsque vous infligez des dégâts sur la durée à l’adversaire, vous avez jusqu’à de chances de réduire le temps de recharge de vos compétences de \u00A0s",
@@ -7622,7 +7654,7 @@
       "S12_1HSword_Unique_Barb_103",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_103"
     ],
-    "IdNameItemActor": "sword_uniq27",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Sabre de Tsasgal",
     "Description": "Vous infligez #% de dégâts supplémentaires pour chaque compétence offensive équipée, et #% supplémentaires pendant #\u00A0s lorsque chacune de ces compétences est utilisée.",
     "DescriptionClean": "Vous infligez de dégâts supplémentaires pour chaque compétence offensive équipée, et supplémentaires pendant \u00A0s lorsque chacune de ces compétences est utilisée.",
@@ -7657,7 +7689,7 @@
       "S12_1HAxe_Unique_Generic_003",
       "Talisman_Charm_Unique_1HAxe_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Axe_uniq15",
     "Name": "Saccageuse aux Mille Yeux",
     "Description": "Le déplacement vous octroie Férocité et votre maximum de férocité est augmenté de #. Férocité augmente également votre vitesse de déplacement de #% par cumul.",
     "DescriptionClean": "Le déplacement vous octroie Férocité et votre maximum de férocité est augmenté de. Férocité augmente également votre vitesse de déplacement de par cumul.",
@@ -7689,7 +7721,7 @@
       "Amulet_Unique_Paladin_002",
       "Talisman_Charm_Unique_Amulet_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_025",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Sanctis de Kethamar",
     "Description": "La forme d’arbitre augmente l’efficacité des auras de #% et les dégâts de Frappe ailée de #%.",
     "DescriptionClean": "La forme d’arbitre augmente l’efficacité des auras de et les dégâts de Frappe ailée de.",
@@ -7941,7 +7973,7 @@
       "Quarterstaff_Unique_Spiritborn_012_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_012_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq01",
     "Name": "Sepazontec",
     "Description": "Vos compétences de base infligent #% de dégâts supplémentaires et effectuent toujours leur 3e\u00A0attaque. \r\n\r\nChaque 3e\u00A0utilisation d’une compétence de base déclenche des frappes triples.",
     "DescriptionClean": "Vos compétences de base infligent de dégâts supplémentaires et effectuent toujours leur 3e\u00A0attaque.  Chaque 3e\u00A0utilisation d’une compétence de base déclenche des frappes triples.",
@@ -7976,7 +8008,7 @@
     "Name": "Serment de la marche verte",
     "Description": "Lierre empoisonné bénéficie gratuitement de la variante Germination et inflige #% de dégâts supplémentaires.",
     "DescriptionClean": "Lierre empoisonné bénéficie gratuitement de la variante Germination et inflige de dégâts supplémentaires.",
-    "Localisation": "{c_important}Lierre empoisonné{/c} bénéficie gratuitement de la variante {c_important}Germination{/c} et inflige {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires.",
+    "Localisation": "{c_important}Lierre empoisonné{/c} bénéficie gratuitement de la variante Germination et inflige {c_random}[Affix_Value_1*100|x%|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8037,9 +8069,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "Sermon rouge",
-    "Description": "Zèle inflige #% de dégâts supplémentaires et bénéficie gratuitement de la variante Mort ou gloire.",
-    "DescriptionClean": "Zèle inflige de dégâts supplémentaires et bénéficie gratuitement de la variante Mort ou gloire.",
-    "Localisation": "{c_important}Zèle{/c} inflige {c_random}[Affix_Value_1*100|%x|]{/c} de dégâts supplémentaires et bénéficie gratuitement de la variante {c_important}Mort ou gloire{/c}.",
+    "Description": "Zèle bénéficie gratuitement de la variante Mort ou gloire et inflige #% de dégâts supplémentaires.",
+    "DescriptionClean": "Zèle bénéficie gratuitement de la variante Mort ou gloire et inflige de dégâts supplémentaires.",
+    "Localisation": "{c_important}Zèle{/c} bénéficie gratuitement de la variante {c_important}Mort ou gloire{/c} et inflige {c_random}[Affix_Value_1*100|%x|]{/c} de dégâts supplémentaires.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8225,7 +8257,7 @@
       "S05_BSK_Amulet_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Amulet_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "S05_Locran_Petal_Necklace_01_Flippy",
     "Name": "Talisman de Locran",
     "Description": "Les coups critiques infligent #% de dégâts supplémentaires, mais vos chances d’infliger un coup critique sont réduites de #%.",
     "DescriptionClean": "Les coups critiques infligent de dégâts supplémentaires, mais vos chances d’infliger un coup critique sont réduites de.",
@@ -8262,7 +8294,7 @@
       "Amulet_Unique_Generic_101",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_001",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Talisman du seigneur banni",
     "Description": "Après avoir dépensé #\u00A0points de ressource principale, vous obtenez #\u00A0cumuls d’accablement. Vos coups critiques infligent #% de dégâts supplémentaires par cumul d’accablement.",
     "DescriptionClean": "Après avoir dépensé \u00A0points de ressource principale, vous obtenez \u00A0cumuls d’accablement. Vos coups critiques infligent de dégâts supplémentaires par cumul d’accablement.",
@@ -8555,7 +8587,7 @@
       "Pants_Unique_Generic_100",
       "Talisman_Charm_Unique_Pants_Unique_Generic_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets54",
     "Name": "Témérité",
     "Description": "Les effets qui vous rendent plus de #% de vos points de vie vous confèrent une barrière allant jusqu’à #% de votre maximum de points de vie et qui dure #\u00A0s. \r\n\r\nVous pouvez désormais boire des potions de soins même si vous disposez de l’ensemble de vos points de vie.",
     "DescriptionClean": "Les effets qui vous rendent plus de de vos points de vie vous confèrent une barrière allant jusqu’à de votre maximum de points de vie et qui dure \u00A0s.  Vous pouvez désormais boire des potions de soins même si vous disposez de l’ensemble de vos points de vie.",
@@ -8662,7 +8694,7 @@
       "S05_BSK_Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Boots_unique_generic_126",
     "Name": "Veillée de Rakanoth",
     "Description": "Lorsque vous utilisez une compétence avec un temps de recharge, vous explosez et infligez #\u00A0points de dégâts de feu.",
     "DescriptionClean": "Lorsque vous utilisez une compétence avec un temps de recharge, vous explosez et infligez \u00A0points de dégâts de feu.",
@@ -8699,7 +8731,7 @@
       "Chest_Unique_Rogue_100",
       "Talisman_Charm_Unique_Chest_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "TRS_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Veste de bandit",
     "Description": "Vos compétences de piège peuvent être projetées et infligent #% de dégâts supplémentaires. ",
     "DescriptionClean": "Vos compétences de piège peuvent être projetées et infligent de dégâts supplémentaires.",
@@ -8731,7 +8763,7 @@
       "Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "HLM_base05",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Visage d’Andarielle",
     "Description": "Coup de chance\u00A0: vous avez jusqu’à #% de chances de déclencher une nova empoisonnée qui inflige #% des dégâts en #\u00A0s aux adversaires dans la zone.",
     "DescriptionClean": "Coup de chance\u00A0: vous avez jusqu’à de chances de déclencher une nova empoisonnée qui inflige des dégâts en \u00A0s aux adversaires dans la zone.",
@@ -8918,7 +8950,7 @@
       "Chest_Unique_Generic_103",
       "Talisman_Charm_Unique_Chest_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Chest_unique_generic_125",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Voile de la fausse mort",
     "Description": "Lorsque vous subissez des dégâts qui auraient dû vous tuer, vous récupérez tous vos points de vie, vous obtenez une barrière équivalente à #% de votre maximum de points de vie pendant #\u00A0s et vous repoussez les adversaires. Cet effet ne peut pas se produire plus d’une fois toutes les #\u00A0s.",
     "DescriptionClean": "Lorsque vous subissez des dégâts qui auraient dû vous tuer, vous récupérez tous vos points de vie, vous obtenez une barrière équivalente à de votre maximum de points de vie pendant \u00A0s et vous repoussez les adversaires. Cet effet ne peut pas se produire plus d’une fois toutes les \u00A0s.",
@@ -9013,7 +9045,7 @@
       "Amulet_Unique_Necro_102",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_017",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Volonté de Rathma",
     "Description": "Les cibles vulnérables, affaiblies, corrompues ou victimes d’un effet de perte de contrôle subissent une affliction, ce qui augmente de #% les dégâts qu’elles subissent de votre part.\r\n\r\nLes compétences de malédiction infligent #\u00A0points de dégâts d’ombre lorsqu’elles touchent des adversaires victimes d’Affliction.",
     "DescriptionClean": "Les cibles vulnérables, affaiblies, corrompues ou victimes d’un effet de perte de contrôle subissent une affliction, ce qui augmente de les dégâts qu’elles subissent de votre part. Les compétences de malédiction infligent \u00A0points de dégâts d’ombre lorsqu’elles touchent des adversaires victimes d’Affliction.",
@@ -9208,7 +9240,7 @@
       "Glaive_Unique_Spiritborn_010_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_010_x1"
     ],
-    "IdNameItemActor": "twoHandGlaive_uniq05",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Wushe Nak Pa",
     "Description": "Lorsque vous utilisez une compétence ultime, vous bénéficiez du bonus principal correspondant de la salle des Esprits ou augmentez celui-ci de #% de sa puissance pendant #\u00A0s.\r\n\r\nVos compétences ultimes obtiennent chacune un type de compétence supplémentaire\u00A0:\r\n Le traqueur est une compétence de catalyseur\u00A0;\r\n Le chasseur est une compétence de mobilité\u00A0;\r\n Le dévoreur est une compétence de puissance\u00A0;\r\n Le protecteur est une compétence défensive.",
     "DescriptionClean": "Lorsque vous utilisez une compétence ultime, vous bénéficiez du bonus principal correspondant de la salle des Esprits ou augmentez celui-ci de de sa puissance pendant \u00A0s. Vos compétences ultimes obtiennent chacune un type de compétence supplémentaire\u00A0: Le traqueur est une compétence de catalyseur\u00A0; Le chasseur est une compétence de mobilité\u00A0; Le dévoreur est une compétence de puissance\u00A0; Le protecteur est une compétence défensive.",
@@ -9460,9 +9492,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "Évangile de fidèle",
-    "Description": "Vos compétences de base obtiennent les effets de chaque amélioration. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de base, celle-ci subit #% dégâts supplémentaires de la part de vos autres compétences de base pendant #\u00A0s.",
-    "DescriptionClean": "Vos compétences de base obtiennent les effets de chaque amélioration. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de base, celle-ci subit dégâts supplémentaires de la part de vos autres compétences de base pendant \u00A0s.",
-    "Localisation": "Vos compétences de {c_important}base{/c} obtiennent les effets de chaque amélioration. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de {c_important}base{/c}, celle-ci subit {c_random}[Affix_Value_1 * 100|%x|]{/c} dégâts supplémentaires de la part de vos autres compétences de {c_important}base{/c} pendant {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0s.",
+    "Description": "Vos compétences de base bénéficient gratuitement de toutes leurs améliorations. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de base, celle-ci subit #% de dégâts supplémentaires de la part de vos autres compétences de base pendant #\u00A0s.",
+    "DescriptionClean": "Vos compétences de base bénéficient gratuitement de toutes leurs améliorations. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de base, celle-ci subit de dégâts supplémentaires de la part de vos autres compétences de base pendant \u00A0s.",
+    "Localisation": "Vos compétences de {c_important}base{/c} bénéficient gratuitement de toutes leurs améliorations. Lorsque vous infligez des dégâts à une cible adverse avec une compétence de {c_important}base{/c}, celle-ci subit {c_random}[Affix_Value_1 * 100|%x|]{/c} de dégâts supplémentaires de la part de vos autres compétences de {c_important}base{/c} pendant {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0s.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -9491,9 +9523,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "Œil de Baal",
-    "Description": "Les compétences d’éclat d’âme et leurs démons infligent #% de dégâts. L’utilisation d’une compétence d’éclat d’âme augmente les dégâts de toutes vos compétences de #% pendant #\u00A0s, jusqu’à un maximum de #%.",
-    "DescriptionClean": "Les compétences d’éclat d’âme et leurs démons infligent de dégâts. L’utilisation d’une compétence d’éclat d’âme augmente les dégâts de toutes vos compétences de pendant \u00A0s, jusqu’à un maximum de.",
-    "Localisation": "Les compétences {c_important}d’éclat d’âme{/c} et leurs démons infligent {c_random}[Affix_Value_1*100|%x|]{/c} de dégâts. L’utilisation d’une compétence {c_important}d’éclat d’âme{/c} augmente les dégâts de toutes vos compétences de {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} pendant {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0s, jusqu’à un maximum de {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
+    "Description": "Les compétences d’éclat d’âme et leurs démons infligent #% de dégâts supplémentaires. L’utilisation d’une compétence d’éclat d’âme augmente les dégâts de toutes vos compétences de #% pendant #\u00A0s, jusqu’à un maximum de #%.",
+    "DescriptionClean": "Les compétences d’éclat d’âme et leurs démons infligent de dégâts supplémentaires. L’utilisation d’une compétence d’éclat d’âme augmente les dégâts de toutes vos compétences de pendant \u00A0s, jusqu’à un maximum de.",
+    "Localisation": "Les compétences {c_important}d’éclat d’âme{/c} et leurs démons infligent {c_random}[Affix_Value_1*100|%x|]{/c} de dégâts supplémentaires. L’utilisation d’une compétence {c_important}d’éclat d’âme{/c} augmente les dégâts de toutes vos compétences de {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} pendant {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0s, jusqu’à un maximum de {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -9556,7 +9588,7 @@
       "S12_1HSword_Unique_Paladin_002",
       "Talisman_Charm_Unique_1HSword_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "sword_uniq20",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Œuvre de Griswold",
     "Description": "Lorsque vous infligez des dégâts directs, vous obtenez #% de dégâts critiques supplémentaires pour chaque cible touchée dans les #\u00A0s, jusqu’à un maximum de #%.\r\n\r\nAu maximum, vous bénéficiez de l’effet suivant.\r\n\r\nCoup de chance\u00A0: les coups critiques ont jusqu’à #% de chances d’infliger le double de dégâts, de vous rendre #\u00A0points de vie et de réinitialiser la durée de l’amélioration.",
     "DescriptionClean": "Lorsque vous infligez des dégâts directs, vous obtenez de dégâts critiques supplémentaires pour chaque cible touchée dans les \u00A0s, jusqu’à un maximum de. Au maximum, vous bénéficiez de l’effet suivant. Coup de chance\u00A0: les coups critiques ont jusqu’à de chances d’infliger le double de dégâts, de vous rendre \u00A0points de vie et de réinitialiser la durée de l’amélioration.",

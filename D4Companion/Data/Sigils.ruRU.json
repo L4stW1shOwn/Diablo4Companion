@@ -76,7 +76,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Базальтовый холм",
     "Description": "Эти развалины отважно выдерживают натиск магмы.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -328,40 +328,13 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Выжженные тоннели",
     "Description": "Высеченные лавой пещеры обещают невероятные богатства тем, кто силен духом.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Вылазка в подземелье",
-    "Description": "За прохождение подземелья дается больше опыта и наград.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
-    "Name": "Вылазка в подземелье",
-    "Description": "За прохождение подземелья дается больше опыта и наград.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Вылазка в подземелье",
-    "Description": "За прохождение подземелья дается больше опыта и наград.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
     "Name": "Вылазка в подземелье",
     "Description": "За прохождение подземелья дается больше опыта и наград.",
     "DungeonZoneInfo": "",
@@ -418,7 +391,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "Глушь",
     "Description": "Мало кто осмеливается пройти по этому берегу – даже несмотря на слухи о сокровищах.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -823,7 +796,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Затопленные руины",
     "Description": "Давно забытые руины, не развалившиеся окончательно лишь благодаря кораллу и моллюскам.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -913,7 +886,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Измученный лес",
     "Description": "Сумеете ли вы снять проклятие с этого леса, не присоединившись к рядам его жертв?",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -967,7 +940,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Катаклизм",
     "Description": "Столетия извержений навсегда изменили облик этих краев.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1093,7 +1066,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Край провидицы",
     "Description": "Вокруг звенит гнетущая тишина. Что притаилось здесь?",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1291,7 +1264,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Мрачная гавань",
     "Description": "Приспешники Ненависти собираются вместе, чтобы исполнить волю их владыки.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1435,7 +1408,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Околдованный грот",
     "Description": "Жуткая мелодия погружает неподготовленных в смертельный транс.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1674,15 +1647,6 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2355995,
-    "IdName": "DungeonAffix_Minor_S9_Suppressor",
-    "Name": "Особые монстры-душители",
-    "Description": "Особые монстры получают свойство \"Душитель\" и наносят на 20% больше урона.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Minor"
-  },
-  {
     "IdSno": 1314333,
     "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
     "Name": "Особые монстры-душители",
@@ -1690,6 +1654,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Major"
+  },
+  {
+    "IdSno": 2355995,
+    "IdName": "DungeonAffix_Minor_S9_Suppressor",
+    "Name": "Особые монстры-душители",
+    "Description": "Особые монстры получают свойство \"Душитель\" и наносят на 20% больше урона.",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Minor"
   },
   {
     "IdSno": 2355993,
@@ -1840,7 +1813,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Пещера морской ведьмы",
     "Description": "Сырая пещера, где морская ведьма держит своих рабов.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2119,7 +2092,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Проглоченный храм",
     "Description": "Нетронутый временем храм Перворожденных.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2299,7 +2272,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Сердце горы",
     "Description": "Скрытое сердце горы, в котором кипит раскаленная кровь.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2362,7 +2335,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Скрытые руины Перворожденных",
     "Description": "Частица истории, застывшая в вулканических обломках.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2542,7 +2515,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Темное убежище",
     "Description": "Если верить слухам, этот заброшенный склеп хранит сказочное богатство.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2668,7 +2641,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Убежище потерянных душ",
     "Description": "Место для тех, кто ищет покоя под недремлющим оком обманщика.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2988,11 +2961,20 @@
     "Type": "Minor"
   },
   {
+    "IdSno": 2579466,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
+    "Name": "Шлаковый путь",
+    "Description": "Высеченные лавой пещеры обещают невероятные богатства тем, кто силен духом.",
+    "DungeonZoneInfo": "в области Сковос",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
     "IdSno": 2579458,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Шлаковый путь",
     "Description": "Высеченные лавой пещеры обещают невероятные богатства тем, кто силен духом.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -3001,16 +2983,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Шлаковый путь",
     "Description": "Высеченные лавой пещеры обещают невероятные богатства тем, кто силен духом.",
-    "DungeonZoneInfo": "в области ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
-    "IdSno": 2579466,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
-    "Name": "Шлаковый путь",
-    "Description": "Высеченные лавой пещеры обещают невероятные богатства тем, кто силен духом.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -3019,7 +2992,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "Эгойе",
     "Description": "В древности здесь проводили испытания, но ныне это место захватили неупокоенные души.",
-    "DungeonZoneInfo": "в области ",
+    "DungeonZoneInfo": "в области Сковос",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -3042,19 +3015,19 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2373240,
-    "IdName": "DungeonAffix_Minor_Monster_ExtraPoisonDirect",
+    "IdSno": 1314405,
+    "IdName": "DungeonAffix_Minor_Monster_ExtraPoison",
     "Name": "Ядовитые удары",
-    "Description": "Монстры наносят еще 20% физического урона как урон от яда.",
+    "Description": "Монстры наносят еще 30% физического урона как урон от отравления за 3 сек.",
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Minor"
   },
   {
-    "IdSno": 1314405,
-    "IdName": "DungeonAffix_Minor_Monster_ExtraPoison",
+    "IdSno": 2373240,
+    "IdName": "DungeonAffix_Minor_Monster_ExtraPoisonDirect",
     "Name": "Ядовитые удары",
-    "Description": "Монстры наносят еще 30% физического урона как урон от отравления за 3 сек.",
+    "Description": "Монстры наносят еще 20% физического урона как урон от яда.",
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Minor"

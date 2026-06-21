@@ -1422,9 +1422,9 @@
       "legendary_paladin_020"
     ],
     "Name": "不屈者の",
-    "Description": "ブロック率に応じて、最大#%のダメージ減少率と操作障害耐性を獲得する。\r\n\r\n現在のボーナス: #% ",
-    "DescriptionClean": "ブロック率に応じて、最大のダメージ減少率と操作障害耐性を獲得する。 現在のボーナス:",
-    "Localisation": "ブロック率に応じて、最大{c_random}[Affix_Value_1|%|]{/c}のダメージ減少率と操作障害耐性を獲得する。\r\n\r\n現在のボーナス: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "ブロック率の#%と同等の防御力と操作障害短縮効果を獲得する。\r\n\r\n現在のボーナス: #% ",
+    "DescriptionClean": "ブロック率のと同等の防御力と操作障害短縮効果を獲得する。 現在のボーナス:",
+    "Localisation": "ブロック率の{c_random}[Affix_Value_1|%|]{/c}と同等の防御力と操作障害短縮効果を獲得する。\r\n\r\n現在のボーナス: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -2131,7 +2131,7 @@
     "Name": "優越者の",
     "Description": "敵を行動不能状態にすると決意が#付与される。",
     "DescriptionClean": "敵を行動不能状態にすると決意が付与される。",
-    "Localisation": "敵を行動不能状態にすると{u}{c_important}決意{/c}{/u}が{c_random}[Affix_Value_1]{/c}付与される。",
+    "Localisation": "敵を行動不能状態にすると{u}{c_important}決意{/c}{/u}が{c_random}[Ceil(Affix_Value_1)]{/c}付与される。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -2484,9 +2484,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "内なる叫びの",
-    "Description": "シャウトスキルによって敵から受けるダメージが#%秒間#%減少する。",
+    "Description": "シャウトスキルによって敵から受けるダメージが#秒間#%減少する。",
     "DescriptionClean": "シャウトスキルによって敵から受けるダメージが秒間減少する。",
-    "Localisation": "{c_important}シャウト{/c}スキルによって敵から受けるダメージが{c_number}[Affix.\"Static Value 0\"|%|]{/c}秒間{c_random}[Affix_Value_1|2%|]{/c}減少する。",
+    "Localisation": "{c_important}シャウト{/c}スキルによって敵から受けるダメージが{c_number}[Affix.\"Static Value 0\"||]{/c}秒間{c_random}[Affix_Value_1|2%|]{/c}減少する。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -4772,10 +4772,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -5524,7 +5526,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -5559,7 +5562,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -5813,10 +5815,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -10334,6 +10338,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -13904,7 +13910,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,

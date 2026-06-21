@@ -261,8 +261,8 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2516764,
-    "IdName": "DungeonAffix_Positive_LegendaryElites",
+    "IdSno": 2511994,
+    "IdName": "DungeonAffix_Positive_AncestralElites",
     "Name": "Arsenal oculto",
     "Description": "Aquí se guardan objetos excepcionales que otorgan a los enemigos de élite un afijo de botín poderoso.",
     "DungeonZoneInfo": "",
@@ -270,8 +270,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2511994,
-    "IdName": "DungeonAffix_Positive_AncestralElites",
+    "IdSno": 2516764,
+    "IdName": "DungeonAffix_Positive_LegendaryElites",
     "Name": "Arsenal oculto",
     "Description": "Aquí se guardan objetos excepcionales que otorgan a los enemigos de élite un afijo de botín poderoso.",
     "DungeonZoneInfo": "",
@@ -283,7 +283,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Ascenso Basáltico",
     "Description": "Aunque el magma ha hecho estragos, estas ruinas aún perduran.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -382,7 +382,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Bosque del Tormento",
     "Description": "¿Romperás la maldición del bosque o te unirás a sus filas?",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -432,20 +432,11 @@
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2579458,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
-    "Name": "Camino Escoriáceo",
-    "Description": "Para los más fuertes, estas cuevas esculpidas por la lava conducen a riquezas inimaginables.",
-    "DungeonZoneInfo": "en ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
     "IdSno": 2579464,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Camino Escoriáceo",
     "Description": "Para los más fuertes, estas cuevas esculpidas por la lava conducen a riquezas inimaginables.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -454,7 +445,16 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "Camino Escoriáceo",
     "Description": "Para los más fuertes, estas cuevas esculpidas por la lava conducen a riquezas inimaginables.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
+    "IdSno": 2579458,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
+    "Name": "Camino Escoriáceo",
+    "Description": "Para los más fuertes, estas cuevas esculpidas por la lava conducen a riquezas inimaginables.",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -517,7 +517,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Cataclismo",
     "Description": "Siglos de erupciones violentas han transformado estas tierras.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -553,7 +553,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Caverna de la Bruja del Piélago",
     "Description": "Una gruta húmeda donde la bruja del piélago reúne a sus esbirros.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -679,7 +679,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Confín de la Videncia",
     "Description": "El aire está sobrecargado de un silencio desconcertante. ¿Qué se esconderá ahí abajo?",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -688,7 +688,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Corazón de la Montaña",
     "Description": "El corazón oculto de la montaña, que bombea sangre fundida.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -697,7 +697,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "Costa de Nadie",
     "Description": "Pocos han caminado por esta costa, a pesar del rumor sobre sus tesoros.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -985,7 +985,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "El Aegoye",
     "Description": "Lugar de pruebas ancestrales que ahora está atestado de espíritus inquietos.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1215,35 +1215,8 @@
     "Type": "Minor"
   },
   {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "Exploración de mazmorras",
-    "Description": "Completar la mazmorra otorga experiencia y recompensas adicionales.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Exploración de mazmorras",
-    "Description": "Completar la mazmorra otorga experiencia y recompensas adicionales.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
-    "Name": "Exploración de mazmorras",
-    "Description": "Completar la mazmorra otorga experiencia y recompensas adicionales.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
     "Name": "Exploración de mazmorras",
     "Description": "Completar la mazmorra otorga experiencia y recompensas adicionales.",
     "DungeonZoneInfo": "",
@@ -1471,7 +1444,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Gruta Embrujada",
     "Description": "Una melodía misteriosa atrae a los incautos y los somete a un trance letal.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2209,7 +2182,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Refugio Nefasto",
     "Description": "El ejército del Odio se congrega para cumplir la voluntad de su Amo.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2218,7 +2191,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Refugio Oscuro",
     "Description": "Hay rumores sobre riquezas míticas en torno a esta cripta abandonada.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2263,7 +2236,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Refugio de los Perdidos",
     "Description": "Un lugar de consuelo bajo el ojo atento de un embustero.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2632,7 +2605,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Ruinas Sumergidas",
     "Description": "Ruinas olvidadas que se mantienen unidas gracias a los corales y a los percebes.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2668,7 +2641,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Ruinas del Primogénito Oculto",
     "Description": "Una reliquia histórica preservada mediante métodos piroclásticos.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2821,7 +2794,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Templo Engullido",
     "Description": "Un templo de los Primogénitos en el que el tiempo no ha hecho mella.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2956,7 +2929,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Túneles Calcinados",
     "Description": "Para los más fuertes, estas cuevas esculpidas por la lava conducen a riquezas inimaginables.",
-    "DungeonZoneInfo": "en ",
+    "DungeonZoneInfo": "en Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

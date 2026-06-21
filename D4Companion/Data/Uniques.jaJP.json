@@ -129,41 +129,6 @@
     ]
   },
   {
-    "IdSno": "1934447",
-    "IdName": "Pants_Unique_Sorc_101",
-    "IdSnoList": [
-      "1934447"
-    ],
-    "IdNameList": [
-      "Pants_Unique_Sorc_101"
-    ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
-    "IdNameItemList": [
-      "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
-    ],
-    "IdNameItemActor": "Pants_Unique_Sorcerer_98",
-    "Name": "[ph_Hope's Respite]",
-    "Description": "〈チェイン・ライトニング〉が#%の確率で追加で#から#回発生する。",
-    "DescriptionClean": "〈チェイン・ライトニング〉がの確率で追加でから回発生する。",
-    "Localisation": "{c_important}〈チェイン・ライトニング〉{/c}が{c_number}[Affix.\"Static Value 0\"*100|%|]{/c}の確率で追加で{c_number}[Affix.\"Static Value 1\"]{/c}から{c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c}回発生する。",
-    "MagicType": 2,
-    "AllowedForPlayerClass": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      30
-    ]
-  },
-  {
     "IdSno": "1902466",
     "IdName": "Ring_Unique_Rogue_101",
     "IdSnoList": [
@@ -177,7 +142,7 @@
       "Ring_Unique_Rogue_101",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_012",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ならず者の接吻",
     "Description": "近距離に敵がいる間、#秒ごとに猛威が#蓄積する。\r\n\r\n射手スキルのダメージが猛威の蓄積ごとに#%増加する。",
     "DescriptionClean": "近距離に敵がいる間、秒ごとに猛威が蓄積する。 射手スキルのダメージが猛威の蓄積ごとに増加する。",
@@ -209,7 +174,7 @@
       "Chest_Unique_Rogue_100",
       "Talisman_Charm_Unique_Chest_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "TRS_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ならず者の革装備",
     "Description": "罠スキルを放り投げられるようになり、ダメージが#%増加する。 ",
     "DescriptionClean": "罠スキルを放り投げられるようになり、ダメージが増加する。",
@@ -241,7 +206,7 @@
       "Ring_Unique_Spiritborn_002_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_002_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_054",
     "Name": "もがける月の指輪",
     "Description": "#秒ごとに悪疫の虫の群れが自身から発生して、命中するたびに#の毒ダメージを与える。\r\n\r\n悪疫の虫の群れが自身の回りを周回するようになり、命中するたびに装備中のイーグルスキルのクールダウン時間が#秒短縮される。",
     "DescriptionClean": "秒ごとに悪疫の虫の群れが自身から発生して、命中するたびにの毒ダメージを与える。 悪疫の虫の群れが自身の回りを周回するようになり、命中するたびに装備中のイーグルスキルのクールダウン時間が秒短縮される。",
@@ -462,7 +427,7 @@
       "S12_1HSword_Unique_Generic_100",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_100"
     ],
-    "IdNameItemActor": "sword_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "アズールラス",
     "Description": "凍結状態が終了した敵が爆発し、凍結中のその敵に与えた分の#%のダメージを発生させる。",
     "DescriptionClean": "凍結状態が終了した敵が爆発し、凍結中のその敵に与えた分ののダメージを発生させる。",
@@ -560,7 +525,7 @@
       "Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "HLM_base05",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "アンダリエルの面",
     "Description": "幸運の一撃: 最大#%の確率で、エリア内の敵に#秒間にわたり#%のダメージを与えるポイズン・ノヴァを発動させる。",
     "DescriptionClean": "幸運の一撃: 最大の確率で、エリア内の敵に秒間にわたりのダメージを与えるポイズン・ノヴァを発動させる。",
@@ -692,7 +657,7 @@
       "Boots_Unique_Generic_003",
       "Talisman_Charm_Unique_Boots_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Boots_Unique_Generic_125",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "イェンの祝福",
     "Description": "スキルを使用すると#%の確率でクールダウン中の非機動力または非奥義スキルを発動する。効果が発動するのは#秒に1回のみ。",
     "DescriptionClean": "スキルを使用するとの確率でクールダウン中の非機動力または非奥義スキルを発動する。効果が発動するのは秒に1回のみ。",
@@ -943,7 +908,7 @@
       "Ring_Unique_Druid_01_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_01_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_021",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "エイリダの哀歌",
     "Description": "使用した嵐スキルが精神力を#付与し、#%のボーナスダメージ与える。このボーナスダメージは、脆弱状態、移動不能またはスロウ状態の敵に対して2倍になる。",
     "DescriptionClean": "使用した嵐スキルが精神力を付与し、のボーナスダメージ与える。このボーナスダメージは、脆弱状態、移動不能またはスロウ状態の敵に対して2倍になる。",
@@ -1137,7 +1102,7 @@
       "1HDagger_Unique_Rogue_003_x2",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_003_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "dagger_uniq10",
     "Name": "エトナの失われたダガー",
     "Description": "異なるタイプの非物理ダメージを#種類与えると、#秒間、注入スキルの効力が#%上昇し、非物理ダメージが#%増加する。\r\n\r\n基本スキルが注入可能になる。",
     "DescriptionClean": "異なるタイプの非物理ダメージを種類与えると、秒間、注入スキルの効力が上昇し、非物理ダメージが増加する。 基本スキルが注入可能になる。",
@@ -1295,7 +1260,7 @@
       "1HMace_Unique_Sorc_100",
       "Talisman_Charm_Unique_1HMace_Unique_Sorc_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "mace_uniq17",
     "Name": "オルシヴェイン",
     "Description": "アクション・バーに登録されていない防御スキル1つにつき、与えるダメージが#%増加し、そのスキルに関連したエンチャントメント効果を獲得する。",
     "DescriptionClean": "アクション・バーに登録されていない防御スキル1つにつき、与えるダメージが増加し、そのスキルに関連したエンチャントメント効果を獲得する。",
@@ -1359,9 +1324,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "オーバーキル",
-    "Description": "〈死の一撃〉がすべてのサイドアップグレードを獲得し、ダメージが#%増加する。",
-    "DescriptionClean": "〈死の一撃〉がすべてのサイドアップグレードを獲得し、ダメージが増加する。",
-    "Localisation": "{c_important}〈死の一撃〉{/c}がすべてのサイドアップグレードを獲得し、ダメージが{c_random}[Affix_Value_1 * 100|1%x|]{/c}増加する。",
+    "Description": "〈死の一撃〉がコスト無しで全アップグレードを獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈死の一撃〉がコスト無しで全アップグレードを獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈死の一撃〉{/c}がコスト無しで全アップグレードを獲得し、ダメージが{c_random}[Affix_Value_1 * 100|1%x|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1452,9 +1417,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "カムシンの草原歩き",
-    "Description": "〈大地の護り〉のアップグレード土の榴散弾をコスト無しで獲得し、ダメージが#%増加する。",
-    "DescriptionClean": "〈大地の護り〉のアップグレード土の榴散弾をコスト無しで獲得し、ダメージが増加する。",
-    "Localisation": "{c_important}〈大地の護り〉{/c}のアップグレード{c_important}土の榴散弾{/c}をコスト無しで獲得し、ダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加する。",
+    "Description": "〈大地の護り〉がコスト無しで派生効果「土の榴散弾」を獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈大地の護り〉がコスト無しで派生効果「土の榴散弾」を獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈大地の護り〉{/c}がコスト無しで派生効果「土の榴散弾」を獲得し、ダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1773,9 +1738,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_97",
     "Name": "グリーンウォーカーの誓い",
-    "Description": "〈有毒なる蔦〉がコスト無しで派生効果「発芽」を獲得し、#%のボーナスダメージを与える。",
-    "DescriptionClean": "〈有毒なる蔦〉がコスト無しで派生効果「発芽」を獲得し、のボーナスダメージを与える。",
-    "Localisation": "{c_important}〈有毒なる蔦〉{/c}がコスト無しで派生効果{c_important}「発芽」{/c}を獲得し、{c_random}[Affix_Value_1*100|x%|]{/c}のボーナスダメージを与える。",
+    "Description": "〈有毒なる蔦〉がコスト無しで派生効果「発芽」を獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈有毒なる蔦〉がコスト無しで派生効果「発芽」を獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈有毒なる蔦〉{/c}がコスト無しで派生効果「発芽」を獲得し、ダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1803,7 +1768,7 @@
       "Amulet_Unique_Paladin_002",
       "Talisman_Charm_Unique_Amulet_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_025",
     "Name": "ケサマールのサンクティス",
     "Description": "裁定者形態時にオーラの効力が#%上昇し、〈翼撃〉のダメージが#%増加する。",
     "DescriptionClean": "裁定者形態時にオーラの効力が上昇し、〈翼撃〉のダメージが増加する。",
@@ -2281,7 +2246,7 @@
       "Quarterstaff_Unique_Spiritborn_012_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_012_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq01",
     "Name": "セパゾンテック",
     "Description": "基本スキルのダメージが#%増加し、必ず3回目の攻撃を使用するようになる。\r\n\r\n基本スキルが3回目ごとに三連撃になる。",
     "DescriptionClean": "基本スキルのダメージが増加し、必ず3回目の攻撃を使用するようになる。 基本スキルが3回目ごとに三連撃になる。",
@@ -2409,7 +2374,7 @@
       "S12_1HSword_Unique_Barb_103",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_103"
     ],
-    "IdNameItemActor": "sword_uniq27",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ツァスガルのサーベル",
     "Description": "装備しているダメージ発生スキル1つにつきダメージが#%増加し、これらのスキルが使用されるたびに#秒間さらに#%増加する。",
     "DescriptionClean": "装備しているダメージ発生スキル1つにつきダメージが増加し、これらのスキルが使用されるたびに秒間さらに増加する。",
@@ -2475,7 +2440,7 @@
       "Pants_Unique_Generic_102",
       "Talisman_Charm_Unique_Pants_Unique_Generic_102"
     ],
-    "IdNameItemActor": "LEG_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ティーボルトの意志",
     "Description": "抑圧不可中と効果が切れてから#秒間、ダメージが#%増加し、プライマリリソース回復量が#増加する。",
     "DescriptionClean": "抑圧不可中と効果が切れてから秒間、ダメージが増加し、プライマリリソース回復量が増加する。",
@@ -2826,7 +2791,7 @@
       "Helm_Unique_Generic_002",
       "Talisman_Charm_Unique_Helm_Unique_Generic_002"
     ],
-    "IdNameItemActor": "HLM_gnrc127",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ハーレクインの紋章",
     "Description": "#%のダメージ減少効果を得る。さらに、すべてのスキルランクが#上昇する。",
     "DescriptionClean": "のダメージ減少効果を得る。さらに、すべてのスキルランクが上昇する。",
@@ -2963,9 +2928,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "バールの目",
-    "Description": "ソウルシャードスキルとその悪魔が#%ダメージを与える。ソウルシャードスキルを使用すると#秒間、自身のすべてのダメージが#%増加する。最大#%。",
-    "DescriptionClean": "ソウルシャードスキルとその悪魔がダメージを与える。ソウルシャードスキルを使用すると秒間、自身のすべてのダメージが増加する。最大。",
-    "Localisation": "{c_important}ソウルシャード{/c}スキルとその悪魔が{c_random}[Affix_Value_1*100|%x|]{/c}ダメージを与える。{c_important}ソウルシャード{/c}スキルを使用すると{c_number}[Affix.\"Static Value 1\"]{/c}秒間、自身のすべてのダメージが{c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}増加する。最大{c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}。",
+    "Description": "ソウルシャードスキルとその悪魔のダメージが#%増加する。ソウルシャードスキルを使用すると#秒間、自身のすべてのダメージが#%増加する。最大#%。",
+    "DescriptionClean": "ソウルシャードスキルとその悪魔のダメージが増加する。ソウルシャードスキルを使用すると秒間、自身のすべてのダメージが増加する。最大。",
+    "Localisation": "{c_important}ソウルシャード{/c}スキルとその悪魔のダメージが{c_random}[Affix_Value_1*100|%x|]{/c}増加する。{c_important}ソウルシャード{/c}スキルを使用すると{c_number}[Affix.\"Static Value 1\"]{/c}秒間、自身のすべてのダメージが{c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}増加する。最大{c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3056,7 +3021,7 @@
       "Gloves_Unique_Generic_003",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_003"
     ],
-    "IdNameItemActor": "GLV_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "フロストバーン",
     "Description": "幸運の一撃: 最大#%の確率で#秒間、敵を凍結させる。\r\n\r\n凍結状態の敵に対するダメージが#%増加する。",
     "DescriptionClean": "幸運の一撃: 最大の確率で秒間、敵を凍結させる。 凍結状態の敵に対するダメージが増加する。",
@@ -3105,6 +3070,40 @@
       1
     ],
     "AllowedItemLabels": []
+  },
+  {
+    "IdSno": "1934447",
+    "IdName": "Pants_Unique_Sorc_101",
+    "IdSnoList": [
+      "1934447"
+    ],
+    "IdNameList": [
+      "Pants_Unique_Sorc_101"
+    ],
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
+    "IdNameItemList": [
+      "Pants_Unique_Sorc_101",
+      "Pants_Unique_Sorc_96"
+    ],
+    "IdNameItemActor": "Pants_Unique_Sorcerer_96",
+    "Name": "ブクラニの決意",
+    "Description": "〈チェイン・ライトニング〉が#%の確率で追加で#から#回発生する。",
+    "DescriptionClean": "〈チェイン・ライトニング〉がの確率で追加でから回発生する。",
+    "Localisation": "{c_important}〈チェイン・ライトニング〉{/c}が{c_number}[Affix.\"Static Value 0\"*100|%|]{/c}の確率で追加で{c_number}[Affix.\"Static Value 1\"]{/c}から{c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c}回発生する。",
+    "MagicType": 2,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      30
+    ]
   },
   {
     "IdSno": "578823",
@@ -3252,9 +3251,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "ヘルハンマー",
-    "Description": "〈打ち払い〉が鉄爆の派生効果を獲得し、与えるダメージが#%増加する。",
-    "DescriptionClean": "〈打ち払い〉が鉄爆の派生効果を獲得し、与えるダメージが増加する。",
-    "Localisation": "{c_important}〈打ち払い〉{/c}が{c_important}鉄爆{/c}の派生効果を獲得し、与えるダメージが{c_random}[Affix_Value_1 * 100|1%x|]{/c}増加する。",
+    "Description": "〈打ち払い〉がコスト無しで派生効果「鉄爆」を獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈打ち払い〉がコスト無しで派生効果「鉄爆」を獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈打ち払い〉{/c}がコスト無しで派生効果「鉄爆」を獲得し、ダメージが{c_random}[Affix_Value_1 * 100|1%x|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3345,7 +3344,7 @@
       "Amulet_Unique_Warlock_001",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_02",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ホラゾンの種",
     "Description": "所持している憤怒ごとに悪魔信仰スキルのダメージが#%増加し、所持している統治力ごとに受けるダメージが#%減少する。",
     "DescriptionClean": "所持している憤怒ごとに悪魔信仰スキルのダメージが増加し、所持している統治力ごとに受けるダメージが減少する。",
@@ -3605,7 +3604,7 @@
       "S05_BSK_Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Boots_unique_generic_126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ラカノスの足跡",
     "Description": "クールダウンのあるスキルを使用すると、自身が爆発して#の火炎ダメージを与える。",
     "DescriptionClean": "クールダウンのあるスキルを使用すると、自身が爆発しての火炎ダメージを与える。",
@@ -3642,7 +3641,7 @@
       "Amulet_Unique_Necro_102",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_017",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ラズマの意思",
     "Description": "脆弱、弱体化、操作障害、もしくは腐敗効果を受けている敵は苛虐状態になり、その敵に与える自身のダメージが#%増加する。\r\n\r\n苛虐状態の敵に呪いスキルを使用すると、#のシャドウダメージが発生する。",
     "DescriptionClean": "脆弱、弱体化、操作障害、もしくは腐敗効果を受けている敵は苛虐状態になり、その敵に与える自身のダメージが増加する。 苛虐状態の敵に呪いスキルを使用すると、のシャドウダメージが発生する。",
@@ -3675,7 +3674,7 @@
       "S12_1HSword_Unique_Barb_101",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_101"
     ],
-    "IdNameItemActor": "sword_uniq09",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "ラマラドニの最高傑作",
     "Description": "所有する怒気1ポイントにつきスキルダメージが#%増加する。ただし、毎秒怒気を#消失する。",
     "DescriptionClean": "所有する怒気1ポイントにつきスキルダメージが増加する。ただし、毎秒怒気を消失する。",
@@ -3777,7 +3776,7 @@
       "Chest_Unique_Generic_100",
       "Talisman_Charm_Unique_Chest_Unique_Generic_100"
     ],
-    "IdNameItemActor": "TRS_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "レイザープレート",
     "Description": "#%の確率で荊棘の加護の与えるダメージが#%増加する。 ",
     "DescriptionClean": "の確率で荊棘の加護の与えるダメージが増加する。",
@@ -4077,7 +4076,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandMace_uniq17",
     "Name": "三つ巴のセプター",
     "Description": "奥義スキルを全種類装備できるようになり、全奥義のランクが#上昇する。非アクティブ奥義スキルが敵に命中すると奥義スキルのダメージが#%上昇する。最大#%。奥義スキル発動後、すべての効果が終了するとこのダメージボーナスはリセットされる。",
     "DescriptionClean": "奥義スキルを全種類装備できるようになり、全奥義のランクが上昇する。非アクティブ奥義スキルが敵に命中すると奥義スキルのダメージが上昇する。最大。奥義スキル発動後、すべての効果が終了するとこのダメージボーナスはリセットされる。",
@@ -4518,9 +4517,9 @@
     ],
     "IdNameItemActor": "Boots_unique_Sorcerer_98",
     "Name": "凍結の贈り物",
-    "Description": "〈アイスアーマー〉がコスト無しで派生効果永久凍土を獲得し、効力が#%上昇する。",
-    "DescriptionClean": "〈アイスアーマー〉がコスト無しで派生効果永久凍土を獲得し、効力が上昇する。",
-    "Localisation": "{c_important}〈アイスアーマー〉{/c}がコスト無しで派生効果{c_important}永久凍土{/c}を獲得し、効力が{c_random}[Affix_Value_1|%|]{/c}上昇する。",
+    "Description": "〈アイスアーマー〉がコスト無しで派生効果「永久凍土」を獲得し、効力が#%上昇する。",
+    "DescriptionClean": "〈アイスアーマー〉がコスト無しで派生効果「永久凍土」を獲得し、効力が上昇する。",
+    "Localisation": "{c_important}〈アイスアーマー〉{/c}がコスト無しで派生効果「永久凍土」を獲得し、効力が{c_random}[Affix_Value_1|%|]{/c}上昇する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -4618,7 +4617,7 @@
       "Gloves_Unique_Rogue_98",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_98"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_Unique_Rogue_98",
     "Name": "剣闘士の凱旋",
     "Description": "敵に初めて与えた直接ダメージが必ずクリティカルヒットになる。射手スキルの初回クリティカルヒット発生時、与えるダメージが#%増加し、オーバーパワーを#獲得する。この効果で獲得したオーバーパワーは、自身のオーバーパワー最大値を越えて最大#まで蓄積される。",
     "DescriptionClean": "敵に初めて与えた直接ダメージが必ずクリティカルヒットになる。射手スキルの初回クリティカルヒット発生時、与えるダメージが増加し、オーバーパワーを獲得する。この効果で獲得したオーバーパワーは、自身のオーバーパワー最大値を越えて最大まで蓄積される。",
@@ -4651,7 +4650,7 @@
       "S12_1HAxe_Unique_Generic_003",
       "Talisman_Charm_Unique_1HAxe_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Axe_uniq15",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "千眼の略奪者",
     "Description": "移動すると猛威を獲得し、猛威の最大値が#増加する。また、猛威は蓄積ごとに移動速度を#%上昇させる。",
     "DescriptionClean": "移動すると猛威を獲得し、猛威の最大値が増加する。また、猛威は蓄積ごとに移動速度を上昇させる。",
@@ -4714,7 +4713,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
     "Name": "原始の守護",
     "Description": "移動中、#%の回避率とダメージ減少率を獲得する。\r\n\r\n#秒間の静止後、再び動き出すまで抑圧不可になる。",
     "DescriptionClean": "移動中、の回避率とダメージ減少率を獲得する。 秒間の静止後、再び動き出すまで抑圧不可になる。",
@@ -5067,7 +5066,7 @@
       "Gloves_Unique_Necro_105",
       "Talisman_Charm_Unique_Gloves_Unique_Necro_105"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_Unique_Necromancer_98",
     "Name": "墓歩きの手",
     "Description": "精髄生成量が#%増加する。骨スキル使用時に保有していた精髄1ポイントにつき、そのスキルのダメージが#%増加する。増加量は最大#%。",
     "DescriptionClean": "精髄生成量が増加する。骨スキル使用時に保有していた精髄1ポイントにつき、そのスキルのダメージが増加する。増加量は最大。",
@@ -5099,7 +5098,7 @@
       "Amulet_Unique_Spiritborn_102",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_102"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_015",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "変幻自在な心臓",
     "Description": "ベースとなっている精霊別にスキル使用時に次の効果を獲得:\r\n イーグル: 移動速度#%\r\n ゴリラ: ダメージ減少率#%\r\n ジャガー: 攻撃速度#%\r\n センティピード: 毎秒ごとのライフ回復量#%\r\n\r\nベースとなっている精霊が異なるスキル使用時に次の効果を獲得:\r\n 新たなボーナスに切り替え\r\n #秒間、基本能力値が#%上昇",
     "DescriptionClean": "ベースとなっている精霊別にスキル使用時に次の効果を獲得: イーグル: 移動速度 ゴリラ: ダメージ減少率 ジャガー: 攻撃速度 センティピード: 毎秒ごとのライフ回復量 ベースとなっている精霊が異なるスキル使用時に次の効果を獲得: 新たなボーナスに切り替え 秒間、基本能力値が上昇",
@@ -5194,7 +5193,7 @@
       "1HShield_Unique_Paladin_005",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_005"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq15",
     "Name": "大聖堂の歌",
     "Description": "幸運の一撃: 門弟スキル使用時に、最大#%の確率でランダムな敵1体に〈天界の槍〉が降り注ぐ。\r\n\r\n〈天界の槍〉のダメージが#%増加する。",
     "DescriptionClean": "幸運の一撃: 門弟スキル使用時に、最大の確率でランダムな敵1体に〈天界の槍〉が降り注ぐ。 〈天界の槍〉のダメージが増加する。",
@@ -5257,7 +5256,7 @@
       "Amulet_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_018",
     "Name": "太陽鳥の頸甲",
     "Description": "嵐羽を1枚拾うと自身の周りに#秒間、火炎嵐を発生させて#秒につき#の火炎ダメージを与える。\r\n\r\n嵐羽を追加で#枚拾うたびに火炎嵐は激しくなり、ダメージが#%増加するが、持続時間は更新されない。嵐羽はジャガースキルの性質を併せ持ち、火炎嵐はイーグル、ジャガーおよび嵐羽スキルの性質を併せ持つ。",
     "DescriptionClean": "嵐羽を1枚拾うと自身の周りに秒間、火炎嵐を発生させて秒につきの火炎ダメージを与える。 嵐羽を追加で枚拾うたびに火炎嵐は激しくなり、ダメージが増加するが、持続時間は更新されない。嵐羽はジャガースキルの性質を併せ持ち、火炎嵐はイーグル、ジャガーおよび嵐羽スキルの性質を併せ持つ。",
@@ -5353,7 +5352,7 @@
       "Gloves_Unique_Generic_005",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_005"
     ],
-    "IdNameItemActor": "GLV_gnrc126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "宿命の真皮",
     "Description": "攻撃が遠距離にいる敵を脆弱状態にし、近距離にいる敵を弱体化させる。脆弱と弱体化の両方が付与された敵に対するダメージが#%増加する。",
     "DescriptionClean": "攻撃が遠距離にいる敵を脆弱状態にし、近距離にいる敵を弱体化させる。脆弱と弱体化の両方が付与された敵に対するダメージが増加する。",
@@ -5416,7 +5415,7 @@
       "Boots_Unique_Barb_101",
       "Talisman_Charm_Unique_Boots_Unique_Barb_101"
     ],
-    "IdNameItemActor": "Boots_Unique_Barbarian_103",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "山神の蹄",
     "Description": "怒気最大値のときに基本スキルを使用すると、底をつくまで怒気の消耗量が増え続け、その間すべての基本スキルが敵を切り裂くようになり、ダメージが#%増加する。",
     "DescriptionClean": "怒気最大値のときに基本スキルを使用すると、底をつくまで怒気の消耗量が増え続け、その間すべての基本スキルが敵を切り裂くようになり、ダメージが増加する。",
@@ -5510,7 +5509,7 @@
       "Glaive_Unique_Spiritborn_014_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_014_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq09",
     "Name": "布告者ネセケム",
     "Description": "#秒ごとにランダムな付近の敵1体をマークする。マークされた敵は脆弱状態になり、その敵に対する自身の攻撃が必ずクリティカルヒットになる。\r\n\r\nマークされた敵に#回攻撃を命中させると、その敵のマークは消える。",
     "DescriptionClean": "秒ごとにランダムな付近の敵1体をマークする。マークされた敵は脆弱状態になり、その敵に対する自身の攻撃が必ずクリティカルヒットになる。 マークされた敵に回攻撃を命中させると、その敵のマークは消える。",
@@ -5641,7 +5640,7 @@
       "Helm_Unique_Spiritborn_011_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_011_x1"
     ],
-    "IdNameItemActor": "HLM_crft44",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "忠誠の外套",
     "Description": "精霊の広間の選択が同じ間:\r\n それらのボーナスの効力が#%上昇する。\r\n ベースとなっている精霊のスキルの活力コストが#%減少する。\r\n ベースとなっている精霊のスキルが#%のクールダウン時間短縮を得る。",
     "DescriptionClean": "精霊の広間の選択が同じ間: それらのボーナスの効力が上昇する。 ベースとなっている精霊のスキルの活力コストが減少する。 ベースとなっている精霊のスキルがのクールダウン時間短縮を得る。",
@@ -5771,7 +5770,7 @@
       "Ring_Unique_Rogue_100",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Rogue_Master",
     "Name": "悶えし策略の指輪",
     "Description": "遁走スキルが〈分身の罠〉を作り出して敵を挑発し、#秒間にわたり#の腐敗ダメージを与える。このダメージは罠スキルとみなされる。一度に発動できる〈分身〉は1体のみ。\u00A0",
     "DescriptionClean": "遁走スキルが〈分身の罠〉を作り出して敵を挑発し、秒間にわたりの腐敗ダメージを与える。このダメージは罠スキルとみなされる。一度に発動できる〈分身〉は1体のみ。",
@@ -5959,7 +5958,7 @@
       "Chest_Unique_Generic_103",
       "Talisman_Charm_Unique_Chest_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Chest_unique_generic_125",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "擬死の衣",
     "Description": "致命的なダメージを受けると代わりに全ライフが回復し、自身のライフ最大値の#%にあたる障壁が#秒間付与され、近距離の敵をノックバックする。この効果は#秒に1回のみ発生する。",
     "DescriptionClean": "致命的なダメージを受けると代わりに全ライフが回復し、自身のライフ最大値のにあたる障壁が秒間付与され、近距離の敵をノックバックする。この効果は秒に1回のみ発生する。",
@@ -6023,7 +6022,7 @@
       "S12_1HDagger_Unique_Rogue_001",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "dagger_uniq06",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "断罪",
     "Description": "3コンボポイントを消費すると#秒間、コアスキルのダメージが#%増加する。基本スキルを使用すると必ずコンボポイントを3ポイント生成する。",
     "DescriptionClean": "3コンボポイントを消費すると秒間、コアスキルのダメージが増加する。基本スキルを使用すると必ずコンボポイントを3ポイント生成する。",
@@ -6055,7 +6054,7 @@
       "Helm_Unique_Paladin_002",
       "Talisman_Charm_Unique_Helm_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Helm_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "断罪者のグレイブヘルム",
     "Description": "幸運の一撃: 〈断罪者〉スキルが制裁の印を付与する〈福音の槍〉を最大#%の確率で召喚する。この槍は命中時に制裁ダメージを与える。",
     "DescriptionClean": "幸運の一撃: 〈断罪者〉スキルが制裁の印を付与する〈福音の槍〉を最大の確率で召喚する。この槍は命中時に制裁ダメージを与える。",
@@ -6087,7 +6086,7 @@
       "Boots_Unique_Generic_002",
       "Talisman_Charm_Unique_Boots_Unique_Generic_002"
     ],
-    "IdNameItemActor": "BTS_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "明滅の足取り",
     "Description": "回避した敵1体毎に発動中の奥義スキルのクールダウンが#秒短縮する。短縮量は最大#秒。",
     "DescriptionClean": "回避した敵1体毎に発動中の奥義スキルのクールダウンが秒短縮する。短縮量は最大秒。",
@@ -6119,12 +6118,45 @@
       "Ring_Unique_Generic_101",
       "Talisman_Charm_Unique_Ring_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "星無き空の指輪",
     "Description": "プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが#秒間、#%増加する。増加量は最大#%。 ",
     "DescriptionClean": "プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが秒間、増加する。増加量は最大。",
     "Localisation": "プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが{c_number}[Affix.\"Static Value 1\"]{/c}秒間、{c_number}[Affix_Value_1|%x|]{/c}増加する。増加量は最大{c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}。 ",
     "MagicType": 4,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "星無き空の指輪",
+    "Description": "神秘: プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが#秒間、#%増加する。増加量は最大#%。 ",
+    "DescriptionClean": "神秘: プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが秒間、増加する。増加量は最大。",
+    "Localisation": "{c_mythic}神秘: {/c}プライマリリソースを消費すると、スキルのリソースコストが減少し、自身が与えるダメージが{c_number}[Affix.\"Static Value 1\"]{/c}秒間、{c_number}[Affix_Value_1|1%x|]{/c}増加する。増加量は最大{c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}。 ",
+    "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
       1,
@@ -6345,9 +6377,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "朽ち果てし者の大杖",
-    "Description": "〈狼爪〉が同スキルの全タイプを獲得し、#%のボーナスダメージを与える。",
-    "DescriptionClean": "〈狼爪〉が同スキルの全タイプを獲得し、のボーナスダメージを与える。",
-    "Localisation": "{c_important}〈狼爪〉{/c}が同スキルの全タイプを獲得し、{c_random}[Affix_Value_1*100|x%|]{/c}のボーナスダメージを与える。",
+    "Description": "〈狼爪〉がコスト無しで全派生を獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈狼爪〉がコスト無しで全派生を獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈狼爪〉{/c}がコスト無しで全派生を獲得し、ダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6376,9 +6408,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "極致の手",
-    "Description": "〈メタモルフォーゼ〉がコスト無しでサイドアップグレードをすべて獲得し、効力が#%増加する。",
-    "DescriptionClean": "〈メタモルフォーゼ〉がコスト無しでサイドアップグレードをすべて獲得し、効力が増加する。",
-    "Localisation": "{c_important}〈メタモルフォーゼ〉{/c}がコスト無しでサイドアップグレードをすべて獲得し、効力が{c_random}[Affix_Value_1*100|+%|]{/c}増加する。",
+    "Description": "〈メタモルフォーゼ〉がコスト無しで全強化を獲得し、効力が#%増加する。",
+    "DescriptionClean": "〈メタモルフォーゼ〉がコスト無しで全強化を獲得し、効力が増加する。",
+    "Localisation": "{c_important}〈メタモルフォーゼ〉{/c}がコスト無しで全強化を獲得し、効力が{c_random}[Affix_Value_1*100|+%|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6406,7 +6438,7 @@
       "1HSword_Unique_Generic_002",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq24",
     "Name": "正義の剣、エル=ドルイン",
     "Description": "エリートの群れを倒すと#秒間、自身のスキルのクールダウン時間が#秒短縮される。",
     "DescriptionClean": "エリートの群れを倒すと秒間、自身のスキルのクールダウン時間が秒短縮される。",
@@ -6694,9 +6726,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "求道者の福音",
-    "Description": "基本スキルがすべてのアップグレードを獲得する。 基本スキルで敵にダメージを与えると、その敵に対する自身のほかの基本スキルで与えるダメージが#秒間#%増加する。",
-    "DescriptionClean": "基本スキルがすべてのアップグレードを獲得する。 基本スキルで敵にダメージを与えると、その敵に対する自身のほかの基本スキルで与えるダメージが秒間増加する。",
-    "Localisation": "{c_important}基本{/c}スキルがすべてのアップグレードを獲得する。 {c_important}基本{/c}スキルで敵にダメージを与えると、その敵に対する自身のほかの{c_important}基本{/c}スキルで与えるダメージが{c_number}[Affix.\"Static Value 0\"]{/c}秒間{c_random}[Affix_Value_1 * 100|%x|]{/c}増加する。",
+    "Description": "基本スキルがコスト無しで全アップグレードを獲得する。 基本スキルで敵にダメージを与えると、その敵に対する自身のほかの基本スキルで与えるダメージが#秒間#%増加する。",
+    "DescriptionClean": "基本スキルがコスト無しで全アップグレードを獲得する。 基本スキルで敵にダメージを与えると、その敵に対する自身のほかの基本スキルで与えるダメージが秒間増加する。",
+    "Localisation": "{c_important}基本{/c}スキルがコスト無しで全アップグレードを獲得する。 {c_important}基本{/c}スキルで敵にダメージを与えると、その敵に対する自身のほかの{c_important}基本{/c}スキルで与えるダメージが{c_number}[Affix.\"Static Value 0\"]{/c}秒間{c_random}[Affix_Value_1 * 100|%x|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7071,7 +7103,7 @@
       "Chest_Unique_Paladin_001",
       "Talisman_Charm_Unique_Chest_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "灰色者の外套",
     "Description": "重装者の誓約が重装者スキルの効果範囲を#%拡大するが、決意が最大#消費される。消費したポイントごとに重装者スキルのダメージが#%増加する。",
     "DescriptionClean": "重装者の誓約が重装者スキルの効果範囲を拡大するが、決意が最大消費される。消費したポイントごとに重装者スキルのダメージが増加する。",
@@ -7196,7 +7228,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_024",
     "Name": "熊の強靱性",
     "Description": "人熊形態中、決意の蓄積ごとに#%のボーナスダメージを獲得する。さらに、人熊形態中は#秒ごとに決意が自動的に#蓄積される。",
     "DescriptionClean": "人熊形態中、決意の蓄積ごとにのボーナスダメージを獲得する。さらに、人熊形態中は秒ごとに決意が自動的に蓄積される。",
@@ -7353,9 +7385,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "獄炎のホムンクルス",
-    "Description": "魔王スキルのダメージが#%増加すると同時に、そのレッサー・デーモンのサイドアップグレードをコスト無しで獲得し、さらにその持続時間が#%延長される。",
-    "DescriptionClean": "魔王スキルのダメージが増加すると同時に、そのレッサー・デーモンのサイドアップグレードをコスト無しで獲得し、さらにその持続時間が延長される。",
-    "Localisation": "{c_important}魔王{/c}スキルのダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加すると同時に、そのレッサー・デーモンのサイドアップグレードをコスト無しで獲得し、さらにその持続時間が{c_number}[Affix.\"Static Value 0\"*100|%|]{/c}延長される。",
+    "Description": "魔王スキルのダメージが#%増加すると同時に、そのスキルのレッサー・デーモンのアップグレードをコスト無しで獲得し、さらにその持続時間が#%延長される。",
+    "DescriptionClean": "魔王スキルのダメージが増加すると同時に、そのスキルのレッサー・デーモンのアップグレードをコスト無しで獲得し、さらにその持続時間が延長される。",
+    "Localisation": "{c_important}魔王{/c}スキルのダメージが{c_random}[Affix_Value_1*100|x%|]{/c}増加すると同時に、そのスキルのレッサー・デーモンのアップグレードをコスト無しで獲得し、さらにその持続時間が{c_number}[Affix.\"Static Value 0\"*100|%|]{/c}延長される。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7477,7 +7509,7 @@
       "Ring_Unique_Spiritborn_006_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_006_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_055",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "真夜中の太陽の指輪",
     "Description": "クリティカルヒットが発生すると直近の#秒間に消費した活力の#%を回復する。\r\n\r\n〈カウンター攻撃〉のパッシブ効果を獲得する。",
     "DescriptionClean": "クリティカルヒットが発生すると直近の秒間に消費した活力のを回復する。 〈カウンター攻撃〉のパッシブ効果を獲得する。",
@@ -7509,7 +7541,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_053",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "真昼の狩りの指輪",
     "Description": "活力最大値が#%増加し、敵を1体倒すと活力を#獲得する。\r\n\r\n猛威を保有している間は、新たに付与する中毒効果の持続時間が#%延長される。",
     "DescriptionClean": "活力最大値が増加し、敵を1体倒すと活力を獲得する。 猛威を保有している間は、新たに付与する中毒効果の持続時間が延長される。",
@@ -7575,7 +7607,7 @@
       "S12_2HPolearm_Unique_Generic_001",
       "Talisman_Charm_Unique_2HPolearm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandPolearm_uniq16",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "砕かれし誓い",
     "Description": "残存ライフよりも大きい継続ダメージを受けている敵を処刑する。 ",
     "DescriptionClean": "残存ライフよりも大きい継続ダメージを受けている敵を処刑する。",
@@ -7607,7 +7639,7 @@
       "Ring_Unique_Druid_03_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_03_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Rare_Scosglen_001",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "砕けたルーンストーン",
     "Description": "土スキルが#%のボーナスクリティカルヒットダメージを与える。このボーナスはオーバーパワーの蓄積が#以上あると#%に増加する。#秒ごとにオーバーパワーが2蓄積される。",
     "DescriptionClean": "土スキルがのボーナスクリティカルヒットダメージを与える。このボーナスはオーバーパワーの蓄積が以上あるとに増加する。秒ごとにオーバーパワーが2蓄積される。",
@@ -7639,7 +7671,7 @@
       "Ring_Unique_Rogue_102",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_014",
     "Name": "破壊工作員の印章指輪",
     "Description": "グレネードの効果範囲が#%拡大し、ダメージが#%増加する。\r\n\r\nグレネードスキルが命中した敵は#秒間、脆弱状態になるか弱体化する。",
     "DescriptionClean": "グレネードの効果範囲が拡大し、ダメージが増加する。 グレネードスキルが命中した敵は秒間、脆弱状態になるか弱体化する。",
@@ -7671,7 +7703,7 @@
       "Helm_Unique_Generic_003",
       "Talisman_Charm_Unique_Helm_Unique_Generic_003"
     ],
-    "IdNameItemActor": "HLM_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "神殺しの王冠",
     "Description": "敵に行動不能効果を付与する際、対象とその付近の敵すべてに刻印を刻みつけ、引き寄せると同時に#%ダメージを与える。",
     "DescriptionClean": "敵に行動不能効果を付与する際、対象とその付近の敵すべてに刻印を刻みつけ、引き寄せると同時にダメージを与える。",
@@ -7805,7 +7837,7 @@
       "Ring_Unique_Paladin_002",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_020",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "第二伝令の刻印",
     "Description": "制裁のダメージが#%増加し、裁定者の誓約使用時に#%の確率で2回爆発する。",
     "DescriptionClean": "制裁のダメージが増加し、裁定者の誓約使用時にの確率で2回爆発する。",
@@ -8029,7 +8061,7 @@
       "Chest_Unique_Warlock_001",
       "Talisman_Charm_Unique_Chest_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Warlock_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "肉編みのカラパス",
     "Description": "紋章スキルのダメージが#%増加する。紋章を発動すると毎秒#キルを獲得し、持続時間が切れると未使用のキルは持ち越される。",
     "DescriptionClean": "紋章スキルのダメージが増加する。紋章を発動すると毎秒キルを獲得し、持続時間が切れると未使用のキルは持ち越される。",
@@ -8064,7 +8096,7 @@
     "Name": "膿漿の薔薇の帯",
     "Description": "幸運の一撃: 注入状態のスキルが最大#%の確率で装備中の〈ポイズントラップ〉を設置する。発動確率は装備中の〈ポイズントラップ〉の属性に左右される。\r\n\r\n〈ポイズントラップ〉がコスト無しで派生効果侵入者を獲得し、ダメージが#%増加する。",
     "DescriptionClean": "幸運の一撃: 注入状態のスキルが最大の確率で装備中の〈ポイズントラップ〉を設置する。発動確率は装備中の〈ポイズントラップ〉の属性に左右される。 〈ポイズントラップ〉がコスト無しで派生効果侵入者を獲得し、ダメージが増加する。",
-    "Localisation": "{c_label}幸運の一撃:{/c} {c_important}注入{/c}状態のスキルが最大{c_number}[Affix.\"Static Value 0\"|%|]{/c}の確率で装備中の{c_important}〈ポイズントラップ〉{/c}を設置する。発動確率は装備中の{c_important}〈ポイズントラップ〉{/c}の属性に左右される。\r\n\r\n{c_important}〈ポイズントラップ〉{/c}がコスト無しで派生効果{c_important}侵入者{/c}を獲得し、ダメージが{c_random}[Affix_Value_1|x%|]{/c}増加する。",
+    "Localisation": "{c_label}幸運の一撃:{/c} {c_important}注入{/c}状態のスキルが最大{c_number}[Affix.\"Static Value 0\"|%|]{/c}の確率で装備中の{c_important}〈ポイズントラップ〉{/c}を設置する。発動確率は装備中の{c_important}〈ポイズントラップ〉{/c}の属性に左右される。\r\n\r\n{c_important}〈ポイズントラップ〉{/c}がコスト無しで派生効果侵入者を獲得し、ダメージが{c_random}[Affix_Value_1|x%|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8092,7 +8124,7 @@
       "Ring_Unique_Necro_102",
       "Talisman_Charm_Unique_Ring_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_002",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "苦痛の凶兆",
     "Description": "自身が闇のオーラに包まれ、付近の敵に〈衰弱〉および〈アイアンメイデン〉の効果を与える。\r\n\r\nこの方法で与えられた呪いは#秒ごとに周囲の標的に拡散され、そのオーラの外で#秒間持続する。",
     "DescriptionClean": "自身が闇のオーラに包まれ、付近の敵に〈衰弱〉および〈アイアンメイデン〉の効果を与える。 この方法で与えられた呪いは秒ごとに周囲の標的に拡散され、そのオーラの外で秒間持続する。",
@@ -8156,7 +8188,7 @@
       "Ring_Unique_Druid_04_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_04_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_005",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "荒野の調和",
     "Description": "使い魔スキルが、それぞれ1体の使い魔を追加で召喚し、#%のボーナスダメージを与える。\r\n\r\n〈鴉の群れ〉、〈狼の群れ〉および〈有毒なる蔦〉のパッシブ効果をコスト無しで獲得する。",
     "DescriptionClean": "使い魔スキルが、それぞれ1体の使い魔を追加で召喚し、のボーナスダメージを与える。 〈鴉の群れ〉、〈狼の群れ〉および〈有毒なる蔦〉のパッシブ効果をコスト無しで獲得する。",
@@ -8536,7 +8568,7 @@
       "Amulet_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_009",
     "Name": "赤い祝福",
     "Description": "健全状態中、オーバーパワー最大値が#上昇する。血のオーブがオーバーパワーの蓄積を#付与する。\r\n\r\nオーバーパワーの蓄積ごとにダメージが#%増加する。",
     "DescriptionClean": "健全状態中、オーバーパワー最大値が上昇する。血のオーブがオーバーパワーの蓄積を付与する。 オーバーパワーの蓄積ごとにダメージが増加する。",
@@ -8633,9 +8665,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "赤の説教",
-    "Description": "〈ジール〉のダメージが#%増加し、コスト無しで死か栄光かの派生効果を獲得する。",
-    "DescriptionClean": "〈ジール〉のダメージが増加し、コスト無しで死か栄光かの派生効果を獲得する。",
-    "Localisation": "{c_important}〈ジール〉{/c}のダメージが{c_random}[Affix_Value_1*100|%x|]{/c}増加し、コスト無しで{c_important}死か栄光か{/c}の派生効果を獲得する。",
+    "Description": "〈ジール〉がコスト無しで死か栄光かの派生効果を獲得し、ダメージが#%増加する。",
+    "DescriptionClean": "〈ジール〉がコスト無しで死か栄光かの派生効果を獲得し、ダメージが増加する。",
+    "Localisation": "{c_important}〈ジール〉{/c}がコスト無しで{c_important}死か栄光か{/c}の派生効果を獲得し、ダメージが{c_random}[Affix_Value_1*100|%x|]{/c}増加する。",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8695,7 +8727,7 @@
       "Amulet_Unique_Barb_104_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_104_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_020",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "遊牧民の慕情",
     "Description": "コアスキルのダメージが#%増加するが、怒気消費量が#%増加する。このダメージは負傷状態の敵に対して2倍になる。",
     "DescriptionClean": "コアスキルのダメージが増加するが、怒気消費量が増加する。このダメージは負傷状態の敵に対して2倍になる。",
@@ -8729,7 +8761,7 @@
       "Gloves_Unique_Generic_002",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_002"
     ],
-    "IdNameItemActor": "GLV_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "運命の拳",
     "Description": "攻撃で与えるダメージがランダムで通常ダメージの#%から#%になる。",
     "DescriptionClean": "攻撃で与えるダメージがランダムで通常ダメージのからになる。",
@@ -8792,7 +8824,7 @@
       "Helm_Unique_Barb_100",
       "Talisman_Charm_Unique_Helm_Unique_Barb_100"
     ],
-    "IdNameItemActor": "HLM_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "鉄人ジョリッツの牙付き兜",
     "Description": "すでにバーサーク状態のときにバーサーク効果を得ると、さらに激高してダメージが#%増加し、1秒ごとに怒気を#獲得して、#%のクールダウン時間短縮効果を得る。",
     "DescriptionClean": "すでにバーサーク状態のときにバーサーク効果を得ると、さらに激高してダメージが増加し、1秒ごとに怒気を獲得して、のクールダウン時間短縮効果を得る。",
@@ -8824,7 +8856,7 @@
       "Gloves_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "GLV_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "鉄薔薇の拳",
     "Description": "近距離の敵に射手か喉かきスキルでダメージを与えると、攻撃速度がスキルごとに秒間#%#上昇する。\r\n\r\n両方の攻撃速度ボーナスが発動している間、近距離の敵に対するダメージが#%増加する。",
     "DescriptionClean": "近距離の敵に射手か喉かきスキルでダメージを与えると、攻撃速度がスキルごとに秒間上昇する。 両方の攻撃速度ボーナスが発動している間、近距離の敵に対するダメージが増加する。",
@@ -8856,7 +8888,7 @@
       "Ring_Unique_Paladin_001",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Icons_Ring_Paladin_03",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "銀白のヴェール",
     "Description": "〈裁定者の回避〉使用時、#メートル移動するごとに装備中の非連続発動のコアスキルがランダムで発動する。\r\n\r\n〈裁定者の回避〉の発動中と使用後#秒間、コアスキルのダメージが#%増加する。",
     "DescriptionClean": "〈裁定者の回避〉使用時、メートル移動するごとに装備中の非連続発動のコアスキルがランダムで発動する。 〈裁定者の回避〉の発動中と使用後秒間、コアスキルのダメージが増加する。",
@@ -8921,7 +8953,7 @@
       "Pants_Unique_Barb_101",
       "Talisman_Charm_Unique_Pants_Unique_Barb_101"
     ],
-    "IdNameItemActor": "LEG_uniq101",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "鎖罰の甲冑",
     "Description": "ダメージの発生する決闘スキルを使用するとそのスキルが使えなくなる。アクション・バーに登録されているスキルがすべて使用できなくなると、すべてのスキルのクールダウンがリセットされてもう一度利用できるようになる。使用できなくなったスキル1つにつき、決闘スキルのダメージが#%増加する。",
     "DescriptionClean": "ダメージの発生する決闘スキルを使用するとそのスキルが使えなくなる。アクション・バーに登録されているスキルがすべて使用できなくなると、すべてのスキルのクールダウンがリセットされてもう一度利用できるようになる。使用できなくなったスキル1つにつき、決闘スキルのダメージが増加する。",
@@ -9082,7 +9114,7 @@
       "Quarterstaff_Unique_Spiritborn_001",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_001"
     ],
-    "IdNameItemActor": "twoHandQuarterstaff_uniq10",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "陽にくすみし戦司教杖",
     "Description": "自身の基本集中スキルの強化がすべて有効になり、潜在力スキルのダメージが#秒間#%増加する。増加量は最大#%。",
     "DescriptionClean": "自身の基本集中スキルの強化がすべて有効になり、潜在力スキルのダメージが秒間増加する。増加量は最大。",
@@ -9270,7 +9302,7 @@
       "Chest_Unique_Spiritborn_013_x1",
       "Talisman_Charm_Unique_Chest_Unique_Spiritborn_013_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_Unique_Spiritborn_95",
     "Name": "風信子石の甲殻",
     "Description": "活力を消費するとライフ最大値の#%を回復する。\r\n\r\n発動中のクールダウンがそれぞれ、毎秒ライフ最大値の#%を失わせ、それらの持続時間が#秒短縮する。 ",
     "DescriptionClean": "活力を消費するとライフ最大値のを回復する。 発動中のクールダウンがそれぞれ、毎秒ライフ最大値のを失わせ、それらの持続時間が秒短縮する。",
@@ -9401,7 +9433,7 @@
       "Pants_Unique_Necro_100",
       "Talisman_Charm_Unique_Pants_Unique_Necro_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets56",
     "Name": "鮮血の月のズボン",
     "Description": "召喚クリーチャーがダメージを与えたとき、#%の確率でランダムに〈衰弱〉または〈アイアンメイデン〉の効果を与える。\r\n\r\nプレイヤーは自身の呪いを受けた敵に対して#%増加したクリティカルヒットダメージを与える。",
     "DescriptionClean": "召喚クリーチャーがダメージを与えたとき、の確率でランダムに〈衰弱〉または〈アイアンメイデン〉の効果を与える。 プレイヤーは自身の呪いを受けた敵に対して増加したクリティカルヒットダメージを与える。",

@@ -113,9 +113,9 @@
       "legendary_paladin_020"
     ],
     "Name": "不撓之",
-    "Description": "根據你的格擋機率，獲得最多 #% 傷害減免與控場影響抗性。\r\n\r\n目前加成：#%。",
-    "DescriptionClean": "根據你的格擋機率，獲得最多 傷害減免與控場影響抗性。 目前加成：。",
-    "Localisation": "根據你的格擋機率，獲得最多 {c_random}[Affix_Value_1|%|]{/c} 傷害減免與控場影響抗性。\r\n\r\n目前加成：{c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}。",
+    "Description": "獲得相當於格擋機率 #% 的護甲值和控場影響減免。\r\n\r\n目前加成：#%",
+    "DescriptionClean": "獲得相當於格擋機率 的護甲值和控場影響減免。 目前加成：",
+    "Localisation": "獲得相當於格擋機率 {c_random}[Affix_Value_1|%|]{/c} 的護甲值和控場影響減免。\r\n\r\n目前加成：{c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -3249,9 +3249,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "嘶聲狂吼之",
-    "Description": "你的怒吼技能會使敵人造成的傷害降低 #%，持續 #% 秒。",
+    "Description": "你的怒吼技能會使敵人造成的傷害降低 #%，持續 # 秒。",
     "DescriptionClean": "你的怒吼技能會使敵人造成的傷害降低 ，持續 秒。",
-    "Localisation": "你的{c_important}怒吼{/c}技能會使敵人造成的傷害降低 {c_random}[Affix_Value_1|2%|]{/c}，持續 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 秒。",
+    "Localisation": "你的{c_important}怒吼{/c}技能會使敵人造成的傷害降低 {c_random}[Affix_Value_1|2%|]{/c}，持續 {c_number}[Affix.\"Static Value 0\"||]{/c} 秒。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6526,10 +6526,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -9595,10 +9597,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -13195,7 +13199,7 @@
     "Name": "統御者之",
     "Description": "對一名敵人施加控場效果可獲得 # 層決心。",
     "DescriptionClean": "對一名敵人施加控場效果可獲得 層決心。",
-    "Localisation": "對一名敵人施加控場效果可獲得 {c_random}[Affix_Value_1]{/c} 層{u}{c_important}決心{/c}{/u}。",
+    "Localisation": "對一名敵人施加控場效果可獲得 {c_random}[Ceil(Affix_Value_1)]{/c} 層{u}{c_important}決心{/c}{/u}。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -14732,7 +14736,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -15452,7 +15455,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -15493,7 +15495,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -17084,6 +17087,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]

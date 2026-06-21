@@ -2185,7 +2185,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -2202,9 +2201,9 @@
       "legendary_paladin_020"
     ],
     "Name": "Boyun Eğmezin",
-    "Description": "Engelleme İhtimaline göre en fazla #% olmak üzere Hasar Azaltma ve Engelleme Direnci kazan.\r\n\r\nMevcut Bonus: #% ",
-    "DescriptionClean": "Engelleme İhtimaline göre en fazla olmak üzere Hasar Azaltma ve Engelleme Direnci kazan. Mevcut Bonus:",
-    "Localisation": "Engelleme İhtimaline göre en fazla {c_random}[Affix_Value_1|%|]{/c} olmak üzere Hasar Azaltma ve Engelleme Direnci kazan.\r\n\r\nMevcut Bonus: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Engelleme İhtimalinin #% kadarına eşit Zırh ve Engelleme Azaltma kazan.\r\n\r\nMevcut Bonus: #% ",
+    "DescriptionClean": "Engelleme İhtimalinin kadarına eşit Zırh ve Engelleme Azaltma kazan. Mevcut Bonus:",
+    "Localisation": "Engelleme İhtimalinin {c_random}[Affix_Value_1|%|]{/c} kadarına eşit Zırh ve Engelleme Azaltma kazan.\r\n\r\nMevcut Bonus: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -2631,9 +2630,9 @@
       "legendary_sorc_142_x2"
     ],
     "Name": "Büyüleyici",
-    "Description": "#% Büyüleme Tesiri kazanırsın.",
-    "DescriptionClean": "Büyüleme Tesiri kazanırsın.",
-    "Localisation": "{c_random}[Affix_Value_1|1%|]{/c} {c_important}Büyüleme{/c} Tesiri kazanırsın.",
+    "Description": "#% Büyüleme tesiri kazanırsın.",
+    "DescriptionClean": "Büyüleme tesiri kazanırsın.",
+    "Localisation": "{c_random}[Affix_Value_1|1%|]{/c} {c_important}Büyüleme{/c} tesiri kazanırsın.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -3418,9 +3417,9 @@
       "legendary_rogue_020"
     ],
     "Name": "Dengesiz Aşılama",
-    "Description": "Aşılama Yeteneği kullanırken çevrene #% artırılmış Tesirle Aşılama etkileri uygulayan ve aynı türden # hasar veren bir patlama tetiklersin.",
-    "DescriptionClean": "Aşılama Yeteneği kullanırken çevrene artırılmış Tesirle Aşılama etkileri uygulayan ve aynı türden hasar veren bir patlama tetiklersin.",
-    "Localisation": "{c_important}Aşılama{/c} Yeteneği kullanırken çevrene {c_random}[Affix_Value_1|x%|]{/c} artırılmış Tesirle {c_important}Aşılama{/c} etkileri uygulayan ve aynı türden {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} hasar veren bir patlama tetiklersin.",
+    "Description": "Aşılama Yeteneği kullanırken çevrene #% artırılmış tesirle Aşılama etkileri uygulayan ve aynı türden # hasar veren bir patlama tetiklersin.",
+    "DescriptionClean": "Aşılama Yeteneği kullanırken çevrene artırılmış tesirle Aşılama etkileri uygulayan ve aynı türden hasar veren bir patlama tetiklersin.",
+    "Localisation": "{c_important}Aşılama{/c} Yeteneği kullanırken çevrene {c_random}[Affix_Value_1|x%|]{/c} artırılmış tesirle {c_important}Aşılama{/c} etkileri uygulayan ve aynı türden {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} hasar veren bir patlama tetiklersin.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "Fısıldayan Mahzen",
@@ -3728,7 +3727,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -5823,10 +5823,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -6616,9 +6618,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "Gırtlaktan Bağırma",
-    "Description": "Çığlık Yeteneklerin düşmanların #% saniyeliğine #% daha az hasar vermesine neden olur.",
+    "Description": "Çığlık Yeteneklerin düşmanların # saniyeliğine #% daha az hasar vermesine neden olur.",
     "DescriptionClean": "Çığlık Yeteneklerin düşmanların saniyeliğine daha az hasar vermesine neden olur.",
-    "Localisation": "{c_important}Çığlık{/c} Yeteneklerin düşmanların {c_number}[Affix.\"Static Value 0\"|%|]{/c} saniyeliğine {c_random}[Affix_Value_1|2%|]{/c} daha az hasar vermesine neden olur.",
+    "Localisation": "{c_important}Çığlık{/c} Yeteneklerin düşmanların {c_number}[Affix.\"Static Value 0\"||]{/c} saniyeliğine {c_random}[Affix_Value_1|2%|]{/c} daha az hasar vermesine neden olur.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6689,7 +6691,7 @@
     "Name": "Hakimiyet",
     "Description": "Bir düşmana Kitle Kontrolü etkisi uygulamak # Azim kazandırır.",
     "DescriptionClean": "Bir düşmana Kitle Kontrolü etkisi uygulamak Azim kazandırır.",
-    "Localisation": "Bir düşmana Kitle Kontrolü etkisi uygulamak {c_random}[Affix_Value_1]{/c} {u}{c_important}Azim{/c}{/u} kazandırır.",
+    "Localisation": "Bir düşmana Kitle Kontrolü etkisi uygulamak {c_random}[Ceil(Affix_Value_1)]{/c} {u}{c_important}Azim{/c}{/u} kazandırır.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -10640,6 +10642,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -12038,7 +12042,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -18181,10 +18184,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },

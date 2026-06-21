@@ -1128,10 +1128,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -4049,10 +4051,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -4961,7 +4965,7 @@
     "Name": "del Dominio",
     "Description": "Infliggere effetti debilitanti a un nemico fornisce # Risolutezza.",
     "DescriptionClean": "Infliggere effetti debilitanti a un nemico fornisce Risolutezza.",
-    "Localisation": "Infliggere effetti debilitanti a un nemico fornisce {c_random}[Affix_Value_1]{/c} {u}{c_important}Risolutezza{/c}{/u}.",
+    "Localisation": "Infliggere effetti debilitanti a un nemico fornisce {c_random}[Ceil(Affix_Value_1)]{/c} {u}{c_important}Risolutezza{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6185,7 +6189,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -8255,7 +8258,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -10325,6 +10327,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -10794,9 +10798,9 @@
       "legendary_paladin_020"
     ],
     "Name": "dell'Indomito",
-    "Description": "Ottieni fino al #% di riduzione danni e resistenza agli effetti debilitanti, in base alla tua probabilità di parata.\r\n\r\nBonus attuale: #% ",
-    "DescriptionClean": "Ottieni fino al di riduzione danni e resistenza agli effetti debilitanti, in base alla tua probabilità di parata. Bonus attuale:",
-    "Localisation": "Ottieni fino al {c_random}[Affix_Value_1|%|]{/c} di riduzione danni e resistenza agli effetti debilitanti, in base alla tua probabilità di parata.\r\n\r\nBonus attuale: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Ottieni armatura e riduzione effetti debilitanti pari al #% della tua probabilità di parata.\r\n\r\nBonus attuale: #% ",
+    "DescriptionClean": "Ottieni armatura e riduzione effetti debilitanti pari al della tua probabilità di parata. Bonus attuale:",
+    "Localisation": "Ottieni armatura e riduzione effetti debilitanti pari al {c_random}[Affix_Value_1|%|]{/c} della tua probabilità di parata.\r\n\r\nBonus attuale: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -13344,9 +13348,9 @@
       "legendary_necro_036"
     ],
     "Name": "della Depressione",
-    "Description": "Quando infliggi danni ai nemici con le tue abilità di Oscurità, questi subiscono il #% di danni aumentati dalle tue abilità di Oscurità per # s. L'effetto può accumularsi fino a un massimo di # volte.",
-    "DescriptionClean": "Quando infliggi danni ai nemici con le tue abilità di Oscurità, questi subiscono il di danni aumentati dalle tue abilità di Oscurità per s. L'effetto può accumularsi fino a un massimo di volte.",
-    "Localisation": "Quando infliggi danni ai nemici con le tue abilità di {c_important}Oscurità{/c}, questi subiscono il {c_random}[Affix_Value_1|%x|]{/c} di danni aumentati dalle tue abilità di {c_important}Oscurità{/c} per {c_number}[Affix.\"Static Value 0\"]{/c} s. L'effetto può accumularsi fino a un massimo di {c_number}[Affix.\"Static Value 1\"]{/c} volte.",
+    "Description": "Quando infliggi danni ai nemici con le tue abilità di Oscurità, questi subiscono il #% di danni aumentati dalle tue abilità di Oscurità per # s, fino a un massimo di # volte.",
+    "DescriptionClean": "Quando infliggi danni ai nemici con le tue abilità di Oscurità, questi subiscono il di danni aumentati dalle tue abilità di Oscurità per s, fino a un massimo di volte.",
+    "Localisation": "Quando infliggi danni ai nemici con le tue abilità di {c_important}Oscurità{/c}, questi subiscono il {c_random}[Affix_Value_1|%x|]{/c} di danni aumentati dalle tue abilità di {c_important}Oscurità{/c} per {c_number}[Affix.\"Static Value 0\"]{/c} s, fino a un massimo di {c_number}[Affix.\"Static Value 1\"]{/c} volte.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "Alveare",
@@ -13686,7 +13690,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -15953,9 +15958,9 @@
       "legendary_spiritborn_037_x1"
     ],
     "Name": "della Repressione Cinetica",
-    "Description": "Lanciare un'abilità non Base di Mobilità fornisce # Risolutezza.\r\n\r\nLanciare un'abilità di Difesa con # accumuli di Risolutezza ne aumenta i danni del #%. ",
-    "DescriptionClean": "Lanciare un'abilità non Base di Mobilità fornisce Risolutezza. Lanciare un'abilità di Difesa con accumuli di Risolutezza ne aumenta i danni del.",
-    "Localisation": "Lanciare un'abilità non {c_important}Base{/c} di {c_important}Mobilità{/c} fornisce {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}{u}Risolutezza{/u}{/c}.\r\n\r\nLanciare un'abilità di {c_important}Difesa{/c} con {c_number}[Affix.\"Static Value 1\"]{/c} accumuli di {c_important}{u}Risolutezza{/u}{/c} ne aumenta i danni del {c_random}[Affix_Value_1 * 100 |%x|]{/c}. ",
+    "Description": "Lanciare un'abilità nonBase di Mobilità fornisce # Risolutezza.\r\n\r\nLanciare un'abilità di Difesa con # accumuli di Risolutezza ne aumenta i danni del #%. ",
+    "DescriptionClean": "Lanciare un'abilità nonBase di Mobilità fornisce Risolutezza. Lanciare un'abilità di Difesa con accumuli di Risolutezza ne aumenta i danni del.",
+    "Localisation": "Lanciare un'abilità non{c_important}Base{/c} di {c_important}Mobilità{/c} fornisce {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}{u}Risolutezza{/u}{/c}.\r\n\r\nLanciare un'abilità di {c_important}Difesa{/c} con {c_number}[Affix.\"Static Value 1\"]{/c} accumuli di {c_important}{u}Risolutezza{/u}{/c} ne aumenta i danni del {c_random}[Affix_Value_1 * 100 |%x|]{/c}. ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -16907,9 +16912,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "della Voce Gutturale",
-    "Description": "Le tue abilità di Urla riducono i danni inflitti dai nemici del #% per #% s.",
+    "Description": "Le tue abilità di Urla riducono i danni inflitti dai nemici del #% per # s.",
     "DescriptionClean": "Le tue abilità di Urla riducono i danni inflitti dai nemici del per s.",
-    "Localisation": "Le tue abilità di {c_important}Urla{/c} riducono i danni inflitti dai nemici del {c_random}[Affix_Value_1|2%|]{/c} per {c_number}[Affix.\"Static Value 0\"|%|]{/c} s.",
+    "Localisation": "Le tue abilità di {c_important}Urla{/c} riducono i danni inflitti dai nemici del {c_random}[Affix_Value_1|2%|]{/c} per {c_number}[Affix.\"Static Value 0\"||]{/c} s.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -17439,9 +17444,9 @@
       "legendary_rogue_020"
     ],
     "Name": "delle Infusioni Instabili",
-    "Description": "Quando lanci un'abilità d'Infusione, inneschi un'esplosione attorno a te che applica gli effetti di Infusione con Potenza aumentata del #% e infligge # danni dello stesso tipo.",
-    "DescriptionClean": "Quando lanci un'abilità d'Infusione, inneschi un'esplosione attorno a te che applica gli effetti di Infusione con Potenza aumentata del e infligge danni dello stesso tipo.",
-    "Localisation": "Quando lanci un'abilità d'{c_important}Infusione{/c}, inneschi un'esplosione attorno a te che applica gli effetti di {c_important}Infusione{/c} con Potenza aumentata del {c_random}[Affix_Value_1|x%|]{/c} e infligge {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} danni dello stesso tipo.",
+    "Description": "Quando lanci un'abilità d'Infusione, inneschi un'esplosione attorno a te che applica gli effetti di Infusione con potenza aumentata del #% e infligge # danni dello stesso tipo.",
+    "DescriptionClean": "Quando lanci un'abilità d'Infusione, inneschi un'esplosione attorno a te che applica gli effetti di Infusione con potenza aumentata del e infligge danni dello stesso tipo.",
+    "Localisation": "Quando lanci un'abilità d'{c_important}Infusione{/c}, inneschi un'esplosione attorno a te che applica gli effetti di {c_important}Infusione{/c} con potenza aumentata del {c_random}[Affix_Value_1|x%|]{/c} e infligge {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} danni dello stesso tipo.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "Cripta dei Sussurri",

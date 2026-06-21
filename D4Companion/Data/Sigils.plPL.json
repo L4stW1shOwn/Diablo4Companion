@@ -4,7 +4,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "Aegoye",
     "Description": "Miejsce starożytnych rytuałów, teraz nawiedzane przez niespokojne duchy.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -85,7 +85,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Bazaltowe Wyniesienie",
     "Description": "Ruiny przetrwały nawet niszczycielską magmę.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -405,33 +405,6 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "Eksploracja podziemi",
-    "Description": "Ukończenie tych podziemi zapewnia dodatkowe doświadczenie i nagrody.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Eksploracja podziemi",
-    "Description": "Ukończenie tych podziemi zapewnia dodatkowe doświadczenie i nagrody.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Eksploracja podziemi",
-    "Description": "Ukończenie tych podziemi zapewnia dodatkowe doświadczenie i nagrody.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 1314413,
     "IdName": "DungeonAffix_Minor_Monster_ExtraLightning",
     "Name": "Elektryzujące Ciosy",
@@ -562,7 +535,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Grota Morskiej Wiedźmy",
     "Description": "Zatęchła grota, w której morska wiedźma zbiera swe sługi.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -787,7 +760,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Kataklizm",
     "Description": "Ten teren ukształtowały wieki ognistych erupcji.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -940,7 +913,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Kryjówka Zagubionych",
     "Description": "Miejsce ukojenia pod czujnym okiem oszusta.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1030,7 +1003,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Mroczny Azyl",
     "Description": "Krążą plotki, że w tej porzuconej krypcie pełno jest mitycznych skarbów.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1093,7 +1066,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Nadpalone Tunele",
     "Description": "Tylko niezłomni zapuszczają się do wydrążonych przez lawę jaskiń w poszukiwaniu niesamowitych skarbów.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1642,7 +1615,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Pochłonięta Świątynia",
     "Description": "Nietknięta zębem czasu świątynia Pierworodnych.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1696,7 +1669,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Ponura Przystań",
     "Description": "Sługi Nienawiści gromadzą się, by wykonać wolę swego pana.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1885,7 +1858,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Rubież Wiedzącej",
     "Description": "Powietrze przepełnia niepokojąca cisza. Co kryje się dalej?",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1948,7 +1921,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Serce Góry",
     "Description": "Ukryte serce góry, w którym pulsuje stopiona krew.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2245,7 +2218,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Udręczony Las",
     "Description": "Uda ci się zdjąć klątwę z lasu czy dołączysz do nawiedzających go dusz?",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2272,7 +2245,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Ukryte Ruiny Pierworodnych",
     "Description": "Fragment historii zachowany w materiałach piroklastycznych.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2560,7 +2533,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Zaklęta Grota",
     "Description": "Osobliwa melodia wpędza nieprzygotowanych w śmiertelny trans.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2767,7 +2740,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Zatopione Ruiny",
     "Description": "Dawno zapomniane ruiny porośnięte koralami i pąklami.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2794,7 +2767,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "Zaziemie",
     "Description": "Niewielu kroczyło po tym wybrzeżu pomimo opowieści o ukrytych tu bogactwach.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -3033,20 +3006,11 @@
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2579464,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
-    "Name": "Żużlowa Ścieżka",
-    "Description": "Tylko niezłomni zapuszczają się do wydrążonych przez lawę jaskiń w poszukiwaniu niesamowitych skarbów.",
-    "DungeonZoneInfo": "w regionie ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
     "IdSno": 2579466,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "Żużlowa Ścieżka",
     "Description": "Tylko niezłomni zapuszczają się do wydrążonych przez lawę jaskiń w poszukiwaniu niesamowitych skarbów.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -3055,7 +3019,16 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Żużlowa Ścieżka",
     "Description": "Tylko niezłomni zapuszczają się do wydrążonych przez lawę jaskiń w poszukiwaniu niesamowitych skarbów.",
-    "DungeonZoneInfo": "w regionie ",
+    "DungeonZoneInfo": "w regionie Skovos",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
+    "IdSno": 2579464,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
+    "Name": "Żużlowa Ścieżka",
+    "Description": "Tylko niezłomni zapuszczają się do wydrążonych przez lawę jaskiń w poszukiwaniu niesamowitych skarbów.",
+    "DungeonZoneInfo": "w regionie Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   }

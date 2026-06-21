@@ -121,7 +121,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "先知之境",
     "Description": "空气中弥漫着令人不安的寂静。下面潜伏着什么？",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -148,7 +148,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "内陆腹地",
     "Description": "尽管传闻有财宝，但极少有人踏足这片海岸。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -337,7 +337,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "受难森林",
     "Description": "你会解除森林的诅咒，还是会成为游荡其中的一员？",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -418,7 +418,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "吞噬神殿",
     "Description": "一座未受岁月侵蚀的初诞者神庙。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -504,33 +504,6 @@
     "Type": "Dungeon"
   },
   {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "地下城探险",
-    "Description": "完成地下城可获得额外经验值和奖励。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "地下城探险",
-    "Description": "完成地下城可获得额外经验值和奖励。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "地下城探险",
-    "Description": "完成地下城可获得额外经验值和奖励。",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
     "Name": "地下城探险",
@@ -571,7 +544,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "埃构耶",
     "Description": "这里曾是古老试炼的举行地，如今却被躁动的灵体占据。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -877,7 +850,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "山岳之心",
     "Description": "群山深处的隐秘腹地，炽热的熔岩之血在其中轰鸣。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1543,7 +1516,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "森然栖所",
     "Description": "憎恨的爪牙集结于此，执行其主人的意志。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1642,7 +1615,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "没水遗迹",
     "Description": "被尘封已久的遗迹，唯有珊瑚与藤壶将其残骸相连。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1678,7 +1651,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "浩劫",
     "Description": "数世纪以来，炽热的喷发彻底重塑了这片土地。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1687,7 +1660,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "海巫的洞穴",
     "Description": "一个阴暗的洞穴，海巫在这里聚集她的奴仆。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1849,7 +1822,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "焦灼地道",
     "Description": "对于坚定之人来说，岩浆雕琢出的洞窟通向数不尽的财富。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1858,7 +1831,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "焦砾之途",
     "Description": "对于坚定之人来说，岩浆雕琢出的洞窟通向数不尽的财富。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1867,7 +1840,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "焦砾之途",
     "Description": "对于坚定之人来说，岩浆雕琢出的洞窟通向数不尽的财富。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1876,7 +1849,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "焦砾之途",
     "Description": "对于坚定之人来说，岩浆雕琢出的洞窟通向数不尽的财富。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1966,7 +1939,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "玄武岩高地",
     "Description": "尽管经受了岩浆的摧残，这些遗迹依然屹立不倒。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2578,7 +2551,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "迷失者的避难所",
     "Description": "在欺诈者的监视之下，寻求一丝慰藉。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2587,7 +2560,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "迷魅石窟",
     "Description": "诡异的旋律诱使毫无戒心之人陷入致命的幻境。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2862,8 +2835,8 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2511994,
-    "IdName": "DungeonAffix_Positive_AncestralElites",
+    "IdSno": 2516764,
+    "IdName": "DungeonAffix_Positive_LegendaryElites",
     "Name": "隐秘军械库",
     "Description": "此处存放着珍品，使精英怪物获得一个强力的战利品词缀。",
     "DungeonZoneInfo": "",
@@ -2871,8 +2844,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2516764,
-    "IdName": "DungeonAffix_Positive_LegendaryElites",
+    "IdSno": 2511994,
+    "IdName": "DungeonAffix_Positive_AncestralElites",
     "Name": "隐秘军械库",
     "Description": "此处存放着珍品，使精英怪物获得一个强力的战利品词缀。",
     "DungeonZoneInfo": "",
@@ -2884,7 +2857,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "隐秘的初诞者遗迹",
     "Description": "一段尘封于火山余烬中的往事。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -3019,7 +2992,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "黑暗避难所",
     "Description": "关于神话财富的传闻萦绕着这座荒废的地下墓室。",
-    "DungeonZoneInfo": "在当中 ",
+    "DungeonZoneInfo": "在当中 斯科沃斯",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

@@ -4,7 +4,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "Aegoye",
     "Description": "Kadim sınamaların yapıldığı yer, şimdiyse huzursuz ruhların uğrak yeri.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -13,7 +13,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Afet",
     "Description": "Yüzyıllarca süren ateşli patlamalar bu toprakları dönüştürdü.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -265,7 +265,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Batık Harabeler",
     "Description": "Mercanlar ve midyelerle bir arada tutulan, unutulmuş harabeler.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -292,7 +292,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Bazalt Yokuşu",
     "Description": "Magma yakıp yıkmış olsa da bu harabeler ayakta kalmış.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -454,7 +454,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Büyülü Mağara",
     "Description": "Ürkütücü bir melodi, hazırlıksız olanları ölümcül bir transa çekiyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -693,11 +693,20 @@
     "Type": "Minor"
   },
   {
+    "IdSno": 2579466,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
+    "Name": "Cüruflu Yol",
+    "Description": "Bu lavla şekillenmiş mağaralar, cesur olanlar için akıl almaz zenginliklere çıkıyor.",
+    "DungeonZoneInfo": ":  içinde Skovos",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
     "IdSno": 2579464,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Cüruflu Yol",
     "Description": "Bu lavla şekillenmiş mağaralar, cesur olanlar için akıl almaz zenginliklere çıkıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -706,16 +715,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Cüruflu Yol",
     "Description": "Bu lavla şekillenmiş mağaralar, cesur olanlar için akıl almaz zenginliklere çıkıyor.",
-    "DungeonZoneInfo": ":  içinde ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
-    "IdSno": 2579466,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
-    "Name": "Cüruflu Yol",
-    "Description": "Bu lavla şekillenmiş mağaralar, cesur olanlar için akıl almaz zenginliklere çıkıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -733,7 +733,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Dağın Yüreği",
     "Description": "Dağın saklı yüreği, içinde erimiş kanın nabzı atıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -769,7 +769,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Deniz Cadalozunun Mağarası",
     "Description": "Deniz Cadalozunun esirlerini topladığı rutubetli bir mağara.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1044,8 +1044,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2516764,
-    "IdName": "DungeonAffix_Positive_LegendaryElites",
+    "IdSno": 2511994,
+    "IdName": "DungeonAffix_Positive_AncestralElites",
     "Name": "Gizli Silah Deposu",
     "Description": "Olağanüstü öğeler burada tutulur, seçkin canavarlara güçlü bir ganimet eki verirler.",
     "DungeonZoneInfo": "",
@@ -1053,8 +1053,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2511994,
-    "IdName": "DungeonAffix_Positive_AncestralElites",
+    "IdSno": 2516764,
+    "IdName": "DungeonAffix_Positive_LegendaryElites",
     "Name": "Gizli Silah Deposu",
     "Description": "Olağanüstü öğeler burada tutulur, seçkin canavarlara güçlü bir ganimet eki verirler.",
     "DungeonZoneInfo": "",
@@ -1066,7 +1066,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Gizli İlk Doğan Harabeleri",
     "Description": "Piroklastik yollarla korunmuş bir tarih parçası.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1273,7 +1273,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "Hudut",
     "Description": "Hazine söylentilerine rağmen bu kıyıya pek gelen giden yok.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1444,7 +1444,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Karanlık Sığınak",
     "Description": "Bu terk edilmiş türbe hakkında efsanevi zenginlik söylentileri dolaşıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1462,7 +1462,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Kavrulmuş Tüneller",
     "Description": "Bu lavla şekillenmiş mağaralar, cesur olanlar için akıl almaz zenginliklere çıkıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1669,7 +1669,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Kâhin Bölgesi",
     "Description": "Havadaki sessizlik rahatsız edici derecede ağır. Aşağıda ne gizleniyor?",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2560,7 +2560,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Yitiklerin Sığınağı",
     "Description": "Bir düzenbazın gözetimi altındaki huzur mahali.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2605,7 +2605,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Yutulmuş Tapınak",
     "Description": "Zamanın dokunmadığı bir İlk Doğan tapınağı.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2686,7 +2686,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Zalim Sığınak",
     "Description": "Nefretin müfrezesi, Efendilerinin emrini uygulamak için toplanıyor.",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2740,33 +2740,6 @@
     "IdName": "DungeonAffix_Positive_EvadeLeavesPoison",
     "Name": "Zehirli Kaçınma",
     "Description": "Kaçın kullanmak, kaçınarak içinden geçtiğin veya vardığın yerde bulunan ilk düşmanın altında bir Zehir havuzu oluşturur. ",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "Zindan Oyuğu",
-    "Description": "Zindanı tamamlamak fazladan Tecrübe ve Ödüller kazandırır.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Zindan Oyuğu",
-    "Description": "Zindanı tamamlamak fazladan Tecrübe ve Ödüller kazandırır.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Zindan Oyuğu",
-    "Description": "Zindanı tamamlamak fazladan Tecrübe ve Ödüller kazandırır.",
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Positive"
@@ -3019,7 +2992,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "İşkence Görmüş Orman",
     "Description": "Ormanın lanetini bozacak mısın, yoksa lanetliler arasına mı katılacaksın?",
-    "DungeonZoneInfo": ":  içinde ",
+    "DungeonZoneInfo": ":  içinde Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

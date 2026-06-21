@@ -202,7 +202,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Basaltic Ascent",
     "Description": "Despite being ravaged by magma, these ruins endure.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -292,7 +292,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Bewitched Grotto",
     "Description": "An eerie tune lures the unprepared into a fatal trance.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -490,7 +490,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Cataclysm",
     "Description": "Centuries of fiery eruptions have transformed these lands.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -499,7 +499,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Cavern of the Sea Hag",
     "Description": "A dank cavern where the Sea Hag gathers her thralls.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -670,7 +670,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Dark Refuge",
     "Description": "Rumors of mythical riches circle this derelict crypt.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1183,7 +1183,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Grim Haven",
     "Description": "Hatred's contingent gather to carry out their Master's will.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1291,7 +1291,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Heart of the Mountain",
     "Description": "The mountain's hidden heart, molten blood thrumming within.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1363,7 +1363,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Hidden Firstborn Ruins",
     "Description": "A piece of history preserved through pyroclastic means.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2272,7 +2272,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Refuge of the Lost",
     "Description": "A place of solace under the watchful eye of a deceiver.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2443,7 +2443,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Scorched Tunnels",
     "Description": "For the stalwart, lava-sculpted caves lead to untold riches.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2452,7 +2452,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "Scoriaceous Path",
     "Description": "For the stalwart, lava-sculpted caves lead to untold riches.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2461,7 +2461,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Scoriaceous Path",
     "Description": "For the stalwart, lava-sculpted caves lead to untold riches.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2470,7 +2470,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Scoriaceous Path",
     "Description": "For the stalwart, lava-sculpted caves lead to untold riches.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2497,7 +2497,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Seer's Reach",
     "Description": "The air is heavy with unsettling quiet. What lurks beneath?",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2695,7 +2695,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Submerged Ruins",
     "Description": "Long-forgotten ruins held together by coral and barnacles.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2758,7 +2758,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "The Aegoye",
     "Description": "The site of ancient trials, now haunted by restless spirits.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2776,7 +2776,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "The Hinterland",
     "Description": "Few have traversed this shore, despite the rumored treasure.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2785,7 +2785,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "The Swallowed Temple",
     "Description": "A Firstborn temple untouched by time.",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2830,7 +2830,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Tormented Forest",
     "Description": "Will you lift the forest's curse, or join its haunted ranks?",
-    "DungeonZoneInfo": "in ",
+    "DungeonZoneInfo": "in Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },

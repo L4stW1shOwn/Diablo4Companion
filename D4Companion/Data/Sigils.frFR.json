@@ -126,8 +126,8 @@
     "Type": "Major"
   },
   {
-    "IdSno": 2516764,
-    "IdName": "DungeonAffix_Positive_LegendaryElites",
+    "IdSno": 2511994,
+    "IdName": "DungeonAffix_Positive_AncestralElites",
     "Name": "Armurerie cachée",
     "Description": "Des objets exceptionnels sont conservés ici, conférant aux monstres élites un puissant affixe de butin.",
     "DungeonZoneInfo": "",
@@ -135,8 +135,8 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2511994,
-    "IdName": "DungeonAffix_Positive_AncestralElites",
+    "IdSno": 2516764,
+    "IdName": "DungeonAffix_Positive_LegendaryElites",
     "Name": "Armurerie cachée",
     "Description": "Des objets exceptionnels sont conservés ici, conférant aux monstres élites un puissant affixe de butin.",
     "DungeonZoneInfo": "",
@@ -148,7 +148,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Ascension basaltique",
     "Description": "Ces ruines subsistent malgré les ravages causés par le magma.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -193,7 +193,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Avancée de l’Oracle",
     "Description": "L’atmosphère est pesante, empreinte d’un étrange silence. Mais que se cache-t-il sous la surface\u00A0?",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -409,7 +409,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Cataclysme",
     "Description": "Des siècles d’éruptions volcaniques ont façonné ces terres.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -463,7 +463,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Caverne de la sorcière des mers",
     "Description": "Une caverne froide et humide où la sorcière des mers réunit ses esclaves.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -531,20 +531,11 @@
     "Type": "Minor"
   },
   {
-    "IdSno": 2579458,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
-    "Name": "Chemin des Scories",
-    "Description": "Accessibles uniquement aux plus braves, ces grottes sculptées par la lave mènent à des richesses inestimables.",
-    "DungeonZoneInfo": "dans\u00A0: ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
     "IdSno": 2579464,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Chemin des Scories",
     "Description": "Accessibles uniquement aux plus braves, ces grottes sculptées par la lave mènent à des richesses inestimables.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -553,7 +544,16 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
     "Name": "Chemin des Scories",
     "Description": "Accessibles uniquement aux plus braves, ces grottes sculptées par la lave mènent à des richesses inestimables.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
+    "IdSno": 2579458,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
+    "Name": "Chemin des Scories",
+    "Description": "Accessibles uniquement aux plus braves, ces grottes sculptées par la lave mènent à des richesses inestimables.",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -787,7 +787,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Cœur de la montagne",
     "Description": "Le cœur caché de la montagne, où bouillonne le sang en fusion.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -972,33 +972,6 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Exploration de donjon",
-    "Description": "En terminant un donjon, vous obtenez de l’expérience et des récompenses supplémentaires.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
-    "Name": "Exploration de donjon",
-    "Description": "En terminant un donjon, vous obtenez de l’expérience et des récompenses supplémentaires.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Exploration de donjon",
-    "Description": "En terminant un donjon, vous obtenez de l’expérience et des récompenses supplémentaires.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
     "Name": "Exploration de donjon",
@@ -1147,7 +1120,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Forêt tourmentée",
     "Description": "Parviendrez-vous à lever la malédiction qui pèse sur la forêt ou rejoindrez-vous les rangs de ses victimes\u00A0?",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1309,7 +1282,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Grotte ensorcelée",
     "Description": "Une sinistre mélodie plonge les âmes vulnérables dans une torpeur fatale.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1336,7 +1309,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Havre sinistre",
     "Description": "Les disciples de la Haine se rassemblent pour accomplir la volonté de leur maître.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1462,7 +1435,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Le temple Englouti",
     "Description": "Un temple des Premiers-Nés épargné par le temps.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -1471,7 +1444,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "L’Aegoye",
     "Description": "Le théâtre d’antiques épreuves, aujourd’hui hanté par des esprits tourmentés.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1480,7 +1453,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "L’Arrière-pays",
     "Description": "Rares sont les personnes qui ont franchi ces rivages, en dépit des rumeurs concernant un fabuleux trésor.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1912,7 +1885,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Refuge des Égarés",
     "Description": "Un havre de paix, sous le regard attentif d’un imposteur.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1948,7 +1921,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Refuge obscur",
     "Description": "La rumeur évoque de fabuleuses richesses dans cette crypte abandonnée.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2020,7 +1993,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Ruines des Premiers-Nés dissimulées",
     "Description": "Un élément de l’histoire préservé par des moyens pyroclastiques.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2065,7 +2038,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Ruines submergées",
     "Description": "Des ruines depuis longtemps oubliées, préservées par le corail et les bernacles.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2677,7 +2650,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Tunnels calcinés",
     "Description": "Accessibles uniquement aux plus braves, ces grottes sculptées par la lave mènent à des richesses inestimables.",
-    "DungeonZoneInfo": "dans\u00A0: ",
+    "DungeonZoneInfo": "dans\u00A0: Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2889,15 +2862,6 @@
     "Type": "Minor"
   },
   {
-    "IdSno": 1314333,
-    "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
-    "Name": "Élites de suppression",
-    "Description": "Les élites ont toujours l’affixe «\u00A0Suppression\u00A0» et infligent 20\u00A0% de dégâts supplémentaires.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Major"
-  },
-  {
     "IdSno": 2355995,
     "IdName": "DungeonAffix_Minor_S9_Suppressor",
     "Name": "Élites de suppression",
@@ -2905,6 +2869,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Minor"
+  },
+  {
+    "IdSno": 1314333,
+    "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
+    "Name": "Élites de suppression",
+    "Description": "Les élites ont toujours l’affixe «\u00A0Suppression\u00A0» et infligent 20\u00A0% de dégâts supplémentaires.",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Major"
   },
   {
     "IdSno": 2511947,

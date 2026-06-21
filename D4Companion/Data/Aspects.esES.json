@@ -4314,7 +4314,7 @@
     "Name": "de diluvio",
     "Description": "Las acumulaciones de arrollamiento aumentan tu recurso primario máximo en # y la regeneración en #.",
     "DescriptionClean": "Las acumulaciones de arrollamiento aumentan tu recurso primario máximo en y la regeneración en.",
-    "Localisation": "Las acumulaciones de {u}{c_important}arrollamiento{/c}{/u} aumentan tu recurso primario máximo en {c_random}[Affix_Value_1]{/c} y la regeneración en {c_number}[Affix.\"Static Value 0\"]{/c}.",
+    "Localisation": "{u}Las acumulaciones de {c_important}arrollamiento{/c}{/u} aumentan tu recurso primario máximo en {c_random}[Affix_Value_1]{/c} y la regeneración en {c_number}[Affix.\"Static Value 0\"]{/c}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -4380,9 +4380,9 @@
       "legendary_paladin_053_x2"
     ],
     "Name": "de dominio",
-    "Description": "Infligir control de masas a un enemigo otorga # de Resolución.",
-    "DescriptionClean": "Infligir control de masas a un enemigo otorga de Resolución.",
-    "Localisation": "Infligir control de masas a un enemigo otorga {c_random}[Affix_Value_1]{/c} de {u}{c_important}Resolución{/c}{/u}.",
+    "Description": "Infligir control de masas a un enemigo te otorga # de Resolución.",
+    "DescriptionClean": "Infligir control de masas a un enemigo te otorga de Resolución.",
+    "Localisation": "Infligir control de masas a un enemigo te otorga {c_random}[Ceil(Affix_Value_1)]{/c} de {u}{c_important}Resolución{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6343,9 +6343,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "de grito gutural",
-    "Description": "Tus habilidades de grito hacen que los enemigos inflijan un #% menos de daño durante #%\u00A0s.",
+    "Description": "Tus habilidades de grito hacen que los enemigos inflijan un #% menos de daño durante #\u00A0s.",
     "DescriptionClean": "Tus habilidades de grito hacen que los enemigos inflijan un menos de daño durante \u00A0s.",
-    "Localisation": "Tus habilidades de {c_important}grito{/c} hacen que los enemigos inflijan un {c_random}[Affix_Value_1|2%|]{/c} menos de daño durante {c_number}[Affix.\"Static Value 0\"|%|]{/c}\u00A0s.",
+    "Localisation": "Tus habilidades de {c_important}grito{/c} hacen que los enemigos inflijan un {c_random}[Affix_Value_1|2%|]{/c} menos de daño durante {c_number}[Affix.\"Static Value 0\"||]{/c}\u00A0s.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -9281,10 +9281,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -9747,7 +9749,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -10930,7 +10933,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -11806,10 +11808,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -15170,7 +15174,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -15457,6 +15460,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -15759,9 +15764,9 @@
       "legendary_paladin_020"
     ],
     "Name": "del indomable",
-    "Description": "Obtienes hasta un #% de reducción de daño y una resistencia a la pérdida de control en base a tu probabilidad de bloqueo.\r\n\r\nBonus actual: #% ",
-    "DescriptionClean": "Obtienes hasta un de reducción de daño y una resistencia a la pérdida de control en base a tu probabilidad de bloqueo. Bonus actual:",
-    "Localisation": "Obtienes hasta un {c_random}[Affix_Value_1|%|]{/c} de reducción de daño y una resistencia a la pérdida de control en base a tu probabilidad de bloqueo.\r\n\r\nBonus actual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Obtienes armadura y una reducción de pérdida de control igual a un #% de tu probabilidad de bloqueo.\r\n\r\nBonus actual: #%. ",
+    "DescriptionClean": "Obtienes armadura y una reducción de pérdida de control igual a un de tu probabilidad de bloqueo. Bonus actual:.",
+    "Localisation": "Obtienes armadura y una reducción de pérdida de control igual a un {c_random}[Affix_Value_1|%|]{/c} de tu probabilidad de bloqueo.\r\n\r\nBonus actual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}. ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",

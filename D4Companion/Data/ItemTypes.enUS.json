@@ -25,7 +25,7 @@
     "Type": "amulet"
   },
   {
-    "Name": "Mythic Unique Amulet",
+    "Name": "Mythic Amulet",
     "Rarerity": "Mythic",
     "Type": "amulet"
   },
@@ -55,7 +55,7 @@
     "Type": "amulet"
   },
   {
-    "Name": "Ancestral Mythic Unique Amulet",
+    "Name": "Ancestral Mythic Amulet",
     "Rarerity": "Mythic",
     "Type": "amulet"
   },
@@ -85,7 +85,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Axe",
+    "Name": "Mythic Axe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -115,7 +115,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Axe",
+    "Name": "Ancestral Mythic Axe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -145,7 +145,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Axe (Slashing)",
+    "Name": "Mythic Axe (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -175,7 +175,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Axe (Slashing)",
+    "Name": "Ancestral Mythic Axe (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -205,7 +205,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Axe",
+    "Name": "Mythic Two-Handed Axe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -235,7 +235,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Axe",
+    "Name": "Ancestral Mythic Two-Handed Axe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -265,7 +265,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Axe (Slashing)",
+    "Name": "Mythic Two-Handed Axe (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -295,7 +295,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Axe (Slashing)",
+    "Name": "Ancestral Mythic Two-Handed Axe (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -325,7 +325,7 @@
     "Type": "boots"
   },
   {
-    "Name": "Mythic Unique Boots",
+    "Name": "Mythic Boots",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -355,7 +355,7 @@
     "Type": "boots"
   },
   {
-    "Name": "Ancestral Mythic Unique Boots",
+    "Name": "Ancestral Mythic Boots",
     "Rarerity": "Mythic",
     "Type": "boots"
   },
@@ -385,7 +385,7 @@
     "Type": "ranged"
   },
   {
-    "Name": "Mythic Unique Bow",
+    "Name": "Mythic Bow",
     "Rarerity": "Mythic",
     "Type": "ranged"
   },
@@ -415,7 +415,7 @@
     "Type": "ranged"
   },
   {
-    "Name": "Ancestral Mythic Unique Bow",
+    "Name": "Ancestral Mythic Bow",
     "Rarerity": "Mythic",
     "Type": "ranged"
   },
@@ -445,7 +445,7 @@
     "Type": "chest"
   },
   {
-    "Name": "Mythic Unique Chest Armor",
+    "Name": "Mythic Chest Armor",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -475,7 +475,7 @@
     "Type": "chest"
   },
   {
-    "Name": "Ancestral Mythic Unique Chest Armor",
+    "Name": "Ancestral Mythic Chest Armor",
     "Rarerity": "Mythic",
     "Type": "chest"
   },
@@ -505,7 +505,7 @@
     "Type": "ranged"
   },
   {
-    "Name": "Mythic Unique Crossbow",
+    "Name": "Mythic Crossbow",
     "Rarerity": "Mythic",
     "Type": "ranged"
   },
@@ -535,7 +535,7 @@
     "Type": "ranged"
   },
   {
-    "Name": "Ancestral Mythic Unique Crossbow",
+    "Name": "Ancestral Mythic Crossbow",
     "Rarerity": "Mythic",
     "Type": "ranged"
   },
@@ -565,7 +565,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Dagger",
+    "Name": "Mythic Dagger",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -595,7 +595,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Dagger",
+    "Name": "Ancestral Mythic Dagger",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -625,7 +625,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Flail",
+    "Name": "Mythic Flail",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -655,7 +655,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Flail",
+    "Name": "Ancestral Mythic Flail",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -685,7 +685,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Mythic Unique Focus",
+    "Name": "Mythic Focus",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -715,7 +715,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Ancestral Mythic Unique Focus",
+    "Name": "Ancestral Mythic Focus",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -745,7 +745,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Glaive",
+    "Name": "Mythic Glaive",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -775,7 +775,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Glaive",
+    "Name": "Ancestral Mythic Glaive",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -805,7 +805,7 @@
     "Type": "gloves"
   },
   {
-    "Name": "Mythic Unique Gloves",
+    "Name": "Mythic Gloves",
     "Rarerity": "Mythic",
     "Type": "gloves"
   },
@@ -835,7 +835,7 @@
     "Type": "gloves"
   },
   {
-    "Name": "Ancestral Mythic Unique Gloves",
+    "Name": "Ancestral Mythic Gloves",
     "Rarerity": "Mythic",
     "Type": "gloves"
   },
@@ -865,7 +865,7 @@
     "Type": "helm"
   },
   {
-    "Name": "Mythic Unique Helm",
+    "Name": "Mythic Helm",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -895,7 +895,7 @@
     "Type": "helm"
   },
   {
-    "Name": "Ancestral Mythic Unique Helm",
+    "Name": "Ancestral Mythic Helm",
     "Rarerity": "Mythic",
     "Type": "helm"
   },
@@ -925,7 +925,7 @@
     "Type": "pants"
   },
   {
-    "Name": "Mythic Unique Pants",
+    "Name": "Mythic Pants",
     "Rarerity": "Mythic",
     "Type": "pants"
   },
@@ -955,7 +955,7 @@
     "Type": "pants"
   },
   {
-    "Name": "Ancestral Mythic Unique Pants",
+    "Name": "Ancestral Mythic Pants",
     "Rarerity": "Mythic",
     "Type": "pants"
   },
@@ -985,7 +985,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Mace",
+    "Name": "Mythic Mace",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1015,7 +1015,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Mace",
+    "Name": "Ancestral Mythic Mace",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1045,7 +1045,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Mace (Bludgeoning)",
+    "Name": "Mythic Mace (Bludgeoning)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1075,7 +1075,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Mace (Bludgeoning)",
+    "Name": "Ancestral Mythic Mace (Bludgeoning)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1105,7 +1105,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Mace",
+    "Name": "Mythic Two-Handed Mace",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1135,7 +1135,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Mace",
+    "Name": "Ancestral Mythic Two-Handed Mace",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1165,7 +1165,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Mace (Bludgeoning)",
+    "Name": "Mythic Two-Handed Mace (Bludgeoning)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1195,7 +1195,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Mace (Bludgeoning)",
+    "Name": "Ancestral Mythic Two-Handed Mace (Bludgeoning)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1225,7 +1225,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Mythic Unique Totem",
+    "Name": "Mythic Totem",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -1255,7 +1255,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Ancestral Mythic Unique Totem",
+    "Name": "Ancestral Mythic Totem",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -1285,7 +1285,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Polearm",
+    "Name": "Mythic Polearm",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1315,7 +1315,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Polearm",
+    "Name": "Ancestral Mythic Polearm",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1345,7 +1345,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Polearm (Slashing)",
+    "Name": "Mythic Polearm (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1375,7 +1375,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Polearm (Slashing)",
+    "Name": "Ancestral Mythic Polearm (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1405,7 +1405,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Quarterstaff",
+    "Name": "Mythic Quarterstaff",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1435,7 +1435,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Quarterstaff",
+    "Name": "Ancestral Mythic Quarterstaff",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1465,7 +1465,7 @@
     "Type": "ring"
   },
   {
-    "Name": "Mythic Unique Ring",
+    "Name": "Mythic Ring",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -1495,7 +1495,7 @@
     "Type": "ring"
   },
   {
-    "Name": "Ancestral Mythic Unique Ring",
+    "Name": "Ancestral Mythic Ring",
     "Rarerity": "Mythic",
     "Type": "ring"
   },
@@ -1525,7 +1525,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Scythe",
+    "Name": "Mythic Scythe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1555,7 +1555,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Scythe",
+    "Name": "Ancestral Mythic Scythe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1585,7 +1585,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Scythe",
+    "Name": "Mythic Two-Handed Scythe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1615,7 +1615,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Scythe",
+    "Name": "Ancestral Mythic Two-Handed Scythe",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1645,7 +1645,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Mythic Unique Shield",
+    "Name": "Mythic Shield",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -1675,7 +1675,7 @@
     "Type": "offhand"
   },
   {
-    "Name": "Ancestral Mythic Unique Shield",
+    "Name": "Ancestral Mythic Shield",
     "Rarerity": "Mythic",
     "Type": "offhand"
   },
@@ -1705,7 +1705,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Staff",
+    "Name": "Mythic Staff",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1735,7 +1735,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Staff",
+    "Name": "Ancestral Mythic Staff",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1765,7 +1765,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Sword",
+    "Name": "Mythic Sword",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1795,7 +1795,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Sword",
+    "Name": "Ancestral Mythic Sword",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1825,7 +1825,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Sword (Slashing)",
+    "Name": "Mythic Sword (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1855,7 +1855,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Sword (Slashing)",
+    "Name": "Ancestral Mythic Sword (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1885,7 +1885,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Sword",
+    "Name": "Mythic Two-Handed Sword",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1915,7 +1915,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Sword",
+    "Name": "Ancestral Mythic Two-Handed Sword",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1945,7 +1945,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Two-Handed Sword (Slashing)",
+    "Name": "Mythic Two-Handed Sword (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -1975,7 +1975,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Two-Handed Sword (Slashing)",
+    "Name": "Ancestral Mythic Two-Handed Sword (Slashing)",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2005,7 +2005,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Mythic Unique Wand",
+    "Name": "Mythic Wand",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },
@@ -2035,7 +2035,7 @@
     "Type": "weapon"
   },
   {
-    "Name": "Ancestral Mythic Unique Wand",
+    "Name": "Ancestral Mythic Wand",
     "Rarerity": "Mythic",
     "Type": "weapon"
   },

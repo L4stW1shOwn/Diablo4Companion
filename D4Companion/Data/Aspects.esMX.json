@@ -2265,10 +2265,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -5253,7 +5255,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -5584,9 +5587,9 @@
       "legendary_barb_040"
     ],
     "Name": "de Combatiente Veterano",
-    "Description": "Cada vez que una habilidad de Pelea inflige daño directo a un enemigo, tu Carga, Salto o Patada inflige un #% más de daño durante # segundos, hasta un #%.",
-    "DescriptionClean": "Cada vez que una habilidad de Pelea inflige daño directo a un enemigo, tu Carga, Salto o Patada inflige un más de daño durante segundos, hasta un.",
-    "Localisation": "Cada vez que una habilidad de {c_important}Pelea{/c} inflige daño directo a un enemigo, tu {c_important}Carga{/c}, {c_important}Salto{/c} o {c_important}Patada{/c} inflige un {c_random}[Affix_Value_1|1%x|]{/c} más de daño durante {c_number}[Affix.\"Static Value 0\"||]{/c} segundos, hasta un {c_random}[Affix_Value_1 * Affix_Value_2|%x|]{/c}.",
+    "Description": "Cada vez que una habilidad de Combate inflige daño directo a un enemigo, tu Carga, Salto o Patada inflige un #% más de daño durante # segundos, hasta un #%.",
+    "DescriptionClean": "Cada vez que una habilidad de Combate inflige daño directo a un enemigo, tu Carga, Salto o Patada inflige un más de daño durante segundos, hasta un.",
+    "Localisation": "Cada vez que una habilidad de {c_important}Combate{/c} inflige daño directo a un enemigo, tu {c_important}Carga{/c}, {c_important}Salto{/c} o {c_important}Patada{/c} inflige un {c_random}[Affix_Value_1|1%x|]{/c} más de daño durante {c_number}[Affix.\"Static Value 0\"||]{/c} segundos, hasta un {c_random}[Affix_Value_1 * Affix_Value_2|%x|]{/c}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "Manicomio de los Herejes",
@@ -6432,7 +6435,7 @@
     "Name": "de Dominio",
     "Description": "Aplicarle efectos de control de multitudes a un enemigo otorga # de Determinación.",
     "DescriptionClean": "Aplicarle efectos de control de multitudes a un enemigo otorga de Determinación.",
-    "Localisation": "Aplicarle efectos de control de multitudes a un enemigo otorga {c_random}[Affix_Value_1]{/c} de {u}{c_important}Determinación{/c}{/u}.",
+    "Localisation": "Aplicarle efectos de control de multitudes a un enemigo otorga {c_random}[Ceil(Affix_Value_1)]{/c} de {u}{c_important}Determinación{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -7172,9 +7175,9 @@
       "legendary_barb_011_x2"
     ],
     "Name": "de Fervor de Batalla",
-    "Description": "Las habilidades de Pelea otorgan enajenación durante # segundos al golpear por primera vez. Obtienes un #% de reducción de daño mientras tienes enajenación.",
-    "DescriptionClean": "Las habilidades de Pelea otorgan enajenación durante segundos al golpear por primera vez. Obtienes un de reducción de daño mientras tienes enajenación.",
-    "Localisation": "Las habilidades de {c_important}Pelea{/c} otorgan {c_important}{u}enajenación{/u}{/c} durante {c_number}[Affix.\"Static Value 0\"||]{/c} segundos al golpear por primera vez. Obtienes un {c_random}[Affix_Value_1|1%|]{/c} de reducción de daño mientras tienes {c_important}{u}enajenación{/u}{/c}.",
+    "Description": "Las habilidades de Combate otorgan enajenación durante # segundos al golpear por primera vez. Obtienes un #% de reducción de daño mientras tienes enajenación.",
+    "DescriptionClean": "Las habilidades de Combate otorgan enajenación durante segundos al golpear por primera vez. Obtienes un de reducción de daño mientras tienes enajenación.",
+    "Localisation": "Las habilidades de {c_important}Combate{/c} otorgan {c_important}{u}enajenación{/u}{/c} durante {c_number}[Affix.\"Static Value 0\"||]{/c} segundos al golpear por primera vez. Obtienes un {c_random}[Affix_Value_1|1%|]{/c} de reducción de daño mientras tienes {c_important}{u}enajenación{/u}{/c}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -8308,9 +8311,9 @@
       "legendary_rogue_020"
     ],
     "Name": "de Imbuiciones Inestables",
-    "Description": "Cuando lanzas una habilidad de Imbuición, se activa una explosión a tu alrededor, lo que aplica los efectos de Imbuición con un #% más de potencia e inflige # de daño del mismo tipo.",
-    "DescriptionClean": "Cuando lanzas una habilidad de Imbuición, se activa una explosión a tu alrededor, lo que aplica los efectos de Imbuición con un más de potencia e inflige de daño del mismo tipo.",
-    "Localisation": "Cuando lanzas una habilidad de {c_important}Imbuición{/c}, se activa una explosión a tu alrededor, lo que aplica los efectos de {c_important}Imbuición{/c} con un {c_random}[Affix_Value_1|x%|]{/c} más de potencia e inflige {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} de daño del mismo tipo.",
+    "Description": "Cuando lanzas una habilidad de Imbuición, se activa una explosión a tu alrededor, la cual aplica los efectos de Imbuición con un #% más de potencia e inflige # de daño del mismo tipo.",
+    "DescriptionClean": "Cuando lanzas una habilidad de Imbuición, se activa una explosión a tu alrededor, la cual aplica los efectos de Imbuición con un más de potencia e inflige de daño del mismo tipo.",
+    "Localisation": "Cuando lanzas una habilidad de {c_important}Imbuición{/c}, se activa una explosión a tu alrededor, la cual aplica los efectos de {c_important}Imbuición{/c} con un {c_random}[Affix_Value_1|x%|]{/c} más de potencia e inflige {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} de daño del mismo tipo.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "Bóveda Susurrante",
@@ -8878,9 +8881,9 @@
       "legendary_barb_020"
     ],
     "Name": "de Ira Inminente",
-    "Description": "Después de usar # de Furia, tus habilidades de Pelea infligen un #% más de daño durante # segundos.",
-    "DescriptionClean": "Después de usar de Furia, tus habilidades de Pelea infligen un más de daño durante segundos.",
-    "Localisation": "Después de usar {c_number}[Affix.\"Static Value 0\"]{/c} de Furia, tus habilidades de {c_important}Pelea{/c} infligen un {c_random}[Affix_Value_1|%x|]{/c} más de daño durante {c_number}[Affix.\"Static Value 1\"]{/c} segundos.",
+    "Description": "Después de usar # de Furia, tus habilidades de Combate infligen un #% más de daño durante # segundos.",
+    "DescriptionClean": "Después de usar de Furia, tus habilidades de Combate infligen un más de daño durante segundos.",
+    "Localisation": "Después de usar {c_number}[Affix.\"Static Value 0\"]{/c} de Furia, tus habilidades de {c_important}Combate{/c} infligen un {c_random}[Affix_Value_1|%x|]{/c} más de daño durante {c_number}[Affix.\"Static Value 1\"]{/c} segundos.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -10689,7 +10692,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -11538,10 +11540,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -14688,9 +14692,9 @@
       "legendary_paladin_020"
     ],
     "Name": "de los Indomables",
-    "Description": "Obtienes hasta un #% de reducción de daño y resistencia a la pérdida de control, en función de tu probabilidad de bloqueo.\r\n\r\nBonificación actual: #% ",
-    "DescriptionClean": "Obtienes hasta un de reducción de daño y resistencia a la pérdida de control, en función de tu probabilidad de bloqueo. Bonificación actual:",
-    "Localisation": "Obtienes hasta un {c_random}[Affix_Value_1|%|]{/c} de reducción de daño y resistencia a la pérdida de control, en función de tu probabilidad de bloqueo.\r\n\r\nBonificación actual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "Obtienes armadura y reducción de pérdida de control equivalentes al #% de tu probabilidad de bloqueo.\r\n\r\nBonificación actual: #% ",
+    "DescriptionClean": "Obtienes armadura y reducción de pérdida de control equivalentes al de tu probabilidad de bloqueo. Bonificación actual:",
+    "Localisation": "Obtienes armadura y reducción de pérdida de control equivalentes al {c_random}[Affix_Value_1|%|]{/c} de tu probabilidad de bloqueo.\r\n\r\nBonificación actual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -15526,7 +15530,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -16448,6 +16451,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -16896,9 +16901,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "del Grito Gutural",
-    "Description": "Tus habilidades de Grito provocan que los enemigos inflijan un #% menos de daño durante #% segundos.",
+    "Description": "Tus habilidades de Grito provocan que los enemigos inflijan un #% menos de daño durante # segundos.",
     "DescriptionClean": "Tus habilidades de Grito provocan que los enemigos inflijan un menos de daño durante segundos.",
-    "Localisation": "Tus habilidades de {c_important}Grito{/c} provocan que los enemigos inflijan un {c_random}[Affix_Value_1|2%|]{/c} menos de daño durante {c_number}[Affix.\"Static Value 0\"|%|]{/c} segundos.",
+    "Localisation": "Tus habilidades de {c_important}Grito{/c} provocan que los enemigos inflijan un {c_random}[Affix_Value_1|2%|]{/c} menos de daño durante {c_number}[Affix.\"Static Value 0\"||]{/c} segundos.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -18448,9 +18453,9 @@
       "legendary_barb_107"
     ],
     "Name": "del Vesánico del Clan del Oso",
-    "Description": "Cada enemigo que mates mientras tienes enajenación aumenta el índice de recuperación de tus habilidades de Pelea un #% durante # segundos.",
-    "DescriptionClean": "Cada enemigo que mates mientras tienes enajenación aumenta el índice de recuperación de tus habilidades de Pelea un durante segundos.",
-    "Localisation": "Cada enemigo que mates mientras tienes {c_important}{u}enajenación{/u}{/c} aumenta el índice de recuperación de tus habilidades de {c_important}Pelea{/c} un {c_random}[Affix_Value_1|%|]{/c} durante {c_number}[Affix.\"Static Value 1\"]{/c} segundos.",
+    "Description": "Cada enemigo que mates mientras tienes enajenación aumenta el índice de recuperación de tus habilidades de Combate un #% durante # segundos.",
+    "DescriptionClean": "Cada enemigo que mates mientras tienes enajenación aumenta el índice de recuperación de tus habilidades de Combate un durante segundos.",
+    "Localisation": "Cada enemigo que mates mientras tienes {c_important}{u}enajenación{/u}{/c} aumenta el índice de recuperación de tus habilidades de {c_important}Combate{/c} un {c_random}[Affix_Value_1|%|]{/c} durante {c_number}[Affix.\"Static Value 1\"]{/c} segundos.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",

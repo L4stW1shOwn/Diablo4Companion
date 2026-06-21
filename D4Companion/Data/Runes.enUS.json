@@ -474,9 +474,9 @@
     "IdName": "Item_Rune_Effect_Druid_Petrify",
     "RuneType": "effect",
     "Name": "Yom",
-    "Description": "Invoke the Druid's Petrify Skill, Stunning enemies, restoring Primary Resource.",
-    "DescriptionClean": "Invoke the Druid's Petrify Skill, Stunning enemies, restoring Primary Resource.",
-    "RuneDescription": "{c_RuneEffect}Invoke the Druid's {c_important}Petrify{/c} Skill, Stunning enemies, restoring Primary Resource.{/c}",
+    "Description": "Invoke the Druid's Petrify Skill, Stunning enemies and increasing your Critical Strike Damage against them.",
+    "DescriptionClean": "Invoke the Druid's Petrify Skill, Stunning enemies and increasing your Critical Strike Damage against them.",
+    "RuneDescription": "{c_RuneEffect}Invoke the Druid's {c_important}Petrify{/c} Skill, Stunning enemies and increasing your Critical Strike Damage against them.{/c}",
     "RuneOverflowBehavior": "Increase Stun Duration"
   },
   {

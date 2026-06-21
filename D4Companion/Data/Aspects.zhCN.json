@@ -185,9 +185,9 @@
       "legendary_paladin_020"
     ],
     "Name": "不屈者之",
-    "Description": "根据你的格挡几率，获得最多 #% 的伤害减免和损伤抗性。\r\n\r\n当前加成: #%",
-    "DescriptionClean": "根据你的格挡几率，获得最多 的伤害减免和损伤抗性。 当前加成:",
-    "Localisation": "根据你的格挡几率，获得最多 {c_random}[Affix_Value_1|%|]{/c} 的伤害减免和损伤抗性。\r\n\r\n当前加成: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}",
+    "Description": "获得相当于你格挡几率 #% 的护甲值和控制受限减免。\r\n\r\n当前加成: #%",
+    "DescriptionClean": "获得相当于你格挡几率 的护甲值和控制受限减免。 当前加成:",
+    "Localisation": "获得相当于你格挡几率 {c_random}[Affix_Value_1|%|]{/c} 的护甲值和控制受限减免。\r\n\r\n当前加成: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -749,9 +749,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "低沉咆哮之",
-    "Description": "你的战吼技能使敌人造成的伤害降低 #%，持续 #% 秒。",
+    "Description": "你的战吼技能使敌人造成的伤害降低 #%，持续 # 秒。",
     "DescriptionClean": "你的战吼技能使敌人造成的伤害降低 ，持续 秒。",
-    "Localisation": "你的{c_important}战吼{/c}技能使敌人造成的伤害降低 {c_random}[Affix_Value_1|2%|]{/c}，持续 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 秒。",
+    "Localisation": "你的{c_important}战吼{/c}技能使敌人造成的伤害降低 {c_random}[Affix_Value_1|2%|]{/c}，持续 {c_number}[Affix.\"Static Value 0\"||]{/c} 秒。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -2948,7 +2948,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -3024,7 +3023,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -3065,7 +3063,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -5991,7 +5990,7 @@
     "Name": "彼消我长之",
     "Description": "控制一名敌人会提供 # 层决断。",
     "DescriptionClean": "控制一名敌人会提供 层决断。",
-    "Localisation": "控制一名敌人会提供 {c_random}[Affix_Value_1]{/c} 层{u}{c_important}决断{/c}{/u}。",
+    "Localisation": "控制一名敌人会提供 {c_random}[Ceil(Affix_Value_1)]{/c} 层{u}{c_important}决断{/c}{/u}。",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -7118,10 +7117,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -10834,10 +10835,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -17065,6 +17068,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]

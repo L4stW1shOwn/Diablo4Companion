@@ -7213,10 +7213,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
@@ -7855,7 +7857,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -8501,10 +8502,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -10943,7 +10946,7 @@
     "Name": "de Dominância",
     "Description": "Aplicar controle de grupo a um inimigo concede # de determinação.",
     "DescriptionClean": "Aplicar controle de grupo a um inimigo concede de determinação.",
-    "Localisation": "Aplicar controle de grupo a um inimigo concede {c_random}[Affix_Value_1]{/c} de {u}{c_important}determinação{/c}{/u}.",
+    "Localisation": "Aplicar controle de grupo a um inimigo concede {c_random}[Ceil(Affix_Value_1)]{/c} de {u}{c_important}determinação{/c}{/u}.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -14131,6 +14134,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -15034,9 +15039,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "do Grito Gutural",
-    "Description": "Suas habilidades de Grito fazem os inimigos causarem #% a menos de dano por #% s.",
+    "Description": "Suas habilidades de Grito fazem os inimigos causarem #% a menos de dano por # s.",
     "DescriptionClean": "Suas habilidades de Grito fazem os inimigos causarem a menos de dano por s.",
-    "Localisation": "Suas habilidades de {c_important}Grito{/c} fazem os inimigos causarem {c_random}[Affix_Value_1|2%|]{/c} a menos de dano por {c_number}[Affix.\"Static Value 0\"|%|]{/c} s.",
+    "Localisation": "Suas habilidades de {c_important}Grito{/c} fazem os inimigos causarem {c_random}[Affix_Value_1|2%|]{/c} a menos de dano por {c_number}[Affix.\"Static Value 0\"||]{/c} s.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -15281,9 +15286,9 @@
       "legendary_paladin_020"
     ],
     "Name": "do Indômito",
-    "Description": "Ganha até #% de redução de dano e resistência a enfraquecimento com base na sua chance de bloqueio.\r\n\r\nBônus atual: #%. ",
-    "DescriptionClean": "Ganha até de redução de dano e resistência a enfraquecimento com base na sua chance de bloqueio. Bônus atual:.",
-    "Localisation": "Ganha até {c_random}[Affix_Value_1|%|]{/c} de redução de dano e resistência a enfraquecimento com base na sua chance de bloqueio.\r\n\r\nBônus atual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}. ",
+    "Description": "Ganha armadura e redução de enfraquecimento igual a #% da sua chance de bloqueio.\r\n\r\nBônus atual: #%. ",
+    "DescriptionClean": "Ganha armadura e redução de enfraquecimento igual a da sua chance de bloqueio. Bônus atual:.",
+    "Localisation": "Ganha armadura e redução de enfraquecimento igual a {c_random}[Affix_Value_1|%|]{/c} da sua chance de bloqueio.\r\n\r\nBônus atual: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c}. ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -15842,7 +15847,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -17574,7 +17580,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,

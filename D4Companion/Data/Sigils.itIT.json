@@ -166,7 +166,7 @@
     "IdName": "World_DGN_Skov_BasalticAscent",
     "Name": "Ascesa Basaltica",
     "Description": "Nonostante siano state devastate dal magma, queste rovine sono ancora in piedi.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -346,7 +346,7 @@
     "IdName": "World_DGN_Skov_Cataclysm",
     "Name": "Cataclisma",
     "Description": "Secoli di violente eruzioni hanno stravolto queste terre.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -382,7 +382,7 @@
     "IdName": "World_DGN_QST_Skov_DeathCurse_02",
     "Name": "Caverna della Strega del Mare",
     "Description": "Una caverna umida in cui la Strega del Mare riunisce i suoi servi.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -616,7 +616,7 @@
     "IdName": "World_DGN_Skov_SeersReach",
     "Name": "Confine della Veggente",
     "Description": "L'aria è pesante, avvolta da un silenzio inquietante. Cosa si celerà dietro?",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -724,7 +724,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03",
     "Name": "Cuore della Montagna",
     "Description": "Il cuore nascosto della montagna, sangue fuso che pulsa al suo interno.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -954,35 +954,8 @@
     "Type": "Minor"
   },
   {
-    "IdSno": 2646843,
-    "IdName": "DungeonAffix_Positive_Torment_TreasureGoblins",
-    "Name": "Esplorazione delle spedizioni",
-    "Description": "Completare la spedizione fornisce esperienza e ricompense aggiuntive.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
     "IdSno": 2613077,
     "IdName": "DungeonAffix_Positive_IncreasedRewards",
-    "Name": "Esplorazione delle spedizioni",
-    "Description": "Completare la spedizione fornisce esperienza e ricompense aggiuntive.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646836,
-    "IdName": "DungeonAffix_Positive_Torment_MythicElites",
-    "Name": "Esplorazione delle spedizioni",
-    "Description": "Completare la spedizione fornisce esperienza e ricompense aggiuntive.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Positive"
-  },
-  {
-    "IdSno": 2646845,
-    "IdName": "DungeonAffix_Positive_Torment_AncestralElites",
     "Name": "Esplorazione delle spedizioni",
     "Description": "Completare la spedizione fornisce esperienza e ricompense aggiuntive.",
     "DungeonZoneInfo": "",
@@ -1057,7 +1030,7 @@
     "IdName": "World_DGN_Skov_TormentedForest",
     "Name": "Foresta del Tormento",
     "Description": "Rimuoverai la maledizione della foresta o ti unirai alle sue schiere infestate?",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1228,7 +1201,7 @@
     "IdName": "World_DGN_Skov_ScorchedTunnels",
     "Name": "Gallerie Bruciate",
     "Description": "Per i più temerari, le grotte scolpite dalla lava conducono a ricchezze inimmaginabili.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1273,7 +1246,7 @@
     "IdName": "World_DGN_Skov_BewitchedGrotto",
     "Name": "Grotta Stregata",
     "Description": "Una melodia inquietante attira gli ignari in un fatale stato di trance.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1318,7 +1291,7 @@
     "IdName": "World_DGN_Skov_Aegoye",
     "Name": "L'Aegoye",
     "Description": "Il luogo di antiche prove, ora infestato da spiriti inquieti.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1327,7 +1300,7 @@
     "IdName": "World_DGN_Skov_Hinterland",
     "Name": "L'Entroterra",
     "Description": "Pochi hanno attraversato questa costa, nonostante le voci sul tesoro nascosto.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1966,7 +1939,7 @@
     "IdName": "World_DGN_Skov_GrimHaven",
     "Name": "Rifugio Nefasto",
     "Description": "I seguaci dell'Odio si riuniscono per eseguire la volontà del loro padrone.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1975,7 +1948,7 @@
     "IdName": "World_DGN_Skov_DarkRefuge",
     "Name": "Rifugio Oscuro",
     "Description": "Voci di ricchezze mitiche circondano questa cripta fatiscente.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -1993,7 +1966,7 @@
     "IdName": "World_DGN_Skov_RefugeoftheLost",
     "Name": "Rifugio dei Perduti",
     "Description": "Un luogo di conforto sotto lo sguardo vigile di un ingannatore.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2191,7 +2164,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_Cellar",
     "Name": "Rovine Occulte dei Primogeniti",
     "Description": "Un pezzo di storia conservato grazie ai fenomeni piroclastici.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2209,7 +2182,7 @@
     "IdName": "World_DGN_Skov_SubmergedRuins",
     "Name": "Rovine Sommerse",
     "Description": "Rovine dimenticate da tempo, tenute insieme da coralli e cirripedi.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": true,
     "Type": "Dungeon"
   },
@@ -2421,20 +2394,20 @@
     "Type": "Positive"
   },
   {
-    "IdSno": 2579466,
-    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
-    "Name": "Sentiero Scoriaceo",
-    "Description": "Per i più temerari, le grotte scolpite dalla lava conducono a ricchezze inimmaginabili.",
-    "DungeonZoneInfo": "presso ",
-    "IsSeasonal": false,
-    "Type": "Dungeon"
-  },
-  {
     "IdSno": 2579464,
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_B",
     "Name": "Sentiero Scoriaceo",
     "Description": "Per i più temerari, le grotte scolpite dalla lava conducono a ricchezze inimmaginabili.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
+    "IsSeasonal": false,
+    "Type": "Dungeon"
+  },
+  {
+    "IdSno": 2579466,
+    "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_C",
+    "Name": "Sentiero Scoriaceo",
+    "Description": "Per i più temerari, le grotte scolpite dalla lava conducono a ricchezze inimmaginabili.",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2443,7 +2416,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_01_A",
     "Name": "Sentiero Scoriaceo",
     "Description": "Per i più temerari, le grotte scolpite dalla lava conducono a ricchezze inimmaginabili.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2641,7 +2614,7 @@
     "IdName": "World_DGN_QST_Skov_Skar_Sphinx_03_Part02",
     "Name": "Tempio Inghiottito",
     "Description": "Un tempio dei Primogeniti che sembra non essere stato toccato dal tempo.",
-    "DungeonZoneInfo": "presso ",
+    "DungeonZoneInfo": "presso Skovos",
     "IsSeasonal": false,
     "Type": "Dungeon"
   },
@@ -2853,15 +2826,6 @@
     "Type": "Major"
   },
   {
-    "IdSno": 1314333,
-    "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
-    "Name": "Élite (Soppressore)",
-    "Description": "I mostri élite hanno l'affisso \"Soppressore\" e infliggono il 20% di danni aggiuntivi.",
-    "DungeonZoneInfo": "",
-    "IsSeasonal": false,
-    "Type": "Major"
-  },
-  {
     "IdSno": 2355995,
     "IdName": "DungeonAffix_Minor_S9_Suppressor",
     "Name": "Élite (Soppressore)",
@@ -2869,6 +2833,15 @@
     "DungeonZoneInfo": "",
     "IsSeasonal": false,
     "Type": "Minor"
+  },
+  {
+    "IdSno": 1314333,
+    "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
+    "Name": "Élite (Soppressore)",
+    "Description": "I mostri élite hanno l'affisso \"Soppressore\" e infliggono il 20% di danni aggiuntivi.",
+    "DungeonZoneInfo": "",
+    "IsSeasonal": false,
+    "Type": "Major"
   },
   {
     "IdSno": 1314342,

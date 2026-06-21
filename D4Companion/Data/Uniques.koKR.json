@@ -98,41 +98,6 @@
     ]
   },
   {
-    "IdSno": "1934447",
-    "IdName": "Pants_Unique_Sorc_101",
-    "IdSnoList": [
-      "1934447"
-    ],
-    "IdNameList": [
-      "Pants_Unique_Sorc_101"
-    ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
-    "IdNameItemList": [
-      "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
-    ],
-    "IdNameItemActor": "Pants_Unique_Sorcerer_98",
-    "Name": "[ph_Hope's Respite]",
-    "Description": "연쇄 번개 시전 시 #% 확률로 #~#번 추가로 활성화됩니다.",
-    "DescriptionClean": "연쇄 번개 시전 시 확률로 ~번 추가로 활성화됩니다.",
-    "Localisation": "{c_important}연쇄 번개{/c} 시전 시 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 확률로 {c_number}[Affix.\"Static Value 1\"]{/c}~{c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c}번 추가로 활성화됩니다.",
-    "MagicType": 2,
-    "AllowedForPlayerClass": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "AllowedItemLabels": [
-      30
-    ]
-  },
-  {
     "IdSno": "2582112",
     "IdName": "Pants_Unique_Rogue_001_x2",
     "IdSnoList": [
@@ -441,7 +406,7 @@
       "Chest_Unique_Generic_103",
       "Talisman_Charm_Unique_Chest_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_125",
     "Name": "거짓된 죽음의 수의",
     "Description": "죽음에 이르는 피해를 받으면, 죽지 않고 생명력을 완전히 회복하고 #초 동안 최대 생명력의 #%에 해당하는 보호막을 획득하고 근거리에 있는 적들을 밀쳐냅니다. 이 효과는 #초에 한 번씩만 발동합니다.",
     "DescriptionClean": "죽음에 이르는 피해를 받으면, 죽지 않고 생명력을 완전히 회복하고 초 동안 최대 생명력의 에 해당하는 보호막을 획득하고 근거리에 있는 적들을 밀쳐냅니다. 이 효과는 초에 한 번씩만 발동합니다.",
@@ -505,7 +470,7 @@
       "Ring_Unique_Rogue_101",
       "Talisman_Charm_Unique_Ring_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_012",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "건달의 입맞춤",
     "Description": "근거리에 적이 없을 때 #초마다 포악함 중첩을 # 획득합니다.\r\n\r\n포악함 중첩 1당 명사수 기술이 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "근거리에 적이 없을 때 초마다 포악함 중첩을 획득합니다. 포악함 중첩 1당 명사수 기술이 주는 피해가 증가합니다.",
@@ -635,7 +600,7 @@
       "Gloves_Unique_Rogue_98",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_98"
     ],
-    "IdNameItemActor": "Gloves_Unique_Rogue_98",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "검투사의 승리",
     "Description": "개별 적에게 처음 주는 직접 피해가 확정적으로 극대화로 적중합니다. 명사수 기술이 처음으로 극대화로 적중할 때, 그 기술의 공격력이 #% 증가하고 플레이어가 제압을 # 얻습니다. 이 효과는 최대 제압을 최대 # 초과하여 중첩될 수 있습니다.",
     "DescriptionClean": "개별 적에게 처음 주는 직접 피해가 확정적으로 극대화로 적중합니다. 명사수 기술이 처음으로 극대화로 적중할 때, 그 기술의 공격력이 증가하고 플레이어가 제압을 얻습니다. 이 효과는 최대 제압을 최대 초과하여 중첩될 수 있습니다.",
@@ -857,7 +822,7 @@
       "Gloves_Unique_Generic_004",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_004"
     ],
-    "IdNameItemActor": "GLV_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "고통탐식자의 팔목 장갑",
     "Description": "기본 기술이 아닌 기술을 시전해 적에게 피해를 주면 #초 동안 표식을 남깁니다. 표식이 찍힌 적이 처음으로 기본 기술에 적중당할 경우, 기본 기술의 피해가 표식이 찍힌 모든 적에게 전달되며, #% 증가한 피해를 줍니다.",
     "DescriptionClean": "기본 기술이 아닌 기술을 시전해 적에게 피해를 주면 초 동안 표식을 남깁니다. 표식이 찍힌 적이 처음으로 기본 기술에 적중당할 경우, 기본 기술의 피해가 표식이 찍힌 모든 적에게 전달되며, 증가한 피해를 줍니다.",
@@ -889,7 +854,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_024",
     "Name": "곰의 힘",
     "Description": "곰인간 형상일 때 결의 중첩 1당 #%의 보너스 피해를 획득합니다. 추가로, 곰인간 형상일 때 #초마다 자동으로 결의 중첩을 # 획득합니다.",
     "DescriptionClean": "곰인간 형상일 때 결의 중첩 1당 의 보너스 피해를 획득합니다. 추가로, 곰인간 형상일 때 초마다 자동으로 결의 중첩을 획득합니다.",
@@ -1017,9 +982,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "과잉 살상",
-    "Description": "결정타가 모든 보조 업그레이드를 획득하고 주는 피해가 #% 증가합니다.",
-    "DescriptionClean": "결정타가 모든 보조 업그레이드를 획득하고 주는 피해가 증가합니다.",
-    "Localisation": "{c_important}결정타{/c}가 모든 보조 업그레이드를 획득하고 주는 피해가 {c_random}[Affix_Value_1 * 100|1%x|]{/c} 증가합니다.",
+    "Description": "결정타가 모든 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "결정타가 모든 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}결정타{/c}가 모든 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1 * 100|1%x|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1141,7 +1106,7 @@
       "S12_1HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq10",
     "Name": "궤멸자",
     "Description": "행운의 적중: 최대 #% 확률로 주위 적에게 #의 암흑 피해를 주고, 적이 주는 피해를 #초 동안 #% 감소시킵니다.",
     "DescriptionClean": "행운의 적중: 최대 확률로 주위 적에게 의 암흑 피해를 주고, 적이 주는 피해를 초 동안 감소시킵니다.",
@@ -1309,9 +1274,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "극치의 손",
-    "Description": "탈태가 모든 보조 업그레이드를 무료로 획득하고 #% 더 강해집니다.",
-    "DescriptionClean": "탈태가 모든 보조 업그레이드를 무료로 획득하고 더 강해집니다.",
-    "Localisation": "{c_important}탈태{/c}가 모든 보조 업그레이드를 무료로 획득하고 {c_random}[Affix_Value_1*100|+%|]{/c} 더 강해집니다.",
+    "Description": "탈태가 모든 업그레이드를 무료로 획득하고 #% 더 강해집니다.",
+    "DescriptionClean": "탈태가 모든 업그레이드를 무료로 획득하고 더 강해집니다.",
+    "Localisation": "{c_important}탈태{/c}가 모든 업그레이드를 무료로 획득하고 {c_random}[Affix_Value_1*100|+%|]{/c} 더 강해집니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1527,7 +1492,7 @@
       "S12_1HDagger_Unique_Generic_001",
       "Talisman_Charm_Unique_1HDagger_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Dagger_uniq22",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "녹물림 더크",
     "Description": "고립된 적에게 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "고립된 적에게 주는 피해가 증가합니다.",
@@ -1559,7 +1524,7 @@
       "Ring_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_007",
     "Name": "녹아내린 가락지",
     "Description": "건강한 적을 상대로 방화 기술의 극대화 피해가 #% 증가하고, 부상당한 적을 상대로 방화 극대화 확률이 #% 증가합니다.\r\n\r\n극대화 공격으로 적을 처치하면 #초 동안 모든 적에게 두 가지 효과가 모두 적용되고 공격 속도도 #% 획득합니다.",
     "DescriptionClean": "건강한 적을 상대로 방화 기술의 극대화 피해가 증가하고, 부상당한 적을 상대로 방화 극대화 확률이 증가합니다. 극대화 공격으로 적을 처치하면 초 동안 모든 적에게 두 가지 효과가 모두 적용되고 공격 속도도 획득합니다.",
@@ -1780,7 +1745,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
     "Name": "대악마의 수호",
     "Description": "이동 시 #%의 회피 확률과 피해 감소를 얻습니다.\r\n\r\n#초 동안 가만히 서 있으면 다시 움직이기 전까지 저지 불가 상태가 됩니다.",
     "DescriptionClean": "이동 시 의 회피 확률과 피해 감소를 얻습니다. 초 동안 가만히 서 있으면 다시 움직이기 전까지 저지 불가 상태가 됩니다.",
@@ -1971,7 +1936,7 @@
       "Ring_Unique_Paladin_002",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_020",
     "Name": "두 번째 나팔의 문장",
     "Description": "심판관 맹세 사용 시 심판이 주는 피해가 #% 증가하고 #% 확률로 두 번 폭발합니다.",
     "DescriptionClean": "심판관 맹세 사용 시 심판이 주는 피해가 증가하고 확률로 두 번 폭발합니다.",
@@ -2065,7 +2030,7 @@
       "Ring_Unique_Sorc_104_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_104_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_018",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "드로그난의 고뇌",
     "Description": "방화 기술 시전 시 #초에 걸쳐 최대 생명력의 #%만큼 연소 피해를 받습니다. 최대 생명력 중 연소하는 생명력의 비율에 따라 주는 연소 피해가 #% 증가합니다.",
     "DescriptionClean": "방화 기술 시전 시 초에 걸쳐 최대 생명력의 만큼 연소 피해를 받습니다. 최대 생명력 중 연소하는 생명력의 비율에 따라 주는 연소 피해가 증가합니다.",
@@ -2132,7 +2097,7 @@
       "S05_BSK_Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Boots_unique_generic_126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "라카노스의 자취",
     "Description": "재사용 대기시간이 있는 기술을 시전하면 폭발을 일으켜 #의 화염 피해를 줍니다.",
     "DescriptionClean": "재사용 대기시간이 있는 기술을 시전하면 폭발을 일으켜 의 화염 피해를 줍니다.",
@@ -2338,9 +2303,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "마녀의 큰지팡이",
-    "Description": "발톱이 모든 변화형을 획득하고 #%의 보너스 공격력을 획득합니다.",
-    "DescriptionClean": "발톱이 모든 변화형을 획득하고 의 보너스 공격력을 획득합니다.",
-    "Localisation": "{c_important}발톱{/c}이 모든 변화형을 획득하고 {c_random}[Affix_Value_1*100|x%|]{/c}의 보너스 공격력을 획득합니다.",
+    "Description": "발톱이 모든 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "발톱이 모든 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}발톱{/c}이 모든 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1*100|x%|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -2659,7 +2624,7 @@
       "Boots_Unique_Generic_002",
       "Talisman_Charm_Unique_Boots_Unique_Generic_002"
     ],
-    "IdNameItemActor": "BTS_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "명멸걸음",
     "Description": "피하기로 통과한 적 하나당 재사용 대기 중인 궁극기의 재사용 대기시간이 #초씩, 최대 #초까지 감소합니다.",
     "DescriptionClean": "피하기로 통과한 적 하나당 재사용 대기 중인 궁극기의 재사용 대기시간이 초씩, 최대 초까지 감소합니다.",
@@ -2723,7 +2688,7 @@
       "Pants_Unique_Warlock_004",
       "Talisman_Charm_Unique_Pants_Unique_Warlock_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets53",
     "Name": "몰루 살점결계",
     "Description": "최대 생명력의 #%를 초과하여 생명력을 회복할 수 없지만, 방어 기술로 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "최대 생명력의 를 초과하여 생명력을 회복할 수 없지만, 방어 기술로 주는 피해가 증가합니다.",
@@ -3007,7 +2972,7 @@
       "Gloves_Unique_Rogue_002_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_002_x2"
     ],
-    "IdNameItemActor": "GLV_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "바다 군주의 좋은 장갑",
     "Description": "암살 기술을 시전하거나 정신을 집중하면 기세 중첩이 1씩, 최대 #까지 쌓입니다. 명사수 기술을 시전하면 기세 중첩이 1 사라집니다. \r\n\r\n기세 중첩 1당 다음 효과를 얻습니다.\r\n 최대 기력 #%\r\n 기력 재생 #%\r\n 공격력 #%",
     "DescriptionClean": "암살 기술을 시전하거나 정신을 집중하면 기세 중첩이 1씩, 최대 까지 쌓입니다. 명사수 기술을 시전하면 기세 중첩이 1 사라집니다.  기세 중첩 1당 다음 효과를 얻습니다. 최대 기력  기력 재생  공격력",
@@ -3174,9 +3139,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "바알의 눈",
-    "Description": "영혼 조각 기술과 그 악마들이 #%의 피해를 줍니다. 영혼 조각 기술 시전 시 공격력이 #초 동안 #%씩, 최대 #%까지 증가합니다.",
-    "DescriptionClean": "영혼 조각 기술과 그 악마들이 의 피해를 줍니다. 영혼 조각 기술 시전 시 공격력이 초 동안 씩, 최대 까지 증가합니다.",
-    "Localisation": "{c_important}영혼 조각{/c} 기술과 그 악마들이 {c_random}[Affix_Value_1*100|%x|]{/c}의 피해를 줍니다. {c_important}영혼 조각{/c} 기술 시전 시 공격력이 {c_number}[Affix.\"Static Value 1\"]{/c}초 동안 {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}씩, 최대 {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}까지 증가합니다.",
+    "Description": "영혼 조각 기술과 그 악마들이 주는 피해가 #% 증가합니다. 영혼 조각 기술 시전 시 공격력이 #초 동안 #%씩, 최대 #%까지 증가합니다.",
+    "DescriptionClean": "영혼 조각 기술과 그 악마들이 주는 피해가 증가합니다. 영혼 조각 기술 시전 시 공격력이 초 동안 씩, 최대 까지 증가합니다.",
+    "Localisation": "{c_important}영혼 조각{/c} 기술과 그 악마들이 주는 피해가 {c_random}[Affix_Value_1*100|%x|]{/c} 증가합니다. {c_important}영혼 조각{/c} 기술 시전 시 공격력이 {c_number}[Affix.\"Static Value 1\"]{/c}초 동안 {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c}씩, 최대 {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}까지 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3237,7 +3202,7 @@
       "Pants_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_96",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "발라잔의 짚허리띠",
     "Description": "시전 시 근거리에 있는 적에게 가시의 #%만큼 피해를 주고, 이 피해의 #%만큼을 #초에 걸쳐 중독 피해로 줍니다.\r\n\r\n가시로 반격할 때마다 #초 동안 중독 피해가 #%씩, 최대 #%까지 증가합니다.",
     "DescriptionClean": "시전 시 근거리에 있는 적에게 가시의 만큼 피해를 주고, 이 피해의 만큼을 초에 걸쳐 중독 피해로 줍니다. 가시로 반격할 때마다 초 동안 중독 피해가 씩, 최대 까지 증가합니다.",
@@ -3269,7 +3234,7 @@
       "Amulet_Unique_Warlock_003",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_003"
     ],
-    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_03",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "밤의 공포",
     "Description": "어둠의 형상 중첩 1당 심연 기술이 주는 피해가 #% 증가합니다. 은폐 상태에서는 이 보너스가 #% 증가합니다.",
     "DescriptionClean": "어둠의 형상 중첩 1당 심연 기술이 주는 피해가 증가합니다. 은폐 상태에서는 이 보너스가 증가합니다.",
@@ -3390,6 +3355,39 @@
     ]
   },
   {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "별 없는 하늘의 반지",
+    "Description": "신화: 주 자원을 소모하면 #초 동안 #%만큼, 최대 #%까지 기술의 자원 소모량이 감소하고 적에게 주는 피해가 증가합니다. ",
+    "DescriptionClean": "신화: 주 자원을 소모하면 초 동안 만큼, 최대 까지 기술의 자원 소모량이 감소하고 적에게 주는 피해가 증가합니다.",
+    "Localisation": "{c_mythic}신화: {/c}주 자원을 소모하면 {c_number}[Affix.\"Static Value 1\"]{/c}초 동안 {c_number}[Affix_Value_1|1%x|]{/c}만큼, 최대 {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}까지 기술의 자원 소모량이 감소하고 적에게 주는 피해가 증가합니다. ",
+    "MagicType": 2,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
     "IdSno": "1713205",
     "IdName": "Helm_Unique_Sorc_100",
     "IdSnoList": [
@@ -3451,6 +3449,40 @@
     ],
     "AllowedItemLabels": [
       26
+    ]
+  },
+  {
+    "IdSno": "1934447",
+    "IdName": "Pants_Unique_Sorc_101",
+    "IdSnoList": [
+      "1934447"
+    ],
+    "IdNameList": [
+      "Pants_Unique_Sorc_101"
+    ],
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
+    "IdNameItemList": [
+      "Pants_Unique_Sorc_101",
+      "Pants_Unique_Sorc_96"
+    ],
+    "IdNameItemActor": "Pants_Unique_Sorcerer_96",
+    "Name": "부크라니의 결의",
+    "Description": "연쇄 번개 시전 시 #% 확률로 #~#번 추가로 활성화됩니다.",
+    "DescriptionClean": "연쇄 번개 시전 시 확률로 ~번 추가로 활성화됩니다.",
+    "Localisation": "{c_important}연쇄 번개{/c} 시전 시 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 확률로 {c_number}[Affix.\"Static Value 1\"]{/c}~{c_random}[Affix.\"Static Value 1\" + Affix_Value_1]{/c}번 추가로 활성화됩니다.",
+    "MagicType": 2,
+    "AllowedForPlayerClass": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AllowedItemLabels": [
+      30
     ]
   },
   {
@@ -3570,9 +3602,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "붉은 설교",
-    "Description": "열의가 주는 피해가 #% 증가하고, 죽음 아니면 영광을 변화형을 비용 없이 얻습니다.",
-    "DescriptionClean": "열의가 주는 피해가 증가하고, 죽음 아니면 영광을 변화형을 비용 없이 얻습니다.",
-    "Localisation": "{c_important}열의{/c}가 주는 피해가 {c_random}[Affix_Value_1*100|%x|]{/c} 증가하고, {c_important}죽음 아니면 영광을{/c} 변화형을 비용 없이 얻습니다.",
+    "Description": "열의가 죽음 아니면 영광을 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "열의가 죽음 아니면 영광을 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}열의{/c}가 {c_important}죽음 아니면 영광을{/c} 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1*100|%x|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3789,7 +3821,7 @@
       "Helm_Unique_Paladin_002",
       "Talisman_Charm_Unique_Helm_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Helm_Unique_Paladin_95",
     "Name": "사법관의 글레이브투구",
     "Description": "행운의 적중: 심판관 기술이 최대 #% 확률로 축복받은 창을 떨어뜨립니다. 창은 심판의 징표를 지니고 있으며 충격 시 심판의 피해를 줍니다.",
     "DescriptionClean": "행운의 적중: 심판관 기술이 최대 확률로 축복받은 창을 떨어뜨립니다. 창은 심판의 징표를 지니고 있으며 충격 시 심판의 피해를 줍니다.",
@@ -3983,7 +4015,7 @@
       "Chest_Unique_Warlock_001",
       "Talisman_Charm_Unique_Chest_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_Unique_Warlock_95",
     "Name": "살점 갑각",
     "Description": "인장 기술로 주는 피해가 #% 증가합니다. 활성화된 인장이 매초 처치를 # 얻고, 사용하지 않은 처치 횟수는 인장이 만료되어도 저장됩니다.",
     "DescriptionClean": "인장 기술로 주는 피해가 증가합니다. 활성화된 인장이 매초 처치를 얻고, 사용하지 않은 처치 횟수는 인장이 만료되어도 저장됩니다.",
@@ -4109,7 +4141,7 @@
       "Pants_Unique_Generic_101",
       "Talisman_Charm_Unique_Pants_Unique_Generic_101"
     ],
-    "IdNameItemActor": "LEG_sets55",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "새벽하늘 무릎받이",
     "Description": "비물리 유형의 피해를 받으면 #초 동안 해당 피해 유형에 대한 저항이 #% 증가합니다. 이 효과는 한 번에 한 가지 피해 유형에 대해서만 적용됩니다.",
     "DescriptionClean": "비물리 유형의 피해를 받으면 초 동안 해당 피해 유형에 대한 저항이 증가합니다. 이 효과는 한 번에 한 가지 피해 유형에 대해서만 적용됩니다.",
@@ -4207,9 +4239,9 @@
     ],
     "IdNameItemActor": "Boots_unique_Sorcerer_98",
     "Name": "서리의 선물",
-    "Description": "얼음 갑옷이 영구 결빙 변화형을 무료로 획득하고 지속 효력이 #% 증가합니다.",
-    "DescriptionClean": "얼음 갑옷이 영구 결빙 변화형을 무료로 획득하고 지속 효력이 증가합니다.",
-    "Localisation": "{c_important}얼음 갑옷{/c}이 {c_important}영구 결빙{/c} 변화형을 무료로 획득하고 지속 효력이 {c_random}[Affix_Value_1|%|]{/c} 증가합니다.",
+    "Description": "얼음 갑옷이 영구 결빙 변화형을 비용 없이 획득하고, 지속 효력이 #% 증가합니다.",
+    "DescriptionClean": "얼음 갑옷이 영구 결빙 변화형을 비용 없이 획득하고, 지속 효력이 증가합니다.",
+    "Localisation": "{c_important}얼음 갑옷{/c}이 영구 결빙 변화형을 비용 없이 획득하고, 지속 효력이 {c_random}[Affix_Value_1|%|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -4463,7 +4495,7 @@
       "Quarterstaff_Unique_Spiritborn_012_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_012_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq01",
     "Name": "세파존텍",
     "Description": "기본 기술이 #% 증가한 피해를 주고, 항상 3번째 공격을 사용합니다. \r\n\r\n기본 기술을 3번 시전할 때마다 3회 공격합니다.",
     "DescriptionClean": "기본 기술이 증가한 피해를 주고, 항상 3번째 공격을 사용합니다.  기본 기술을 3번 시전할 때마다 3회 공격합니다.",
@@ -4527,7 +4559,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "twoHandMace_uniq17",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "셋의 홀",
     "Description": "이제 궁극기를 모두 장착하고 등급을 # 획득할 수 있습니다. 궁극기가 활성화되지 않은 상태에서 적을 공격하면 궁극기 공격력이 #%씩, 최대 #%까지 증가합니다. 궁극기를 시작하면 모든 기술이 종료된 후 피해 보너스가 초기화됩니다.",
     "DescriptionClean": "이제 궁극기를 모두 장착하고 등급을 획득할 수 있습니다. 궁극기가 활성화되지 않은 상태에서 적을 공격하면 궁극기 공격력이 씩, 최대 까지 증가합니다. 궁극기를 시작하면 모든 기술이 종료된 후 피해 보너스가 초기화됩니다.",
@@ -4906,7 +4938,7 @@
       "Pants_Unique_Barb_100",
       "Talisman_Charm_Unique_Pants_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Pants_unique_Barbarian_99",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "아리앗의 자세",
     "Description": "선조를 소환하는 궁극기가 아닌 기술들이 선조를 한 명 추가로 소환합니다. 선조를 소환하는 기술이 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "선조를 소환하는 궁극기가 아닌 기술들이 선조를 한 명 추가로 소환합니다. 선조를 소환하는 기술이 주는 피해가 증가합니다.",
@@ -5094,7 +5126,7 @@
       "Ring_Unique_Druid_01_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_01_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_021",
     "Name": "아이리다의 만가",
     "Description": "자신이 시전하는 폭풍 기술이 #의 영력을 부여하고 #%의 보너스 피해를 줍니다. 취약 또는 이동 불가, 감속 상태의 적에게 피해를 줄 때는 이 보너스가 2배가 됩니다.",
     "DescriptionClean": "자신이 시전하는 폭풍 기술이 의 영력을 부여하고 의 보너스 피해를 줍니다. 취약 또는 이동 불가, 감속 상태의 적에게 피해를 줄 때는 이 보너스가 2배가 됩니다.",
@@ -5157,7 +5189,7 @@
       "Pants_Unique_Paladin_002",
       "Talisman_Charm_Unique_Pants_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Pants_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "아카디아",
     "Description": "집결이 플레이어를 최대 생명력의 #%만큼 보강합니다. 최대 생명력의 #%만큼 생명력을 회복할 때마다 집결 충전을 획득합니다.",
     "DescriptionClean": "집결이 플레이어를 최대 생명력의 만큼 보강합니다. 최대 생명력의 만큼 생명력을 회복할 때마다 집결 충전을 획득합니다.",
@@ -5252,7 +5284,7 @@
       "Boots_Unique_Rogue_101",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Boots_unique_Rogue_101",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "암살자의 걸음",
     "Description": "기동력 기술에 효과가 #% 증가한 암흑 주입이 항상 적용됩니다. \r\n\r\n행운의 적중: 기동력 기술로 정예 또는 우두머리에게 피해를 주면 최대 #% 확률로 즉시 암흑 주입 폭발이 자원 소모 없이 발동됩니다.",
     "DescriptionClean": "기동력 기술에 효과가 증가한 암흑 주입이 항상 적용됩니다.  행운의 적중: 기동력 기술로 정예 또는 우두머리에게 피해를 주면 최대 확률로 즉시 암흑 주입 폭발이 자원 소모 없이 발동됩니다.",
@@ -5378,7 +5410,7 @@
       "Amulet_Unique_Barb_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "어둠의 추적자의 메달",
     "Description": "양손 둔기, 양손 베는 무기, 쌍수 무기로 기술을 시전하면 #초 동안 주는 피해가 #% 증가합니다.\r\n\r\n세 가지 보너스가 모두 활성화된 동안에는 군중 제어 효과 지속시간 및 공격 속도가 #% 증가합니다.",
     "DescriptionClean": "양손 둔기, 양손 베는 무기, 쌍수 무기로 기술을 시전하면 초 동안 주는 피해가 증가합니다. 세 가지 보너스가 모두 활성화된 동안에는 군중 제어 효과 지속시간 및 공격 속도가 증가합니다.",
@@ -5475,7 +5507,7 @@
       "1HShield_Unique_Necro_101",
       "Talisman_Charm_Unique_1HShield_Unique_Necro_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq03",
     "Name": "어스름 결계",
     "Description": "암흑 피해가 적에게 #초 동안 그림자 마름병을 감염시킵니다. 그림자 마름병에 감염된 적이 플레이어에게 암흑 피해를 8번 받을 때마다 추가로 #초에 걸쳐 그 피해의 #%만큼을 타락 피해로 받습니다.",
     "DescriptionClean": "암흑 피해가 적에게 초 동안 그림자 마름병을 감염시킵니다. 그림자 마름병에 감염된 적이 플레이어에게 암흑 피해를 8번 받을 때마다 추가로 초에 걸쳐 그 피해의 만큼을 타락 피해로 받습니다.",
@@ -5574,7 +5606,7 @@
       "Helm_Unique_Spiritborn_009_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_009_x1"
     ],
-    "IdNameItemActor": "Helm_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "에베와카의 조화",
     "Description": "보조 혼령 전당 선택에 따라 기술이 추가적으로 재규어, 독수리, 고릴라 또는 지네 기술이 됩니다.\r\n\r\n보유한 혼령 유형 하나당 기술 피해가 #% 증가합니다.",
     "DescriptionClean": "보조 혼령 전당 선택에 따라 기술이 추가적으로 재규어, 독수리, 고릴라 또는 지네 기술이 됩니다. 보유한 혼령 유형 하나당 기술 피해가 증가합니다.",
@@ -5637,7 +5669,7 @@
       "1HDagger_Unique_Rogue_003_x2",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_003_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "dagger_uniq10",
     "Name": "에트나의 잃어버린 단검",
     "Description": "#가지 유형의 비물리 피해를 주면 #초 동안 주입 기술의 지속 효력이 #%, 비물리 피해가 #% 증가합니다. \r\n\r\n기본 기술에 주입할 수 있습니다.",
     "DescriptionClean": "가지 유형의 비물리 피해를 주면 초 동안 주입 기술의 지속 효력이 , 비물리 피해가 증가합니다.  기본 기술에 주입할 수 있습니다.",
@@ -5764,7 +5796,7 @@
       "Chest_Unique_Generic_101",
       "Talisman_Charm_Unique_Chest_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "TRS_sets55",
     "Name": "영혼 낙인",
     "Description": "플레이어의 치유 물약이 #초 동안 플레이어 최대 생명력의 #%만큼 보호막을 부여합니다. \r\n\r\n보호막이 있는 동안에는 #%의 피해 감소를 얻습니다. 생명력이 가득 찬 상태일 때 치유 물약을 마실 수 있습니다.",
     "DescriptionClean": "플레이어의 치유 물약이 초 동안 플레이어 최대 생명력의 만큼 보호막을 부여합니다.  보호막이 있는 동안에는 의 피해 감소를 얻습니다. 생명력이 가득 찬 상태일 때 치유 물약을 마실 수 있습니다.",
@@ -5922,7 +5954,7 @@
       "Gloves_Unique_Generic_005",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_005"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "GLV_gnrc126",
     "Name": "운명가죽",
     "Description": "공격 시 원거리에 있는 적에게는\u00A0취약을, 근거리에 있는 적에게는 약화를 적용합니다. 취약 및 약화 상태인 적에게 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "공격 시 원거리에 있는 적에게는\u00A0취약을, 근거리에 있는 적에게는 약화를 적용합니다. 취약 및 약화 상태인 적에게 주는 피해가 증가합니다.",
@@ -5954,7 +5986,7 @@
       "Gloves_Unique_Generic_002",
       "Talisman_Charm_Unique_Gloves_Unique_Generic_002"
     ],
-    "IdNameItemActor": "GLV_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "운명의 주먹",
     "Description": "공격 시 무작위로 원래 피해의 #%~#%만큼 피해를 줍니다.",
     "DescriptionClean": "공격 시 무작위로 원래 피해의 ~만큼 피해를 줍니다.",
@@ -6086,7 +6118,7 @@
       "Amulet_Unique_Barb_104_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_104_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_020",
     "Name": "유목민의 동경하는 마음",
     "Description": "핵심 기술의 피해가 #% 증가하지만, 분노가 #% 더 소모됩니다. 부상 상태의 적에게는 피해가 두 배로 증가합니다.",
     "DescriptionClean": "핵심 기술의 피해가 증가하지만, 분노가 더 소모됩니다. 부상 상태의 적에게는 피해가 두 배로 증가합니다.",
@@ -6152,7 +6184,7 @@
       "Helm_Unique_Rogue_001",
       "Talisman_Charm_Unique_Helm_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_sets51",
     "Name": "이름 없는 자의 머리쓰개",
     "Description": "행운의 적중: 주입된 기술이 최대 #% 확률로 더 큰 폭발을 발동시켜 준 피해의 #%만큼 피해를 주고, 지속 효력 #%로 적중하는 적에게 주입 효과를 적용합니다.",
     "DescriptionClean": "행운의 적중: 주입된 기술이 최대 확률로 더 큰 폭발을 발동시켜 준 피해의 만큼 피해를 주고, 지속 효력 로 적중하는 적에게 주입 효과를 적용합니다.",
@@ -6410,7 +6442,7 @@
       "1HShield_Unique_Paladin_004",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq17",
     "Name": "자카룸의 전령",
     "Description": "힘, 저항, 방어도와 응보 확률이 #% 증가합니다.\r\n\r\n응보의 크기가 #% 증가합니다.",
     "DescriptionClean": "힘, 저항, 방어도와 응보 확률이 증가합니다. 응보의 크기가 증가합니다.",
@@ -6474,7 +6506,7 @@
       "Chest_Unique_Spiritborn_013_x1",
       "Talisman_Charm_Unique_Chest_Unique_Spiritborn_013_x1"
     ],
-    "IdNameItemActor": "Chest_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "적황색 갑각",
     "Description": "원기를 소모하면 최대 생명력의 #%만큼 회복합니다.\r\n\r\n매초, 진행 중인 재사용 대기시간이 각각 최대 생명력의 #%를 소모하여 재사용 대기시간을 #초 감소시킵니다. ",
     "DescriptionClean": "원기를 소모하면 최대 생명력의 만큼 회복합니다. 매초, 진행 중인 재사용 대기시간이 각각 최대 생명력의 를 소모하여 재사용 대기시간을 초 감소시킵니다.",
@@ -7205,9 +7237,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "지옥망치",
-    "Description": "지각 변동이 철의 격발 변화형을 획득하고 주는 피해가 #% 증가합니다.",
-    "DescriptionClean": "지각 변동이 철의 격발 변화형을 획득하고 주는 피해가 증가합니다.",
-    "Localisation": "{c_important}지각 변동{/c}이 {c_important}철의 격발{/c} 변화형을 획득하고 주는 피해가 {c_random}[Affix_Value_1 * 100|1%x|]{/c} 증가합니다.",
+    "Description": "지각 변동이 철의 격발 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "지각 변동이 철의 격발 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}지각 변동{/c}이 철의 격발 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1 * 100|1%x|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7236,9 +7268,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "지옥불 호문쿨루스",
-    "Description": "대마귀 기술들이 주는 피해가 #% 증가하고, 하급 악마 보조 업그레이드를 #% 더 긴 지속시간으로 비용 없이 획득합니다.",
-    "DescriptionClean": "대마귀 기술들이 주는 피해가 증가하고, 하급 악마 보조 업그레이드를 더 긴 지속시간으로 비용 없이 획득합니다.",
-    "Localisation": "{c_important}대마귀{/c} 기술들이 주는 피해가 {c_random}[Affix_Value_1*100|x%|]{/c} 증가하고, 하급 악마 보조 업그레이드를 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 더 긴 지속시간으로 비용 없이 획득합니다.",
+    "Description": "대마귀 기술들이 주는 피해가 #% 증가하고, 하급 악마 업그레이드를 #% 더 긴 지속시간으로 비용 없이 획득합니다.",
+    "DescriptionClean": "대마귀 기술들이 주는 피해가 증가하고, 하급 악마 업그레이드를 더 긴 지속시간으로 비용 없이 획득합니다.",
+    "Localisation": "{c_important}대마귀{/c} 기술들이 주는 피해가 {c_random}[Affix_Value_1*100|x%|]{/c} 증가하고, 하급 악마 업그레이드를 {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} 더 긴 지속시간으로 비용 없이 획득합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7400,7 +7432,7 @@
       "Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "BTS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "참회의 경갑",
     "Description": "영구히 방해받지 않음 상태가 되고, 적에게 오한을 유발하는 서리의 흔적을 남깁니다. \r\n\r\n플레이어가 유발하는 오한 효과가 적이 플레이어에게 받는 피해를 #% 증가시킵니다.",
     "DescriptionClean": "영구히 방해받지 않음 상태가 되고, 적에게 오한을 유발하는 서리의 흔적을 남깁니다.  플레이어가 유발하는 오한 효과가 적이 플레이어에게 받는 피해를 증가시킵니다.",
@@ -7433,7 +7465,7 @@
       "S12_1HAxe_Unique_Generic_003",
       "Talisman_Charm_Unique_1HAxe_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Axe_uniq15",
     "Name": "천 개의 눈 강탈자",
     "Description": "이동 시 포악함을 얻고, 최대 포악함이 # 증가합니다. 포악함이 중첩 1당 이동 속도도 #% 증가합니다.",
     "DescriptionClean": "이동 시 포악함을 얻고, 최대 포악함이 증가합니다. 포악함이 중첩 1당 이동 속도도 증가합니다.",
@@ -7496,7 +7528,7 @@
       "Ring_Unique_Spiritborn_003_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_003_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_052",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "첫 숨결의 가락지",
     "Description": "피하기 시전 시 결의 중첩을 # 소모하여 피해가 #초 동안 #% 증가합니다.\r\n\r\n철갑 가죽의 지속 효과를 얻습니다.",
     "DescriptionClean": "피하기 시전 시 결의 중첩을 소모하여 피해가 초 동안 증가합니다. 철갑 가죽의 지속 효과를 얻습니다.",
@@ -7529,9 +7561,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_97",
     "Name": "초원방랑자의 서약",
-    "Description": "맹독 덩굴이 발아 변형을 무료로 획득하고, #%의 보너스 피해를 줍니다.",
-    "DescriptionClean": "맹독 덩굴이 발아 변형을 무료로 획득하고, 의 보너스 피해를 줍니다.",
-    "Localisation": "{c_important}맹독 덩굴{/c}이 {c_important}발아{/c} 변형을 무료로 획득하고, {c_random}[Affix_Value_1*100|x%|]{/c}의 보너스 피해를 줍니다.",
+    "Description": "맹독 덩굴이 발아 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "맹독 덩굴이 발아 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}맹독 덩굴{/c}이 발아 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1*100|x%|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7591,7 +7623,7 @@
       "Amulet_Unique_Generic_101",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_001",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "추방된 군주의 영물",
     "Description": "주 자원을 # 소모한 후 제압 중첩을 # 획득합니다. 제압 중첩 1당 극대화 공격이 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "주 자원을 소모한 후 제압 중첩을 획득합니다. 제압 중첩 1당 극대화 공격이 주는 피해가 증가합니다.",
@@ -7780,9 +7812,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "캄신 평원방랑자",
-    "Description": "대지 방벽의 대지의 파편 업그레이드를 비용 없이 획득하고, 공격력이 #% 증가합니다.",
-    "DescriptionClean": "대지 방벽의 대지의 파편 업그레이드를 비용 없이 획득하고, 공격력이 증가합니다.",
-    "Localisation": "{c_important}대지 방벽{/c}의 {c_important}대지의 파편{/c} 업그레이드를 비용 없이 획득하고, 공격력이 {c_random}[Affix_Value_1*100|x%|]{/c} 증가합니다.",
+    "Description": "대지 방벽이 대지의 파편 변화형을 비용 없이 획득하고, 주는 피해가 #% 증가합니다.",
+    "DescriptionClean": "대지 방벽이 대지의 파편 변화형을 비용 없이 획득하고, 주는 피해가 증가합니다.",
+    "Localisation": "{c_important}대지 방벽{/c}이 대지의 파편 변화형을 비용 없이 획득하고, 주는 피해가 {c_random}[Affix_Value_1*100|x%|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7841,7 +7873,7 @@
       "Amulet_Unique_Paladin_002",
       "Talisman_Charm_Unique_Amulet_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_025",
     "Name": "케타마르의 성물",
     "Description": "중재자 형상이 오라 위력을 #%, 날개 타격 피해를 #% 증가시킵니다.",
     "DescriptionClean": "중재자 형상이 오라 위력을 , 날개 타격 피해를 증가시킵니다.",
@@ -8346,7 +8378,7 @@
       "Chest_Unique_Generic_127",
       "Talisman_Charm_Unique_Chest_Unique_Generic_127"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_127",
     "Name": "티리엘의 권능",
     "Description": "생명력이 가득 찬 상태일 때, 기술을 사용하면 #의 피해를 주는 천상의 탄막을 발사합니다.",
     "DescriptionClean": "생명력이 가득 찬 상태일 때, 기술을 사용하면 의 피해를 주는 천상의 탄막을 발사합니다.",
@@ -8505,7 +8537,7 @@
       "Ring_Unique_Spiritborn_004_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_004_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_050",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "평화주의자의 인장",
     "Description": "포악함 중첩이 # 이상일 때 공격력이 #%, 방어도가 #% 증가합니다.\r\n\r\n포악함을 얻으면 결의도 얻습니다.",
     "DescriptionClean": "포악함 중첩이 이상일 때 공격력이 , 방어도가 증가합니다. 포악함을 얻으면 결의도 얻습니다.",
@@ -8665,7 +8697,7 @@
       "Amulet_Unique_Spiritborn_102",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_015",
     "Name": "프로테우스의 심장",
     "Description": "기술 시전 시 기본 혼령이 다음 효과 부여:\r\n 독수리: 이동 속도 #%\r\n 고릴라: 피해 감소 #%\r\n 재규어: 공격 속도 #%\r\n 지네: 초당 생명력 #%\r\n\r\n다른 기본 혼령의 기술 시전 시:\r\n 새로운 추가 효과로 교체\r\n 핵심 능력치가 #초 동안 #% 증가",
     "DescriptionClean": "기술 시전 시 기본 혼령이 다음 효과 부여: 독수리: 이동 속도  고릴라: 피해 감소  재규어: 공격 속도  지네: 초당 생명력  다른 기본 혼령의 기술 시전 시: 새로운 추가 효과로 교체 핵심 능력치가 초 동안 증가",
@@ -8765,7 +8797,7 @@
       "Amulet_Unique_Generic_102",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_021",
     "Name": "피의 광기 우상",
     "Description": "항상 광폭화 상태지만, #초에 걸쳐 #% 증가한 피해를 연소 피해로 받습니다. 연소 상태에서는 광폭화로 주는 피해가 #% 추가로 증가합니다.",
     "DescriptionClean": "항상 광폭화 상태지만, 초에 걸쳐 증가한 피해를 연소 피해로 받습니다. 연소 상태에서는 광폭화로 주는 피해가 추가로 증가합니다.",
@@ -8890,7 +8922,7 @@
       "Pants_Unique_Necro_100",
       "Talisman_Charm_Unique_Pants_Unique_Necro_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_sets56",
     "Name": "핏빛 달의 무릎바지",
     "Description": "소환수가 피해를 주면 #% 확률로 노화나 가시 박힌 철관을 무작위로 겁니다.  \r\n\r\n저주에 걸린 적에게 주는 극대화 피해가 #% 증가합니다.",
     "DescriptionClean": "소환수가 피해를 주면 확률로 노화나 가시 박힌 철관을 무작위로 겁니다.  저주에 걸린 적에게 주는 극대화 피해가 증가합니다.",
@@ -8925,7 +8957,7 @@
     "Name": "핏빛 장미의 띠",
     "Description": "행운의 적중: 장착 중인 맹독 덫의 원소에 따라, 독 또는 냉기 주입이 적용된 기술이 장착되어 있는 동안 최대 #% 확률로 맹독 덫을 배치합니다.\r\n\r\n맹독 덫이 침투자 변화형을 무료로 획득하고, 주는 피해가 #% 증가합니다.",
     "DescriptionClean": "행운의 적중: 장착 중인 맹독 덫의 원소에 따라, 독 또는 냉기 주입이 적용된 기술이 장착되어 있는 동안 최대 확률로 맹독 덫을 배치합니다. 맹독 덫이 침투자 변화형을 무료로 획득하고, 주는 피해가 증가합니다.",
-    "Localisation": "{c_label}행운의 적중:{/c} 장착 중인 {c_important}맹독 덫{/c}의 원소에 따라, 독 또는 냉기 {c_important}주입{/c}이 적용된 기술이 장착되어 있는 동안 최대 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 확률로 {c_important}맹독 덫{/c}을 배치합니다.\r\n\r\n{c_important}맹독 덫{/c}이 {c_important}침투자{/c} 변화형을 무료로 획득하고, 주는 피해가 {c_random}[Affix_Value_1|x%|]{/c} 증가합니다.",
+    "Localisation": "{c_label}행운의 적중:{/c} 장착 중인 {c_important}맹독 덫{/c}의 원소에 따라, 독 또는 냉기 {c_important}주입{/c}이 적용된 기술이 장착되어 있는 동안 최대 {c_number}[Affix.\"Static Value 0\"|%|]{/c} 확률로 {c_important}맹독 덫{/c}을 배치합니다.\r\n\r\n{c_important}맹독 덫{/c}이 침투자 변화형을 무료로 획득하고, 주는 피해가 {c_random}[Affix_Value_1|x%|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8984,7 +9016,7 @@
       "Chest_Unique_Barb_100",
       "Talisman_Charm_Unique_Chest_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "TRS_sets52",
     "Name": "하로가스의 분노",
     "Description": "적에게 지속 피해를 유발할 때마다 최대 #% 확률로 기술들의 재사용 대기시간이 #초 감소합니다.",
     "DescriptionClean": "적에게 지속 피해를 유발할 때마다 최대 확률로 기술들의 재사용 대기시간이 초 감소합니다.",
@@ -9083,7 +9115,7 @@
       "Ring_Unique_Spiritborn_006_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_006_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_055",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "한밤중 태양의 반지",
     "Description": "극대화 적중 시 지난 #초 동안 사용한 원기의 #%만큼을 회복합니다.\r\n\r\n역습의 지속 효과를 얻습니다.",
     "DescriptionClean": "극대화 적중 시 지난 초 동안 사용한 원기의 만큼을 회복합니다. 역습의 지속 효과를 얻습니다.",
@@ -9116,7 +9148,7 @@
       "S12_2HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_2HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandSword_uniq06",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "한아비",
     "Description": "극대화 피해가 #% 증가합니다.",
     "DescriptionClean": "극대화 피해가 증가합니다.",
@@ -9181,9 +9213,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "헌신자의 복음",
-    "Description": "기본 기술이 모든 업그레이드의 효과를 획득합니다. 기본 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 기본 기술로 받는 피해가 #초 동안 #% 증가합니다.",
-    "DescriptionClean": "기본 기술이 모든 업그레이드의 효과를 획득합니다. 기본 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 기본 기술로 받는 피해가 초 동안 증가합니다.",
-    "Localisation": "{c_important}기본{/c} 기술이 모든 업그레이드의 효과를 획득합니다. {c_important}기본{/c} 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 {c_important}기본{/c} 기술로 받는 피해가 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 {c_random}[Affix_Value_1 * 100|%x|]{/c} 증가합니다.",
+    "Description": "기본 기술이 모든 업그레이드를 비용 없이 획득합니다. 기본 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 기본 기술로 받는 피해가 #초 동안 #% 증가합니다.",
+    "DescriptionClean": "기본 기술이 모든 업그레이드를 비용 없이 획득합니다. 기본 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 기본 기술로 받는 피해가 초 동안 증가합니다.",
+    "Localisation": "{c_important}기본{/c} 기술이 모든 업그레이드를 비용 없이 획득합니다. {c_important}기본{/c} 기술로 적에게 피해를 주면 해당 적이 플레이어의 다른 {c_important}기본{/c} 기술로 받는 피해가 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 {c_random}[Affix_Value_1 * 100|%x|]{/c} 증가합니다.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -9242,7 +9274,7 @@
       "2HAxe_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HAxe_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "twoHandAxe_uniq14",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "혐오의 만가",
     "Description": "보유한 진노 하나당 기본 기술로 주는 피해가 #% 증가하지만, 매초 진노를 #% 잃습니다. 최대 진노를 초과하여 얻은 진노 #당 지배력을 # 생성합니다.",
     "DescriptionClean": "보유한 진노 하나당 기본 기술로 주는 피해가 증가하지만, 매초 진노를 잃습니다. 최대 진노를 초과하여 얻은 진노 당 지배력을 생성합니다.",
@@ -9368,7 +9400,7 @@
       "Ring_Unique_Druid_06_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_06_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_019",
     "Name": "황야의 분노",
     "Description": "늑대인간 또는 곰인간 형상으로 변신할 때, #초 동안 광폭화를 얻습니다. 추가로, 광폭화가 활성화되어 있는 동안 #초마다 포악함 중첩을 # 얻습니다.\r\n\r\n광폭화의 피해 보너스가 #% 증가합니다.",
     "DescriptionClean": "늑대인간 또는 곰인간 형상으로 변신할 때, 초 동안 광폭화를 얻습니다. 추가로, 광폭화가 활성화되어 있는 동안 초마다 포악함 중첩을 얻습니다. 광폭화의 피해 보너스가 증가합니다.",
@@ -9400,7 +9432,7 @@
       "Ring_Unique_Druid_04_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_04_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_005",
     "Name": "황야의 합의",
     "Description": "동료 기술이 각각 1마리의 추가 동료를 획득하고 #%의 보너스 피해를 줍니다.\r\n\r\n큰까마귀, 늑대 무리 및 맹독 덩굴의 지속 효과를 무료로 얻습니다.",
     "DescriptionClean": "동료 기술이 각각 1마리의 추가 동료를 획득하고 의 보너스 피해를 줍니다. 큰까마귀, 늑대 무리 및 맹독 덩굴의 지속 효과를 무료로 얻습니다.",

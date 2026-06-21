@@ -295,7 +295,7 @@
       "Pants_Unique_Barb_100",
       "Talisman_Charm_Unique_Pants_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Pants_unique_Barbarian_99",
     "Name": "Arreats Haltung",
     "Description": "Eure Fertigkeiten, die keine Ultimativen Fertigkeiten sind und Urahnen herbeirufen, rufen jetzt einen zusätzlichen Urahnen herbei. Fertigkeiten, die Urahnen herbeirufen, verursachen um #% erhöhten Schaden.",
     "DescriptionClean": "Eure Fertigkeiten, die keine Ultimativen Fertigkeiten sind und Urahnen herbeirufen, rufen jetzt einen zusätzlichen Urahnen herbei. Fertigkeiten, die Urahnen herbeirufen, verursachen um erhöhten Schaden.",
@@ -360,9 +360,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "Auge von Baal",
-    "Description": "Seelensplitter-Fertigkeiten und ihre Dämonen verursachen #% Schaden. Beim Einsatz einer Seelensplitter-Fertigkeit wird Euer gesamter Schaden für #\u00A0Sek. um #% erhöht, bis maximal #%.",
-    "DescriptionClean": "Seelensplitter-Fertigkeiten und ihre Dämonen verursachen Schaden. Beim Einsatz einer Seelensplitter-Fertigkeit wird Euer gesamter Schaden für \u00A0Sek. um erhöht, bis maximal.",
-    "Localisation": "{c_important}Seelensplitter-Fertigkeiten{/c} und ihre Dämonen verursachen {c_random}[Affix_Value_1*100|%x|]{/c} Schaden. Beim Einsatz einer {c_important}Seelensplitter-Fertigkeit{/c} wird Euer gesamter Schaden für {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0Sek. um {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} erhöht, bis maximal {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
+    "Description": "Seelensplitter-Fertigkeiten und ihre Dämonen verursachen um #% erhöhten Schaden. Beim Einsatz einer Seelensplitter-Fertigkeit wird Euer gesamter Schaden für #\u00A0Sek. um #% erhöht, bis maximal #%.",
+    "DescriptionClean": "Seelensplitter-Fertigkeiten und ihre Dämonen verursachen um erhöhten Schaden. Beim Einsatz einer Seelensplitter-Fertigkeit wird Euer gesamter Schaden für \u00A0Sek. um erhöht, bis maximal.",
+    "Localisation": "{c_important}Seelensplitter-Fertigkeiten{/c} und ihre Dämonen verursachen um {c_random}[Affix_Value_1*100|%x|]{/c} erhöhten Schaden. Beim Einsatz einer {c_important}Seelensplitter-Fertigkeit{/c} wird Euer gesamter Schaden für {c_number}[Affix.\"Static Value 1\"]{/c}\u00A0Sek. um {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} erhöht, bis maximal {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -421,7 +421,7 @@
       "S05_BSK_Gloves_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Gloves_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_unique_generic_125",
     "Name": "Ausdauernder Glaube",
     "Description": "Wenn Ihr Schaden in Höhe von mindestens #\u00A0% Eures maximalen Lebens auf einmal erleiden würdet, wird er stattdessen auf die nächsten # Sek. verteilt und um #% verringert.",
     "DescriptionClean": "Wenn Ihr Schaden in Höhe von mindestens \u00A0 Eures maximalen Lebens auf einmal erleiden würdet, wird er stattdessen auf die nächsten Sek. verteilt und um verringert.",
@@ -459,9 +459,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "Auslöscher",
-    "Description": "Todesstoß erhält alle Nebenaufwertungen und verursacht um #% erhöhten Schaden.",
-    "DescriptionClean": "Todesstoß erhält alle Nebenaufwertungen und verursacht um erhöhten Schaden.",
-    "Localisation": "{c_important}Todesstoß{/c} erhält alle Nebenaufwertungen und verursacht um {c_random}[Affix_Value_1 * 100|1%x|]{/c} erhöhten Schaden.",
+    "Description": "Todesstoß erhält alle Aufwertungen kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Todesstoß erhält alle Aufwertungen kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Todesstoß{/c} erhält alle Aufwertungen kostenlos und verursacht um {c_random}[Affix_Value_1 * 100|1%x|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -484,11 +484,10 @@
     "IdNameList": [
       "Pants_Unique_Sorc_101"
     ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
     "IdNameItemList": [
       "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
+      "Pants_Unique_Sorc_96"
     ],
     "IdNameItemActor": "Pants_Unique_Sorcerer_101",
     "Name": "Axiale Verbindung",
@@ -524,7 +523,7 @@
       "Pants_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_96",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Balazans Maxtlatl",
     "Description": "Eure Angriffe fügen Gegnern in direkter Nähe #% Schaden Eurer Dornen zu und verursachen #% des Schadens über # Sek. als Vergiftung.\r\n\r\nFür jedes Rächen mit Dornen wird der Giftschaden über Zeit für # Sek. um #%, bis zu max. #%, erhöht.",
     "DescriptionClean": "Eure Angriffe fügen Gegnern in direkter Nähe Schaden Eurer Dornen zu und verursachen des Schadens über Sek. als Vergiftung. Für jedes Rächen mit Dornen wird der Giftschaden über Zeit für Sek. um , bis zu max. , erhöht.",
@@ -556,7 +555,7 @@
       "Ring_Unique_Spiritborn_003_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_003_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_052",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Band des Ersten Atems",
     "Description": "Der Einsatz von Entrinnen verbraucht # Stapel Entschlossenheit, um Euren verursachten Schaden für #\u00A0Sek. um #% zu erhöhen.\r\n\r\nErhaltet den passiven Effekt von Panzerhaut.",
     "DescriptionClean": "Der Einsatz von Entrinnen verbraucht Stapel Entschlossenheit, um Euren verursachten Schaden für \u00A0Sek. um zu erhöhen. Erhaltet den passiven Effekt von Panzerhaut.",
@@ -591,7 +590,7 @@
     "Name": "Bande der Ichor-Rose",
     "Description": "Glückstreffer: Fertigkeiten mit Gift- oder Kälteinfusion haben eine Chance von bis zu #%, abhängig vom Element der Giftfalle eine ausgerüstete Giftfalle aufzustellen.\r\n\r\nGiftfalle erhält die Variante Eindringling kostenlos und verursacht um #% erhöhten Schaden.",
     "DescriptionClean": "Glückstreffer: Fertigkeiten mit Gift- oder Kälteinfusion haben eine Chance von bis zu , abhängig vom Element der Giftfalle eine ausgerüstete Giftfalle aufzustellen. Giftfalle erhält die Variante Eindringling kostenlos und verursacht um erhöhten Schaden.",
-    "Localisation": "{c_label}Glückstreffer:{/c} Fertigkeiten mit {c_important}Gift- oder Kälteinfusion{/c} haben eine Chance von bis zu {c_number}[Affix.\"Static Value 0\"|%|]{/c}, abhängig vom Element der {c_important}Giftfalle{/c} eine ausgerüstete {c_important}Giftfalle{/c} aufzustellen.\r\n\r\n{c_important}Giftfalle{/c} erhält die Variante {c_important}Eindringling{/c} kostenlos und verursacht um {c_random}[Affix_Value_1|x%|]{/c} erhöhten Schaden.",
+    "Localisation": "{c_label}Glückstreffer:{/c} Fertigkeiten mit {c_important}Gift- oder Kälteinfusion{/c} haben eine Chance von bis zu {c_number}[Affix.\"Static Value 0\"|%|]{/c}, abhängig vom Element der {c_important}Giftfalle{/c} eine ausgerüstete {c_important}Giftfalle{/c} aufzustellen.\r\n\r\n{c_important}Giftfalle{/c} erhält die Variante Eindringling kostenlos und verursacht um {c_random}[Affix_Value_1|x%|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -650,7 +649,7 @@
       "Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "BTS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Beinschienen der Reue",
     "Description": "Ihr seid dauerhaft ungehindert und hinterlasst eine Spur aus Frost, die Gegner unterkühlt. \r\n\r\nDurch Euch unterkühlte Gegner erleiden um #% erhöhten Schaden durch Euch.",
     "DescriptionClean": "Ihr seid dauerhaft ungehindert und hinterlasst eine Spur aus Frost, die Gegner unterkühlt.  Durch Euch unterkühlte Gegner erleiden um erhöhten Schaden durch Euch.",
@@ -682,7 +681,7 @@
       "Boots_Unique_Rogue_100",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_uniq97",
     "Name": "Bestienfall-Stiefel",
     "Description": "Wirkt Ihr eine nichtkanalisierte Ultimative Fertigkeit, verbraucht sie Eure gesamte Energie und verursacht um #% erhöhten Schaden pro verbrauchter Energie.\r\n\r\nDie Verwendung einer Abklingzeit stellt # Energie wieder her.",
     "DescriptionClean": "Wirkt Ihr eine nichtkanalisierte Ultimative Fertigkeit, verbraucht sie Eure gesamte Energie und verursacht um erhöhten Schaden pro verbrauchter Energie. Die Verwendung einer Abklingzeit stellt Energie wieder her.",
@@ -970,7 +969,7 @@
       "Amulet_Unique_Generic_102",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_021",
     "Name": "Blutrünstiger Götze",
     "Description": "Ihr seid dauerhaft im Berserkermodus, aber erleidet im Verlauf von # Sek. um #% erhöhten Schaden in Form von Verbrennung. Während Ihr brennt, erhöht sich Euer Schaden im Berserkermodus um weitere #%.",
     "DescriptionClean": "Ihr seid dauerhaft im Berserkermodus, aber erleidet im Verlauf von Sek. um erhöhten Schaden in Form von Verbrennung. Während Ihr brennt, erhöht sich Euer Schaden im Berserkermodus um weitere.",
@@ -1397,9 +1396,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_97",
     "Name": "Der Eid des Grünschreiters",
-    "Description": "Giftranke erhält die Variante Keimen kostenlos und verursacht #% Bonusschaden.",
-    "DescriptionClean": "Giftranke erhält die Variante Keimen kostenlos und verursacht Bonusschaden.",
-    "Localisation": "{c_important}Giftranke{/c} erhält die Variante {c_important}Keimen{/c} kostenlos und verursacht {c_random}[Affix_Value_1*100|x%|]{/c} Bonusschaden.",
+    "Description": "Giftranke erhält die Variante \"Keimen\" kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Giftranke erhält die Variante \"Keimen\" kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Giftranke{/c} erhält die Variante \"Keimen\" kostenlos und verursacht um {c_random}[Affix_Value_1*100|x%|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1428,7 +1427,7 @@
       "S12_2HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_2HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandSword_uniq06",
     "Name": "Der Großvater",
     "Description": "Erhöht Euren kritischen Trefferschaden um #%.",
     "DescriptionClean": "Erhöht Euren kritischen Trefferschaden um.",
@@ -1584,7 +1583,7 @@
       "1HShield_Unique_Necro_101",
       "Talisman_Charm_Unique_1HShield_Unique_Necro_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "shield_uniq03",
     "Name": "Der Schutz des Schwermuts",
     "Description": "Schattenschaden infiziert Gegner für #\u00A0Sek. mit Schattenseuche. Jedes 8.\u00A0Mal, wenn ein von Schattenseuche betroffener Gegner Schattenschaden durch Euch erleidet, erleidet er im Verlauf von #\u00A0Sek. zusätzlich #% dieses Schadens als Verderbnisschaden.",
     "DescriptionClean": "Schattenschaden infiziert Gegner für \u00A0Sek. mit Schattenseuche. Jedes 8.\u00A0Mal, wenn ein von Schattenseuche betroffener Gegner Schattenschaden durch Euch erleidet, erleidet er im Verlauf von \u00A0Sek. zusätzlich dieses Schadens als Verderbnisschaden.",
@@ -1755,7 +1754,7 @@
       "S12_BSK_1HDagger_Unique_Rogue_001",
       "Talisman_Charm_Unique_S05_BSK_1HDagger_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "dagger_uniq17",
     "Name": "Die Umbracrux",
     "Description": "Eure Täuschungsfertigkeiten erschaffen für # Sek. ein angreifbares Schattentotem. Sämtlicher Basisschaden, den es erleidet, wird mit einer Effektivität von #\u00A0% auch auf Gegner in der Umgebung umgeleitet.\r\n\r\nDieser Effekt wird als Fallenfertigkeit betrachtet. Ihr könnt nur # Schattentotems gleichzeitig nutzen.",
     "DescriptionClean": "Eure Täuschungsfertigkeiten erschaffen für Sek. ein angreifbares Schattentotem. Sämtlicher Basisschaden, den es erleidet, wird mit einer Effektivität von \u00A0 auch auf Gegner in der Umgebung umgeleitet. Dieser Effekt wird als Fallenfertigkeit betrachtet. Ihr könnt nur Schattentotems gleichzeitig nutzen.",
@@ -2010,7 +2009,7 @@
       "Amulet_Unique_Spiritborn_101",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_019",
     "Name": "Echo von Kwatli",
     "Description": "Ihr fügt verwundbaren Gegnern um #% erhöhten Schaden zu.\r\n\r\nNachdem ein Gegner verwundbar wird, gilt für Euren nächsten verursachten direkten Schaden:\r\n Ihr werdet um #% Eures maximalen Lebens geheilt \r\n Generiert # Lebenskraft\r\n Entfernt den Verwundbarkeitseffekt.",
     "DescriptionClean": "Ihr fügt verwundbaren Gegnern um erhöhten Schaden zu. Nachdem ein Gegner verwundbar wird, gilt für Euren nächsten verursachten direkten Schaden: Ihr werdet um Eures maximalen Lebens geheilt  Generiert Lebenskraft Entfernt den Verwundbarkeitseffekt.",
@@ -2300,7 +2299,7 @@
       "Helm_Unique_Generic_004",
       "Talisman_Charm_Unique_Helm_Unique_Generic_004"
     ],
-    "IdNameItemActor": "HLM_gnrc130",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Erbe der Verdammnis",
     "Description": "Erliegt dem Hass und erlangt die Gunst der Mutter, die Euren Schaden um #% erhöht. Schlachtet Eure Gegner und stehlt Verbündeten in der Umgebung kurzzeitig die Gunst der Mutter.",
     "DescriptionClean": "Erliegt dem Hass und erlangt die Gunst der Mutter, die Euren Schaden um erhöht. Schlachtet Eure Gegner und stehlt Verbündeten in der Umgebung kurzzeitig die Gunst der Mutter.",
@@ -2394,7 +2393,7 @@
       "1HDagger_Unique_Rogue_003_x2",
       "Talisman_Charm_Unique_1HDagger_Unique_Rogue_003_x2"
     ],
-    "IdNameItemActor": "dagger_uniq10",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Etnas verlorener Dolch",
     "Description": "Verursacht Ihr # verschiedene Arten nichtphysischen Schadens, erhöht sich für #\u00A0Sek. die Potenz Eurer Infusionsfertigkeiten um #% und Euer nichtphysischer Schaden um #%.\r\n\r\nBasisfertigkeiten sind jetzt infusionsfähig.",
     "DescriptionClean": "Verursacht Ihr verschiedene Arten nichtphysischen Schadens, erhöht sich für \u00A0Sek. die Potenz Eurer Infusionsfertigkeiten um und Euer nichtphysischer Schaden um. Basisfertigkeiten sind jetzt infusionsfähig.",
@@ -2426,7 +2425,7 @@
       "Gloves_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "GLV_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Faust der Eisernen Rose",
     "Description": "Wenn Ihr einem Gegner in direkter Nähe mit einer Präzisionsfertigkeit oder einer Meuchelfertigkeit Schaden zufügt, erhaltet Ihr #\u00A0Sek. lang #% Angriffsgeschwindigkeitsbonus.\r\n\r\nSolange beide Angriffsgeschwindigkeitsboni aktiv sind, fügt Ihr Gegnern in der Nähe um #% erhöhten Schaden zu.",
     "DescriptionClean": "Wenn Ihr einem Gegner in direkter Nähe mit einer Präzisionsfertigkeit oder einer Meuchelfertigkeit Schaden zufügt, erhaltet Ihr \u00A0Sek. lang Angriffsgeschwindigkeitsbonus. Solange beide Angriffsgeschwindigkeitsboni aktiv sind, fügt Ihr Gegnern in der Nähe um erhöhten Schaden zu.",
@@ -2458,7 +2457,7 @@
       "Chest_Unique_Warlock_001",
       "Talisman_Charm_Unique_Chest_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Warlock_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Fleischgeschriebener Panzer",
     "Description": "Siegelfertigkeiten verursachen um #% erhöhten Schaden. Aktive Siegel gewinnen jede Sekunde # Tötungen und ungenutzte Tötungen bleiben nach ihrem Ende erhalten.",
     "DescriptionClean": "Siegelfertigkeiten verursachen um erhöhten Schaden. Aktive Siegel gewinnen jede Sekunde Tötungen und ungenutzte Tötungen bleiben nach ihrem Ende erhalten.",
@@ -2835,7 +2834,7 @@
       "Boots_Unique_Rogue_101",
       "Talisman_Charm_Unique_Boots_Unique_Rogue_101"
     ],
-    "IdNameItemActor": "Boots_unique_Rogue_101",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Gang des Assassinen",
     "Description": "Mobilitätsfertigkeiten besitzen immer eine Schatteninfusion mit um #% erhöhter Potenz. \r\n\r\nGlückstreffer: Wenn Ihr einem Elitegegner oder Boss mit einer Mobilitätsfertigkeit Schaden zufügt, besteht eine Chance von #%, sofort eine kostenlose Schatteninfusionsexplosion auszulösen.",
     "DescriptionClean": "Mobilitätsfertigkeiten besitzen immer eine Schatteninfusion mit um erhöhter Potenz.  Glückstreffer: Wenn Ihr einem Elitegegner oder Boss mit einer Mobilitätsfertigkeit Schaden zufügt, besteht eine Chance von , sofort eine kostenlose Schatteninfusionsexplosion auszulösen.",
@@ -2934,7 +2933,7 @@
       "Pants_Unique_Barb_101",
       "Talisman_Charm_Unique_Pants_Unique_Barb_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "LEG_uniq101",
     "Name": "Gegeißelte Kettenrüstung",
     "Description": "Das Wirken einer Raufboldfertigkeit, die Schaden verursacht, deaktiviert sie danach. Wenn alle diese Fertigkeiten in Eurer Aktionsleiste deaktiviert sind, werden sie erneut aktiviert und ihre Abklingzeiten erneuert. Raufboldfertigkeiten, die Ihr wirkt, verursachen um #% erhöhten Schaden für jede deaktivierte Fertigkeit.",
     "DescriptionClean": "Das Wirken einer Raufboldfertigkeit, die Schaden verursacht, deaktiviert sie danach. Wenn alle diese Fertigkeiten in Eurer Aktionsleiste deaktiviert sind, werden sie erneut aktiviert und ihre Abklingzeiten erneuert. Raufboldfertigkeiten, die Ihr wirkt, verursachen um erhöhten Schaden für jede deaktivierte Fertigkeit.",
@@ -3061,9 +3060,9 @@
     ],
     "IdNameItemActor": "Boots_unique_Sorcerer_98",
     "Name": "Geschenk des Frosts",
-    "Description": "Eisrüstung erhält die Variante Permafrost kostenlos und eine um #% erhöhte Potenz.",
-    "DescriptionClean": "Eisrüstung erhält die Variante Permafrost kostenlos und eine um erhöhte Potenz.",
-    "Localisation": "{c_important}Eisrüstung{/c} erhält die Variante {c_important}Permafrost{/c} kostenlos und eine um {c_random}[Affix_Value_1|%|]{/c} erhöhte Potenz.",
+    "Description": "Eisrüstung erhält die Variante \"Permafrost\" kostenlos und eine um #% erhöhte Potenz.",
+    "DescriptionClean": "Eisrüstung erhält die Variante \"Permafrost\" kostenlos und eine um erhöhte Potenz.",
+    "Localisation": "{c_important}Eisrüstung{/c} erhält die Variante \"Permafrost\" kostenlos und eine um {c_random}[Affix_Value_1|%|]{/c} erhöhte Potenz.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -3125,7 +3124,7 @@
       "Amulet_Unique_Generic_100",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_100"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_007",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Geschmolzenes Herz von Selig",
     "Description": "Schaden betrifft zuerst Eure Primärressource und erst dann Euer Leben, sodass Euer erlittener Schaden stark verringert ist.\r\n\r\nEure Primärressource wird verdoppelt, aber Euer maximales Leben ist um #% verringert. ",
     "DescriptionClean": "Schaden betrifft zuerst Eure Primärressource und erst dann Euer Leben, sodass Euer erlittener Schaden stark verringert ist. Eure Primärressource wird verdoppelt, aber Euer maximales Leben ist um verringert.",
@@ -3219,7 +3218,7 @@
       "Helm_Unique_Paladin_002",
       "Talisman_Charm_Unique_Helm_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Helm_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Glevenhelm des Judikators",
     "Description": "Glückstreffer: Richterfertigkeiten haben eine Chance von bis zu #%, einen Gesegneten Speer zu beschwören, der eine Markierung durch Richturteil trägt und beim Einschlag den Schaden von Richturteil verursacht.",
     "DescriptionClean": "Glückstreffer: Richterfertigkeiten haben eine Chance von bis zu , einen Gesegneten Speer zu beschwören, der eine Markierung durch Richturteil trägt und beim Einschlag den Schaden von Richturteil verursacht.",
@@ -3282,7 +3281,7 @@
       "Amulet_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Amulet_flippy",
     "Name": "Glutfuror",
     "Description": "Überwältigen erhöht den Schaden und die Größe Eurer Pyromaniefertigkeiten um #% sowie die Manakosten und Abklingzeit um #%.",
     "DescriptionClean": "Überwältigen erhöht den Schaden und die Größe Eurer Pyromaniefertigkeiten um sowie die Manakosten und Abklingzeit um.",
@@ -3440,7 +3439,7 @@
       "Amulet_Unique_Warlock_003",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_003"
     ],
-    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_03",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Grauen der Nacht",
     "Description": "Eure Abgrundfertigkeiten verursachen um #% erhöhten Schaden für jeden Stapel Schattengestalt. Mit Verstohlenheit erhöht sich dieser Bonus um #%.",
     "DescriptionClean": "Eure Abgrundfertigkeiten verursachen um erhöhten Schaden für jeden Stapel Schattengestalt. Mit Verstohlenheit erhöht sich dieser Bonus um.",
@@ -3535,7 +3534,7 @@
       "S12_1HSword_Unique_Paladin_002",
       "Talisman_Charm_Unique_1HSword_Unique_Paladin_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq20",
     "Name": "Griswolds Opus",
     "Description": "Direkter Schaden gewährt um #% erhöhten kritischen Trefferschaden für jeden innerhalb von #\u00A0Sek. getroffenen Gegner, bis zu #%.\r\n\r\nBei maximalen Stapeln erhaltet Ihr:\r\n\r\nGlückstreffer: Kritische Treffer haben eine Chance von bis zu #%, doppelten Schaden zu verursachen, # Leben zu heilen und die Dauer des Bonus zu erneuern.",
     "DescriptionClean": "Direkter Schaden gewährt um erhöhten kritischen Trefferschaden für jeden innerhalb von \u00A0Sek. getroffenen Gegner, bis zu. Bei maximalen Stapeln erhaltet Ihr: Glückstreffer: Kritische Treffer haben eine Chance von bis zu , doppelten Schaden zu verursachen, Leben zu heilen und die Dauer des Bonus zu erneuern.",
@@ -3568,9 +3567,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "Großstab der Vettel",
-    "Description": "Klaue erhält alle Varianten sowie #% Bonusschaden.",
-    "DescriptionClean": "Klaue erhält alle Varianten sowie Bonusschaden.",
-    "Localisation": "{c_important}Klaue{/c} erhält alle Varianten sowie {c_random}[Affix_Value_1*100|x%|]{/c} Bonusschaden.",
+    "Description": "Klaue erhält alle Varianten kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Klaue erhält alle Varianten kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Klaue{/c} erhält alle Varianten kostenlos und verursacht um {c_random}[Affix_Value_1*100|x%|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3726,9 +3725,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "Hand der Vergötterung",
-    "Description": "Metamorphose erhält alle Nebenaufwertungen kostenlos und ihre Potenz ist um #% erhöht.",
-    "DescriptionClean": "Metamorphose erhält alle Nebenaufwertungen kostenlos und ihre Potenz ist um erhöht.",
-    "Localisation": "{c_important}Metamorphose{/c} erhält alle Nebenaufwertungen kostenlos und ihre Potenz ist um {c_random}[Affix_Value_1*100|+%|]{/c} erhöht.",
+    "Description": "Metamorphose erhält alle Aufwertungen kostenlos und ihre Potenz ist um #% erhöht.",
+    "DescriptionClean": "Metamorphose erhält alle Aufwertungen kostenlos und ihre Potenz ist um erhöht.",
+    "Localisation": "{c_important}Metamorphose{/c} erhält alle Aufwertungen kostenlos und ihre Potenz ist um {c_random}[Affix_Value_1*100|+%|]{/c} erhöht.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3882,7 +3881,7 @@
       "Helm_Unique_Spiritborn_009_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_009_x1"
     ],
-    "IdNameItemActor": "Helm_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Harmonie von Ebeweka",
     "Description": "Je nach Eurer sekundären Geisterhallen-Auswahl sind all Eure Fertigkeiten zusätzlich Jaguar-, Adler-, Gorilla- oder Tausendfüßerfertigkeiten.\r\n\r\nEure Fertigkeiten verursachen um #% erhöhten Schaden pro Geistertyp, über den sie verfügen.",
     "DescriptionClean": "Je nach Eurer sekundären Geisterhallen-Auswahl sind all Eure Fertigkeiten zusätzlich Jaguar-, Adler-, Gorilla- oder Tausendfüßerfertigkeiten. Eure Fertigkeiten verursachen um erhöhten Schaden pro Geistertyp, über den sie verfügen.",
@@ -4042,7 +4041,7 @@
       "1HShield_Unique_Paladin_004",
       "Talisman_Charm_Unique_1HShield_Unique_Paladin_004"
     ],
-    "IdNameItemActor": "shield_uniq17",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Herold der Zakarum",
     "Description": "Erhaltet um #% erhöhte Stärke, Widerstand, Rüstung und Chance auf Sühnen.\r\n\r\nDer Wirkungsbereich von Sühnen ist um #% vergrößert.",
     "DescriptionClean": "Erhaltet um erhöhte Stärke, Widerstand, Rüstung und Chance auf Sühnen. Der Wirkungsbereich von Sühnen ist um vergrößert.",
@@ -4263,9 +4262,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "Höllhammer",
-    "Description": "Aufwühlen erhält die Variante Eisenausbruch und verursacht um #% erhöhten Schaden.",
-    "DescriptionClean": "Aufwühlen erhält die Variante Eisenausbruch und verursacht um erhöhten Schaden.",
-    "Localisation": "{c_important}Aufwühlen{/c} erhält die Variante {c_important}Eisenausbruch{/c} und verursacht um {c_random}[Affix_Value_1 * 100|1%x|]{/c} erhöhten Schaden.",
+    "Description": "Aufwühlen erhält die Variante \"Eisenausbruch\" kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Aufwühlen erhält die Variante \"Eisenausbruch\" kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Aufwühlen{/c} erhält die Variante \"Eisenausbruch\" kostenlos und verursacht um {c_random}[Affix_Value_1 * 100|1%x|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4387,9 +4386,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "Infernaler Homunkulus",
-    "Description": "Eure Erzfeindfertigkeiten verursachen um #% erhöhten Schaden und erhalten ihre Geringe-Dämon-Nebenaufwertungen kostenlos mit um #% verlängerter Dauer.",
-    "DescriptionClean": "Eure Erzfeindfertigkeiten verursachen um erhöhten Schaden und erhalten ihre Geringe-Dämon-Nebenaufwertungen kostenlos mit um verlängerter Dauer.",
-    "Localisation": "Eure {c_important}Erzfeindfertigkeiten{/c} verursachen um {c_random}[Affix_Value_1*100|x%|]{/c} erhöhten Schaden und erhalten ihre Geringe-Dämon-Nebenaufwertungen kostenlos mit um {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} verlängerter Dauer.",
+    "Description": "Eure Erzfeindfertigkeiten verursachen um #% erhöhten Schaden und erhalten ihre Geringe-Dämon-Aufwertungen kostenlos mit um #% verlängerter Dauer.",
+    "DescriptionClean": "Eure Erzfeindfertigkeiten verursachen um erhöhten Schaden und erhalten ihre Geringe-Dämon-Aufwertungen kostenlos mit um verlängerter Dauer.",
+    "Localisation": "Eure {c_important}Erzfeindfertigkeiten{/c} verursachen um {c_random}[Affix_Value_1*100|x%|]{/c} erhöhten Schaden und erhalten ihre Geringe-Dämon-Aufwertungen kostenlos mit um {c_number}[Affix.\"Static Value 0\"*100|%|]{/c} verlängerter Dauer.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4485,9 +4484,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "Khasim-Steppenläufer",
-    "Description": "Erhaltet kostenlos die Aufwertung Irdene Splitter für Irdenes Bollwerk. Der Schaden ist um #% erhöht.",
-    "DescriptionClean": "Erhaltet kostenlos die Aufwertung Irdene Splitter für Irdenes Bollwerk. Der Schaden ist um erhöht.",
-    "Localisation": "Erhaltet kostenlos die Aufwertung {c_important}Irdene Splitter{/c} für {c_important}Irdenes Bollwerk{/c}. Der Schaden ist um {c_random}[Affix_Value_1*100|x%|]{/c} erhöht.",
+    "Description": "Irdenes Bollwerk erhält die Variante \"Irdene Splitter\" kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Irdenes Bollwerk erhält die Variante \"Irdene Splitter\" kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Irdenes Bollwerk{/c} erhält die Variante \"Irdene Splitter\" kostenlos und verursacht um {c_random}[Affix_Value_1*100|x%|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4578,7 +4577,7 @@
       "Ring_Unique_Necro_100_x2",
       "Talisman_Charm_Unique_Ring_Unique_Necro_100_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_047",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Knochenbund",
     "Description": "Eure Diener erhalten #% Angriffsgeschwindigkeit und kritische Trefferchance.\r\n\r\nWenn einer Eurer Diener stirbt, werden Eure anderen Diener wütend und verursachen #\u00A0Sek. lang um #% erhöhten Schaden.",
     "DescriptionClean": "Eure Diener erhalten Angriffsgeschwindigkeit und kritische Trefferchance. Wenn einer Eurer Diener stirbt, werden Eure anderen Diener wütend und verursachen \u00A0Sek. lang um erhöhten Schaden.",
@@ -4644,7 +4643,7 @@
       "S05_BSK_Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Helmet_unique_generic_128",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Krone von Lucion",
     "Description": "Jedes Mal, wenn Ihr eine Fertigkeit mit Primärressourcenkosten einsetzt, erhaltet Ihr um #% erhöhten Schaden und die Ressourcenkosten werden für #\u00A0Sek. um #% erhöht. Bis zu #-mal stapelbar.",
     "DescriptionClean": "Jedes Mal, wenn Ihr eine Fertigkeit mit Primärressourcenkosten einsetzt, erhaltet Ihr um erhöhten Schaden und die Ressourcenkosten werden für \u00A0Sek. um erhöht. Bis zu -mal stapelbar.",
@@ -4911,7 +4910,7 @@
       "Ring_Unique_Druid_07_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_07_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Macht des Bären",
     "Description": "Während Ihr Euch in Werbärgestalt befindet, erhaltet Ihr pro Stapel Entschlossenheit #% Bonusschaden. Solange Ihr Euch in Werbärgestalt befindet, erhaltet Ihr zusätzlich alle #\u00A0Sek. #\u00A0Stapel Entschlossenheit.",
     "DescriptionClean": "Während Ihr Euch in Werbärgestalt befindet, erhaltet Ihr pro Stapel Entschlossenheit Bonusschaden. Solange Ihr Euch in Werbärgestalt befindet, erhaltet Ihr zusätzlich alle \u00A0Sek. \u00A0Stapel Entschlossenheit.",
@@ -4974,7 +4973,7 @@
       "Ring_Unique_Druid_05_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_05_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_008",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mal des alten Wolfs",
     "Description": "Erhaltet #% Bonusgiftschaden über Zeit.\r\nDirekter Schaden durch Werwolffertigkeiten gewährt Euch einen Bonus in Höhe von #% Eures Bonusgiftschadens über Zeit, bis zu #%.\r\nGiftschaden durch Werwolffertigkeiten gewährt Euch einen Bonus in Höhe von #% Eurer Bonus-Angriffsgeschwindigkeit und kritischen Trefferchance, bis zu #%.\u00A0\r\n\r\nAktueller Bonus auf direkten Schaden: #%\r\nAktueller Bonus auf Giftschaden: #%",
     "DescriptionClean": "Erhaltet Bonusgiftschaden über Zeit. Direkter Schaden durch Werwolffertigkeiten gewährt Euch einen Bonus in Höhe von Eures Bonusgiftschadens über Zeit, bis zu. Giftschaden durch Werwolffertigkeiten gewährt Euch einen Bonus in Höhe von Eurer Bonus-Angriffsgeschwindigkeit und kritischen Trefferchance, bis zu.\u00A0 Aktueller Bonus auf direkten Schaden: Aktueller Bonus auf Giftschaden:",
@@ -5006,7 +5005,7 @@
       "Chest_Unique_Paladin_001",
       "Talisman_Charm_Unique_Chest_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Paladin_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mantel des Grauen",
     "Description": "Eid des Molochs vergrößert Eure Molochfertigkeiten um #%, verbraucht jedoch bis zu # Entschlossenheit und gewährt dabei für jeden verbrauchten Punkt um #% erhöhten Schaden durch Molochfertigkeiten.",
     "DescriptionClean": "Eid des Molochs vergrößert Eure Molochfertigkeiten um , verbraucht jedoch bis zu Entschlossenheit und gewährt dabei für jeden verbrauchten Punkt um erhöhten Schaden durch Molochfertigkeiten.",
@@ -5069,7 +5068,7 @@
       "Amulet_Unique_Barb_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Medaillon des Dunklen Pirschers",
     "Description": "Wenn Ihr eine Fertigkeit mit einer zweihändigen Wuchtwaffe, zweihändigen Hiebwaffe oder einer Dualwaffe wirkt, verursacht Ihr #\u00A0Sek. lang um #% erhöhten Schaden.\r\n\r\nWenn alle drei Boni aktiv sind, erhaltet Ihr #% Kontrollverlustdauer und erhöhte Angriffsgeschwindigkeit.",
     "DescriptionClean": "Wenn Ihr eine Fertigkeit mit einer zweihändigen Wuchtwaffe, zweihändigen Hiebwaffe oder einer Dualwaffe wirkt, verursacht Ihr \u00A0Sek. lang um erhöhten Schaden. Wenn alle drei Boni aktiv sind, erhaltet Ihr Kontrollverlustdauer und erhöhte Angriffsgeschwindigkeit.",
@@ -5134,7 +5133,7 @@
       "1HSword_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_1HSword_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "sword_uniq08",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Misericordia",
     "Description": "Glückstreffer: Wenn Ihr einem Gegner, der von einer Fallenfertigkeit betroffen ist, Schaden zufügt, besteht eine Chance von #%:\r\n die aktiven Abklingzeiten Eurer Fallenfertigkeiten um #% zu verringern\r\n den Schaden Eurer Fallenfertigkeiten für #% Sek. um # zu erhöhen, stapelbar bis max. #%.",
     "DescriptionClean": "Glückstreffer: Wenn Ihr einem Gegner, der von einer Fallenfertigkeit betroffen ist, Schaden zufügt, besteht eine Chance von : die aktiven Abklingzeiten Eurer Fallenfertigkeiten um zu verringern den Schaden Eurer Fallenfertigkeiten für Sek. um zu erhöhen, stapelbar bis max..",
@@ -5356,7 +5355,7 @@
       "Ring_Unique_Necro_102",
       "Talisman_Charm_Unique_Ring_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_002",
     "Name": "Omen der Pein",
     "Description": "Euch umgibt eine dunkle Aura, die Gegner in der Umgebung mit Altern und Eiserne Jungfrau verflucht.\r\n\r\nFlüche, die auf diese Weise gewirkt werden, verteilen sich alle # Sek. auf Ziele in der Umgebung und halten außerhalb der Aura # Sek. lang an.",
     "DescriptionClean": "Euch umgibt eine dunkle Aura, die Gegner in der Umgebung mit Altern und Eiserne Jungfrau verflucht. Flüche, die auf diese Weise gewirkt werden, verteilen sich alle Sek. auf Ziele in der Umgebung und halten außerhalb der Aura Sek. lang an.",
@@ -5450,7 +5449,7 @@
       "1HMace_Unique_Sorc_100",
       "Talisman_Charm_Unique_1HMace_Unique_Sorc_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "mace_uniq17",
     "Name": "Orsivane",
     "Description": "Ihr verursacht für jede Defensive Fertigkeit, die sich nicht in Eurer Aktionsleiste befindet, um #% erhöhten Schaden und erhaltet ihren jeweiligen Verzauberungseffekt.",
     "DescriptionClean": "Ihr verursacht für jede Defensive Fertigkeit, die sich nicht in Eurer Aktionsleiste befindet, um erhöhten Schaden und erhaltet ihren jeweiligen Verzauberungseffekt.",
@@ -5607,7 +5606,7 @@
       "Amulet_Unique_Spiritborn_102",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_015",
     "Name": "Proteisches Herz",
     "Description": "Der Basisgeist einer Fertigkeit gewährt:\r\n Adler: #% Bewegungsgeschwindigkeit\r\n Gorilla: #% Schadensreduktion\r\n Jaguar: #% Angriffsgeschwindigkeit\r\n Tausendfüßer: #% Leben pro Sekunde\r\n\r\nBeim Wirken einer Fertigkeit eines anderen Basisgeistes:\r\n Wechselt zum neuen Bonus\r\n Erhöht die Kernwerte für # Sek. um #%.",
     "DescriptionClean": "Der Basisgeist einer Fertigkeit gewährt: Adler: Bewegungsgeschwindigkeit Gorilla: Schadensreduktion Jaguar: Angriffsgeschwindigkeit Tausendfüßer: Leben pro Sekunde Beim Wirken einer Fertigkeit eines anderen Basisgeistes: Wechselt zum neuen Bonus Erhöht die Kernwerte für Sek. um.",
@@ -5769,7 +5768,7 @@
       "S05_BSK_Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Boots_unique_generic_126",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Rakanoths Wache",
     "Description": "Wirkt Ihr eine Fertigkeit mit Abklingzeit, explodiert Ihr, wobei Ihr # Feuerschaden verursacht.",
     "DescriptionClean": "Wirkt Ihr eine Fertigkeit mit Abklingzeit, explodiert Ihr, wobei Ihr Feuerschaden verursacht.",
@@ -5807,7 +5806,7 @@
       "S12_1HSword_Unique_Barb_101",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_101"
     ],
-    "IdNameItemActor": "sword_uniq09",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Ramaladnis Opus Magnum",
     "Description": "Fertigkeiten verursachen um #% erhöhten Schaden pro Wutpunkt, über den Ihr verfügt, allerdings verliert Ihr jede Sekunde # Wut.",
     "DescriptionClean": "Fertigkeiten verursachen um erhöhten Schaden pro Wutpunkt, über den Ihr verfügt, allerdings verliert Ihr jede Sekunde Wut.",
@@ -5903,7 +5902,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_053",
     "Name": "Ring der Mittagsjagd",
     "Description": "Eure maximale Lebenskraft wird um #% erhöht und das Töten eines Gegners gewährt Euch # Lebenskraft.\r\n\r\nVerfügt Ihr über Wildheit, halten Eure neuen Vergiftungseffekte #% länger an. ",
     "DescriptionClean": "Eure maximale Lebenskraft wird um erhöht und das Töten eines Gegners gewährt Euch Lebenskraft. Verfügt Ihr über Wildheit, halten Eure neuen Vergiftungseffekte länger an.",
@@ -5998,12 +5997,45 @@
       "Ring_Unique_Generic_101",
       "Talisman_Charm_Unique_Ring_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Ring der Sternenlosen Himmel",
     "Description": "Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für # Sekunden um #% bis zu #%. ",
     "DescriptionClean": "Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für Sekunden um bis zu.",
     "Localisation": "Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für {c_number}[Affix.\"Static Value 1\"]{/c} Sekunden um {c_number}[Affix_Value_1|%x|]{/c} bis zu {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}. ",
     "MagicType": 4,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "Ring der Sternenlosen Himmel",
+    "Description": "Mythisch: Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für # Sek. um #% bis zu #%. ",
+    "DescriptionClean": "Mythisch: Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für Sek. um bis zu.",
+    "Localisation": "{c_mythic}Mythisch: {/c}Eure Primärressource auszugeben, verringert die Ressourcenkosten Eurer Fertigkeiten und erhöht Euren Schaden für {c_number}[Affix.\"Static Value 1\"]{/c} Sek. um {c_number}[Affix_Value_1|1%x|]{/c} bis zu {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}. ",
+    "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
       1,
@@ -6064,7 +6096,7 @@
       "Ring_Unique_Spiritborn_002_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_002_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_054",
     "Name": "Ring des windenden Mondes",
     "Description": "Alle # Sek. ruft Ihr einen Verseuchten Schwarm herbei, der # Giftschaden pro Treffer verursacht.\r\n\r\nEure Verseuchten Schwärme kreisen nun immer um Euch und verringern die Abklingzeit einer ausgerüsteten Adlerfertigkeit um #\u00A0Sek. pro Treffer.",
     "DescriptionClean": "Alle Sek. ruft Ihr einen Verseuchten Schwarm herbei, der Giftschaden pro Treffer verursacht. Eure Verseuchten Schwärme kreisen nun immer um Euch und verringern die Abklingzeit einer ausgerüsteten Adlerfertigkeit um \u00A0Sek. pro Treffer.",
@@ -6163,9 +6195,9 @@
     ],
     "IdNameItemActor": "twoHandSword_uniq20",
     "Name": "Rote Predigt",
-    "Description": "Feuereifer verursacht um #% erhöhten Schaden und erhält die Variante Tod oder Ruhm kostenlos.",
-    "DescriptionClean": "Feuereifer verursacht um erhöhten Schaden und erhält die Variante Tod oder Ruhm kostenlos.",
-    "Localisation": "{c_important}Feuereifer{/c} verursacht um {c_random}[Affix_Value_1*100|%x|]{/c} erhöhten Schaden und erhält die Variante {c_important}Tod oder Ruhm{/c} kostenlos.",
+    "Description": "Feuereifer erhält die Variante Tod oder Ruhm kostenlos und verursacht um #% erhöhten Schaden.",
+    "DescriptionClean": "Feuereifer erhält die Variante Tod oder Ruhm kostenlos und verursacht um erhöhten Schaden.",
+    "Localisation": "{c_important}Feuereifer{/c} erhält die Variante {c_important}Tod oder Ruhm{/c} kostenlos und verursacht um {c_random}[Affix_Value_1*100|%x|]{/c} erhöhten Schaden.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -6287,7 +6319,7 @@
       "Amulet_Unique_Warlock_001",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_02",
     "Name": "Samen von Horazon",
     "Description": "Eure Dämonenkundefertigkeiten verursachen um #% erhöhten Schaden je Zorn, der Euch erfüllt, und Ihr erleidet #% weniger Schaden je Dominanz, die Ihr besitzt.",
     "DescriptionClean": "Eure Dämonenkundefertigkeiten verursachen um erhöhten Schaden je Zorn, der Euch erfüllt, und Ihr erleidet weniger Schaden je Dominanz, die Ihr besitzt.",
@@ -6632,7 +6664,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Schutz des Großen",
     "Description": "In Bewegung erhaltet Ihr eine Ausweichchance und Schadensreduktion von #%.\r\n\r\nNachdem Ihr # Sek. lang stillsteht, werdet Ihr unaufhaltsam, bis Ihr Euch bewegt.",
     "DescriptionClean": "In Bewegung erhaltet Ihr eine Ausweichchance und Schadensreduktion von. Nachdem Ihr Sek. lang stillsteht, werdet Ihr unaufhaltsam, bis Ihr Euch bewegt.",
@@ -6762,7 +6794,7 @@
       "Chest_Unique_Generic_101",
       "Talisman_Charm_Unique_Chest_Unique_Generic_101"
     ],
-    "IdNameItemActor": "TRS_sets55",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Seelenbrand",
     "Description": "Eure Heiltränke errichten für #\u00A0Sek. eine Barriere in Höhe von #% Eures maximales Lebens.\r\n\r\nSolange eine Barriere besteht, erhaltet Ihr eine Schadensreduktion von #% und könnt Heiltränke bei vollem Leben konsumieren.",
     "DescriptionClean": "Eure Heiltränke errichten für \u00A0Sek. eine Barriere in Höhe von Eures maximales Lebens. Solange eine Barriere besteht, erhaltet Ihr eine Schadensreduktion von und könnt Heiltränke bei vollem Leben konsumieren.",
@@ -6859,7 +6891,7 @@
       "Quarterstaff_Unique_Spiritborn_012_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_012_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq01",
     "Name": "Sepazontec",
     "Description": "Eure Basisfertigkeiten verursachen um #% erhöhten Schaden und nutzen immer ihren 3. Angriff. \r\n\r\nJeder 3. Einsatz einer Basisfertigkeit schlägt dreimal zu.",
     "DescriptionClean": "Eure Basisfertigkeiten verursachen um erhöhten Schaden und nutzen immer ihren 3. Angriff.  Jeder 3. Einsatz einer Basisfertigkeit schlägt dreimal zu.",
@@ -7144,7 +7176,7 @@
       "Quarterstaff_Unique_Spiritborn_001",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq10",
     "Name": "Sonnenbefleckter Kriegskrummstab",
     "Description": "Eure grundlegenden Fokusfertigkeiten profitieren von all ihren Aufwertungen und erhöhen den Schaden Eurer Potenzfertigkeiten für #\u00A0Sek. um #%, bis maximal #%.",
     "DescriptionClean": "Eure grundlegenden Fokusfertigkeiten profitieren von all ihren Aufwertungen und erhöhen den Schaden Eurer Potenzfertigkeiten für \u00A0Sek. um , bis maximal.",
@@ -7529,7 +7561,7 @@
       "S12_1HSword_Unique_Barb_103",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq27",
     "Name": "Säbel von Tsasgal",
     "Description": "Ihr erhaltet für jede ausgerüstete Fertigkeit, die Schaden verursacht, um #% erhöhten Schaden sowie #\u00A0Sek. lang zusätzlich #%, wenn jede dieser Fertigkeiten eingesetzt wird.",
     "DescriptionClean": "Ihr erhaltet für jede ausgerüstete Fertigkeit, die Schaden verursacht, um erhöhten Schaden sowie \u00A0Sek. lang zusätzlich , wenn jede dieser Fertigkeiten eingesetzt wird.",
@@ -7727,7 +7759,7 @@
       "Pants_Unique_Generic_102",
       "Talisman_Charm_Unique_Pants_Unique_Generic_102"
     ],
-    "IdNameItemActor": "LEG_sets50",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Tibaults Wille",
     "Description": "Ihr verursacht um #% erhöhten Schaden und erhaltet # Primärressourcenregeneration, während Ihr unaufhaltsam seid sowie für #\u00A0Sek. danach.",
     "DescriptionClean": "Ihr verursacht um erhöhten Schaden und erhaltet Primärressourcenregeneration, während Ihr unaufhaltsam seid sowie für \u00A0Sek. danach.",
@@ -7853,7 +7885,7 @@
       "Ring_Unique_Druid_01_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_01_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_021",
     "Name": "Trauergesang von Airidah",
     "Description": "Von Euch gewirkte Sturmfertigkeiten verleihen #\u00A0Geisteskraft und verursachen #% Bonusschaden. Diese Boni verdoppeln sich gegen verwundbare, bewegungsunfähige oder verlangsamte Gegner.",
     "DescriptionClean": "Von Euch gewirkte Sturmfertigkeiten verleihen \u00A0Geisteskraft und verursachen Bonusschaden. Diese Boni verdoppeln sich gegen verwundbare, bewegungsunfähige oder verlangsamte Gegner.",
@@ -7916,7 +7948,7 @@
       "Gloves_Unique_Rogue_98",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_98"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Gloves_Unique_Rogue_98",
     "Name": "Triumph des Gladiators",
     "Description": "Der erste direkten Schaden, den Ihr einem Gegner zufügt, ist garantiert ein kritischer Treffer. Beim ersten kritischen Treffer mit einer Präzisionsfertigkeit verursacht diese um #% erhöhten Schaden und Ihr erhaltet # Überwältigen. Bis zu #-mal über Euer maximales Überwältigen stapelbar.",
     "DescriptionClean": "Der erste direkten Schaden, den Ihr einem Gegner zufügt, ist garantiert ein kritischer Treffer. Beim ersten kritischen Treffer mit einer Präzisionsfertigkeit verursacht diese um erhöhten Schaden und Ihr erhaltet Überwältigen. Bis zu -mal über Euer maximales Überwältigen stapelbar.",
@@ -7948,7 +7980,7 @@
       "Chest_Unique_Generic_127",
       "Talisman_Charm_Unique_Chest_Unique_Generic_127"
     ],
-    "IdNameItemActor": "Chest_unique_generic_127",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Tyraels Macht",
     "Description": "Während Ihr über volles Leben verfügt, entfesseln Eure Fertigkeiten ein göttliches Sperrfeuer, das # Schaden verursacht.",
     "DescriptionClean": "Während Ihr über volles Leben verfügt, entfesseln Eure Fertigkeiten ein göttliches Sperrfeuer, das Schaden verursacht.",
@@ -7980,7 +8012,7 @@
       "Ring_Unique_Generic_100",
       "Talisman_Charm_Unique_Ring_Unique_Generic_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_015",
     "Name": "Umarmung der Mutter",
     "Description": "Wenn eine Kernfertigkeit mindestens #\u00A0Gegner trifft, werden #% der Ressourcenkosten zurückerstattet.",
     "DescriptionClean": "Wenn eine Kernfertigkeit mindestens \u00A0Gegner trifft, werden der Ressourcenkosten zurückerstattet.",
@@ -8012,7 +8044,7 @@
       "Helm_Unique_Spiritborn_011_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_011_x1"
     ],
-    "IdNameItemActor": "HLM_crft44",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Umhang der Loyalität",
     "Description": "Solange Eure Geisterhallen-Auswahlen übereinstimmen, gilt Folgendes:\r\n Ihre Boni sind um #% potenter.\r\n Fertigkeiten ihres Basisgeistes erhalten eine Lebenskraftkostenreduktion von #%.\r\n Fertigkeiten ihres Basisgeistes erhalten eine Abklingzeitreduktion von #%.",
     "DescriptionClean": "Solange Eure Geisterhallen-Auswahlen übereinstimmen, gilt Folgendes: Ihre Boni sind um potenter. Fertigkeiten ihres Basisgeistes erhalten eine Lebenskraftkostenreduktion von. Fertigkeiten ihres Basisgeistes erhalten eine Abklingzeitreduktion von.",
@@ -8372,9 +8404,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "Verkündung des Anhängers",
-    "Description": "Eure Basisfertigkeiten erhalten die Effekte aller Aufwertungen. Fügt Ihr einem Gegner mit einer Basisfertigkeit Schaden zu, erleidet dieser #\u00A0Sek. lang um #% erhöhten Schaden durch Eure anderen Basisfertigkeiten.",
-    "DescriptionClean": "Eure Basisfertigkeiten erhalten die Effekte aller Aufwertungen. Fügt Ihr einem Gegner mit einer Basisfertigkeit Schaden zu, erleidet dieser \u00A0Sek. lang um erhöhten Schaden durch Eure anderen Basisfertigkeiten.",
-    "Localisation": "Eure {c_important}Basisfertigkeiten{/c} erhalten die Effekte aller Aufwertungen. Fügt Ihr einem Gegner mit einer {c_important}Basisfertigkeit{/c} Schaden zu, erleidet dieser {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. lang um {c_random}[Affix_Value_1 * 100|%x|]{/c} erhöhten Schaden durch Eure anderen {c_important}Basisfertigkeiten{/c}.",
+    "Description": "Eure Basisfertigkeiten erhalten alle Aufwertungen kostenlos. Fügt Ihr einem Gegner mit einer Basisfertigkeit Schaden zu, erleidet dieser #\u00A0Sek. lang um #% erhöhten Schaden durch Eure anderen Basisfertigkeiten.",
+    "DescriptionClean": "Eure Basisfertigkeiten erhalten alle Aufwertungen kostenlos. Fügt Ihr einem Gegner mit einer Basisfertigkeit Schaden zu, erleidet dieser \u00A0Sek. lang um erhöhten Schaden durch Eure anderen Basisfertigkeiten.",
+    "Localisation": "Eure {c_important}Basisfertigkeiten{/c} erhalten alle Aufwertungen kostenlos. Fügt Ihr einem Gegner mit einer {c_important}Basisfertigkeit{/c} Schaden zu, erleidet dieser {c_number}[Affix.\"Static Value 0\"]{/c}\u00A0Sek. lang um {c_random}[Affix_Value_1 * 100|%x|]{/c} erhöhten Schaden durch Eure anderen {c_important}Basisfertigkeiten{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8755,7 +8787,7 @@
       "Ring_Unique_Druid_02_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_02_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_019",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Wappen des Grünschreiters",
     "Description": "Wenn Ihr eine Menschenfertigkeit wirkt oder kanalisiert, besteht eine Chance von #%, zusätzlich eine ausgerüstete Menschenfertigkeit, die keine Ultimative Fertigkeit ist, auszulösen. Menschenfertigkeiten verursachen #% Bonusschaden.",
     "DescriptionClean": "Wenn Ihr eine Menschenfertigkeit wirkt oder kanalisiert, besteht eine Chance von , zusätzlich eine ausgerüstete Menschenfertigkeit, die keine Ultimative Fertigkeit ist, auszulösen. Menschenfertigkeiten verursachen Bonusschaden.",
@@ -8818,7 +8850,7 @@
       "Ring_Unique_Generic_103",
       "Talisman_Charm_Unique_Ring_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_010",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Wendigo-Mal",
     "Description": "Alle # Tötungen in den letzten #\u00A0Sek. erhöht sich Euer Schaden um #% und Euer maximales Leben um #%.",
     "DescriptionClean": "Alle Tötungen in den letzten \u00A0Sek. erhöht sich Euer Schaden um und Euer maximales Leben um.",
@@ -9038,7 +9070,7 @@
       "Ring_Unique_Spiritborn_001_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_001_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_051",
     "Name": "Wundentrinker",
     "Description": "Erhaltet jedes Mal # Lebenskraft, wenn Ihr Dornenschaden verursacht.\r\n\r\nErhaltet den passiven Effekt von Gifthaut.",
     "DescriptionClean": "Erhaltet jedes Mal Lebenskraft, wenn Ihr Dornenschaden verursacht. Erhaltet den passiven Effekt von Gifthaut.",
@@ -9070,7 +9102,7 @@
       "Glaive_Unique_Spiritborn_010_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_010_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq05",
     "Name": "Wushe Nak Pa",
     "Description": "Wirkt Ihr eine Ultimative Fertigkeit, wird der entsprechende Primär-Geisterhallenbonus für # Sek. mit #% Potenz gewährt oder um diese erhöht.\r\n\r\nEure Ultimativen Fertigkeiten erhalten jeweils einen zusätzlichen Fertigkeitentyp:\r\n Der Sucher ist eine Fokusfertigkeit.\r\n Das Raubtier ist eine Mobilitätsfertigkeit.\r\n Der Verschlinger ist eine Potenzfertigkeit.\r\n Der Beschützer ist eine Defensive Fertigkeit.",
     "DescriptionClean": "Wirkt Ihr eine Ultimative Fertigkeit, wird der entsprechende Primär-Geisterhallenbonus für Sek. mit Potenz gewährt oder um diese erhöht. Eure Ultimativen Fertigkeiten erhalten jeweils einen zusätzlichen Fertigkeitentyp: Der Sucher ist eine Fokusfertigkeit. Das Raubtier ist eine Mobilitätsfertigkeit. Der Verschlinger ist eine Potenzfertigkeit. Der Beschützer ist eine Defensive Fertigkeit.",
@@ -9102,7 +9134,7 @@
       "Ring_Unique_Druid_06_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_06_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Legendary_019",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Wut der Wildnis",
     "Description": "Wenn Ihr Euch in Eure Werwolf- oder Werbärgestalt verwandelt, verfallt Ihr für #\u00A0Sek. in den Berserkermodus. Zusätzlich gewährt Euch der Berserkermodus alle #\u00A0Sek. #\u00A0Stapel Wildheit, solange er aktiv ist.\r\n\r\nDer Schadensbonus des Berserkermodus ist um #% erhöht.",
     "DescriptionClean": "Wenn Ihr Euch in Eure Werwolf- oder Werbärgestalt verwandelt, verfallt Ihr für \u00A0Sek. in den Berserkermodus. Zusätzlich gewährt Euch der Berserkermodus alle \u00A0Sek. \u00A0Stapel Wildheit, solange er aktiv ist. Der Schadensbonus des Berserkermodus ist um erhöht.",
@@ -9260,7 +9292,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "twoHandMace_uniq17",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Zepter der Drei",
     "Description": "Ihr könnt jetzt alle Ultimativen Fertigkeiten ausrüsten und # Ränge auf sie erhalten. Greift Ihr Gegner an, ohne dass eine Ultimative Fertigkeit aktiv ist, erhöht Ihr den Schaden Eurer Ultimativen Fertigkeit um #%, bis maximal #%. Nachdem Ihr Ultimative Fertigkeiten entfesselt habt und diese beendet sind, wird dieser Schadensbonus zurückgesetzt.",
     "DescriptionClean": "Ihr könnt jetzt alle Ultimativen Fertigkeiten ausrüsten und Ränge auf sie erhalten. Greift Ihr Gegner an, ohne dass eine Ultimative Fertigkeit aktiv ist, erhöht Ihr den Schaden Eurer Ultimativen Fertigkeit um , bis maximal. Nachdem Ihr Ultimative Fertigkeiten entfesselt habt und diese beendet sind, wird dieser Schadensbonus zurückgesetzt.",
@@ -9292,7 +9324,7 @@
       "2HAxe_Unique_Paladin_001",
       "Talisman_Charm_Unique_2HAxe_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "twoHandAxe_uniq12",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Zerbrochene Nacht",
     "Description": "Wenn Ihr eine Aurafertigkeit einsetzt, löst Ihr unter Euch Weihe aus. \r\n\r\nIhr erhaltet #% Potenz von Auren, während Ihr im Siegel von Weihe steht.",
     "DescriptionClean": "Wenn Ihr eine Aurafertigkeit einsetzt, löst Ihr unter Euch Weihe aus.  Ihr erhaltet Potenz von Auren, während Ihr im Siegel von Weihe steht.",
@@ -9325,7 +9357,7 @@
       "S12_2HPolearm_Unique_Generic_001",
       "Talisman_Charm_Unique_2HPolearm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandPolearm_uniq16",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Zerbrochener Schwur",
     "Description": "Gegner, die mehr Schaden über Zeit erleiden, als sie noch Leben haben, werden hingerichtet. ",
     "DescriptionClean": "Gegner, die mehr Schaden über Zeit erleiden, als sie noch Leben haben, werden hingerichtet.",
@@ -9357,7 +9389,7 @@
       "Ring_Unique_Druid_03_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_03_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Rare_Scosglen_001",
     "Name": "Zersplitterter Runenstein",
     "Description": "Eure Erdfertigkeiten verursachen zusätzlich #% kritischen Trefferschaden. Dieser Bonus erhöht sich auf #%, wenn Ihr über mind. # Stapel Überwältigen verfügt. Alle #\u00A0Sek. erhaltet Ihr passiv 2 Stapel Überwältigen.",
     "DescriptionClean": "Eure Erdfertigkeiten verursachen zusätzlich kritischen Trefferschaden. Dieser Bonus erhöht sich auf , wenn Ihr über mind. Stapel Überwältigen verfügt. Alle \u00A0Sek. erhaltet Ihr passiv 2 Stapel Überwältigen.",

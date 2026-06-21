@@ -76,7 +76,7 @@
       "Ring_Unique_Druid_04_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_04_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Legendary_005",
     "Name": "Accordo della Selva",
     "Description": "Ogni tua abilità di Compagni ottiene 1 compagni aggiuntivi e infligge il #% di danni aggiuntivi.\r\n\r\nOttieni gratuitamente l'effetto passivo di Corvi, Lupi e Rampicante Velenoso.",
     "DescriptionClean": "Ogni tua abilità di Compagni ottiene 1 compagni aggiuntivi e infligge il di danni aggiuntivi. Ottieni gratuitamente l'effetto passivo di Corvi, Lupi e Rampicante Velenoso.",
@@ -233,12 +233,45 @@
       "Ring_Unique_Generic_101",
       "Talisman_Charm_Unique_Ring_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_034",
     "Name": "Anello dei Cieli Senza Stelle",
     "Description": "Spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del #% per # s, fino a un massimo del #%. ",
     "DescriptionClean": "Spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del per s, fino a un massimo del.",
     "Localisation": "Spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del {c_number}[Affix_Value_1|%x|]{/c} per {c_number}[Affix.\"Static Value 1\"]{/c} s, fino a un massimo del {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}. ",
     "MagicType": 4,
+    "AllowedForPlayerClass": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AllowedItemLabels": [
+      19
+    ]
+  },
+  {
+    "IdSno": "2630062",
+    "IdName": "S14_Ring_Unique_Generic_104",
+    "IdSnoList": [
+      "2630062"
+    ],
+    "IdNameList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItem": "S14_Ring_Unique_Generic_104",
+    "IdNameItemList": [
+      "S14_Ring_Unique_Generic_104"
+    ],
+    "IdNameItemActor": "Icons_Ring_Unique_034",
+    "Name": "Anello dei Cieli Senza Stelle",
+    "Description": "Mitico: spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del #% per # s, fino a un massimo del #%. ",
+    "DescriptionClean": "Mitico: spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del per s, fino a un massimo del.",
+    "Localisation": "{c_mythic}Mitico: {/c}spendere la tua risorsa principale riduce il costo in risorse delle tue abilità e aumenta i danni che infliggi del {c_number}[Affix_Value_1|1%x|]{/c} per {c_number}[Affix.\"Static Value 1\"]{/c} s, fino a un massimo del {c_number}[Affix_Value_1 * Affix.\"Static Value 2\"|%x|]{/c}. ",
+    "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
       1,
@@ -298,7 +331,7 @@
       "Ring_Unique_Barb_100",
       "Talisman_Charm_Unique_Ring_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Barbarian_Master",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Anello del Furore Rosso",
     "Description": "Dopo aver consumato # furia entro # s, la tua abilità Primaria o di Dominio delle Armi non canalizzata lanciata entro # s, è sempre critico e infligge il #% di danni critici aggiuntivi.",
     "DescriptionClean": "Dopo aver consumato furia entro s, la tua abilità Primaria o di Dominio delle Armi non canalizzata lanciata entro s, è sempre critico e infligge il di danni critici aggiuntivi.",
@@ -393,7 +426,7 @@
       "Ring_Unique_Spiritborn_005_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_005_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_053",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Anello della Caccia di Mezzodì",
     "Description": "Aumenta la veemenza massima del #% e uccidere un nemico ti fornisce # veemenza.\r\n\r\nMentre hai Ferocia, i nuovi effetti di avvelenamento durano il #% in più. ",
     "DescriptionClean": "Aumenta la veemenza massima del e uccidere un nemico ti fornisce veemenza. Mentre hai Ferocia, i nuovi effetti di avvelenamento durano il in più.",
@@ -425,7 +458,7 @@
       "Ring_Unique_Spiritborn_002_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_002_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_054",
     "Name": "Anello della Luna Contorcente",
     "Description": "Generi uno Sciame Pestilenziale ogni # s, infliggendo # danni da veleno per colpo. \r\n\r\nI tuoi Sciami Pestilenziali ora orbitano attorno a te e riducono il tempo di recupero delle abilità di Aquila equipaggiate di # s per colpo.",
     "DescriptionClean": "Generi uno Sciame Pestilenziale ogni s, infliggendo danni da veleno per colpo.  I tuoi Sciami Pestilenziali ora orbitano attorno a te e riducono il tempo di recupero delle abilità di Aquila equipaggiate di s per colpo.",
@@ -488,7 +521,7 @@
       "Ring_Unique_Sorc_104_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_104_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_018",
     "Name": "Angoscia di Drognan",
     "Description": "Lanciare abilità di Piromanzia ti manda in fiamme infliggendoti danni pari al #% della tua Vita massima nell'arco di # s. Infliggi il #% di danni da fiamme aumentati in base alla quantità della tua Vita in fiamme.",
     "DescriptionClean": "Lanciare abilità di Piromanzia ti manda in fiamme infliggendoti danni pari al della tua Vita massima nell'arco di s. Infliggi il di danni da fiamme aumentati in base alla quantità della tua Vita in fiamme.",
@@ -552,9 +585,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq07",
     "Name": "Annientamento",
-    "Description": "Colpo di Grazia fornisce tutti i potenziamenti secondari e infligge il #% di danni aumentati.",
-    "DescriptionClean": "Colpo di Grazia fornisce tutti i potenziamenti secondari e infligge il di danni aumentati.",
-    "Localisation": "{c_important}Colpo di Grazia{/c} fornisce tutti i potenziamenti secondari e infligge il {c_random}[Affix_Value_1 * 100|1%x|]{/c} di danni aumentati.",
+    "Description": "Colpo di Grazia ottiene tutti i potenziamenti senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Colpo di Grazia ottiene tutti i potenziamenti senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Colpo di Grazia{/c} ottiene tutti i potenziamenti senza costi e infligge danni aumentati del {c_random}[Affix_Value_1 * 100|1%x|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -646,7 +679,7 @@
       "Helm_Unique_Spiritborn_009_x1",
       "Talisman_Charm_Unique_Helm_Unique_Spiritborn_009_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Helm_Unique_Spiritborn_95",
     "Name": "Armonia di Ebewaka",
     "Description": "In base alla tua scelta della Sala degli Spiriti secondaria, le tue abilità sono anche abilità di Giaguaro, Aquila, Gorilla o Centopiedi.\r\n\r\nLe tue abilità infliggono il #% di danni aumentati per ogni tipo di spirito che possiedono.",
     "DescriptionClean": "In base alla tua scelta della Sala degli Spiriti secondaria, le tue abilità sono anche abilità di Giaguaro, Aquila, Gorilla o Centopiedi. Le tue abilità infliggono il di danni aumentati per ogni tipo di spirito che possiedono.",
@@ -1053,7 +1086,7 @@
       "Ring_Unique_Spiritborn_001_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_001_x1"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_051",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Bevitore di Ferite",
     "Description": "Ogni volta che infliggi danni da Spine, ottieni # veemenza.\r\n\r\nOttieni l'effetto passivo di Pelle Tossica.",
     "DescriptionClean": "Ogni volta che infliggi danni da Spine, ottieni veemenza. Ottieni l'effetto passivo di Pelle Tossica.",
@@ -1309,9 +1342,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq18",
     "Name": "Cantico del Fedele",
-    "Description": "Le tue abilità Base ottengono l'effetto di ogni potenziamento. Infliggere danni a un nemico con un'abilità Base fa sì che subisca danni aumentati del #% dalle tue altre abilità Base per # s.",
-    "DescriptionClean": "Le tue abilità Base ottengono l'effetto di ogni potenziamento. Infliggere danni a un nemico con un'abilità Base fa sì che subisca danni aumentati del dalle tue altre abilità Base per s.",
-    "Localisation": "Le tue abilità {c_important}Base{/c} ottengono l'effetto di ogni potenziamento. Infliggere danni a un nemico con un'abilità {c_important}Base{/c} fa sì che subisca danni aumentati del {c_random}[Affix_Value_1 * 100|%x|]{/c} dalle tue altre abilità {c_important}Base{/c} per {c_number}[Affix.\"Static Value 0\"]{/c} s.",
+    "Description": "Le tue abilità Base ottengono tutti i potenziamenti senza costi. Infliggere danni a un nemico con un'abilità Base fa sì che subisca danni aumentati del #% dalle tue altre abilità Base per # s.",
+    "DescriptionClean": "Le tue abilità Base ottengono tutti i potenziamenti senza costi. Infliggere danni a un nemico con un'abilità Base fa sì che subisca danni aumentati del dalle tue altre abilità Base per s.",
+    "Localisation": "Le tue abilità {c_important}Base{/c} ottengono tutti i potenziamenti senza costi. Infliggere danni a un nemico con un'abilità {c_important}Base{/c} fa sì che subisca danni aumentati del {c_random}[Affix_Value_1 * 100|%x|]{/c} dalle tue altre abilità {c_important}Base{/c} per {c_number}[Affix.\"Static Value 0\"]{/c} s.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -1371,7 +1404,7 @@
       "Helm_Unique_Rogue_001",
       "Talisman_Charm_Unique_Helm_Unique_Rogue_001"
     ],
-    "IdNameItemActor": "HLM_sets51",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Cappa del Senza Nome",
     "Description": "Colpo fortunato: le abilità Infuse hanno fino al #% di probabilità di innescare una grande esplosione che infligge il #% dei danni inflitti e applica l'effetto di Infusione ai nemici che colpisce con potenza al #%.",
     "DescriptionClean": "Colpo fortunato: le abilità Infuse hanno fino al di probabilità di innescare una grande esplosione che infligge il dei danni inflitti e applica l'effetto di Infusione ai nemici che colpisce con potenza al.",
@@ -1530,7 +1563,7 @@
       "Ring_Unique_Sorc_101",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_Malignant_Sorcerer_Master",
     "Name": "Cerchio Iridescente di Tal Rasha",
     "Description": "Lanciare un'abilità di Piromanzia, Folgore o Gelo aumenta i tuoi danni del #% per # s. Si accumula una volta per Elemento. Lanciare di nuovo un'abilità ripristina tutti i bonus se l'abilità precedente era di un Elemento diverso.",
     "DescriptionClean": "Lanciare un'abilità di Piromanzia, Folgore o Gelo aumenta i tuoi danni del per s. Si accumula una volta per Elemento. Lanciare di nuovo un'abilità ripristina tutti i bonus se l'abilità precedente era di un Elemento diverso.",
@@ -1657,7 +1690,7 @@
       "Boots_Unique_Sorc_96",
       "Talisman_Charm_Unique_Boots_Unique_Sorc_100"
     ],
-    "IdNameItemActor": "BTS_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Cimelio di Esu",
     "Description": "La tua probabilità di critico aumenta di una quantità pari al #% del bonus alla velocità di movimento.\r\n\r\nBonus attuale: #%",
     "DescriptionClean": "La tua probabilità di critico aumenta di una quantità pari al del bonus alla velocità di movimento. Bonus attuale:",
@@ -1694,7 +1727,7 @@
       "Helm_Unique_Generic_002",
       "Talisman_Charm_Unique_Helm_Unique_Generic_002"
     ],
-    "IdNameItemActor": "HLM_gnrc127",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Cimiero Arlecchino",
     "Description": "Ottieni una riduzione danni del #%. Inoltre, ottieni +# gradi a tutte le abilità.",
     "DescriptionClean": "Ottieni una riduzione danni del. Inoltre, ottieni gradi a tutte le abilità.",
@@ -1822,7 +1855,7 @@
       "S12_1HSword_Unique_Generic_001",
       "Talisman_Charm_Unique_1HSword_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "sword_uniq10",
     "Name": "Condanna del Fato",
     "Description": "Colpo fortunato: fino al #% di probabilità di infliggere # danni da ombra ai nemici circostanti e di ridurre i danni che infliggono del #% per # s.",
     "DescriptionClean": "Colpo fortunato: fino al di probabilità di infliggere danni da ombra ai nemici circostanti e di ridurre i danni che infliggono del per s.",
@@ -1849,11 +1882,10 @@
     "IdNameList": [
       "Pants_Unique_Sorc_101"
     ],
-    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96;Pants_Unique_Sorc_98",
+    "IdNameItem": "Pants_Unique_Sorc_101;Pants_Unique_Sorc_96",
     "IdNameItemList": [
       "Pants_Unique_Sorc_101",
-      "Pants_Unique_Sorc_96",
-      "Pants_Unique_Sorc_98"
+      "Pants_Unique_Sorc_96"
     ],
     "IdNameItemActor": "Pants_Unique_Sorcerer_101",
     "Name": "Condotto Assiale",
@@ -2084,7 +2116,7 @@
       "S05_BSK_Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_S05_BSK_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Helmet_unique_generic_128",
     "Name": "Corona di Lucion",
     "Description": "Ogni volta che utilizzi un'abilità che richiede un costo in risorsa principale, ottieni danni aumentati del #% e il costo in risorse aumenta del #% per # s, fino a un massimo di # volte.",
     "DescriptionClean": "Ogni volta che utilizzi un'abilità che richiede un costo in risorsa principale, ottieni danni aumentati del e il costo in risorse aumenta del per s, fino a un massimo di volte.",
@@ -2284,7 +2316,7 @@
       "Amulet_Unique_Barb_104_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_104_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_020",
     "Name": "Cuore Nostalgico del Nomade",
     "Description": "Le abilità Primarie infliggono danni aumentati del #%, ma costano il #% di furia in più. I danni raddoppiano contro i nemici feriti.",
     "DescriptionClean": "Le abilità Primarie infliggono danni aumentati del , ma costano il di furia in più. I danni raddoppiano contro i nemici feriti.",
@@ -2386,7 +2418,7 @@
       "S12_1HDagger_Unique_Generic_001",
       "Talisman_Charm_Unique_1HDagger_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Dagger_uniq22",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Dirk Arrugginito",
     "Description": "Infliggi il #% di danni aumentati ai nemici isolati.",
     "DescriptionClean": "Infliggi il di danni aumentati ai nemici isolati.",
@@ -2481,9 +2513,9 @@
     ],
     "IdNameItemActor": "Boots_unique_Sorcerer_98",
     "Name": "Dono Gelido",
-    "Description": "Corazza di Ghiaccio ottiene la variante Permagelo gratuitamente e il #% di potenza aggiuntiva.",
-    "DescriptionClean": "Corazza di Ghiaccio ottiene la variante Permagelo gratuitamente e il di potenza aggiuntiva.",
-    "Localisation": "{c_important}Corazza di Ghiaccio{/c} ottiene la variante {c_important}Permagelo{/c} gratuitamente e il {c_random}[Affix_Value_1|%|]{/c} di potenza aggiuntiva.",
+    "Description": "Corazza di Ghiaccio ottiene la variante Permagelo senza costi e ha una potenza aumentata del #%.",
+    "DescriptionClean": "Corazza di Ghiaccio ottiene la variante Permagelo senza costi e ha una potenza aumentata del.",
+    "Localisation": "{c_important}Corazza di Ghiaccio{/c} ottiene la variante Permagelo senza costi e ha una potenza aumentata del {c_random}[Affix_Value_1|%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       1,
@@ -2639,7 +2671,7 @@
       "Helm_Unique_Barb_100",
       "Talisman_Charm_Unique_Helm_Unique_Barb_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_sets51",
     "Name": "Elmo con Zanne di Joritz il Poderoso",
     "Description": "Quando ottieni Berserk mentre sei già in Berserk, ti infuri ulteriormente, infliggendo il #% di danni aumentati e ottenendo # furia ogni secondo e una riduzione del tempo di recupero del #%.",
     "DescriptionClean": "Quando ottieni Berserk mentre sei già in Berserk, ti infuri ulteriormente, infliggendo il di danni aumentati e ottenendo furia ogni secondo e una riduzione del tempo di recupero del.",
@@ -2768,7 +2800,7 @@
       "Helm_Unique_Generic_004",
       "Talisman_Charm_Unique_Helm_Unique_Generic_004"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_gnrc130",
     "Name": "Erede della Perdizione",
     "Description": "Cedi all'odio e ottieni il Favore della Madre, infliggendo il #% di danni aumentati. Trucida nemici per rubare momentaneamente il Favore della Madre dagli alleati circostanti.",
     "DescriptionClean": "Cedi all'odio e ottieni il Favore della Madre, infliggendo il di danni aumentati. Trucida nemici per rubare momentaneamente il Favore della Madre dagli alleati circostanti.",
@@ -2964,7 +2996,7 @@
     "Name": "Fasce della Rosa Icorosa",
     "Description": "Colpo fortunato: le abilità Infuse di freddo o di veleno hanno fino al #% di probabilità di piazzare una Trappola Avvelenata mentre è equipaggiata, in base all'elemento della Trappola Avvelenata che hai equipaggiato.\r\n\r\nTrappola Avvelenata ottiene la variante Infiltrato senza costi e infligge danni aumentati del #%.",
     "DescriptionClean": "Colpo fortunato: le abilità Infuse di freddo o di veleno hanno fino al di probabilità di piazzare una Trappola Avvelenata mentre è equipaggiata, in base all'elemento della Trappola Avvelenata che hai equipaggiato. Trappola Avvelenata ottiene la variante Infiltrato senza costi e infligge danni aumentati del.",
-    "Localisation": "{c_label}Colpo fortunato:{/c} le abilità {c_important}Infuse{/c} di freddo o di veleno hanno fino al {c_number}[Affix.\"Static Value 0\"|%|]{/c} di probabilità di piazzare una {c_important}Trappola Avvelenata{/c} mentre è equipaggiata, in base all'elemento della {c_important}Trappola Avvelenata{/c} che hai equipaggiato.\r\n\r\n{c_important}Trappola Avvelenata{/c} ottiene la variante {c_important}Infiltrato{/c} senza costi e infligge danni aumentati del {c_random}[Affix_Value_1|x%|]{/c}.",
+    "Localisation": "{c_label}Colpo fortunato:{/c} le abilità {c_important}Infuse{/c} di freddo o di veleno hanno fino al {c_number}[Affix.\"Static Value 0\"|%|]{/c} di probabilità di piazzare una {c_important}Trappola Avvelenata{/c} mentre è equipaggiata, in base all'elemento della {c_important}Trappola Avvelenata{/c} che hai equipaggiato.\r\n\r\n{c_important}Trappola Avvelenata{/c} ottiene la variante Infiltrato senza costi e infligge danni aumentati del {c_random}[Affix_Value_1|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3061,7 +3093,7 @@
       "Pants_Unique_Generic_101",
       "Talisman_Charm_Unique_Pants_Unique_Generic_101"
     ],
-    "IdNameItemActor": "LEG_sets55",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Fiancali del Cielo Albeggiante",
     "Description": "Quando subisci danni non fisici, ottieni una resistenza del #% a quel tipo di danno per # s. Questo effetto si può applicare solo a un tipo di danno per volta.",
     "DescriptionClean": "Quando subisci danni non fisici, ottieni una resistenza del a quel tipo di danno per s. Questo effetto si può applicare solo a un tipo di danno per volta.",
@@ -3324,7 +3356,7 @@
       "Amulet_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Amulet_flippy",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Furia di Braci",
     "Description": "Sopraffazione aumenta i danni con abilità di Piromanzia del #%, aumentando al tempo stesso la dimensione, il costo in mana e i tempi di recupero del #%.",
     "DescriptionClean": "Sopraffazione aumenta i danni con abilità di Piromanzia del , aumentando al tempo stesso la dimensione, il costo in mana e i tempi di recupero del.",
@@ -3581,9 +3613,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_97",
     "Name": "Giuramento del Viandante Verde",
-    "Description": "Rampicante Velenoso fornisce gratuitamente la variante Germinazione e infligge il #% di danni aggiuntivi.",
-    "DescriptionClean": "Rampicante Velenoso fornisce gratuitamente la variante Germinazione e infligge il di danni aggiuntivi.",
-    "Localisation": "{c_important}Rampicante Velenoso{/c} fornisce gratuitamente la variante {c_important}Germinazione{/c} e infligge il {c_random}[Affix_Value_1*100|x%|]{/c} di danni aggiuntivi.",
+    "Description": "Rampicante Velenoso ottiene la variante Germinazione senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Rampicante Velenoso ottiene la variante Germinazione senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Rampicante Velenoso{/c} ottiene la variante Germinazione senza costi e infligge danni aumentati del {c_random}[Affix_Value_1*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -3831,7 +3863,7 @@
       "Pants_Unique_Warlock_004",
       "Talisman_Charm_Unique_Pants_Unique_Warlock_004"
     ],
-    "IdNameItemActor": "LEG_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Guardacarne dei Morlu",
     "Description": "Non puoi recuperare più del #% della tua Vita massima ma le tue abilità di Difesa infliggono danni aumentati del #%.",
     "DescriptionClean": "Non puoi recuperare più del della tua Vita massima ma le tue abilità di Difesa infliggono danni aumentati del.",
@@ -3959,7 +3991,7 @@
       "Amulet_Unique_Generic_102",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_021",
     "Name": "Idolo Assetato di Sangue",
     "Description": "Sei sempre in Berserk, ma subisci il #% di danni aumentati da Bruciatura per # s. Mentre sei in fiamme, Berserk fornisce il #% di danni aumentati aggiuntivi.",
     "DescriptionClean": "Sei sempre in Berserk, ma subisci il di danni aumentati da Bruciatura per s. Mentre sei in fiamme, Berserk fornisce il di danni aumentati aggiuntivi.",
@@ -4681,7 +4713,7 @@
       "Ring_Unique_Druid_01_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_01_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_021",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Lamento di Airidah",
     "Description": "Le abilità di Tempesta che utilizzi generano # spirito e infliggono il #% di danni aggiuntivi. Questi bonus raddoppiano quando si infliggono danni a un nemico vulnerabile, immobilizzato o rallentato.",
     "DescriptionClean": "Le abilità di Tempesta che utilizzi generano spirito e infliggono il di danni aggiuntivi. Questi bonus raddoppiano quando si infliggono danni a un nemico vulnerabile, immobilizzato o rallentato.",
@@ -4776,9 +4808,9 @@
     ],
     "IdNameItemActor": "twoHandMace_uniq01",
     "Name": "Maglio Immondo",
-    "Description": "Tumulto ottiene la variante Esplosione di Ferro e infligge danni aumentati del #%.",
-    "DescriptionClean": "Tumulto ottiene la variante Esplosione di Ferro e infligge danni aumentati del.",
-    "Localisation": "{c_important}Tumulto{/c} ottiene la variante {c_important}Esplosione di Ferro{/c} e infligge danni aumentati del {c_random}[Affix_Value_1 * 100|1%x|]{/c}.",
+    "Description": "Tumulto ottiene la variante Esplosione di Ferro senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Tumulto ottiene la variante Esplosione di Ferro senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Tumulto{/c} ottiene la variante Esplosione di Ferro senza costi e infligge danni aumentati del {c_random}[Affix_Value_1 * 100|1%x|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4807,7 +4839,7 @@
       "S12_1HSword_Unique_Barb_101",
       "Talisman_Charm_Unique_1HSword_Unique_Barb_101"
     ],
-    "IdNameItemActor": "sword_uniq09",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Magnum Opus di Ramaladni",
     "Description": "Le abilità infliggono il #% di danni aumentati per ogni punto di furia presente, ma prosciugano # furia al secondo.",
     "DescriptionClean": "Le abilità infliggono il di danni aumentati per ogni punto di furia presente, ma prosciugano furia al secondo.",
@@ -4936,7 +4968,7 @@
       "Gloves_Unique_Necro_105",
       "Talisman_Charm_Unique_Gloves_Unique_Necro_105"
     ],
-    "IdNameItemActor": "Gloves_Unique_Necromancer_98",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Mano del Solcasepolcri",
     "Description": "La tua generazione di essenza aumenta del #%. Le tue abilità d'Ossa infliggono danni aumentati del #% per ogni punto di essenza che avevi al lancio dell'abilità, fino al #%.",
     "DescriptionClean": "La tua generazione di essenza aumenta del. Le tue abilità d'Ossa infliggono danni aumentati del per ogni punto di essenza che avevi al lancio dell'abilità, fino al.",
@@ -4969,9 +5001,9 @@
     ],
     "IdNameItemActor": "GLV_crft44",
     "Name": "Mano dell'Apoteosi",
-    "Description": "Metamorfosi fornisce tutti i potenziamenti secondari senza alcun costo, che diventano anche il #% più potenti.",
-    "DescriptionClean": "Metamorfosi fornisce tutti i potenziamenti secondari senza alcun costo, che diventano anche il più potenti.",
-    "Localisation": "{c_important}Metamorfosi{/c} fornisce tutti i potenziamenti secondari senza alcun costo, che diventano anche il {c_random}[Affix_Value_1*100|+%|]{/c} più potenti.",
+    "Description": "Metamorfosi ottiene senza costi tutti i potenziamenti, che sono il #% più potenti.",
+    "DescriptionClean": "Metamorfosi ottiene senza costi tutti i potenziamenti, che sono il più potenti.",
+    "Localisation": "{c_important}Metamorfosi{/c} ottiene senza costi tutti i potenziamenti, che sono il {c_random}[Affix_Value_1*100|+%|]{/c} più potenti.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -4999,8 +5031,8 @@
       "Chest_Unique_Paladin_001",
       "Talisman_Charm_Unique_Chest_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Chest_Unique_Paladin_95",
-    "Name": "Manto del Grigio",
+    "IdNameItemActor": "Generic_Charm_Flippy",
+    "Name": "Manto del Grigiume",
     "Description": "Giuramento di Colosso rende le tue abilità di Colosso il #% più potenti, ma consuma fino a # Risolutezza, fornendo un aumento del #% ai danni delle abilità di Colosso per ogni punto consumato.",
     "DescriptionClean": "Giuramento di Colosso rende le tue abilità di Colosso il più potenti, ma consuma fino a Risolutezza, fornendo un aumento del ai danni delle abilità di Colosso per ogni punto consumato.",
     "Localisation": "{c_important}Giuramento di Colosso{/c} rende le tue abilità di {c_important}Colosso{/c} il {c_number}[Affix.\"Static Value 1\"*100|%|]{/c} più potenti, ma consuma fino a {c_number}[Affix.\"Static Value 2\"]{/c} {u}{c_important}Risolutezza{/c}{/u}, fornendo un aumento del {c_random}[Affix_Value_2*100|1%x|]{/c} ai danni delle abilità di {c_important}Colosso{/c} per ogni punto consumato.",
@@ -5130,7 +5162,7 @@
       "Ring_Unique_Druid_05_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_05_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_008",
     "Name": "Marchio del Vecchio Lupo",
     "Description": " Ottieni il #% di danni da avvelenamento aggiuntivi.\r\n I danni diretti inflitti dalle abilità di Lupo Mannaro ottengono un bonus pari al #% dei tuoi danni da avvelenamento aggiuntivi, fino al #%.\r\n I danni da veleno inflitti dalle abilità di Lupo Mannaro ottengono un bonus pari al #% della tua velocità d'attacco bonus + probabilità di critico, fino al #%.\u00A0\r\n\r\nBonus ai danni diretti attuale: #%\r\nBonus ai danni da veleno attuale: #%",
     "DescriptionClean": "Ottieni il di danni da avvelenamento aggiuntivi. I danni diretti inflitti dalle abilità di Lupo Mannaro ottengono un bonus pari al dei tuoi danni da avvelenamento aggiuntivi, fino al. I danni da veleno inflitti dalle abilità di Lupo Mannaro ottengono un bonus pari al della tua velocità d'attacco bonus probabilità di critico, fino al.\u00A0 Bonus ai danni diretti attuale: Bonus ai danni da veleno attuale:",
@@ -5194,7 +5226,7 @@
       "Ring_Unique_Generic_103",
       "Talisman_Charm_Unique_Ring_Unique_Generic_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_010",
     "Name": "Marchio di Wendigo",
     "Description": "Ogni # uccisioni effettuate negli ultimi # s aumentano i danni del #% e la Vita massima del #%.",
     "DescriptionClean": "Ogni uccisioni effettuate negli ultimi s aumentano i danni del e la Vita massima del.",
@@ -5350,7 +5382,7 @@
       "Pants_Unique_Spiritborn_100",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_100"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_96",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Maxtlatl di Balazan",
     "Description": "I tuoi lanci infliggono danni ai nemici vicini pari al #% delle tue Spine e infligge anche il #% di questi danni come danni da avvelenamento nell'arco di # s.\r\n\r\nOgni volta che contrattacchi con le Spine, per # s i danni da avvelenamento sono aumentati del #%, fino a un massimo del #%.",
     "DescriptionClean": "I tuoi lanci infliggono danni ai nemici vicini pari al delle tue Spine e infligge anche il di questi danni come danni da avvelenamento nell'arco di s. Ogni volta che contrattacchi con le Spine, per s i danni da avvelenamento sono aumentati del , fino a un massimo del.",
@@ -5444,7 +5476,7 @@
       "Amulet_Unique_Barb_103_x2",
       "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2"
     ],
-    "IdNameItemActor": "Icons_Amulet_Unique_024",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Medaglione dell'Agguato Oscuro",
     "Description": "Lanciare un'abilità con armi contundenti a due mani, armi taglienti a due mani o doppie armi infligge danni aumentati del #% per # s.\r\n\r\nQuando tutti e tre i bonus sono attivi, aumenti del #% la durata degli effetti debilitanti e la velocità d'attacco.",
     "DescriptionClean": "Lanciare un'abilità con armi contundenti a due mani, armi taglienti a due mani o doppie armi infligge danni aumentati del per s. Quando tutti e tre i bonus sono attivi, aumenti del la durata degli effetti debilitanti e la velocità d'attacco.",
@@ -5670,9 +5702,9 @@
     ],
     "IdNameItemActor": "offhandfocus_uniq66",
     "Name": "Occhio di Baal",
-    "Description": "Le abilità di Schegge di Anima e i loro demoni infliggono il #% di danni. Lanciare un'abilità di Schegge di Anima aumenta tutti i tuoi danni del #% per # s, fino al #%.",
-    "DescriptionClean": "Le abilità di Schegge di Anima e i loro demoni infliggono il di danni. Lanciare un'abilità di Schegge di Anima aumenta tutti i tuoi danni del per s, fino al.",
-    "Localisation": "Le abilità di {c_important}Schegge di Anima{/c} e i loro demoni infliggono il {c_random}[Affix_Value_1*100|%x|]{/c} di danni. Lanciare un'abilità di {c_important}Schegge di Anima{/c} aumenta tutti i tuoi danni del {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} per {c_number}[Affix.\"Static Value 1\"]{/c} s, fino al {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
+    "Description": "Le abilità di Schegge di Anima e i loro demoni infliggono danni aumentati del #%. Lanciare un'abilità di Schegge di Anima aumenta tutti i tuoi danni del #% per # s, fino al #%.",
+    "DescriptionClean": "Le abilità di Schegge di Anima e i loro demoni infliggono danni aumentati del. Lanciare un'abilità di Schegge di Anima aumenta tutti i tuoi danni del per s, fino al.",
+    "Localisation": "Le abilità di {c_important}Schegge di Anima{/c} e i loro demoni infliggono danni aumentati del {c_random}[Affix_Value_1*100|%x|]{/c}. Lanciare un'abilità di {c_important}Schegge di Anima{/c} aumenta tutti i tuoi danni del {c_number}[Affix.\"Static Value 0\"*100|x%|]{/c} per {c_number}[Affix.\"Static Value 1\"]{/c} s, fino al {c_number}[Affix.\"Static Value 2\"*Affix.\"Static Value 0\"*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5701,9 +5733,9 @@
     ],
     "IdNameItemActor": "offHandFocus_uniq21",
     "Name": "Omuncolo Infernale",
-    "Description": "Le tue abilità di Arcidemonio infliggono danni aumentati del #% e ottengono i potenziamenti secondari dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del #%.",
-    "DescriptionClean": "Le tue abilità di Arcidemonio infliggono danni aumentati del e ottengono i potenziamenti secondari dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del.",
-    "Localisation": "{c_important}Le tue abilità di {c_important}Arcidemonio{/c} infliggono danni aumentati del {c_random}[Affix_Value_1*100|x%|]{/c} e ottengono i potenziamenti secondari dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}.",
+    "Description": "Le tue abilità di Arcidemonio infliggono danni aumentati del #% e ottengono i potenziamenti dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del #%.",
+    "DescriptionClean": "Le tue abilità di Arcidemonio infliggono danni aumentati del e ottengono i potenziamenti dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del.",
+    "Localisation": "Le tue abilità di {c_important}Arcidemonio{/c} infliggono danni aumentati del {c_random}[Affix_Value_1*100|x%|]{/c} e ottengono i potenziamenti dei rispettivi Demoni Minori senza alcun costo e con durate più lunghe del {c_number}[Affix.\"Static Value 0\"*100|%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -5952,7 +5984,7 @@
       "Boots_Unique_Generic_002",
       "Talisman_Charm_Unique_Boots_Unique_Generic_002"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "BTS_sets54",
     "Name": "Passo Sfuggente",
     "Description": "Per ogni nemico che attraversi con Elusione riduci il tempo di recupero della tua Ultra di # s, fino a # s.",
     "DescriptionClean": "Per ogni nemico che attraversi con Elusione riduci il tempo di recupero della tua Ultra di s, fino a s.",
@@ -6016,7 +6048,7 @@
       "Quarterstaff_Unique_Spiritborn_001",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandQuarterstaff_uniq10",
     "Name": "Pastorale da Guerra Macchiato dal Sole",
     "Description": "Le tue abilità di Concentrazione di base traggono vantaggio da tutti i loro potenziamenti e aumentano i danni delle tue abilità di Potenza del #% per # s, fino a un massimo del #%.",
     "DescriptionClean": "Le tue abilità di Concentrazione di base traggono vantaggio da tutti i loro potenziamenti e aumentano i danni delle tue abilità di Potenza del per s, fino a un massimo del.",
@@ -6142,7 +6174,7 @@
       "Chest_Unique_Rogue_100",
       "Talisman_Charm_Unique_Chest_Unique_Rogue_100"
     ],
-    "IdNameItemActor": "TRS_sets53",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Pelli di Lestofante",
     "Description": "Le tue abilità di Trappole possono essere lanciate e infliggono danni aumentati del #%. ",
     "DescriptionClean": "Le tue abilità di Trappole possono essere lanciate e infliggono danni aumentati del.",
@@ -6236,7 +6268,7 @@
       "Ring_Unique_Druid_03_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_03_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Rare_Scosglen_001",
     "Name": "Pietra Runica Frantumata",
     "Description": "Le tue abilità di Terra infliggono il #% di bonus ai danni critici. Questo bonus aumenta a #% con almeno # accumuli di Sopraffazione. Ottieni passivamente 2 accumuli di Sopraffazione ogni # s.",
     "DescriptionClean": "Le tue abilità di Terra infliggono il di bonus ai danni critici. Questo bonus aumenta a con almeno accumuli di Sopraffazione. Ottieni passivamente 2 accumuli di Sopraffazione ogni s.",
@@ -6363,7 +6395,7 @@
       "Chest_Unique_Spiritborn_013_x1",
       "Talisman_Charm_Unique_Chest_Unique_Spiritborn_013_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_Unique_Spiritborn_95",
     "Name": "Placca di Giacinto",
     "Description": "Consumare veemenza ti cura del #% della tua Vita massima. \r\n\r\nOgni secondo, i tuoi tempi di recupero attivi prosciugano il #% della tua Vita massima per ridurre la loro durata di # s. ",
     "DescriptionClean": "Consumare veemenza ti cura del della tua Vita massima.  Ogni secondo, i tuoi tempi di recupero attivi prosciugano il della tua Vita massima per ridurre la loro durata di s.",
@@ -6552,7 +6584,7 @@
       "Chest_Unique_Generic_127",
       "Talisman_Charm_Unique_Chest_Unique_Generic_127"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Chest_unique_generic_127",
     "Name": "Potenza di Tyrael",
     "Description": "Quando la tua Vita è al massimo, utilizzare un'abilità scaglia una raffica divina che infligge # danni.",
     "DescriptionClean": "Quando la tua Vita è al massimo, utilizzare un'abilità scaglia una raffica divina che infligge danni.",
@@ -6616,7 +6648,7 @@
       "S12_1HAxe_Unique_Generic_003",
       "Talisman_Charm_Unique_1HAxe_Unique_Generic_003"
     ],
-    "IdNameItemActor": "Axe_uniq15",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Predatore dai Mille Occhi",
     "Description": "Spostarsi fornisce Ferocia e la Ferocia massima aumenta di #. Ferocia aumenta anche la velocità di movimento del #% per accumulo.",
     "DescriptionClean": "Spostarsi fornisce Ferocia e la Ferocia massima aumenta di. Ferocia aumenta anche la velocità di movimento del per accumulo.",
@@ -6779,7 +6811,7 @@
       "Pants_Unique_Spiritborn_015_x1",
       "Talisman_Charm_Unique_Pants_Unique_Spiritborn_015_x1"
     ],
-    "IdNameItemActor": "Pants_Unique_Spiritborn_95",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Protezione della Prima",
     "Description": "Mentre ti muovi, la tua riduzione danni e la tua probabilità di schivata aumentano del #%.\r\n\r\nSe resti immobile per # s, diventi inarrestabile finché non ti muovi.",
     "DescriptionClean": "Mentre ti muovi, la tua riduzione danni e la tua probabilità di schivata aumentano del. Se resti immobile per s, diventi inarrestabile finché non ti muovi.",
@@ -6907,7 +6939,7 @@
       "Gloves_Unique_Rogue_001_x2",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_001_x2"
     ],
-    "IdNameItemActor": "GLV_sets54",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Pugno della Rosa di Ferro",
     "Description": "Infliggere danni a un nemico vicino con abilità di Tiro di Precisione o di Sgozzamento ti fornisce il #% di velocità d'attacco aggiuntiva per # s.\r\n\r\nFinché entrambi gli aumenti alla velocità d'attacco sono attivi, infliggi danni aumentati del #% ai nemici vicini.",
     "DescriptionClean": "Infliggere danni a un nemico vicino con abilità di Tiro di Precisione o di Sgozzamento ti fornisce il di velocità d'attacco aggiuntiva per s. Finché entrambi gli aumenti alla velocità d'attacco sono attivi, infliggi danni aumentati del ai nemici vicini.",
@@ -6939,7 +6971,7 @@
       "Chest_Unique_Barb_100",
       "Talisman_Charm_Unique_Chest_Unique_Barb_100"
     ],
-    "IdNameItemActor": "TRS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Rabbia di Harrogath",
     "Description": "Infliggere danni periodici a un nemico fornisce una probabilità massima del #% di ridurre il tempo di recupero delle tue abilità di # s.",
     "DescriptionClean": "Infliggere danni periodici a un nemico fornisce una probabilità massima del di ridurre il tempo di recupero delle tue abilità di s.",
@@ -7288,7 +7320,7 @@
       "2HMace_Unique_Warlock_001",
       "Talisman_Charm_Unique_2HMace_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandMace_uniq17",
     "Name": "Scettro dei Tre",
     "Description": "Ora puoi equipaggiare tutte le abilità Ultra e ottenere # gradi per tali abilità. Attaccare i nemici senza un'abilità Ultra aumenta i tuoi danni abilità Ultra del #%, fino al #%. Dopo l'attivazione delle abilità Ultra, il bonus ai danni si azzera al termine di tutte le abilità.",
     "DescriptionClean": "Ora puoi equipaggiare tutte le abilità Ultra e ottenere gradi per tali abilità. Attaccare i nemici senza un'abilità Ultra aumenta i tuoi danni abilità Ultra del , fino al. Dopo l'attivazione delle abilità Ultra, il bonus ai danni si azzera al termine di tutte le abilità.",
@@ -7321,9 +7353,9 @@
     ],
     "IdNameItemActor": "twoHandDruidStaff_uniq02",
     "Name": "Scettro della Megera",
-    "Description": "Artigliata ottiene tutte le varianti e il #% di danni aggiuntivi.",
-    "DescriptionClean": "Artigliata ottiene tutte le varianti e il di danni aggiuntivi.",
-    "Localisation": "{c_important}Artigliata{/c} ottiene tutte le varianti e il {c_random}[Affix_Value_1*100|x%|]{/c} di danni aggiuntivi.",
+    "Description": "Artigliata ottiene tutte le varianti senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Artigliata ottiene tutte le varianti senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Artigliata{/c} ottiene tutte le varianti senza costi e infligge danni aumentati del {c_random}[Affix_Value_1*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7351,7 +7383,7 @@
       "Boots_Unique_Generic_001",
       "Talisman_Charm_Unique_Boots_Unique_Generic_001"
     ],
-    "IdNameItemActor": "BTS_sets52",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Schinieri Penitenti",
     "Description": "Sei permanentemente irrefrenabile e lasci una scia gelida che raggela i nemici. \r\n\r\nI tuoi effetti di raggelamento fanno sì che i nemici subiscano danni aumentati del #% da te.",
     "DescriptionClean": "Sei permanentemente irrefrenabile e lasci una scia gelida che raggela i nemici.  I tuoi effetti di raggelamento fanno sì che i nemici subiscano danni aumentati del da te.",
@@ -7480,7 +7512,7 @@
       "Amulet_Unique_Warlock_001",
       "Talisman_Charm_Unique_Amulet_Unique_Warlock_001"
     ],
-    "IdNameItemActor": "Icons_Amulet_Warlock_Unique_02",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Seme di Horazon",
     "Description": "Le tue abilità di Demonologia infliggono danni aumentati del #% per ogni unità di Collera che hai e subisci danni ridotti del #% per ogni unità di Dominanza che hai.",
     "DescriptionClean": "Le tue abilità di Demonologia infliggono danni aumentati del per ogni unità di Collera che hai e subisci danni ridotti del per ogni unità di Dominanza che hai.",
@@ -7608,9 +7640,9 @@
     ],
     "IdNameItemActor": "twoHandSword_stor068",
     "Name": "Sermone Rosso (Crogiolo)",
-    "Description": "Zelo infligge danni aumentati del #% e ottiene la variante Morte o Gloria senza costi.",
-    "DescriptionClean": "Zelo infligge danni aumentati del e ottiene la variante Morte o Gloria senza costi.",
-    "Localisation": "{c_important}Zelo{/c} infligge danni aumentati del {c_random}[Affix_Value_1*100|%x|]{/c} e ottiene la variante {c_important}Morte o Gloria{/c} senza costi.",
+    "Description": "Zelo ottiene la variante Morte o Gloria senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Zelo ottiene la variante Morte o Gloria senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Zelo{/c} ottiene la variante {c_important}Morte o Gloria{/c} senza costi e infligge danni aumentati del {c_random}[Affix_Value_1*100|%x|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -7858,7 +7890,7 @@
       "Ring_Unique_Druid_02_x2",
       "Talisman_Charm_Unique_Ring_Unique_Druid_02_x2"
     ],
-    "IdNameItemActor": "Icons_Ring_Unique_019",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Sigillo del Viandante Verde",
     "Description": "Lanciare o canalizzare un'abilità in forma umana ha il #% di probabilità di attivare un'abilità in forma umana aggiuntiva equipaggiata che non sia Ultra. Le abilità in forma umana infliggono il #% di danni aggiuntivi.",
     "DescriptionClean": "Lanciare o canalizzare un'abilità in forma umana ha il di probabilità di attivare un'abilità in forma umana aggiuntiva equipaggiata che non sia Ultra. Le abilità in forma umana infliggono il di danni aggiuntivi.",
@@ -8236,9 +8268,9 @@
     ],
     "IdNameItemActor": "sword_uniq22",
     "Name": "Supplica",
-    "Description": "Brandire colpisce in tutte le direzioni e infligge danni aumentati del #%.",
-    "DescriptionClean": "Brandire colpisce in tutte le direzioni e infligge danni aumentati del.",
-    "Localisation": "{c_important}Brandire{/c} colpisce in tutte le direzioni e infligge danni aumentati del {c_random}[Affix_Value_1|%x|]{/c}.",
+    "Description": "Brandire colpisce in tutte le direzioni ma infligge danni aumentati del #%.",
+    "DescriptionClean": "Brandire colpisce in tutte le direzioni ma infligge danni aumentati del.",
+    "Localisation": "{c_important}Brandire{/c} colpisce in tutte le direzioni ma infligge danni aumentati del {c_random}[Affix_Value_1|%x|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8297,7 +8329,7 @@
       "Amulet_Unique_Generic_101",
       "Talisman_Charm_Unique_Amulet_Unique_Generic_101"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_001",
     "Name": "Talismano del Signore Esiliato",
     "Description": "Dopo aver speso # della tua risorsa principale, ottieni # accumuli di Sopraffazione. I tuoi colpi critici infliggono il #% di danni aumentati per ogni accumulo di Sopraffazione.",
     "DescriptionClean": "Dopo aver speso della tua risorsa principale, ottieni accumuli di Sopraffazione. I tuoi colpi critici infliggono il di danni aumentati per ogni accumulo di Sopraffazione.",
@@ -8366,7 +8398,7 @@
       "Amulet_Unique_Spiritborn_103",
       "Talisman_Charm_Unique_Amulet_Unique_Spiritborn_103"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_022",
     "Name": "Tela della Vedova",
     "Description": "I tuoi colpi critici fanno esplodere il tuo effetto di avvelenamento su un nemico, infliggendo istantaneamente il #% dell'avvelenamento totale e il #% dell'esplosione ai nemici circostanti prima di rimuovere l'effetto di avvelenamento dal bersaglio principale.",
     "DescriptionClean": "I tuoi colpi critici fanno esplodere il tuo effetto di avvelenamento su un nemico, infliggendo istantaneamente il dell'avvelenamento totale e il dell'esplosione ai nemici circostanti prima di rimuovere l'effetto di avvelenamento dal bersaglio principale.",
@@ -8630,7 +8662,7 @@
       "Gloves_Unique_Rogue_98",
       "Talisman_Charm_Unique_Gloves_Unique_Rogue_98"
     ],
-    "IdNameItemActor": "Gloves_Unique_Rogue_98",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Trionfo del Gladiatore",
     "Description": "I primi danni diretti che infliggi a un nemico sono sempre critici. Quando un'abilità di Tiro di Precisione infligge danni critici per la prima volta, ottiene danni aumentati del #% e tu ottieni # Sopraffazione. È cumulabile fino a # oltre il tuo valore massimo di Sopraffazione.",
     "DescriptionClean": "I primi danni diretti che infliggi a un nemico sono sempre critici. Quando un'abilità di Tiro di Precisione infligge danni critici per la prima volta, ottiene danni aumentati del e tu ottieni Sopraffazione. È cumulabile fino a oltre il tuo valore massimo di Sopraffazione.",
@@ -8786,7 +8818,7 @@
       "2HScythe_Unique_Necro_100",
       "Talisman_Charm_Unique_2HScythe_Unique_Necro_100"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandScythe_uniq02",
     "Name": "Urlo Esangue",
     "Description": "Le tue abilità di Oscurità raggelano i nemici fino a un massimo del #% e infliggono danni aumentati del #% ai nemici e ai boss congelati.\r\n\r\nOgni # volte che infliggi danni ai nemici con abilità di Oscurità, tutti i nemici vicini vengono impauriti per # s prima di essere congelati per altri # s.",
     "DescriptionClean": "Le tue abilità di Oscurità raggelano i nemici fino a un massimo del e infliggono danni aumentati del ai nemici e ai boss congelati. Ogni volte che infliggi danni ai nemici con abilità di Oscurità, tutti i nemici vicini vengono impauriti per s prima di essere congelati per altri s.",
@@ -8819,9 +8851,9 @@
     ],
     "IdNameItemActor": "Boots_Unique_Druid_103",
     "Name": "Vaganti delle Steppe Khamsin",
-    "Description": "Ottieni senza costi il potenziamento Schegge di Terra di Baluardo di Terra e i danni aumentano del #%.",
-    "DescriptionClean": "Ottieni senza costi il potenziamento Schegge di Terra di Baluardo di Terra e i danni aumentano del.",
-    "Localisation": "Ottieni senza costi il potenziamento {c_important}Schegge di Terra{/c} di {c_important}Baluardo di Terra{/c} e i danni aumentano del {c_random}[Affix_Value_1*100|x%|]{/c}.",
+    "Description": "Baluardo di Terra ottiene la variante Schegge di Terra senza costi e infligge danni aumentati del #%.",
+    "DescriptionClean": "Baluardo di Terra ottiene la variante Schegge di Terra senza costi e infligge danni aumentati del.",
+    "Localisation": "{c_important}Baluardo di Terra{/c} ottiene la variante Schegge di Terra senza costi e infligge danni aumentati del {c_random}[Affix_Value_1*100|x%|]{/c}.",
     "MagicType": 2,
     "AllowedForPlayerClass": [
       0,
@@ -8886,7 +8918,7 @@
       "Ring_Unique_Paladin_001",
       "Talisman_Charm_Unique_Ring_Unique_Paladin_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Paladin_03",
     "Name": "Velo Argenteo",
     "Description": "Elusione del Pretore attiva un'abilità Primaria casuale tra quelle equipaggiate ogni # metri percorsi. \r\n\r\nLe abilità Primarie infliggono danni aumentati del #% durante Elusione del Pretore e per i # s successivi.",
     "DescriptionClean": "Elusione del Pretore attiva un'abilità Primaria casuale tra quelle equipaggiate ogni metri percorsi.  Le abilità Primarie infliggono danni aumentati del durante Elusione del Pretore e per i s successivi.",
@@ -8918,7 +8950,7 @@
       "Ring_Unique_Sorc_103_x2",
       "Talisman_Charm_Unique_Ring_Unique_Sorc_103_x2"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_007",
     "Name": "Vera Fusa",
     "Description": "I tuoi danni critici da Piromanzia aumentano del #% contro nemici in salute e la tua probabilità di critico da Piromanzia aumenta del #% contro nemici feriti.\r\n\r\nUccidere un nemico con un colpo critico garantisce entrambi i bonus contro tutti i nemici e il #% di velocità d'attacco per # s.",
     "DescriptionClean": "I tuoi danni critici da Piromanzia aumentano del contro nemici in salute e la tua probabilità di critico da Piromanzia aumenta del contro nemici feriti. Uccidere un nemico con un colpo critico garantisce entrambi i bonus contro tutti i nemici e il di velocità d'attacco per s.",
@@ -8950,7 +8982,7 @@
       "Ring_Unique_Spiritborn_003_x1",
       "Talisman_Charm_Unique_Ring_Unique_Spiritborn_003_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Ring_Unique_052",
     "Name": "Vera del Primo Respiro",
     "Description": "Lanciare Elusione consuma # accumuli di Risolutezza per aumentare i danni che infliggi del #% per # s.\r\n\r\nOttieni l'effetto passivo di Pelliccia Corazzata.",
     "DescriptionClean": "Lanciare Elusione consuma accumuli di Risolutezza per aumentare i danni che infliggi del per s. Ottieni l'effetto passivo di Pelliccia Corazzata.",
@@ -8982,7 +9014,7 @@
       "Quarterstaff_Unique_Spiritborn_016_x1",
       "Talisman_Charm_Unique_Quarterstaff_Unique_Spiritborn_016_x1"
     ],
-    "IdNameItemActor": "twoHandQuarterstaff_uniq11",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Verga di Kepeleke",
     "Description": "Le tue abilità Primarie ora sono anche abilità Base e sono gratuite.\r\n\r\nSe lanciate con veemenza al massimo, le tue abilità Primarie consumano tutta la veemenza per essere lanciate alla loro dimensione massima e infliggere sempre colpi critici, con il #% di danni critici aumentati per ogni punto di veemenza consumato in questo modo.",
     "DescriptionClean": "Le tue abilità Primarie ora sono anche abilità Base e sono gratuite. Se lanciate con veemenza al massimo, le tue abilità Primarie consumano tutta la veemenza per essere lanciate alla loro dimensione massima e infliggere sempre colpi critici, con il di danni critici aumentati per ogni punto di veemenza consumato in questo modo.",
@@ -9140,7 +9172,7 @@
       "Amulet_Unique_Necro_102",
       "Talisman_Charm_Unique_Amulet_Unique_Necro_102"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "Icons_Amulet_Unique_017",
     "Name": "Volere di Rathma",
     "Description": "I nemici vulnerabili, indeboliti, sotto effetti debilitanti o corrotti sono Afflitti e subiscono danni aumentati del #% da parte tua.\r\n\r\nLe tue abilità di Maledizione infliggono il # di danni da ombra ai nemici Afflitti.",
     "DescriptionClean": "I nemici vulnerabili, indeboliti, sotto effetti debilitanti o corrotti sono Afflitti e subiscono danni aumentati del da parte tua. Le tue abilità di Maledizione infliggono il di danni da ombra ai nemici Afflitti.",
@@ -9330,7 +9362,7 @@
       "Helm_Unique_Generic_001",
       "Talisman_Charm_Unique_Helm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "HLM_base05",
     "Name": "Volto di Andariel",
     "Description": "Colpo fortunato: fino al #% di probabilità di attivare una Nova Velenosa che infligge il #% dei danni inflitti nell'arco di # s ai nemici nell'area.",
     "DescriptionClean": "Colpo fortunato: fino al di probabilità di attivare una Nova Velenosa che infligge il dei danni inflitti nell'arco di s ai nemici nell'area.",
@@ -9363,7 +9395,7 @@
       "S12_2HPolearm_Unique_Generic_001",
       "Talisman_Charm_Unique_2HPolearm_Unique_Generic_001"
     ],
-    "IdNameItemActor": "twoHandPolearm_uniq16",
+    "IdNameItemActor": "Generic_Charm_Flippy",
     "Name": "Voto Infranto",
     "Description": "Uccidi istantaneamente i nemici i cui danni periodici subiti superano la Vita rimasta. ",
     "DescriptionClean": "Uccidi istantaneamente i nemici i cui danni periodici subiti superano la Vita rimasta.",
@@ -9429,7 +9461,7 @@
       "Glaive_Unique_Spiritborn_010_x1",
       "Talisman_Charm_Unique_Glaive_Unique_Spiritborn_010_x1"
     ],
-    "IdNameItemActor": "Generic_Charm_Flippy",
+    "IdNameItemActor": "twoHandGlaive_uniq05",
     "Name": "Wushe Nak Pa",
     "Description": "Lanciare un'abilità Ultra ti fornisce o amplifica il bonus primario corrispondente della Sala degli Spiriti del #% per # s.\r\n\r\nOgni tua abilità Ultra ottiene un tipo di abilità aggiuntivo:\r\n Cercatore è un'abilità di Concentrazione.\r\n Cacciatore è un'abilità di Mobilità.\r\n Divoratore è un'abilità di Potenza.\r\n Protettore è un'abilità di Difesa.",
     "DescriptionClean": "Lanciare un'abilità Ultra ti fornisce o amplifica il bonus primario corrispondente della Sala degli Spiriti del per s. Ogni tua abilità Ultra ottiene un tipo di abilità aggiuntivo: Cercatore è un'abilità di Concentrazione. Cacciatore è un'abilità di Mobilità. Divoratore è un'abilità di Potenza. Protettore è un'abilità di Difesa.",

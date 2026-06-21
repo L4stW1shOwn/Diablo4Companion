@@ -713,9 +713,9 @@
       "legendary_barb_009_x2"
     ],
     "Name": "거친 함성의",
-    "Description": "외침 기술 사용 시 #%초 동안 적이 주는 피해가 #% 감소합니다.",
+    "Description": "외침 기술 사용 시 #초 동안 적이 주는 피해가 #% 감소합니다.",
     "DescriptionClean": "외침 기술 사용 시 초 동안 적이 주는 피해가 감소합니다.",
-    "Localisation": "{c_important}외침{/c} 기술 사용 시 {c_number}[Affix.\"Static Value 0\"|%|]{/c}초 동안 적이 주는 피해가 {c_random}[Affix_Value_1|2%|]{/c} 감소합니다.",
+    "Localisation": "{c_important}외침{/c} 기술 사용 시 {c_number}[Affix.\"Static Value 0\"||]{/c}초 동안 적이 주는 피해가 {c_random}[Affix_Value_1|2%|]{/c} 감소합니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -4743,9 +4743,9 @@
       "legendary_sorc_142_x2"
     ],
     "Name": "마법부여사의",
-    "Description": "마법부여 효력을 #% 획득합니다.",
-    "DescriptionClean": "마법부여 효력을 획득합니다.",
-    "Localisation": "{c_important}마법부여{/c} 효력을 {c_random}[Affix_Value_1|1%|]{/c} 획득합니다.",
+    "Description": "마법부여 지속 효력을 #% 획득합니다.",
+    "DescriptionClean": "마법부여 지속 효력을 획득합니다.",
+    "Localisation": "{c_important}마법부여{/c} 지속 효력을 {c_random}[Affix_Value_1|1%|]{/c} 획득합니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6055,9 +6055,9 @@
       "legendary_lightningUser_003_x2"
     ],
     "Name": "방랑의",
-    "Description": "행운의 적중: 번개 피해가 최대 #% 확률로 적을 #초 동안 기절시킵니다.",
-    "DescriptionClean": "행운의 적중: 번개 피해가 최대 확률로 적을 초 동안 기절시킵니다.",
-    "Localisation": "{c_label}행운의 적중:{/c} 번개 피해가 최대 {c_random}[Affix_Value_1|%|]{/c} 확률로 적을 {c_number}[Affix.\"Static Value 0\"|1|]{/c}초 동안 기절시킵니다.",
+    "Description": "행운의 적중: 암흑 피해가 최대 #% 확률로 적을 #초 동안 기절시킵니다.",
+    "DescriptionClean": "행운의 적중: 암흑 피해가 최대 확률로 적을 초 동안 기절시킵니다.",
+    "Localisation": "{c_label}행운의 적중:{/c} 암흑 피해가 최대 {c_random}[Affix_Value_1|%|]{/c} 확률로 적을 {c_number}[Affix.\"Static Value 0\"|1|]{/c}초 동안 기절시킵니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -6430,7 +6430,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -6471,7 +6470,8 @@
       29,
       28,
       26,
-      30
+      30,
+      15
     ]
   },
   {
@@ -6517,9 +6517,9 @@
       "legendary_generic_011"
     ],
     "Name": "보호자의",
-    "Description": "정예 적에게 피해를 주면 #초 동안 최대 생명력의 #%에 해당하는 보호막 #을 얻습니다. 이 효과는 #초에 한 번만 발동합니다.",
-    "DescriptionClean": "정예 적에게 피해를 주면 초 동안 최대 생명력의 에 해당하는 보호막 을 얻습니다. 이 효과는 초에 한 번만 발동합니다.",
-    "Localisation": "정예 적에게 피해를 주면 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 최대 생명력의 {c_random}[Affix_Value_2*100|%|]{/c}에 해당하는 {c_important}{u}보호막{/u} [Affix.\"Static Value 0\"]{/c}을 얻습니다. 이 효과는 {c_number}[Affix_Value_1]{/c}초에 한 번만 발동합니다.",
+    "Description": "정예 적에게 피해를 주면 #초 동안 최대 생명력의 #%에 해당하는 보호막#을 얻습니다. 이 효과는 #초에 한 번만 발동합니다.",
+    "DescriptionClean": "정예 적에게 피해를 주면 초 동안 최대 생명력의 에 해당하는 보호막을 얻습니다. 이 효과는 초에 한 번만 발동합니다.",
+    "Localisation": "정예 적에게 피해를 주면 {c_number}[Affix.\"Static Value 0\"]{/c}초 동안 최대 생명력의 {c_random}[Affix_Value_2*100|%|]{/c}에 해당하는 {c_important}{u}보호막{/u}[Affix.\"Static Value 0\"]{/c}을 얻습니다. 이 효과는 {c_number}[Affix_Value_1]{/c}초에 한 번만 발동합니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "잊힌 기록보관소",
@@ -6990,9 +6990,9 @@
       "legendary_paladin_020"
     ],
     "Name": "불굴의",
-    "Description": "방패막기 확률에 따라 최대 #%의 피해 감소 및 제어 방해 저항을 획득합니다.\r\n\r\n현재 보너스: #% ",
-    "DescriptionClean": "방패막기 확률에 따라 최대 의 피해 감소 및 제어 방해 저항을 획득합니다. 현재 보너스:",
-    "Localisation": "방패막기 확률에 따라 최대 {c_random}[Affix_Value_1|%|]{/c}의 피해 감소 및 제어 방해 저항을 획득합니다.\r\n\r\n현재 보너스: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
+    "Description": "방패막기 확률의 #%만큼 방어도와 방해 효과 감소를 획득합니다.\r\n\r\n현재 보너스: #% ",
+    "DescriptionClean": "방패막기 확률의 만큼 방어도와 방해 효과 감소를 획득합니다. 현재 보너스:",
+    "Localisation": "방패막기 확률의 {c_random}[Affix_Value_1|%|]{/c}만큼 방어도와 방해 효과 감소를 획득합니다.\r\n\r\n현재 보너스: {c_number}[(Owner.Block_Chance * Affix_Value_1)|%|]{/c} ",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -7245,9 +7245,9 @@
       "legendary_rogue_020"
     ],
     "Name": "불안정한 주입의",
-    "Description": "주입 기술 시전 시 자신의 주위에 폭발이 일어나, 주입을 #% 증가한 효과로 적용하고 같은 유형의 피해를 # 줍니다.",
-    "DescriptionClean": "주입 기술 시전 시 자신의 주위에 폭발이 일어나, 주입을 증가한 효과로 적용하고 같은 유형의 피해를 줍니다.",
-    "Localisation": "{c_important}주입{/c} 기술 시전 시 자신의 주위에 폭발이 일어나, {c_important}주입{/c}을 {c_random}[Affix_Value_1|x%|]{/c} 증가한 효과로 적용하고 같은 유형의 피해를 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} 줍니다.",
+    "Description": "주입 기술 시전 시 자신의 주위에 폭발이 일어나, 주입 효과를 #% 증가한 지속 효력으로 적용하고 같은 유형의 피해를 # 줍니다.",
+    "DescriptionClean": "주입 기술 시전 시 자신의 주위에 폭발이 일어나, 주입 효과를 증가한 지속 효력으로 적용하고 같은 유형의 피해를 줍니다.",
+    "Localisation": "{c_important}주입{/c} 기술 시전 시 자신의 주위에 폭발이 일어나, {c_important}주입{/c} 효과를 {c_random}[Affix_Value_1|x%|]{/c} 증가한 지속 효력으로 적용하고 같은 유형의 피해를 {c_number}[(Owner.Weapon_Damage_Min_Total + Owner.Weapon_Damage_Delta_Total) * Affix.\"Static Value 0\"]{/c} 줍니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "속삭이는 금고",
@@ -11084,6 +11084,8 @@
       16,
       17,
       30,
+      29,
+      28,
       26,
       15
     ]
@@ -12217,7 +12219,6 @@
       16,
       17,
       30,
-      0,
       26,
       28,
       29,
@@ -12679,10 +12680,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
+      16,
+      17,
+      30,
+      29,
       28,
       26,
-      19,
       15
     ]
   },
@@ -14648,7 +14651,7 @@
     "Name": "지배력의",
     "Description": "적을 군중 제어하면 결의를 # 얻습니다.",
     "DescriptionClean": "적을 군중 제어하면 결의를 얻습니다.",
-    "Localisation": "적을 군중 제어하면 {u}{c_important}결의{/c}{/u}를 {c_random}[Affix_Value_1]{/c} 얻습니다.",
+    "Localisation": "적을 군중 제어하면 {u}{c_important}결의{/c}{/u}를 {c_random}[Ceil(Affix_Value_1)]{/c} 얻습니다.",
     "IsSeasonal": false,
     "IsCodex": true,
     "Dungeon": "",
@@ -17780,10 +17783,12 @@
       1
     ],
     "AllowedItemLabels": [
-      0,
-      26,
-      19,
+      16,
+      17,
+      29,
       28,
+      26,
+      30,
       15
     ]
   },
