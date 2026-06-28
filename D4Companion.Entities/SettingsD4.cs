@@ -72,10 +72,11 @@ namespace D4Companion.Entities
         public int ParagonNodeSizeCollapsed { get; set; } = 23;
         public int ParagonTopOffsetCollapsed { get; set; } = -50;
         public int ScanHeight { get; set; } = 50;
-        public int ScreenCaptureDelay { get; set; } = 50;
-        public string SelectedAffixLanguage { get; set; } = "enUS";
+        public int ScreenCaptureDelay { get; set; } = 50;        
+        public string SelectedAffixLanguage { get; set; } = "enUS";        
         public string SelectedAppLanguage { get; set; } = "en-US";
         public string SelectedAffixPreset { get; set; } = string.Empty;
+        public string SelectedBuildImportWebsite { get; set; } = "Maxroll.gg";
         public string SelectedSystemPreset { get; set; } = "1440p_SMF";
         public bool ShowCurrentItem { get; set; } = true;
         public bool ShowOverlayIcon { get; set; } = false;

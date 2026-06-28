@@ -407,6 +407,12 @@ namespace D4Companion.ViewModels
             {
                 _selectedBuildImportWebsite = value;
                 OnPropertyChanged(nameof(SelectedBuildImportWebsite));
+
+                if (value != null)
+                {
+                    _settingsManager.Settings.SelectedBuildImportWebsite = value.Name;
+                    _settingsManager.SaveSettings();
+                }
             }
         }
 
@@ -1660,7 +1666,8 @@ namespace D4Companion.ViewModels
             BuildImportWebsites.Add(new BuildImportWebsite() { Name = "Maxroll.gg", Image = "/Images/website_icon_maxroll.png" });
             BuildImportWebsites.Add(new BuildImportWebsite() { Name = "Mobalytics.gg", Image = "/Images/website_icon_mobalytics.png" });
 
-            SelectedBuildImportWebsite = BuildImportWebsites[2];
+            var buildImportWebsite = BuildImportWebsites.FirstOrDefault(website => website.Name.Equals(_settingsManager.Settings.SelectedBuildImportWebsite));
+            SelectedBuildImportWebsite = buildImportWebsite != null ? buildImportWebsite : BuildImportWebsites[2];
         }
 
         private void UpdateAffixPresets()
