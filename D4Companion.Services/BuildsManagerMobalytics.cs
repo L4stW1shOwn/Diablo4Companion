@@ -662,12 +662,12 @@ namespace D4Companion.Services
             MobalyticsAffix mobalyticsAffix = affixDescription.Item2;
 
             string affix = string.Empty;
-            var results = new List<(string affix, int score)>();
+            var results = new List<(string affix, string affixMatch, int score)>();
             for (int i = 0; i < mobalyticsAffix.AffixTextList.Count; i++)
             {
-                affix = string.Join(" ", mobalyticsAffix.AffixTextList.Take(i + 1));
+                affix = string.Join(" ", mobalyticsAffix.AffixTextList.Skip(mobalyticsAffix.AffixTextList.Count - (i + 1)).Take(i + 1));
                 var fuzzyMatch = Process.ExtractOne(affix, _affixDescriptions, scorer: ScorerCache.Get<DefaultRatioScorer>());
-                results.Add((fuzzyMatch.Value, fuzzyMatch.Score));
+                results.Add((affix, fuzzyMatch.Value, fuzzyMatch.Score));
             }
 
             var result = results
@@ -675,7 +675,7 @@ namespace D4Companion.Services
                 .ThenByDescending(r => r.affix.Length)
                 .First();
 
-            affixId = _affixMapDescriptionToId[result.affix];
+            affixId = _affixMapDescriptionToId[result.affixMatch];
 
             Color color = mobalyticsAffix.IsImplicit ? _settingsManager.Settings.DefaultColorImplicit :
                 mobalyticsAffix.IsGreater ? _settingsManager.Settings.DefaultColorGreater :
