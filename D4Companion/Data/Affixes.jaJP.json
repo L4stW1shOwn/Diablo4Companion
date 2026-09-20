@@ -9938,7 +9938,9 @@
       "S11_LifeOnKill_Warlock",
       "UNIQUE_LifeOnKill"
     ],
-    "TuningPrisms": [],
+    "TuningPrisms": [
+      "TuningStone_2"
+    ],
     "AffixType": 2,
     "Category": 0,
     "Flags": 132,
